@@ -1,0 +1,3 @@
+ÀÈ€09:52:31.171 [Test worker] INFO  org.springframework.core.env.StandardEnvironment - Caught AccessControlException when accessing system property 'verboten'; its value will be returned [null]. Reason: Accessing the system property [verboten] is disallowed
+ÀÙ˜09:52:31.228 [Test worker] INFO  org.springframework.core.env.StandardEnvironment - Caught AccessControlException when accessing system environment variable 'verboten'; its value will be returned [null]. Reason: Accessing the system environment variable [verboten] is disallowed
+ÉÎ†warning no match for this type name: org.springframework.core.type.AspectJTypeFilterTests.SomeClassX [Xlint:invalidAbsoluteTypeName]

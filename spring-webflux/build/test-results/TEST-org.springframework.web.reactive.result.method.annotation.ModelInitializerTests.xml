@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:58:59" hostname="DESKTOP-3R4DVF7" time="0.017">
+  <properties/>
+  <testcase name="clearModelAttributeFromSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.011"/>
+  <testcase name="modelAttributeMethods" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="initBinderMethod" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="requiredSessionAttributeMissing" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <testcase name="saveModelAttributeToSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.002"/>
+  <testcase name="retrieveModelAttributeFromSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.001"/>
+  <system-out><![CDATA[09:58:59.993 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.support.StaticApplicationContext@6da6aa86: startup date [Thu Jan 01 08:00:00 CST 1970]; root of context hierarchy
+09:59:00.004 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.support.StaticApplicationContext@53b8818b: startup date [Thu Jan 01 08:00:00 CST 1970]; root of context hierarchy
+09:59:00.004 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.support.StaticApplicationContext@1ab3e0eb: startup date [Thu Jan 01 08:00:00 CST 1970]; root of context hierarchy
+09:59:00.005 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.support.StaticApplicationContext@a13962a: startup date [Thu Jan 01 08:00:00 CST 1970]; root of context hierarchy
+09:59:00.007 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.support.StaticApplicationContext@1f20fcea: startup date [Thu Jan 01 08:00:00 CST 1970]; root of context hierarchy
+09:59:00.009 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.support.StaticApplicationContext@26514f4c: startup date [Thu Jan 01 08:00:00 CST 1970]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

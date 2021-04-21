@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:40" hostname="DESKTOP-3R4DVF7" time="0.048">
+  <properties/>
+  <testcase name="bodyToMono with reified type parameters" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.025"/>
+  <testcase name="bodyToFlux with reified type parameters" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.019"/>
+  <testcase name="ResponseSpec#toEntityList with reified type parameters" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.001"/>
+  <testcase name="toEntity with reified type parameters" classname="org.springframework.web.reactive.function.client.ClientResponseExtensionsTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

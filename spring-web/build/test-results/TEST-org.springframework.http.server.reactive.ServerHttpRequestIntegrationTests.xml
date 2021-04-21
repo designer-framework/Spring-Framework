@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:27" hostname="DESKTOP-3R4DVF7" time="0.666">
+  <properties/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@14734c9f]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.019"/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7e13ccba]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.012"/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@1b1c370b]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.616"/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@315c7871]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.018"/>
+  <system-out><![CDATA[09:56:27.942 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:62268/foo?param=bar"
+09:56:27.942 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:27.945 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:62268/foo?param=bar" resulted in 200 (OK)
+09:56:27.957 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:62282/foo?param=bar"
+09:56:27.958 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:27.960 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:62282/foo?param=bar" resulted in 200 (OK)
+09:56:27.984 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:62284/foo?param=bar"
+09:56:27.984 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:27.988 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:62284/foo?param=bar" resulted in 200 (null)
+09:56:28.591 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:62319/foo?param=bar"
+09:56:28.591 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:28.593 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:62319/foo?param=bar" resulted in 200 (OK)
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 9:56:27 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-8"]
+四月 16, 2021 9:56:27 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:27 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:27 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:27 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-8-62284"]
+四月 16, 2021 9:56:27 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-8-62284"]
+四月 16, 2021 9:56:28 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:28 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-8-62284"]
+四月 16, 2021 9:56:28 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-8-62284"]
+]]></system-err>
+</testsuite>

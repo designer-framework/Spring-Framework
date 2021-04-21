@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:52" hostname="DESKTOP-3R4DVF7" time="0.003">
+  <properties/>
+  <testcase name="handleAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="handleNestedAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <testcase name="handleNestedResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <testcase name="unresolvedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <testcase name="responseCommitted" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <testcase name="handleResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.0"/>
+  <system-out><![CDATA[09:57:52.315 [Test worker] WARN  org.springframework.web.server.handler.ResponseStatusExceptionHandler - Failed to handle request [GET /]: org.springframework.web.server.ResponseStatusException: Response status 400 with reason ""
+09:57:52.316 [Test worker] WARN  org.springframework.web.server.handler.ResponseStatusExceptionHandler - Failed to handle request [GET /]: Response status 400 with reason ""
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

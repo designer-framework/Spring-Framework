@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:38" hostname="DESKTOP-3R4DVF7" time="0.436">
+  <properties/>
+  <testcase name="detectTemplateEngine" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.001"/>
+  <testcase name="customTemplateEngine" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.0"/>
+  <testcase name="checkI18nResourceMissingLocale" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.031"/>
+  <testcase name="checkMissingResource" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.016"/>
+  <testcase name="checkI18nResource" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.014"/>
+  <testcase name="renderI18nTemplate" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.159"/>
+  <testcase name="renderLayoutTemplate" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.092"/>
+  <testcase name="renderMarkupTemplate" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.104"/>
+  <testcase name="missingGroovyMarkupConfig" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.0"/>
+  <testcase name="checkResource" classname="org.springframework.web.servlet.view.groovy.GroovyMarkupViewTests" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

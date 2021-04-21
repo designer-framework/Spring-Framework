@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:20" hostname="DESKTOP-3R4DVF7" time="0.411">
+  <properties/>
+  <testcase name="customizeMarshaller" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.278"/>
+  <testcase name="readXmlRootElementExternalEntityDisabled" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.019"/>
+  <testcase name="readXmlRootElementExternalEntityEnabled" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.009"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.001"/>
+  <testcase name="writeXmlRootElementSubclass" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.048"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.002"/>
+  <testcase name="customizeUnmarshaller" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.006"/>
+  <testcase name="writeXmlRootElement" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.012"/>
+  <testcase name="readXmlRootElement" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.009"/>
+  <testcase name="readXmlRootElementSubclass" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.008"/>
+  <testcase name="readXmlType" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.005"/>
+  <testcase name="testXmlBomb" classname="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverterTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

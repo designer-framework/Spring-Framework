@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.config.AopNamespaceHandlerArgNamesTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:47:58" hostname="DESKTOP-3R4DVF7" time="0.03">
+  <properties/>
+  <testcase name="testArgNamesError" classname="org.springframework.aop.config.AopNamespaceHandlerArgNamesTests" time="0.015"/>
+  <testcase name="testArgNamesOK" classname="org.springframework.aop.config.AopNamespaceHandlerArgNamesTests" time="0.015"/>
+  <system-out><![CDATA[09:47:58.107 [Test worker] WARN  org.springframework.context.support.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0': Cannot create inner bean '(inner bean)#43af37c6' of type [org.springframework.aop.aspectj.AspectJMethodBeforeAdvice] while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#43af37c6': Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'argumentNames' threw exception; nested exception is java.lang.IllegalArgumentException: 'argumentNames' property of AbstractAspectJAdvice contains an argument name 'age bean' that is not a valid Java identifier
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

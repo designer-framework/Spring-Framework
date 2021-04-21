@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.BodyInsertersTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:17" hostname="DESKTOP-3R4DVF7" time="0.165">
+  <properties/>
+  <testcase name="fromMultipartData" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.028"/>
+  <testcase name="ofDataBuffers" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.008"/>
+  <testcase name="ofObject" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.035"/>
+  <testcase name="fromFormDataMap" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.013"/>
+  <testcase name="ofPublisher" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.008"/>
+  <testcase name="ofString" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.008"/>
+  <testcase name="ofObjectWithHints" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.008"/>
+  <testcase name="ofResource" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.015"/>
+  <testcase name="fromMultipartDataWithMultipleValues" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.01"/>
+  <testcase name="ofResourceRange" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.011"/>
+  <testcase name="fromFormDataWith" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.008"/>
+  <testcase name="ofServerSentEventFlux" classname="org.springframework.web.reactive.function.BodyInsertersTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

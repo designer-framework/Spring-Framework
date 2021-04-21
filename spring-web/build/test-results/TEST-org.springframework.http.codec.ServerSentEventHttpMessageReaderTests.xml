@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" tests="42" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:15" hostname="DESKTOP-3R4DVF7" time="0.069">
+  <properties/>
+  <testcase name="readServerSentEvents[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.019"/>
+  <testcase name="readServerSentEventsWithMultipleChunks[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.006"/>
+  <testcase name="decodeFullContentAsString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readPojo[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="cantRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="canRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readServerSentEvents[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readServerSentEventsWithMultipleChunks[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="decodeFullContentAsString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readPojo[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="cantRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="canRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readServerSentEvents[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readServerSentEventsWithMultipleChunks[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="decodeFullContentAsString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readPojo[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="cantRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="canRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readServerSentEvents[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readServerSentEventsWithMultipleChunks[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.003"/>
+  <testcase name="decodeFullContentAsString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readPojo[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="cantRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="canRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readServerSentEvents[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="readServerSentEventsWithMultipleChunks[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="decodeFullContentAsString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readPojo[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="cantRead[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="canRead[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readServerSentEvents[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readServerSentEventsWithMultipleChunks[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="decodeFullContentAsString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="readPojo[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.002"/>
+  <testcase name="readString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.001"/>
+  <testcase name="cantRead[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <testcase name="canRead[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.ServerSentEventHttpMessageReaderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

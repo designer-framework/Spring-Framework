@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.target.CommonsPool2TargetSourceTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:00" hostname="DESKTOP-3R4DVF7" time="0.112">
+  <properties/>
+  <testcase name="testHitMaxSize" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.01"/>
+  <testcase name="testHitMaxSizeLoadedFromContext" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.036"/>
+  <testcase name="testSetWhenExhaustedAction" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.005"/>
+  <testcase name="testConfigMixin" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.015"/>
+  <testcase name="testTargetSourceSerializableWithoutConfigMixin" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.009"/>
+  <testcase name="testFunctionality" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.011"/>
+  <testcase name="referenceIdentityByDefault" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.005"/>
+  <testcase name="testFunctionalityWithNoInterceptors" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.011"/>
+  <testcase name="testProxySerializableWithoutConfigMixin" classname="org.springframework.aop.target.CommonsPool2TargetSourceTests" time="0.008"/>
+  <system-out><![CDATA[0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.expression.ApplicationContextExpressionTests" tests="6" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:48:25" hostname="DESKTOP-3R4DVF7" time="0.099">
+  <properties/>
+  <testcase name="systemPropertiesSecurityManager" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.034"/>
+  <testcase name="prototypeCreationReevaluatesExpressions" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.009"/>
+  <testcase name="stringConcatenationWithDebugLogging" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.007"/>
+  <testcase name="resourceInjection" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.01"/>
+  <testcase name="prototypeCreationIsFastEnough" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="genericApplicationContext" classname="org.springframework.context.expression.ApplicationContextExpressionTests" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

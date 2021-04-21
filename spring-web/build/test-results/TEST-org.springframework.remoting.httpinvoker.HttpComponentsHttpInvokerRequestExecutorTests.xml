@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:32" hostname="DESKTOP-3R4DVF7" time="0.016">
+  <properties/>
+  <testcase name="ignoreFactorySettings" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.01"/>
+  <testcase name="customizeConnectionTimeout" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.002"/>
+  <testcase name="customizeReadTimeout" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.001"/>
+  <testcase name="mergeBasedOnCurrentHttpClient" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.001"/>
+  <testcase name="localSettingsOverrideClientDefaultSettings" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.0"/>
+  <testcase name="customizeConnectionRequestTimeout" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.001"/>
+  <testcase name="defaultSettingsOfHttpClientMergedOnExecutorCustomization" classname="org.springframework.remoting.httpinvoker.HttpComponentsHttpInvokerRequestExecutorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

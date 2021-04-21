@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.datasource.lookup.BeanFactoryDataSourceLookupTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:56" hostname="DESKTOP-3R4DVF7" time="0.016">
+  <properties/>
+  <testcase name="testLookupWhereBeanFactoryHasNotBeenSupplied" classname="org.springframework.jdbc.datasource.lookup.BeanFactoryDataSourceLookupTests" time="0.0"/>
+  <testcase name="testLookupSunnyDay" classname="org.springframework.jdbc.datasource.lookup.BeanFactoryDataSourceLookupTests" time="0.015"/>
+  <testcase name="testLookupWhereBeanFactoryYieldsNonDataSourceType" classname="org.springframework.jdbc.datasource.lookup.BeanFactoryDataSourceLookupTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

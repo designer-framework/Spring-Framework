@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.config.JmsListenerContainerFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:06" hostname="DESKTOP-3R4DVF7" time="0.037">
+  <properties/>
+  <testcase name="endpointConcurrencyTakesPrecedence" classname="org.springframework.jms.config.JmsListenerContainerFactoryTests" time="0.001"/>
+  <testcase name="createJmsContainerFullConfig" classname="org.springframework.jms.config.JmsListenerContainerFactoryTests" time="0.0"/>
+  <testcase name="createJcaContainerFullConfig" classname="org.springframework.jms.config.JmsListenerContainerFactoryTests" time="0.012"/>
+  <testcase name="backOffOverridesRecoveryInterval" classname="org.springframework.jms.config.JmsListenerContainerFactoryTests" time="0.022"/>
+  <testcase name="jcaExclusiveProperties" classname="org.springframework.jms.config.JmsListenerContainerFactoryTests" time="0.002"/>
+  <testcase name="createSimpleContainer" classname="org.springframework.jms.config.JmsListenerContainerFactoryTests" time="0.0"/>
+  <system-out><![CDATA[09:53:06.368 [Test worker] WARN  org.springframework.jms.config.DefaultJmsListenerContainerFactory - Ignoring recovery interval in DefaultJmsListenerContainerFactory in favor of BackOff
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

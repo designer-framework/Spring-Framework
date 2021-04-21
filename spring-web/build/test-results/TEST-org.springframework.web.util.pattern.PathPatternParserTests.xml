@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.util.pattern.PathPatternParserTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:42" hostname="DESKTOP-3R4DVF7" time="0.006">
+  <properties/>
+  <testcase name="partialCapturingPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="patternPropertyGetLengthTests" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="multiwildcardPattern" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="noEncoding" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="illegalCapturePatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.003"/>
+  <testcase name="badPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="completeCaptureWithConstraints" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="singleCharWildcardPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.001"/>
+  <testcase name="captureTheRestPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="equalsAndHashcode" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="basicPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="completeCapturingPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="patternPropertyGetWildcardCountTests" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="compareTests" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="patternPropertyGetCaptureCountTests" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="regexPathElementPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="multipleSeparatorPatterns" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <testcase name="toStringTests" classname="org.springframework.web.util.pattern.PathPatternParserTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

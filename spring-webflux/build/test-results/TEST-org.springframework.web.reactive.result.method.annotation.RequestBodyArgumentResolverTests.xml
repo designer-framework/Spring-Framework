@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:59:06" hostname="DESKTOP-3R4DVF7" time="0.031">
+  <properties/>
+  <testcase name="supports" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.004"/>
+  <testcase name="stringBody" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithoutContentType" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithSingle" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.003"/>
+  <testcase name="emptyBodyWithString" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithCompletableFuture" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.003"/>
+  <testcase name="emptyBodyWithFlux" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithMono" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.003"/>
+  <testcase name="emptyBodyWithMaybe" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.004"/>
+  <testcase name="emptyBodyWithStringNotRequired" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.002"/>
+  <testcase name="emptyBodyWithObservable" classname="org.springframework.web.reactive.result.method.annotation.RequestBodyArgumentResolverTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

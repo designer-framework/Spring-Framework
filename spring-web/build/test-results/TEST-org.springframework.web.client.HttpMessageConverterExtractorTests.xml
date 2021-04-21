@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.HttpMessageConverterExtractorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:35" hostname="DESKTOP-3R4DVF7" time="0.025">
+  <properties/>
+  <testcase name="normal" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.008"/>
+  <testcase name="cannotRead" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="converterThrowsHttpMessageNotReadableException" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.002"/>
+  <testcase name="converterThrowsIOException" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="notModified" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="emptyMessageBody" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="noContent" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="generics" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.014"/>
+  <testcase name="zeroContentLength" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="informational" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <system-out><![CDATA[09:56:35.475 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1115510835]
+09:56:35.478 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1312454212]
+09:56:35.492 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading [java.util.List<java.lang.String>] as "text/plain" using [Mock for GenericHttpMessageConverter, hashCode: 866295598]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

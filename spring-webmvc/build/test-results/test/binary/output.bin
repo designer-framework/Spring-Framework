@@ -1,0 +1,1414 @@
+p10:01:46.389 [Test worker] ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+ûorg.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/applicationContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:294) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+ª	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:127) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+∫	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:96) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+‘	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:134) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+¬	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:631) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+≥	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:503) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+û	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:409) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+é	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+ó	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+Ñ	at org.springframework.web.context.ContextLoaderTests.testContextLoaderWithDefaultLocation(ContextLoaderTests.java:288) [test/:?]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+tCaused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+≤	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:321) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	... 59 more
+t10:01:46.496 [Test worker] ERROR org.springframework.web.servlet.DispatcherServlet - Context initialization failed
+íorg.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/test-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/test-servlet.xml]
+π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:294) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+ª	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:127) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+∫	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:96) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+‘	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:134) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+¬	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:631) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+≥	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:503) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+Ö	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:677) ~[main/:?]
+x	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:643) ~[main/:?]
+x	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:691) ~[main/:?]
+v	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:557) ~[main/:?]
+k	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) [main/:?]
+^	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172) [main/:?]
+d	at javax.servlet.GenericServlet.init(GenericServlet.java:203) [javax.servlet-api-4.0.1.jar:4.0.1]
+á	at org.springframework.web.context.ContextLoaderTests.testFrameworkServletWithDefaultLocation(ContextLoaderTests.java:303) [test/:?]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+nCaused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/test-servlet.xml]
+≤	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:321) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	... 63 more
+	p10:01:46.636 [Test worker] ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+	åorg.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/myContext.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/myContext.xml]
+	π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:294) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	«	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	ª	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:127) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	∫	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:96) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	‘	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:134) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	¬	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:631) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	≥	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:503) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	û	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:409) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+	é	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+	ó	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+	Ñ	at org.springframework.web.context.ContextLoaderTests.testContextLoaderWithInvalidLocation(ContextLoaderTests.java:256) [test/:?]
+	P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+	P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+	ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+	B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+	â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+	P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+	µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+	|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+	ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+	Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+	c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+	9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+	kCaused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/myContext.xml]
+	≤	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	π	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:321) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+		... 59 more
+p10:01:46.759 [Test worker] ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+°org.springframework.context.ApplicationContextException: Failed to load custom context class [org.springframework.web.context.support.InvalidWebApplicationContext]; nested exception is java.lang.ClassNotFoundException: org.springframework.web.context.support.InvalidWebApplicationContext
+ã	at org.springframework.web.context.ContextLoader.determineContextClass(ContextLoader.java:363) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+ë	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:340) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+é	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:278) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+ó	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+É	at org.springframework.web.context.ContextLoaderTests.testContextLoaderWithInvalidContext(ContextLoaderTests.java:273) [test/:?]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+sCaused by: java.lang.ClassNotFoundException: org.springframework.web.context.support.InvalidWebApplicationContext
+O	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_271]
+J	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_271]
+R	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_271]
+J	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_271]
+Ö	at org.springframework.util.ClassUtils.forName(ClassUtils.java:275) ~[spring-core-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+ã	at org.springframework.web.context.ContextLoader.determineContextClass(ContextLoader.java:360) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+	... 50 more
+p10:01:46.778 [Test worker] ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+Øorg.springframework.context.ApplicationContextException: Could not apply context initializer [org.springframework.web.context.ContextLoaderTests$UnknownContextInitializer] since its generic parameter [org.springframework.web.context.ContextLoaderTests$UnknownApplicationContext] is not assignable from the type of application context used by this context loader: [org.springframework.web.context.support.XmlWebApplicationContext]
+Ü	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:437) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+û	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:408) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+é	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+ó	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.0.21.BUILD-SNAPSHOT.jar:?]
+ñ	at org.springframework.web.context.ContextLoaderTests.testContextLoaderListenerWithUnknownContextInitializer(ContextLoaderTests.java:227) [test/:?]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+Ãﬂˆ10:02:08.820 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+„Â∞10:02:09.794 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/unknown] in DispatcherServlet with name 'complex'
+„Âs10:02:09.797 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No handler found for GET /unknown
+„Â˚10:02:09.798 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /unknown
+„ËΩ10:02:09.993 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/knownOnlyToParent.do] in DispatcherServlet with name 'complex'
+„ÍØ10:02:10.109 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/form.do] in DispatcherServlet with name 'simple'
+„ÔØ10:02:10.431 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/form.do] in DispatcherServlet with name 'simple'
+ „ˆ˘javax.servlet.ServletException: Circular view path [noview]: would dispatch back to the current handler URL [/noview] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+ „ˆr	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+ „ˆv	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+ „ˆU	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:315)
+ „ˆ[	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+ „ˆj	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+ „ˆ_	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+ „ˆ]	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+ „ˆ`	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:981)
+ „ˆW	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:873)
+ „ˆB	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+ „ˆY	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:858)
+ „ˆs	at org.springframework.web.servlet.DispatcherServletTests.withNoViewAndSamePath(DispatcherServletTests.java:723)
+ „ˆA	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ „ˆS	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ „ˆ[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ „ˆ6	at java.lang.reflect.Method.invoke(Method.java:498)
+ „ˆZ	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+ „ˆY	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+ „ˆX	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+ „ˆW	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+ „ˆS	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+ „ˆC	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+ „ˆW	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+ „ˆW	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+ „ˆA	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+ „ˆE	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+ „ˆG	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+ „ˆE	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+ „ˆF	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+ „ˆ?	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+ „ˆv	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+ „ˆp	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+ „ˆ{	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+ „ˆu	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+ „ˆB	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+ „ˆ[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ „ˆ6	at java.lang.reflect.Method.invoke(Method.java:498)
+ „ˆZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+ „ˆZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ „ˆj	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+ „ˆy	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+ „ˆ<	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+ „ˆc	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+ „ˆB	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source)
+ „ˆ[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ „ˆ6	at java.lang.reflect.Method.invoke(Method.java:498)
+ „ˆZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+ „ˆZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ „ˆí	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+ „ˆí	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+ „ˆY	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+ „ˆl	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+ „ˆ[	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+ „ˆU	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ „ˆU	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ „ˆk	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+ „ˆ+	at java.lang.Thread.run(Thread.java:748)
+„˜≥10:02:11.262 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/unknown.do] in DispatcherServlet with name 'complex'
+„ÇØ10:02:12.176 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/form.do] in DispatcherServlet with name 'simple'
+„Ü≤10:02:12.410 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/invalid.do] in DispatcherServlet with name 'simple'
+≠Ø£10:02:14.032 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+≠Ø£10:02:14.032 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+≠Ø£10:02:14.032 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+≠±£10:02:14.033 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+≠±£10:02:14.033 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+≠±£10:02:14.033 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+©®î10:02:14.849 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonException
+©™õ10:02:14.849 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonMessageException
+©´à10:02:14.850 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.server.ResponseStatusException: Response status 400 with reason "The reason"
+©¨Ô10:02:14.850 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.server.ResponseStatusException: Response status 400
+©≠ã10:02:14.850 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeException
+©Æ•10:02:14.852 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeFromComposedResponseStatusException
+©Øÿ10:02:14.852 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'org.springframework.tests.sample.beans.ITestBean'; nested exception is org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonMessageException
+ºΩÃ10:02:15.123 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalStateException
+ºæÃ10:02:15.155 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalStateException
+º¿Ã10:02:15.239 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalStateException
+º¡œ10:02:15.266 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException
+º√œ10:02:15.322 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException
+º«Õ10:02:15.433 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalAccessException
+º»›10:02:15.460 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException: Bad argument
+º…≠10:02:15.490 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.AssertionError: argh
+º ñ10:02:15.524 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.FatalBeanException: wrapped; nested exception is java.lang.AssertionError: argh
+ºÀœ10:02:15.552 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException
+ºÃÃ10:02:15.584 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalStateException
+ºÕœ10:02:15.611 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.IllegalArgumentException
+ºŒ’10:02:15.642 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: java.lang.ArrayIndexOutOfBoundsException
+´∆Ö10:02:18.340 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder - Multiple paths on controller org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilderTests$InvalidController, using first one
+›‹n10:02:18.388 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+›‹!!!
+›‹QStreaming through a reactive type requires an Executor to write to the response.
+›‹JPlease, configure a TaskExecutor in the MVC config under "async support".
+›‹BThe SyncTaskExecutor currently in use is not suitable under load.
+›‹ -------------------------------
+›‹jController:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$TestController
+›‹Method:		handleFlux
+›‹{Returning:	reactor.core.publisher.Flux<org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$Bar>
+›‹!!!
+›ﬂn10:02:18.433 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+›ﬂ!!!
+›ﬂQStreaming through a reactive type requires an Executor to write to the response.
+›ﬂJPlease, configure a TaskExecutor in the MVC config under "async support".
+›ﬂBThe SyncTaskExecutor currently in use is not suitable under load.
+›ﬂ -------------------------------
+›ﬂjController:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$TestController
+›ﬂMethod:		handleFluxString
+›ﬂ9Returning:	reactor.core.publisher.Flux<java.lang.String>
+›ﬂ!!!
+›‰n10:02:18.639 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+›‰!!!
+›‰QStreaming through a reactive type requires an Executor to write to the response.
+›‰JPlease, configure a TaskExecutor in the MVC config under "async support".
+›‰BThe SyncTaskExecutor currently in use is not suitable under load.
+›‰ -------------------------------
+›‰jController:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$TestController
+›‰Method:		handleFluxString
+›‰9Returning:	reactor.core.publisher.Flux<java.lang.String>
+›‰!!!
+›Ên10:02:18.648 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+›Ê!!!
+›ÊQStreaming through a reactive type requires an Executor to write to the response.
+›ÊJPlease, configure a TaskExecutor in the MVC config under "async support".
+›ÊBThe SyncTaskExecutor currently in use is not suitable under load.
+›Ê -------------------------------
+›ÊjController:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$TestController
+›Ê#Method:		handleFluxSseEventBuilder
+›ÊiReturning:	reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<java.lang.String>>
+›Ê!!!
+›Án10:02:18.658 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+›Á!!!
+›ÁQStreaming through a reactive type requires an Executor to write to the response.
+›ÁJPlease, configure a TaskExecutor in the MVC config under "async support".
+›ÁBThe SyncTaskExecutor currently in use is not suitable under load.
+›Á -------------------------------
+›ÁjController:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$TestController
+›ÁMethod:		handleFluxString
+›Á9Returning:	reactor.core.publisher.Flux<java.lang.String>
+›Á!!!
+›Ën10:02:18.659 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+›Ë!!!
+›ËQStreaming through a reactive type requires an Executor to write to the response.
+›ËJPlease, configure a TaskExecutor in the MVC config under "async support".
+›ËBThe SyncTaskExecutor currently in use is not suitable under load.
+›Ë -------------------------------
+›ËjController:	org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandlerTests$TestController
+›ËMethod:		handleFluxString
+›Ë9Returning:	reactor.core.publisher.Flux<java.lang.String>
+›Ë!!!
+ˆ¯n10:02:23.263 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+ˆ¯!!!
+ˆ¯QStreaming through a reactive type requires an Executor to write to the response.
+ˆ¯JPlease, configure a TaskExecutor in the MVC config under "async support".
+ˆ¯BThe SyncTaskExecutor currently in use is not suitable under load.
+ˆ¯ -------------------------------
+ˆ¯|Controller:	org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests$TestController
+ˆ¯Method:		h8
+ˆ¯9Returning:	reactor.core.publisher.Flux<java.lang.String>
+ˆ¯!!!
+ˆ˘n10:02:23.273 [Test worker] WARN  org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler - 
+ˆ˘!!!
+ˆ˘QStreaming through a reactive type requires an Executor to write to the response.
+ˆ˘JPlease, configure a TaskExecutor in the MVC config under "async support".
+ˆ˘BThe SyncTaskExecutor currently in use is not suitable under load.
+ˆ˘ -------------------------------
+ˆ˘|Controller:	org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandlerTests$TestController
+ˆ˘Method:		h9
+ˆ˘9Returning:	reactor.core.publisher.Flux<java.lang.String>
+ˆ˘!!!
+éèÂ10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotWritableException: 
+éêt10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No handler found for GET /resource
+éê¸10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /resource
+éëë10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 0 errors
+éít10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+éíÉ10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+éìû10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'partName' is not present
+éîÏ10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotReadableException: message
+éñ≤10:02:23.414 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.Object' to required type 'java.lang.Object'
+éó®10:02:23.414 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'
+éô•10:02:23.415 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'param' for method parameter of type String
+éöÂ10:02:23.415 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.ServletRequestBindingException: message
+éùﬁ10:02:23.556 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: 
+éûﬂ10:02:23.580 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: Mock for MethodArgumentNotValidException, hashCode: 2071888577
+éüÎ10:02:23.580 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+é†ï10:02:23.581 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingServletRequestParameterException: Required type parameter 'param' is not present
+é°ä10:02:23.581 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json' not supported
+£®ú10:02:23.939 [Test worker] ERROR org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests$1 - Context initialization failed
+£®¯org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'ChildController' method 
+£®’public void org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ParentController.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+£®Qto {[/child/test],methods=[GET]}: There is already 'ChildController' bean method
+£®Ópublic void org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) mapped.
+£®œ	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1681) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®Ã	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:534) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£® 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:453) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®¥	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:286) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®¿	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:227) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®´	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®©	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:155) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®»	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:728) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®À	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:893) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®≥	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®≤	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests$1.createWebApplicationContext(AbstractServletHandlerMethodTests.java:103) ~[test/:?]
+£®v	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:557) ~[main/:?]
+£®k	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) [main/:?]
+£®^	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172) [main/:?]
+£®d	at javax.servlet.GenericServlet.init(GenericServlet.java:203) [javax.servlet-api-4.0.1.jar:4.0.1]
+£®ü	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests.initServlet(AbstractServletHandlerMethodTests.java:108) [test/:?]
+£®≠	at org.springframework.web.servlet.mvc.method.annotation.AbstractServletHandlerMethodTests.initServletWithControllers(AbstractServletHandlerMethodTests.java:66) [test/:?]
+£®–	at org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests.equivalentMappingsWithSameMethodName(ServletAnnotationControllerHandlerMethodTests.java:790) [test/:?]
+£®P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+£®b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+£®j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+£®E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+£®p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+£®o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+£®n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+£®m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+£®g	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+£®Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+£®m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+£®m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+£®W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+£®[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+£®]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+£®[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+£®\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+£®U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+£®õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+£®ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+£®†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+£®õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+£®I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+£®j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+£®E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+£®}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+£®}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+£®ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+£®ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+£®B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+£®â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+£®I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+£®j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+£®E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+£®}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+£®}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+£®µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+£®µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+£®|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+£®ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+£®Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+£®c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+£®c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+£®í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+£®9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+£®dCaused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'ChildController' method 
+£®’public void org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ParentController.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+£®Qto {[/child/test],methods=[GET]}: There is already 'ChildController' bean method
+£®Ópublic void org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$ChildController.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) mapped.
+£®¶	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:582) ~[main/:?]
+£®ï	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:546) ~[main/:?]
+£®í	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:267) ~[main/:?]
+£®ö	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:252) ~[main/:?]
+£®L	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:1.8.0_271]
+£®ë	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250) ~[main/:?]
+£®è	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:219) ~[main/:?]
+£®è	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:189) ~[main/:?]
+£®ù	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136) ~[main/:?]
+£®“	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1740) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®œ	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1677) ~[spring-beans-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+£®	... 62 more
+£∞®10:02:24.692 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/method] in DispatcherServlet with name ''
+£∏Û10:02:25.136 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotReadableException: Could not read
+£∫Ü10:02:25.243 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+£æÜ10:02:25.482 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+£ƒ“10:02:26.236 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$B' to required type 'org.springframework.web.servlet.mvc.method.annotation.ServletAnnotationControllerHandlerMethodTests$A'
+£≈â10:02:26.290 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/xml' not supported
+£“É10:02:27.177 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+£ﬂÜ10:02:28.094 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+£Ââ10:02:28.440 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/pdf' not supported
+£ËÉ10:02:28.655 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+£Úá10:02:29.376 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "foo"
+£˛ë10:02:30.094 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingServletRequestParameterException: Required int parameter 'id' is not present
+£Çâ10:02:30.336 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/xml' not supported
+Ÿﬁ¥10:02:31.223 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is java.lang.IllegalArgumentException: Could not parse date: Unparseable date: "2008-foo-bar"
+Ÿﬁà10:02:31.276 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.method.annotation.MethodArgumentConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'java.util.Date': no matching editors or conversion strategy found
+Ÿ‚Æ10:02:31.510 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/data;foo=bar] in DispatcherServlet with name ''
+ŸÊá10:02:31.729 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "foo"
+ŸÍÑ10:02:31.945 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+ŸÍÑ10:02:31.945 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+†	ü	ö10:02:32.033 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'name' is not present
+†	°	Ë10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotReadableException: foo
+†	¢	í10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingServletRequestParameterException: Required bar parameter 'foo' is not present
+†	£	ë10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 0 errors
+†	§	£10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'foo' for method parameter of type String
+†	•	®10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'
+†	¶	É10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+†	ß	t10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No handler found for GET /resource
+†	ß	¸10:02:32.034 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /resource
+†	®	Ÿ10:02:32.035 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument at index 0 in method: public void org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolverTests.handle(java.lang.String), with 1 error(s): [Field error in object 'testBean' on field 'name': rejected value [null]; codes [invalid.testBean.name,invalid.name,invalid.java.lang.String,invalid]; arguments []; default message [null]] 
+†	©	Î10:02:32.035 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+†	™	€10:02:32.035 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.Object' to required type 'java.lang.String'; nested exception is java.lang.Exception
+†	´	Ë10:02:32.036 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotWritableException: foo
+†	¨	ë10:02:32.036 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.ServletRequestBindingException: Missing required value - header, cookie, or pathvar
+†	≠	Ñ10:02:32.036 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain' not supported
+ò§±10:02:33.294 [Test worker] ERROR org.springframework.web.servlet.tags.BindTag - Neither BindingResult nor plain target object for bean name 'tb' available as request attribute
+ò§Ñjavax.servlet.jsp.JspTagException: Neither BindingResult nor plain target object for bean name 'tb' available as request attribute
+ò§b	at org.springframework.web.servlet.tags.BindTag.doStartTagInternal(BindTag.java:162) ~[main/:?]
+ò§v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ò§k	at org.springframework.web.servlet.tags.BindTagTests.bindTagWithoutBean(BindTagTests.java:628) [test/:?]
+ò§P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ò§b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ò§j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò§E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò§p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ò§o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ò§n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ò§m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ò§Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ò§m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ò§m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ò§W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ò§[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ò§]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ò§[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ò§\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ò§U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ò§õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò§ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò§†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò§õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ò§I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ò§j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò§E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò§}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ò§â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ò§I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ò§j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò§E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò§}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ò§ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ò§Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ò§c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ò§c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ò§í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ò§9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ò•ô10:02:33.306 [Test worker] ERROR org.springframework.web.servlet.tags.TransformTag - TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ò•djavax.servlet.jsp.JspException: TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ò•l	at org.springframework.web.servlet.tags.TransformTag.doStartTagInternal(TransformTag.java:140) ~[main/:?]
+ò•v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ò•s	at org.springframework.web.servlet.tags.BindTagTests.transformTagOutsideBindTag(BindTagTests.java:905) [test/:?]
+ò•P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ò•b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ò•j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò•E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò•p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ò•o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ò•n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ò•m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ò•Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ò•m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ò•m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ò•W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ò•[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ò•]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ò•[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ò•\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ò•U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ò•õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò•ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò•†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò•õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ò•I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ò•j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò•E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ò•â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ò•I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ò•j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò•E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ò•Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ò•c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ò•c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ò•í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ò•9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ò•ô10:02:33.314 [Test worker] ERROR org.springframework.web.servlet.tags.TransformTag - TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ò•djavax.servlet.jsp.JspException: TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ò•l	at org.springframework.web.servlet.tags.TransformTag.doStartTagInternal(TransformTag.java:140) ~[main/:?]
+ò•v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ò•s	at org.springframework.web.servlet.tags.BindTagTests.transformTagOutsideBindTag(BindTagTests.java:921) [test/:?]
+ò•P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ò•b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ò•j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò•E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò•p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ò•o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ò•n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ò•m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ò•Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ò•m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ò•m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ò•W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ò•[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ò•]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ò•[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ò•\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ò•U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ò•õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò•ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò•†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ò•õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ò•I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ò•j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò•E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ò•â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ò•I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ò•j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ò•E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ò•ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ò•Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ò•c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ò•c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ò•í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ò•9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ª«±10:02:33.479 [Test worker] ERROR org.springframework.web.servlet.tags.BindTag - Neither BindingResult nor plain target object for bean name 'tb' available as request attribute
+ª«Ñjavax.servlet.jsp.JspTagException: Neither BindingResult nor plain target object for bean name 'tb' available as request attribute
+ª«b	at org.springframework.web.servlet.tags.BindTag.doStartTagInternal(BindTag.java:162) ~[main/:?]
+ª«v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ª«k	at org.springframework.web.servlet.tags.BindTagTests.bindTagWithoutBean(BindTagTests.java:628) [test/:?]
+ª«P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ª«b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ª«j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª«E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª«p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ª«o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ª«n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ª«m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ª«Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ª«m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ª«m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ª«W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ª«[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ª«]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ª«[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ª«\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ª«U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ª«õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª«ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª«†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª«õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ª«I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ª«j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª«E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª«}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ª«â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ª«I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ª«j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª«E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª«}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ª«ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ª«Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ª«c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ª«c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ª«í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ª«9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ª»ô10:02:33.490 [Test worker] ERROR org.springframework.web.servlet.tags.TransformTag - TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ª»djavax.servlet.jsp.JspException: TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ª»l	at org.springframework.web.servlet.tags.TransformTag.doStartTagInternal(TransformTag.java:140) ~[main/:?]
+ª»v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ª»s	at org.springframework.web.servlet.tags.BindTagTests.transformTagOutsideBindTag(BindTagTests.java:905) [test/:?]
+ª»P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ª»b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ª»j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª»E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª»p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ª»o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ª»n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ª»m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ª»Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ª»m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ª»m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ª»W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ª»[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ª»]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ª»[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ª»\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ª»U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ª»õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª»ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª»†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª»õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ª»I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ª»j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª»E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ª»â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ª»I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ª»j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª»E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ª»Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ª»c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ª»c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ª»í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ª»9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ª»ô10:02:33.497 [Test worker] ERROR org.springframework.web.servlet.tags.TransformTag - TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ª»djavax.servlet.jsp.JspException: TransformTag can only be used within EditorAwareTag (e.g. BindTag)
+ª»l	at org.springframework.web.servlet.tags.TransformTag.doStartTagInternal(TransformTag.java:140) ~[main/:?]
+ª»v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ª»s	at org.springframework.web.servlet.tags.BindTagTests.transformTagOutsideBindTag(BindTagTests.java:921) [test/:?]
+ª»P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ª»b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ª»j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª»E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª»p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ª»o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ª»n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ª»m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ª»Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ª»m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ª»m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ª»W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ª»[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ª»]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ª»[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ª»\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ª»U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ª»õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª»ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª»†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ª»õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ª»I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ª»j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª»E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ª»â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ª»I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ª»j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ª»E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ª»ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ª»Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ª»c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ª»c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ª»í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ª»9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+Ï˚≠10:02:33.916 [Test worker] ERROR org.springframework.web.servlet.tags.form.CheckboxesTagTests$1 - Attribute 'items' is required and must be a Collection, an Array or a Map
+Ï˚ojava.lang.IllegalArgumentException: Attribute 'items' is required and must be a Collection, an Array or a Map
+Ï˚í	at org.springframework.web.servlet.tags.form.AbstractMultiCheckedElementTag.writeTagContent(AbstractMultiCheckedElementTag.java:215) ~[main/:?]
+Ï˚p	at org.springframework.web.servlet.tags.form.CheckboxesTag.writeTagContent(CheckboxesTag.java:237) ~[main/:?]
+Ï˚v	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+Ï˚v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+Ï˚w	at org.springframework.web.servlet.tags.form.CheckboxesTagTests.withNullValue(CheckboxesTagTests.java:680) [test/:?]
+Ï˚P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+Ï˚b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+Ï˚j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+Ï˚E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+Ï˚p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+Ï˚o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+Ï˚n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+Ï˚m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+Ï˚i	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+Ï˚Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+Ï˚m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+Ï˚m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+Ï˚W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+Ï˚[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+Ï˚]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+Ï˚[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+Ï˚\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+Ï˚U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+Ï˚õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+Ï˚ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+Ï˚†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+Ï˚õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+Ï˚I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+Ï˚j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+Ï˚E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+Ï˚}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+Ï˚â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+Ï˚I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+Ï˚j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+Ï˚E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+Ï˚}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+Ï˚ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+Ï˚Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+Ï˚c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+Ï˚c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+Ï˚í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+Ï˚9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+˝ï¢10:02:34.099 [Test worker] ERROR org.springframework.web.servlet.tags.form.CheckboxTagTests$1 - Attribute 'value' is required when binding to non-boolean values
+˝ïfjava.lang.IllegalArgumentException: Attribute 'value' is required when binding to non-boolean values
+˝ïl	at org.springframework.web.servlet.tags.form.CheckboxTag.writeTagDetails(CheckboxTag.java:262) ~[main/:?]
+˝ïì	at org.springframework.web.servlet.tags.form.AbstractSingleCheckedElementTag.writeTagContent(AbstractSingleCheckedElementTag.java:93) ~[main/:?]
+˝ïl	at org.springframework.web.servlet.tags.form.CheckboxTag.writeTagContent(CheckboxTag.java:228) ~[main/:?]
+˝ïv	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+˝ïv	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+˝ïs	at org.springframework.web.servlet.tags.form.CheckboxTagTests.withNullValue(CheckboxTagTests.java:617) [test/:?]
+˝ïP	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+˝ïb	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+˝ïj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+˝ïE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+˝ïp	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+˝ïo	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+˝ïn	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+˝ïm	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+˝ïi	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+˝ïY	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+˝ïm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+˝ïm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+˝ïW	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+˝ï[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+˝ï]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+˝ï[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+˝ï\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+˝ïU	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+˝ïõ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+˝ïï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+˝ï†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+˝ïõ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+˝ïI	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+˝ïj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+˝ïE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+˝ï}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ï}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ïç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ïú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ïB	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+˝ïâ	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+˝ïI	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+˝ïj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+˝ïE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+˝ï}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ï}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ïµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ïµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ï|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+˝ïì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+˝ïÇ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+˝ïc	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+˝ïc	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+˝ïí	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+˝ï9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+≠Æ}10:02:34.213 [Test worker] ERROR org.springframework.web.servlet.tags.form.FormTagTests$1 - modelAttribute must not be null
+≠ÆEjava.lang.IllegalArgumentException: modelAttribute must not be null
+≠Æj	at org.springframework.web.servlet.tags.form.FormTag.resolveModelAttribute(FormTag.java:613) ~[main/:?]
+≠Æc	at org.springframework.web.servlet.tags.form.FormTag.autogenerateId(FormTag.java:603) ~[main/:?]
+≠Æé	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:138) ~[main/:?]
+≠Æõ	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:121) ~[main/:?]
+≠Æâ	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:459) ~[main/:?]
+≠Æd	at org.springframework.web.servlet.tags.form.FormTag.writeTagContent(FormTag.java:548) ~[main/:?]
+≠Æv	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+≠Æv	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+≠Æu	at org.springframework.web.servlet.tags.form.FormTagTests.withNullResolvedCommand(FormTagTests.java:220) [test/:?]
+≠ÆP	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+≠Æb	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+≠Æj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+≠ÆE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+≠Æp	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+≠Æo	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+≠Æn	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+≠Æm	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+≠Æi	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+≠ÆY	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+≠Æm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+≠Æm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+≠ÆW	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+≠Æ[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+≠Æ]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+≠Æ[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+≠Æ\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+≠ÆU	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+≠Æõ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+≠Æï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+≠Æ†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+≠Æõ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+≠ÆI	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+≠Æj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+≠ÆE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+≠Æ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+≠ÆB	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+≠Æâ	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+≠ÆI	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+≠Æj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+≠ÆE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+≠Æ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æ|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+≠Æì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+≠ÆÇ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+≠Æc	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+≠Æc	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+≠Æí	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+≠Æ9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ﬂÂû10:02:34.669 [Test worker] ERROR org.springframework.web.servlet.tags.form.OptionTagTests$1 - The 'option' tag can only be used inside a valid 'select' tag.
+ﬂÂajava.lang.IllegalStateException: The 'option' tag can only be used inside a valid 'select' tag.
+ﬂÂî	at org.springframework.web.util.TagUtils.assertHasAncestorOfType(TagUtils.java:134) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+ﬂÂm	at org.springframework.web.servlet.tags.form.OptionTag.assertUnderSelectTag(OptionTag.java:385) ~[main/:?]
+ﬂÂj	at org.springframework.web.servlet.tags.form.OptionTag.onWriteTagContent(OptionTag.java:314) ~[main/:?]
+ﬂÂâ	at org.springframework.web.servlet.tags.form.AbstractHtmlElementBodyTag.writeTagContent(AbstractHtmlElementBodyTag.java:49) ~[main/:?]
+ﬂÂv	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+ﬂÂv	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ﬂÂÉ	at org.springframework.web.servlet.tags.form.OptionTagTests.optionTagNotNestedWithinSelectTag(OptionTagTests.java:473) [test/:?]
+ﬂÂP	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ﬂÂb	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ﬂÂj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ﬂÂE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ﬂÂp	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ﬂÂo	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ﬂÂn	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ﬂÂm	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ﬂÂi	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+ﬂÂY	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ﬂÂm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ﬂÂm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ﬂÂW	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ﬂÂ[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ﬂÂ]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ﬂÂ[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ﬂÂ\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ﬂÂU	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ﬂÂõ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ﬂÂï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ﬂÂ†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ﬂÂõ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ﬂÂI	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ﬂÂj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ﬂÂE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ﬂÂ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂB	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ﬂÂâ	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ﬂÂI	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ﬂÂj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ﬂÂE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ﬂÂ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂ|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÂì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ﬂÂÇ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ﬂÂc	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ﬂÂc	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ﬂÂí	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ﬂÂ9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ﬂÍû10:02:34.696 [Test worker] ERROR org.springframework.web.servlet.tags.form.OptionTagTests$1 - The 'option' tag can only be used inside a valid 'select' tag.
+ﬂÍajava.lang.IllegalStateException: The 'option' tag can only be used inside a valid 'select' tag.
+ﬂÍî	at org.springframework.web.util.TagUtils.assertHasAncestorOfType(TagUtils.java:134) ~[spring-web-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+ﬂÍm	at org.springframework.web.servlet.tags.form.OptionTag.assertUnderSelectTag(OptionTag.java:385) ~[main/:?]
+ﬂÍj	at org.springframework.web.servlet.tags.form.OptionTag.onWriteTagContent(OptionTag.java:314) ~[main/:?]
+ﬂÍâ	at org.springframework.web.servlet.tags.form.AbstractHtmlElementBodyTag.writeTagContent(AbstractHtmlElementBodyTag.java:49) ~[main/:?]
+ﬂÍv	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+ﬂÍv	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+ﬂÍp	at org.springframework.web.servlet.tags.form.OptionTagTests.withoutContext(OptionTagTests.java:201) [test/:?]
+ﬂÍP	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+ﬂÍb	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+ﬂÍj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ﬂÍE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ﬂÍp	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+ﬂÍo	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+ﬂÍn	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+ﬂÍm	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+ﬂÍi	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+ﬂÍY	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+ﬂÍm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+ﬂÍm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ﬂÍW	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+ﬂÍ[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+ﬂÍ]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+ﬂÍ[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+ﬂÍ\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ﬂÍU	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+ﬂÍõ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ﬂÍï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ﬂÍ†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+ﬂÍõ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ﬂÍI	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+ﬂÍj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ﬂÍE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ﬂÍ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍB	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+ﬂÍâ	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ﬂÍI	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+ﬂÍj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ﬂÍE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+ﬂÍ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍ}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍ|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+ﬂÍì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ﬂÍÇ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+ﬂÍc	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+ﬂÍc	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+ﬂÍí	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+ﬂÍ9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ÑëØ10:02:34.928 [Test worker] ERROR org.springframework.web.servlet.tags.form.RadioButtonsTagTests$1 - Attribute 'items' is required and must be a Collection, an Array or a Map
+Ñëojava.lang.IllegalArgumentException: Attribute 'items' is required and must be a Collection, an Array or a Map
+Ñëí	at org.springframework.web.servlet.tags.form.AbstractMultiCheckedElementTag.writeTagContent(AbstractMultiCheckedElementTag.java:215) ~[main/:?]
+Ñëv	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+Ñëv	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+Ñë{	at org.springframework.web.servlet.tags.form.RadioButtonsTagTests.withNullValue(RadioButtonsTagTests.java:536) [test/:?]
+ÑëP	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+Ñëb	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+Ñëj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ÑëE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+Ñëp	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+Ñëo	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+Ñën	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+Ñëm	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+Ñëi	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+ÑëY	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+Ñëm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+Ñëm	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+ÑëW	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+Ñë[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+Ñë]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+Ñë[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+Ñë\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+ÑëU	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+Ñëõ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+Ñëï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+Ñë†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+Ñëõ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+ÑëI	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+Ñëj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ÑëE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+Ñë}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñë}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñëç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñëú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+ÑëB	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+Ñëâ	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+ÑëI	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+Ñëj	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+ÑëE	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+Ñë}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñë}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñëµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñëµ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñë|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+Ñëì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+ÑëÇ	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+Ñëc	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+Ñëc	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+Ñëí	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+Ñë9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+û¶¥10:02:35.066 [Test worker] ERROR org.springframework.web.servlet.tags.form.SelectTagTests$1 - Type [org.springframework.tests.sample.beans.TestBean] is not valid for option items
+û¶vjavax.servlet.jsp.JspException: Type [org.springframework.tests.sample.beans.TestBean] is not valid for option items
+û¶k	at org.springframework.web.servlet.tags.form.OptionWriter.writeOptions(OptionWriter.java:146) ~[main/:?]
+û¶h	at org.springframework.web.servlet.tags.form.SelectTag.writeTagContent(SelectTag.java:428) ~[main/:?]
+û¶v	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:86) ~[main/:?]
+û¶v	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:83) [main/:?]
+û¶q	at org.springframework.web.servlet.tags.form.SelectTagTests.withInvalidList(SelectTagTests.java:351) [test/:?]
+û¶P	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+û¶b	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+û¶j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+û¶E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+û¶p	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+û¶o	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+û¶n	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+û¶m	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+û¶i	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+û¶Y	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+û¶m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+û¶m	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+û¶W	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+û¶[	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+û¶]	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+û¶[	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+û¶\	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+û¶U	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+û¶õ	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+û¶ï	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+û¶†	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+û¶õ	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+û¶I	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source) ~[?:?]
+û¶j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+û¶E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+û¶}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶ç	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶ú	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶B	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+û¶â	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+û¶I	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source) ~[?:?]
+û¶j	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+û¶E	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+û¶}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶}	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶µ	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶|	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+û¶ì	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+û¶Ç	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+û¶c	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+û¶c	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+û¶í	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+û¶9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+ÀŒ"<textarea id="name" name="name">
+ÀŒ1Rob &quot;I Love Mangos&quot; Harrop</textarea>
+œŒˆ10:02:35.698 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ–ˆ10:02:35.707 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ—ˆ10:02:35.708 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ“ˆ10:02:35.708 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ”ˆ10:02:35.708 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ‘ˆ10:02:35.709 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ’ˆ10:02:35.709 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ÷ˆ10:02:35.710 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ◊ˆ10:02:35.710 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œÿˆ10:02:35.710 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œŸˆ10:02:35.711 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ⁄ˆ10:02:35.711 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ€ˆ10:02:35.712 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ‹ˆ10:02:35.712 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œ›ˆ10:02:35.713 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œﬁˆ10:02:35.713 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+œﬂˆ10:02:35.714 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+ ÉÇ:WARN: Failed to initialize native filesystem for Windows
+ ÉÇìjava.lang.RuntimeException: Could not find installation home path. Please make sure bin/idea.properties is present in the installation directory.
+ ÉÇS	at com.intellij.openapi.application.PathManager.getHomePath(PathManager.java:90)
+ ÉÇS	at com.intellij.openapi.application.PathManager.getHomePath(PathManager.java:68)
+ ÉÇT	at com.intellij.openapi.application.PathManager.findBinFile(PathManager.java:169)
+ ÉÇX	at com.intellij.util.lang.UrlClassLoader.loadPlatformLibrary(UrlClassLoader.java:321)
+ ÉÇN	at com.intellij.openapi.util.io.win32.IdeaWin32.<clinit>(IdeaWin32.java:48)
+ ÉÇU	at com.intellij.openapi.util.io.FileSystemUtil.getMediator(FileSystemUtil.java:62)
+ ÉÇR	at com.intellij.openapi.util.io.FileSystemUtil.<clinit>(FileSystemUtil.java:54)
+ ÉÇT	at com.intellij.openapi.vfs.impl.ZipHandler.setFileAttributes(ZipHandler.java:61)
+ ÉÇS	at com.intellij.openapi.vfs.impl.ZipHandler$1.createAccessor(ZipHandler.java:43)
+ ÉÇS	at com.intellij.openapi.vfs.impl.ZipHandler$1.createAccessor(ZipHandler.java:39)
+ ÉÇT	at com.intellij.util.io.FileAccessorCache.createHandle(FileAccessorCache.java:60)
+ ÉÇK	at com.intellij.util.io.FileAccessorCache.get(FileAccessorCache.java:52)
+ ÉÇY	at com.intellij.openapi.vfs.impl.ZipHandler.getCachedZipFileHandle(ZipHandler.java:83)
+ ÉÇT	at com.intellij.openapi.vfs.impl.ZipHandler.acquireZipHandle(ZipHandler.java:129)
+ ÉÇ[	at com.intellij.openapi.vfs.impl.ZipHandlerBase.createEntriesMap(ZipHandlerBase.java:44)
+ ÉÇY	at com.intellij.openapi.vfs.impl.ArchiveHandler.getEntriesMap(ArchiveHandler.java:197)
+ ÉÇU	at com.intellij.openapi.vfs.impl.jar.CoreJarHandler.<init>(CoreJarHandler.java:42)
+ ÉÇa	at com.intellij.openapi.vfs.impl.jar.CoreJarFileSystem.lambda$new$0(CoreJarFileSystem.java:33)
+ ÉÇ_	at com.intellij.util.containers.ConcurrentFactoryMap$3.create(ConcurrentFactoryMap.java:212)
+ ÉÇY	at com.intellij.util.containers.ConcurrentFactoryMap.get(ConcurrentFactoryMap.java:59)
+ ÉÇc	at com.intellij.openapi.vfs.impl.jar.CoreJarFileSystem.findFileByPath(CoreJarFileSystem.java:44)
+ ÉÇk	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.findJarRoot(KotlinCoreEnvironment.kt:403)
+ ÉÇx	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.contentRootToVirtualFile(KotlinCoreEnvironment.kt:382)
+ ÉÇ	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.access$contentRootToVirtualFile(KotlinCoreEnvironment.kt:123)
+ ÉÇh	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment$4.invoke(KotlinCoreEnvironment.kt:260)
+ ÉÇh	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment$4.invoke(KotlinCoreEnvironment.kt:123)
+ ÉÇv	at org.jetbrains.kotlin.cli.jvm.compiler.ClasspathRootsResolver.convertClasspathRoots(ClasspathRootsResolver.kt:70)
+ ÉÇf	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.<init>(KotlinCoreEnvironment.kt:267)
+ ÉÇf	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.<init>(KotlinCoreEnvironment.kt:123)
+ ÉÇ}	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment$Companion.createForProduction(KotlinCoreEnvironment.kt:504)
+ ÉÇ[	at org.jetbrains.kotlin.cli.jvm.repl.GenericReplChecker.<init>(GenericReplChecker.kt:62)
+ ÉÇ]	at org.jetbrains.kotlin.cli.jvm.repl.GenericReplCompiler.<init>(GenericReplCompiler.kt:57)
+ ÉÇ]	at org.jetbrains.kotlin.cli.jvm.repl.GenericReplCompiler.<init>(GenericReplCompiler.kt:55)
+ ÉÇá	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine$replCompiler$2.invoke(KotlinJsr223JvmLocalScriptEngine.kt:45)
+ ÉÇá	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine$replCompiler$2.invoke(KotlinJsr223JvmLocalScriptEngine.kt:36)
+ ÉÇ9	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+ ÉÇ~	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine.getReplCompiler(KotlinJsr223JvmLocalScriptEngine.kt)
+ ÉÇâ	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine$localEvaluator$2.invoke(KotlinJsr223JvmLocalScriptEngine.kt:51)
+ ÉÇâ	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine$localEvaluator$2.invoke(KotlinJsr223JvmLocalScriptEngine.kt:36)
+ ÉÇ9	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+ ÉÇÄ	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine.getLocalEvaluator(KotlinJsr223JvmLocalScriptEngine.kt)
+ ÉÇÇ	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine.getReplEvaluator(KotlinJsr223JvmLocalScriptEngine.kt:53)
+ ÉÇ}	at org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngine.createState(KotlinJsr223JvmLocalScriptEngine.kt:57)
+ ÉÇÖ	at org.jetbrains.kotlin.cli.common.repl.KotlinJsr223JvmScriptEngineBase.createState$default(KotlinJsr223JvmScriptEngineBase.kt:46)
+ ÉÇÅ	at org.jetbrains.kotlin.cli.common.repl.KotlinJsr223JvmScriptEngineBase.getCurrentState(KotlinJsr223JvmScriptEngineBase.kt:53)
+ ÉÇ~	at org.jetbrains.kotlin.cli.common.repl.KotlinJsr223JvmScriptEngineBase.nextCodeLine(KotlinJsr223JvmScriptEngineBase.kt:44)
+ ÉÇÄ	at org.jetbrains.kotlin.cli.common.repl.KotlinJsr223JvmScriptEngineBase.compileAndEval(KotlinJsr223JvmScriptEngineBase.kt:59)
+ ÉÇv	at org.jetbrains.kotlin.cli.common.repl.KotlinJsr223JvmScriptEngineBase.eval(KotlinJsr223JvmScriptEngineBase.kt:33)
+ ÉÇK	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:249)
+ ÉÇm	at org.springframework.web.servlet.view.script.ScriptTemplateView.loadScripts(ScriptTemplateView.java:298)
+ ÉÇv	at org.springframework.web.servlet.view.script.ScriptTemplateView.createEngineFromName(ScriptTemplateView.java:286)
+ ÉÇx	at org.springframework.web.servlet.view.script.ScriptTemplateView.initApplicationContext(ScriptTemplateView.java:245)
+ ÉÇz	at org.springframework.context.support.ApplicationObjectSupport.setApplicationContext(ApplicationObjectSupport.java:78)
+ ÉÇÅ	at org.springframework.web.servlet.view.script.KotlinScriptTemplateTests.createViewWithUrl(KotlinScriptTemplateTests.java:108)
+ ÉÇu	at org.springframework.web.servlet.view.script.KotlinScriptTemplateTests.render(KotlinScriptTemplateTests.java:94)
+ ÉÇç	at org.springframework.web.servlet.view.script.KotlinScriptTemplateTests.renderTemplateWithFrenchLocale(KotlinScriptTemplateTests.java:64)
+ ÉÇA	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ ÉÇS	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ ÉÇ[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ ÉÇ6	at java.lang.reflect.Method.invoke(Method.java:498)
+ ÉÇZ	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+ ÉÇY	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+ ÉÇX	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+ ÉÇW	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+ ÉÇS	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+ ÉÇC	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+ ÉÇW	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+ ÉÇW	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+ ÉÇA	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+ ÉÇE	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+ ÉÇG	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+ ÉÇE	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+ ÉÇF	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+ ÉÇ?	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+ ÉÇv	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+ ÉÇp	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+ ÉÇ{	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+ ÉÇu	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+ ÉÇB	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+ ÉÇ[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ ÉÇ6	at java.lang.reflect.Method.invoke(Method.java:498)
+ ÉÇZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+ ÉÇZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ ÉÇj	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+ ÉÇy	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+ ÉÇ<	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+ ÉÇc	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+ ÉÇB	at sun.reflect.GeneratedMethodAccessor60.invoke(Unknown Source)
+ ÉÇ[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ ÉÇ6	at java.lang.reflect.Method.invoke(Method.java:498)
+ ÉÇZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+ ÉÇZ	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ ÉÇí	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+ ÉÇí	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+ ÉÇY	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+ ÉÇl	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+ ÉÇ[	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+ ÉÇU	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ ÉÇU	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ ÉÇk	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+ ÉÇ+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:36" hostname="DESKTOP-3R4DVF7" time="0.012">
+  <properties/>
+  <testcase name="startCallableProcessingTimeoutAndResumeThroughInterceptor" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startCallableProcessingAfterTimeoutException" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughCallback" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startCallableProcessingTimeoutAndResumeThroughCallback" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startCallableProcessingTimeoutAndComplete" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startDeferredResultProcessingAfterTimeoutException" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.001"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeThroughInterceptor" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndComplete" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <testcase name="startCallableProcessingTimeoutAndCheckThreadInterrupted" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.006"/>
+  <testcase name="startDeferredResultProcessingTimeoutAndResumeWithDefaultResult" classname="org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests" time="0.0"/>
+  <system-out><![CDATA[09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [22] - dispatching request to resume processing
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.677 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [java.lang.Exception] - dispatching request to resume processing
+09:56:36.677 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [23] - dispatching request to resume processing
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [7] - dispatching request to resume processing
+09:56:36.679 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.679 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.679 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [org.springframework.web.context.request.async.AsyncRequestTimeoutException] - dispatching request to resume processing
+09:56:36.680 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.680 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [java.lang.Exception] - dispatching request to resume processing
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [23] - dispatching request to resume processing
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [org.springframework.web.context.request.async.AsyncRequestTimeoutException] - dispatching request to resume processing
+09:56:36.686 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.686 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.686 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [org.springframework.web.context.request.async.AsyncRequestTimeoutException] - dispatching request to resume processing
+09:56:36.687 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.687 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [23] - dispatching request to resume processing
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

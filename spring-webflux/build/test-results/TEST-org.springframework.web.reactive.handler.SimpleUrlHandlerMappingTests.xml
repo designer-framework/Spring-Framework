@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:51" hostname="DESKTOP-3R4DVF7" time="0.321">
+  <properties/>
+  <testcase name="handlerMappingJavaConfig" classname="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" time="0.123"/>
+  <testcase name="handlerMappingXmlConfig" classname="org.springframework.web.reactive.handler.SimpleUrlHandlerMappingTests" time="0.198"/>
+  <system-out><![CDATA[09:57:51.991 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@35602247: startup date [Fri Apr 16 09:57:51 CST 2021]; root of context hierarchy
+09:57:51.993 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:52.088 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/welcome*] onto handler of type [class java.lang.Object]
+09:57:52.088 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:52.088 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/show.html] onto handler of type [class java.lang.Object]
+09:57:52.088 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/bookseats.html] onto handler of type [class java.lang.Object]
+09:57:52.109 [Test worker] WARN  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+09:57:52.118 [Test worker] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2b39a59d: startup date [Fri Apr 16 09:57:52 CST 2021]; root of context hierarchy
+09:57:52.151 [Test worker] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/web/reactive/handler/map.xml]
+09:57:52.289 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/shortpattern/testing] onto handler 'mainController'
+09:57:52.289 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/*/test.jpeg] onto handler 'mainController'
+09:57:52.289 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/pathmatching??.html] onto handler 'mainController'
+09:57:52.289 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/??path??matching.html] onto handler 'mainController'
+09:57:52.289 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/welcome.html] onto handler 'mainController'
+09:57:52.289 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/anotherTest*] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/*/pathmatching.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/confirmation.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/outofpattern*yeah] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/*/testlast*] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/sho*] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/reservation.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/payment.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/*pathmatchingTest.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/*test*.jpeg] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/another/bla.xml] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/path??matching.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/stillAnotherTestYeah] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/show123.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/bookseats.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/testing/longer/*] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/pathmatching.html] onto handler 'mainController'
+09:57:52.290 [Test worker] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2b39a59d: startup date [Fri Apr 16 09:57:52 CST 2021]; root of context hierarchy
+09:57:52.290 [Test worker] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/web/reactive/handler/map.xml]
+09:57:52.306 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/shortpattern/testing] onto handler 'mainController'
+09:57:52.306 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/*/test.jpeg] onto handler 'mainController'
+09:57:52.306 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/pathmatching??.html] onto handler 'mainController'
+09:57:52.306 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/??path??matching.html] onto handler 'mainController'
+09:57:52.306 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/welcome.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/anotherTest*] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/*/pathmatching.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/confirmation.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/outofpattern*yeah] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/*/testlast*] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/sho*] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/reservation.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/payment.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/*pathmatchingTest.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/*test*.jpeg] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/another/bla.xml] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/path??matching.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/stillAnotherTestYeah] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/show123.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/bookseats.html] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/testing/longer/*] onto handler 'mainController'
+09:57:52.307 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/administrator/pathmatching.html] onto handler 'mainController'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

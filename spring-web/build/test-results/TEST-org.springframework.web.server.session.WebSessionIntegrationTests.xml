@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.session.WebSessionIntegrationTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:39" hostname="DESKTOP-3R4DVF7" time="3.248">
+  <properties/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@d0b53b5]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.019"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@d0b53b5]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.019"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@d0b53b5]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.04"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@d0b53b5]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.017"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@d0b53b5]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.016"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6618376a]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.01"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6618376a]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.006"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6618376a]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.005"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6618376a]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.004"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6618376a]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.005"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@294f76bb]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.571"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@294f76bb]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.596"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@294f76bb]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.568"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@294f76bb]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.584"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@294f76bb]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.601"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@2085f504]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.014"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@2085f504]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.016"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@2085f504]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.014"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@2085f504]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.019"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@2085f504]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.014"/>
+  <system-out><![CDATA[09:56:39.146 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63890/"
+09:56:39.146 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.149 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63890/" resulted in 200 (OK)
+09:56:39.149 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63890/?invalidate"
+09:56:39.150 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.155 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63890/?invalidate" resulted in 200 (OK)
+09:56:39.170 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63904/"
+09:56:39.170 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.172 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63904/" resulted in 200 (OK)
+09:56:39.172 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63904/"
+09:56:39.173 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.178 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63904/" resulted in 200 (OK)
+09:56:39.178 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63904/"
+09:56:39.178 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.180 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63904/" resulted in 200 (OK)
+09:56:39.194 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63918/"
+09:56:39.195 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.201 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63918/" resulted in 200 (OK)
+09:56:39.201 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63918/?expire"
+09:56:39.202 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.226 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63918/?expire" resulted in 200 (OK)
+09:56:39.244 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63932/"
+09:56:39.244 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.246 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63932/" resulted in 200 (OK)
+09:56:39.247 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63932/"
+09:56:39.247 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.253 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63932/" resulted in 200 (OK)
+09:56:39.268 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63946/"
+09:56:39.268 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.270 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63946/" resulted in 200 (OK)
+09:56:39.270 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63946/?changeId"
+09:56:39.271 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.276 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63946/?changeId" resulted in 200 (OK)
+09:56:39.287 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63960/"
+09:56:39.287 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.290 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63960/" resulted in 200 (OK)
+09:56:39.290 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63960/?invalidate"
+09:56:39.290 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.295 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63960/?invalidate" resulted in 200 (OK)
+09:56:39.302 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63962/"
+09:56:39.302 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.303 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63962/" resulted in 200 (OK)
+09:56:39.303 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63962/"
+09:56:39.304 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.304 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63962/" resulted in 200 (OK)
+09:56:39.304 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63962/"
+09:56:39.305 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.306 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63962/" resulted in 200 (OK)
+09:56:39.313 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63964/"
+09:56:39.313 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.315 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63964/" resulted in 200 (OK)
+09:56:39.315 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63964/?expire"
+09:56:39.315 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.316 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63964/?expire" resulted in 200 (OK)
+09:56:39.323 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63966/"
+09:56:39.323 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.324 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63966/" resulted in 200 (OK)
+09:56:39.324 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63966/"
+09:56:39.325 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.325 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63966/" resulted in 200 (OK)
+09:56:39.332 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63968/"
+09:56:39.332 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.334 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63968/" resulted in 200 (OK)
+09:56:39.334 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63968/?changeId"
+09:56:39.334 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.335 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63968/?changeId" resulted in 200 (OK)
+09:56:39.356 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63970/"
+09:56:39.356 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.363 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63970/" resulted in 200 (null)
+09:56:39.364 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63970/?invalidate"
+09:56:39.365 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.369 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63970/?invalidate" resulted in 200 (null)
+09:56:39.932 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63979/"
+09:56:39.933 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.938 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63979/" resulted in 200 (null)
+09:56:39.938 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63979/"
+09:56:39.939 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.942 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63979/" resulted in 200 (null)
+09:56:39.942 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63979/"
+09:56:39.942 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:39.943 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63979/" resulted in 200 (null)
+09:56:40.533 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63988/"
+09:56:40.533 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:40.538 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63988/" resulted in 200 (null)
+09:56:40.538 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63988/?expire"
+09:56:40.538 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:40.542 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63988/?expire" resulted in 200 (null)
+09:56:41.103 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63997/"
+09:56:41.103 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:41.110 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63997/" resulted in 200 (null)
+09:56:41.110 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63997/"
+09:56:41.111 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:41.113 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63997/" resulted in 200 (null)
+09:56:41.692 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64006/"
+09:56:41.693 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:41.697 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64006/" resulted in 200 (null)
+09:56:41.697 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64006/?changeId"
+09:56:41.697 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:41.699 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64006/?changeId" resulted in 200 (null)
+09:56:42.294 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64042/"
+09:56:42.294 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.297 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64042/" resulted in 200 (OK)
+09:56:42.297 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64042/?invalidate"
+09:56:42.297 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.298 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64042/?invalidate" resulted in 200 (OK)
+09:56:42.314 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64070/"
+09:56:42.314 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.318 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64070/" resulted in 200 (OK)
+09:56:42.318 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64070/"
+09:56:42.318 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.318 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64070/" resulted in 200 (OK)
+09:56:42.318 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64070/"
+09:56:42.319 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.319 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64070/" resulted in 200 (OK)
+09:56:42.335 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64098/"
+09:56:42.335 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.337 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64098/" resulted in 200 (OK)
+09:56:42.337 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64098/?expire"
+09:56:42.337 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.338 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64098/?expire" resulted in 200 (OK)
+09:56:42.366 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64126/"
+09:56:42.366 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.368 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64126/" resulted in 200 (OK)
+09:56:42.368 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64126/"
+09:56:42.368 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.368 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64126/" resulted in 200 (OK)
+09:56:42.384 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64154/"
+09:56:42.384 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.387 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64154/" resulted in 200 (OK)
+09:56:42.387 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:64154/?changeId"
+09:56:42.387 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:42.388 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:64154/?changeId" resulted in 200 (OK)
+]]></system-out>
+  <system-err><![CDATA[Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-11"]
+Apr 16, 2021 9:56:39 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 16, 2021 9:56:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 16, 2021 9:56:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.45
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-11-63970"]
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-11-63970"]
+Apr 16, 2021 9:56:39 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-11-63970"]
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-11-63970"]
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-12"]
+Apr 16, 2021 9:56:39 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 16, 2021 9:56:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 16, 2021 9:56:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.45
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-12-63979"]
+Apr 16, 2021 9:56:39 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-12-63979"]
+Apr 16, 2021 9:56:40 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 16, 2021 9:56:40 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-12-63979"]
+Apr 16, 2021 9:56:40 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-12-63979"]
+Apr 16, 2021 9:56:40 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-13"]
+Apr 16, 2021 9:56:40 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 16, 2021 9:56:40 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 16, 2021 9:56:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.45
+Apr 16, 2021 9:56:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-13-63988"]
+Apr 16, 2021 9:56:40 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-13-63988"]
+Apr 16, 2021 9:56:41 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-13-63988"]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-13-63988"]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-14"]
+Apr 16, 2021 9:56:41 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 16, 2021 9:56:41 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 16, 2021 9:56:41 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.45
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-14-63997"]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-14-63997"]
+Apr 16, 2021 9:56:41 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-14-63997"]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-14-63997"]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-15"]
+Apr 16, 2021 9:56:41 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 16, 2021 9:56:41 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 16, 2021 9:56:41 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.45
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-15-64006"]
+Apr 16, 2021 9:56:41 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-15-64006"]
+Apr 16, 2021 9:56:42 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Apr 16, 2021 9:56:42 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-15-64006"]
+Apr 16, 2021 9:56:42 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-15-64006"]
+]]></system-err>
+</testsuite>

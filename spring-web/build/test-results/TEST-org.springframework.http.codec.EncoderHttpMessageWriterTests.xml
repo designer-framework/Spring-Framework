@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.EncoderHttpMessageWriterTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:13" hostname="DESKTOP-3R4DVF7" time="0.182">
+  <properties/>
+  <testcase name="useDefaultMediaTypeCharset" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.108"/>
+  <testcase name="useDefaultMediaType" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.002"/>
+  <testcase name="emptyBodyWritten" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.07"/>
+  <testcase name="canWrite" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.0"/>
+  <testcase name="setContentLengthForMonoBody" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.0"/>
+  <testcase name="useNegotiatedMediaTypeCharset" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.0"/>
+  <testcase name="useNegotiatedMediaType" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.001"/>
+  <testcase name="getWritableMediaTypes" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.0"/>
+  <testcase name="useHttpOutputMessageMediaType" classname="org.springframework.http.codec.EncoderHttpMessageWriterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

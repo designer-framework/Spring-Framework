@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.hierarchies.web.DispatcherWacRootWacEarTests" tests="3" skipped="2" failures="0" errors="0" timestamp="2021-04-16T01:54:47" hostname="DESKTOP-3R4DVF7" time="0.096">
+  <properties/>
+  <testcase name="verifyRootWacConfig" classname="org.springframework.test.context.hierarchies.web.DispatcherWacRootWacEarTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyEarConfig" classname="org.springframework.test.context.hierarchies.web.DispatcherWacRootWacEarTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyDispatcherWacConfig" classname="org.springframework.test.context.hierarchies.web.DispatcherWacRootWacEarTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.RedirectViewTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:05" hostname="DESKTOP-3R4DVF7" time="0.002">
+  <properties/>
+  <testcase name="expandUriTemplateVariablesFromExchangeAttribute" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="expandUriTemplateVariablesFromModel" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="propagateQueryParams" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="contextRelativeQueryParam" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="contextRelative" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="customStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="defaultStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="noUrlSet" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="remoteHost" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

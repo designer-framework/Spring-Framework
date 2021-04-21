@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:54:02" hostname="DESKTOP-3R4DVF7" time="0.127">
+  <properties/>
+  <testcase name="testEntityManagerProxyRejectsProgrammaticTxManagement" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.106"/>
+  <testcase name="testContainerEntityManagerProxyAllowsJoinTransactionInTransaction" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.001"/>
+  <testcase name="testExceptionTranslationWithDialectFoundOnIntroducedEntityManagerInfo" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.003"/>
+  <testcase name="testExceptionTranslationWithDialectFoundOnEntityManagerFactoryBean" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.0"/>
+  <testcase name="testCommitOccurs" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.004"/>
+  <testcase name="testContainerEntityManagerProxyRejectsJoinTransactionWithoutTransaction" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.001"/>
+  <testcase name="testEntityManagerProxyIsProxy" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.001"/>
+  <testcase name="testRollbackOccurs" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.004"/>
+  <testcase name="testReuseInNewTransaction" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.005"/>
+  <testcase name="testInstantiateAndSave" classname="org.springframework.orm.jpa.ContainerManagedEntityManagerIntegrationTests" time="0.002"/>
+  <system-out><![CDATA[[EL Info]: 2021-04-16 09:54:02.381--ServerSession(1636949248)--EclipseLink, version: Eclipse Persistence Services - 2.7.3.v20180807-4be1041
+[EL Warning]: metadata: 2021-04-16 09:54:02.381--ServerSession(1636949248)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2021-04-16 09:54:02.382--ServerSession(1636949248)--/file:/D:/TeamWork/spring-resources/spring-framework/Spring-Framework/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2021-04-16 09:54:02.383--ServerSession(1636949248)--Connection(334473777)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2021-04-16 09:54:02.406--ClientSession(1646104867)--Connection(1676963846)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.406--ClientSession(1646104867)--Connection(1676963846)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2021-04-16 09:54:02.407--ClientSession(1646104867)--Connection(1676963846)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2021-04-16 09:54:02.407--ClientSession(1646104867)--Connection(1676963846)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [51, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.408--ClientSession(1646104867)--Connection(1676963846)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.409--ServerSession(1636949248)--Connection(1968248295)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.411--ServerSession(1636949248)--Connection(1992150592)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-04-16 09:54:02.412--ClientSession(220283209)--Connection(1215706774)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.413--ClientSession(220283209)--Connection(1215706774)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [52, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.414--ClientSession(220283209)--Connection(1215706774)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.414--ServerSession(1636949248)--Connection(766481306)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.416--ClientSession(1781362361)--Connection(842957810)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.416--ClientSession(1781362361)--Connection(842957810)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [53, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.417--ClientSession(1781362361)--Connection(842957810)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.417--ClientSession(1177064344)--Connection(1430364170)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.418--ClientSession(1177064344)--Connection(1430364170)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [54, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.418--ClientSession(1177064344)--Connection(1430364170)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.419--ServerSession(1636949248)--Connection(1308455001)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.42--ClientSession(2115883277)--Connection(1113271013)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.42--ClientSession(2115883277)--Connection(1113271013)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [55, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.421--ClientSession(2115883277)--Connection(1113271013)--SELECT COUNT(0) FROM person
+[EL Info]: connection: 2021-04-16 09:54:02.422--ServerSession(1636949248)--/file:/D:/TeamWork/spring-resources/spring-framework/Spring-Framework/spring-orm/build/classes/java/test/_Person logout successful
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:00:44" hostname="DESKTOP-3R4DVF7" time="5.445">
+  <properties/>
+  <testcase name="redirect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@43c9d8f5]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.26"/>
+  <testcase name="html[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@43c9d8f5]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.354"/>
+  <testcase name="etagCheckWithNotModifiedResponse[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@43c9d8f5]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.173"/>
+  <testcase name="redirect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@5425f852]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.204"/>
+  <testcase name="html[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@5425f852]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.172"/>
+  <testcase name="etagCheckWithNotModifiedResponse[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@5425f852]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.177"/>
+  <testcase name="redirect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2665dd4d]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.755"/>
+  <testcase name="html[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2665dd4d]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="1.045"/>
+  <testcase name="etagCheckWithNotModifiedResponse[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2665dd4d]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="1.045"/>
+  <testcase name="redirect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6e8f1b51]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.532"/>
+  <testcase name="html[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6e8f1b51]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.183"/>
+  <testcase name="etagCheckWithNotModifiedResponse[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6e8f1b51]]" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests" time="0.186"/>
+  <system-out><![CDATA[10:00:44.541 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6188aeb: startup date [Fri Apr 16 10:00:44 CST 2021]; root of context hierarchy
+10:00:44.559 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:44.580 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:44.580 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:44.626 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6188aeb: startup date [Fri Apr 16 10:00:44 CST 2021]; root of context hierarchy
+10:00:44.712 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@6188aeb: startup date [Fri Apr 16 10:00:44 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:44.712 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:44.716 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:44.716 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@39124121{/,null,AVAILABLE}
+10:00:44.716 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:44.716 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:44.719 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@6dc85ec4{HTTP/1.1,[http/1.1]}{0.0.0.0:54063}
+10:00:44.719 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @237923ms
+10:00:44.719 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54063(0 millis).
+10:00:44.760 [qtp1214191951-4871] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:44.761 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:44.761 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@39124121{/,null,UNAVAILABLE}
+10:00:44.763 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@6dc85ec4{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:44.764 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:44.830 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6633e3b9: startup date [Fri Apr 16 10:00:44 CST 2021]; root of context hierarchy
+10:00:44.846 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:44.848 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:44.848 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:44.895 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6633e3b9: startup date [Fri Apr 16 10:00:44 CST 2021]; root of context hierarchy
+10:00:44.962 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@6633e3b9: startup date [Fri Apr 16 10:00:44 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:44.962 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:44.963 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:44.963 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3512b495{/,null,AVAILABLE}
+10:00:44.964 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:44.964 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:44.967 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@51e07c59{HTTP/1.1,[http/1.1]}{0.0.0.0:54077}
+10:00:44.967 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @238170ms
+10:00:44.967 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54077(0 millis).
+10:00:45.146 [qtp464395682-4881] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:45.146 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:45.146 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3512b495{/,null,UNAVAILABLE}
+10:00:45.149 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@51e07c59{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:45.150 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:45.215 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1cc9672b: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.231 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:45.233 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:45.233 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:45.280 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@1cc9672b: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.345 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@1cc9672b: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:45.345 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:45.347 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:45.347 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7ed956a4{/,null,AVAILABLE}
+10:00:45.347 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:45.347 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:45.349 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@19d0c929{HTTP/1.1,[http/1.1]}{0.0.0.0:54091}
+10:00:45.349 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @238553ms
+10:00:45.349 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54091(0 millis).
+10:00:45.351 [qtp1814750735-4891] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:45.351 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:45.352 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7ed956a4{/,null,UNAVAILABLE}
+10:00:45.354 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@19d0c929{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:45.354 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:45.421 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@23ca8ec8: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.437 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:45.438 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:45.438 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:45.492 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@23ca8ec8: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.557 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@23ca8ec8: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:45.557 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:45.558 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:45.558 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54105(0 millis).
+10:00:45.592 [reactor-http-nio-10] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:00:45.592 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:45.592 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:45.657 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c0beb8a: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.673 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:45.675 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:45.675 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:45.722 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6c0beb8a: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.784 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@6c0beb8a: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:45.784 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:45.785 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:45.786 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54108(0 millis).
+10:00:45.794 [reactor-http-nio-12] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:00:45.794 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:45.795 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:45.867 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7068a739: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:45.883 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:45.885 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:45.885 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:45.932 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@7068a739: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy
+10:00:46.008 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@7068a739: startup date [Fri Apr 16 10:00:45 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:46.008 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:46.010 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:46.010 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54110(0 millis).
+10:00:46.012 [reactor-http-nio-2] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:00:46.012 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:46.012 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:46.081 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@29cdb7c0: startup date [Fri Apr 16 10:00:46 CST 2021]; root of context hierarchy
+10:00:46.100 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:46.100 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:46.100 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:46.154 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@29cdb7c0: startup date [Fri Apr 16 10:00:46 CST 2021]; root of context hierarchy
+10:00:46.219 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@29cdb7c0: startup date [Fri Apr 16 10:00:46 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:46.219 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:46.221 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:46.231 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54112(0 millis).
+10:00:46.264 [http-nio-auto-116-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:46.264 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:46.799 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:46.863 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37ed3eab: startup date [Fri Apr 16 10:00:46 CST 2021]; root of context hierarchy
+10:00:46.879 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:47.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:47.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:47.183 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@37ed3eab: startup date [Fri Apr 16 10:00:46 CST 2021]; root of context hierarchy
+10:00:47.321 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@37ed3eab: startup date [Fri Apr 16 10:00:46 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:47.321 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:47.327 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:47.339 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54123(0 millis).
+10:00:47.347 [http-nio-auto-117-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:47.347 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:47.876 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:47.943 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@651dd996: startup date [Fri Apr 16 10:00:47 CST 2021]; root of context hierarchy
+10:00:47.963 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:48.119 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:48.119 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:48.265 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@651dd996: startup date [Fri Apr 16 10:00:47 CST 2021]; root of context hierarchy
+10:00:48.402 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@651dd996: startup date [Fri Apr 16 10:00:47 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:48.402 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:48.408 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:48.418 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54132(0 millis).
+10:00:48.420 [http-nio-auto-118-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:48.420 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:48.952 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:49.016 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@636580c0: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy
+10:00:49.033 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:49.186 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:49.186 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:49.329 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@636580c0: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy
+10:00:49.468 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@636580c0: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:49.468 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:49.474 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:49.481 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54167(0 millis).
+10:00:49.514 [XNIO-115 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:00:49.514 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:49.516 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:00:49.580 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e66c722: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy
+10:00:49.597 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:49.598 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:49.598 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:49.645 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@e66c722: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy
+10:00:49.711 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@e66c722: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:49.711 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:49.713 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:49.720 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54195(0 millis).
+10:00:49.729 [XNIO-116 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:00:49.729 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:49.731 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:00:49.797 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5334de2e: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy
+10:00:49.813 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:49.815 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/html],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.getHtmlPage(java.util.Optional<java.lang.String>,org.springframework.ui.Model,org.springframework.web.server.ServerWebExchange)
+10:00:49.815 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/redirect],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.RequestMappingViewResolutionIntegrationTests$TestController.redirect()
+10:00:49.864 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@5334de2e: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy
+10:00:49.936 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.annotation.AnnotationConfigApplicationContext@5334de2e: startup date [Fri Apr 16 10:00:49 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:00:49.936 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:00:49.938 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:49.945 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54223(0 millis).
+10:00:49.946 [XNIO-117 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:00:49.946 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:49.948 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 10:00:46 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-116"]
+四月 16, 2021 10:00:46 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:46 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:46 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:46 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-116-54112"]
+四月 16, 2021 10:00:46 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-116-54112"]
+四月 16, 2021 10:00:46 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:46 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-116-54112"]
+四月 16, 2021 10:00:46 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-116-54112"]
+四月 16, 2021 10:00:47 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-117"]
+四月 16, 2021 10:00:47 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:47 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:47 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:47 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-117-54123"]
+四月 16, 2021 10:00:47 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-117-54123"]
+四月 16, 2021 10:00:47 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:47 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-117-54123"]
+四月 16, 2021 10:00:47 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-117-54123"]
+四月 16, 2021 10:00:48 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-118"]
+四月 16, 2021 10:00:48 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:48 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:48 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:48 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-118-54132"]
+四月 16, 2021 10:00:48 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-118-54132"]
+四月 16, 2021 10:00:48 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:48 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-118-54132"]
+四月 16, 2021 10:00:48 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-118-54132"]
+]]></system-err>
+</testsuite>

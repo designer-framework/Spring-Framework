@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:49" hostname="DESKTOP-3R4DVF7" time="2.305">
+  <properties/>
+  <testcase name="scheduleOneTimeFailingTaskWithErrorHandler" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.0"/>
+  <testcase name="submitFailingRunnableWithErrorHandler" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.0"/>
+  <testcase name="scheduleMultipleTriggerTasks" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.041"/>
+  <testcase name="executeFailingRunnableWithErrorHandler" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.0"/>
+  <testcase name="submitFailingCallableWithErrorHandler" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.002"/>
+  <testcase name="scheduleOneTimeTask" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.001"/>
+  <testcase name="scheduleOneTimeFailingTaskWithoutErrorHandler" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.0"/>
+  <testcase name="scheduleTriggerTask" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.001"/>
+  <testcase name="submitCallableWithGetAfterShutdown" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.0"/>
+  <testcase name="submitListenableCallableWithGetAfterShutdown" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.001"/>
+  <testcase name="submitListenableCallable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.1"/>
+  <testcase name="executeRunnable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.011"/>
+  <testcase name="submitListenableRunnable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="1.0"/>
+  <testcase name="submitFailingCallable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.012"/>
+  <testcase name="submitCallable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.01"/>
+  <testcase name="submitFailingListenableCallable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.101"/>
+  <testcase name="submitRunnableWithGetAfterShutdown" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.0"/>
+  <testcase name="submitListenableRunnableWithGetAfterShutdown" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.001"/>
+  <testcase name="submitFailingRunnable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.012"/>
+  <testcase name="submitRunnable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.01"/>
+  <testcase name="executeFailingRunnable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="0.001"/>
+  <testcase name="submitFailingListenableRunnable" classname="org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests" time="1.0"/>
+  <system-out><![CDATA[09:48:49.094 [test-1] ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.RuntimeException: intentional test failure
+	at org.springframework.scheduling.concurrent.ThreadPoolTaskSchedulerTests$TestTask.run(ThreadPoolTaskSchedulerTests.java:183) ~[test/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_271]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_271]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+09:48:50.343 [test-1] ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+java.lang.RuntimeException: intentional test failure
+	at org.springframework.scheduling.concurrent.AbstractSchedulingTaskExecutorTests$TestTask.run(AbstractSchedulingTaskExecutorTests.java:248) ~[test/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_271]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_271]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

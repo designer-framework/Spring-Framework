@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2JsonEncoderTests" tests="60" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:15" hostname="DESKTOP-3R4DVF7" time="0.165">
+  <properties/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.051"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
+  <testcase name="encodeWithType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.04"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncodeWithCustomMimeType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.004"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodableMimeTypesIsImmutable[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeWithType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncodeWithCustomMimeType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodableMimeTypesIsImmutable[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.005"/>
+  <testcase name="encodeWithType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncodeWithCustomMimeType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodableMimeTypesIsImmutable[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeWithType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncodeWithCustomMimeType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodableMimeTypesIsImmutable[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.002"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeAsStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeWithType[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncodeWithCustomMimeType[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="classLevelJsonView[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodableMimeTypesIsImmutable[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeAsStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodeWithType[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="canEncodeWithCustomMimeType[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="classLevelJsonView[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="encodableMimeTypesIsImmutable[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <testcase name="encodeAsStreamWithCustomStreamingType[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonEncoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

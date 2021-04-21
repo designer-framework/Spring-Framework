@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:11" hostname="DESKTOP-3R4DVF7" time="0.019">
+  <properties/>
+  <testcase name="buildMergedConfigWithLocalAndInheritedAnnotationsAndLocations" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.0"/>
+  <testcase name="buildMergedConfigWithMetaAnnotationAndLocations" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <testcase name="buildMergedConfigWithBareAnnotations" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <testcase name="buildMergedConfigWithLocalAnnotationAndClasses" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.0"/>
+  <testcase name="buildMergedConfigWithLocalAnnotationAndOverriddenContextLoaderAndClasses" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.002"/>
+  <testcase name="buildImplicitMergedConfigWithoutAnnotation" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.004"/>
+  <testcase name="buildMergedConfigWithContextConfigurationWithoutLocationsClassesOrInitializers" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.004"/>
+  <testcase name="buildMergedConfigWithAnnotationsAndOverriddenClasses" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <testcase name="buildMergedConfigWithAtWebAppConfigurationWithAnnotationAndClassesOnSuperclass" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <testcase name="buildMergedConfigWithLocalAnnotationAndOverriddenContextLoaderAndLocations" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <testcase name="buildMergedConfigWithAnnotationsAndOverriddenLocations" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.0"/>
+  <testcase name="buildMergedConfigWithLocalAnnotationAndLocations" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <testcase name="buildMergedConfigWithMetaAnnotationAndClasses" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.002"/>
+  <testcase name="buildMergedConfigWithLocalAndInheritedAnnotationsAndClasses" classname="org.springframework.test.context.support.BootstrapTestUtilsMergedConfigTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

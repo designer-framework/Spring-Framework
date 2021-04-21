@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:19" hostname="DESKTOP-3R4DVF7" time="0.073">
+  <properties/>
+  <testcase name="subscribeWithHeaders" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.041"/>
+  <testcase name="afterConnectFailure" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="handleMessageFrame" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.002"/>
+  <testcase name="afterConnectionClosed" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.002"/>
+  <testcase name="unsubscribeWithCustomHeader" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="afterConnectedWithSpecificVersion" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.003"/>
+  <testcase name="handleErrorFrame" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="handleConnectedFrame" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.004"/>
+  <testcase name="sendWithReceipt" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.002"/>
+  <testcase name="handleErrorFrameWithConversionException" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.002"/>
+  <testcase name="receiptNotReceived" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.003"/>
+  <testcase name="heartbeatNotSupportedByServer" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="heartbeatValues" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="handleFailure" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="receiptReceivedBeforeTaskAdded" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="afterConnected" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="sendWithExecutionException" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="ack" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="nack" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="send" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="subscribe" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="disconnect" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="unsubscribe" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="handleErrorFrameWithEmptyPayload" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="handleMessageFrameWithConversionException" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <testcase name="sendWithConversionException" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.0"/>
+  <testcase name="heartbeatTasks" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.002"/>
+  <testcase name="receiptReceived" classname="org.springframework.messaging.simp.stomp.DefaultStompSessionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:32" hostname="DESKTOP-3R4DVF7" time="0.212">
+  <properties/>
+  <testcase name="getResourceNoCache" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="getResourceFromAlternatePath" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="missingResourcePath" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.001"/>
+  <testcase name="ignoreInvalidEscapeSequence" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="partialContentMultipleByteRanges" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.005"/>
+  <testcase name="getResourceWithMediaTypeResolvedThroughServletContext" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.01"/>
+  <testcase name="testInvalidPath" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.005"/>
+  <testcase name="partialContentByteRange" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.006"/>
+  <testcase name="getResourceFromSubDirectoryOfAlternatePath" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.015"/>
+  <testcase name="getResourceHttpOptions" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.001"/>
+  <testcase name="directory" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.004"/>
+  <testcase name="modified" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.004"/>
+  <testcase name="partialContentByteRangeNoEnd" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.005"/>
+  <testcase name="resourceNotFound" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.04"/>
+  <testcase name="unsupportedHttpMethod" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.0"/>
+  <testcase name="notModified" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="processPath" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.0"/>
+  <testcase name="partialContentSuffixRange" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="doOverwriteExistingCacheControlHeaders" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="getResourceWithHtmlMediaType" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="partialContentInvalidRangeHeader" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="directoryInJarFile" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.013"/>
+  <testcase name="initAllowedLocationsWithExplicitConfiguration" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.0"/>
+  <testcase name="resolvePathWithTraversal" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.048"/>
+  <testcase name="getMediaTypeWithFavorPathExtensionOff" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="getResourceHttp10BehaviorNoCache" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="partialContentSuffixRangeLargeSuffix" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="noPathWithinHandlerMappingAttribute" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.0"/>
+  <testcase name="partialContentByteRangeLargeEnd" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="getResourceFromSubDirectory" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="getVersionedResource" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.008"/>
+  <testcase name="initAllowedLocations" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.0"/>
+  <testcase name="getResource" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.003"/>
+  <testcase name="getResourceWithRegisteredMediaType" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <testcase name="getResourceHttp10BehaviorCache" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.004"/>
+  <testcase name="getResourceHttpHeader" classname="org.springframework.web.servlet.resource.ResourceHttpRequestHandlerTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

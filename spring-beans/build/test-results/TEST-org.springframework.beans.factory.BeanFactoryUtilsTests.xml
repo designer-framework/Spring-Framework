@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.BeanFactoryUtilsTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:47:40" hostname="DESKTOP-3R4DVF7" time="0.456">
+  <properties/>
+  <testcase name="testHierarchicalResolutionWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.063"/>
+  <testcase name="testHierarchicalCountBeansWithNonHierarchicalFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.034"/>
+  <testcase name="testGetBeanNamesForTypeWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.029"/>
+  <testcase name="testGetBeanNamesForAnnotationWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.029"/>
+  <testcase name="testCDependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.026"/>
+  <testcase name="testBDependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.026"/>
+  <testcase name="testADependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.022"/>
+  <testcase name="isSingletonAndIsPrototypeWithStaticFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.023"/>
+  <testcase name="testHierarchicalNamesForAnnotationWithMatchOnlyInRoot" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.029"/>
+  <testcase name="testHierarchicalCountBeansWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.024"/>
+  <testcase name="testFindsBeansOfTypeWithDefaultFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.026"/>
+  <testcase name="testHierarchicalNamesWithNoMatch" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.02"/>
+  <testcase name="testIntDependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.022"/>
+  <testcase name="testNoBeansOfType" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.017"/>
+  <testcase name="testFindsBeansOfTypeWithStaticFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.018"/>
+  <testcase name="testHierarchicalNamesWithMatchOnlyInRoot" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.022"/>
+  <testcase name="testHierarchicalNamesForAnnotationWithNoMatch" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

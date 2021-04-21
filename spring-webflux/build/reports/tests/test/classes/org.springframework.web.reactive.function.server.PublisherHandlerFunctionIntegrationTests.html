@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.function.server.PublisherHandlerFunctionIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.function.server.PublisherHandlerFunctionIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.server.html">org.springframework.web.reactive.function.server</a> &gt; PublisherHandlerFunctionIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.182s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@8ee8e62]]</td>
+<td>0.051s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@78d0daf6]]</td>
+<td>0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ac4222b]]</td>
+<td>0.583s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6b770c8d]]</td>
+<td>0.048s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@8ee8e62]]</td>
+<td>0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@78d0daf6]]</td>
+<td>0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ac4222b]]</td>
+<td>0.589s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6b770c8d]]</td>
+<td>0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">postMono[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@8ee8e62]]</td>
+<td>0.059s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">postMono[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@78d0daf6]]</td>
+<td>0.039s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">postMono[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ac4222b]]</td>
+<td>0.591s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">postMono[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6b770c8d]]</td>
+<td>0.053s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:57:41.797 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:41.797 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@132f391e{/,null,AVAILABLE}
+09:57:41.797 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:41.797 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:41.801 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@a5d8422{HTTP/1.1,[http/1.1]}{0.0.0.0:65132}
+09:57:41.801 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @55004ms
+09:57:41.801 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 65132(0 millis).
+09:57:41.805 [qtp1152913779-780] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:41.807 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:41.807 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@132f391e{/,null,UNAVAILABLE}
+09:57:41.810 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@a5d8422{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:41.810 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:41.879 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:41.879 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1ff57a61{/,null,AVAILABLE}
+09:57:41.879 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:41.879 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:41.883 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@21850d90{HTTP/1.1,[http/1.1]}{0.0.0.0:65146}
+09:57:41.883 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @55086ms
+09:57:41.883 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 65146(0 millis).
+09:57:41.886 [qtp550811864-790] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:41.886 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:41.886 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1ff57a61{/,null,UNAVAILABLE}
+09:57:41.889 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@21850d90{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:41.889 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:41.957 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:41.957 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1dc7f14b{/,null,AVAILABLE}
+09:57:41.957 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:41.957 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:41.961 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1902578f{HTTP/1.1,[http/1.1]}{0.0.0.0:65160}
+09:57:41.961 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @55165ms
+09:57:41.961 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 65160(0 millis).
+09:57:41.977 [qtp1457187099-795] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:41.977 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:41.977 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1dc7f14b{/,null,UNAVAILABLE}
+09:57:41.980 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1902578f{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:41.980 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:42.046 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:42.047 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 65174(0 millis).
+09:57:42.050 [reactor-http-nio-2] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:42.050 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:42.050 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:42.117 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:42.117 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 65176(0 millis).
+09:57:42.120 [reactor-http-nio-4] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:42.120 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:42.120 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:42.190 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:42.190 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 65178(0 millis).
+09:57:42.193 [reactor-http-nio-6] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:42.194 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:42.194 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:42.262 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:42.276 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 65180(0 millis).
+09:57:42.279 [http-nio-auto-16-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:42.279 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:42.809 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:42.882 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:42.894 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 65189(0 millis).
+09:57:42.897 [http-nio-auto-17-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:42.898 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:43.431 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:43.501 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:43.513 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 65198(0 millis).
+09:57:43.517 [http-nio-auto-18-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:43.518 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:44.056 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:44.125 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:44.133 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 65234(0 millis).
+09:57:44.136 [XNIO-16 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:44.136 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:44.138 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:44.205 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:44.213 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 65263(0 millis).
+09:57:44.215 [XNIO-17 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:44.215 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:44.217 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:44.284 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:44.293 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 65291(0 millis).
+09:57:44.300 [XNIO-18 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:44.300 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:44.302 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-16&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:42 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:42 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-16-65180&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-16-65180&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-16-65180&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-16-65180&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-17&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:42 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:42 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-17-65189&quot;]
+四月 16, 2021 9:57:42 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-17-65189&quot;]
+四月 16, 2021 9:57:43 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:43 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-17-65189&quot;]
+四月 16, 2021 9:57:43 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-17-65189&quot;]
+四月 16, 2021 9:57:43 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-18&quot;]
+四月 16, 2021 9:57:43 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:43 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:43 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:43 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-18-65198&quot;]
+四月 16, 2021 9:57:43 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-18-65198&quot;]
+四月 16, 2021 9:57:44 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:44 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-18-65198&quot;]
+四月 16, 2021 9:57:44 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-18-65198&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 10:01:41</p>
+</div>
+</div>
+</body>
+</html>

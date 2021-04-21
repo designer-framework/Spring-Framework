@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.ContextLoaderInitializerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:36" hostname="DESKTOP-3R4DVF7" time="0.042">
+  <properties/>
+  <testcase name="register" classname="org.springframework.web.context.ContextLoaderInitializerTests" time="0.042"/>
+  <system-out><![CDATA[09:56:36.544 [Test worker] INFO  org.springframework.web.context.ContextLoaderInitializerTests$MyMockServletContext - Initializing Spring root WebApplicationContext
+09:56:36.544 [Test worker] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+09:56:36.546 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:36.546 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:36.550 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:36.550 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:36.550 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:36.557 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:36.557 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:36 CST 2021]; root of context hierarchy
+09:56:36.558 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@5ea13e5: defining beans [myBean]; root of factory hierarchy
+09:56:36.569 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:36.569 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@195c101c]
+09:56:36.573 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@389c461a]
+09:56:36.573 [Test worker] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+09:56:36.573 [Test worker] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 29 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

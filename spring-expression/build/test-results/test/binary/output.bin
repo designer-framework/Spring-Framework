@@ -1,0 +1,942 @@
+6=&===> Expression 'true++' - AST start
+6=OpInc  value:true++
+6=  BooleanLiteral  value:true
+6=$===> Expression 'true++' - AST end
+6='===> Expression '--false' - AST start
+6=OpDec  value:false--
+6=  BooleanLiteral  value:false
+6=%===> Expression '--false' - AST end
+6=*===> Expression 'true=false' - AST start
+6='Assign  value:true=false  #children:2
+6=  BooleanLiteral  value:true
+6=  BooleanLiteral  value:false
+6=(===> Expression 'true=false' - AST end
+6=$===> Expression '12++' - AST start
+6=OpInc  value:12++
+6=  IntLiteral  value:12
+6="===> Expression '12++' - AST end
+6=&===> Expression '--1222' - AST start
+6=OpDec  value:1222--
+6=  IntLiteral  value:1222
+6=$===> Expression '--1222' - AST end
+6=%===> Expression '12=16' - AST start
+6="Assign  value:12=16  #children:2
+6=  IntLiteral  value:12
+6=  IntLiteral  value:16
+6=#===> Expression '12=16' - AST end
+6=&===> Expression '1.0d++' - AST start
+6=OpInc  value:1.0++
+6=  RealLiteral  value:1.0
+6=$===> Expression '1.0d++' - AST end
+6=&===> Expression '--3.4d' - AST start
+6=OpDec  value:3.4--
+6=  RealLiteral  value:3.4
+6=$===> Expression '--3.4d' - AST end
+6=)===> Expression '1.0d=3.2d' - AST start
+6=$Assign  value:1.0=3.2  #children:2
+6=  RealLiteral  value:1.0
+6=  RealLiteral  value:3.2
+6='===> Expression '1.0d=3.2d' - AST end
+6=&===> Expression 'null++' - AST start
+6=OpInc  value:null++
+6=  NullLiteral  value:null
+6=$===> Expression 'null++' - AST end
+6=&===> Expression '--null' - AST start
+6=OpDec  value:null--
+6=  NullLiteral  value:null
+6=$===> Expression '--null' - AST end
+6=)===> Expression 'null=null' - AST start
+6=&Assign  value:null=null  #children:2
+6=  NullLiteral  value:null
+6=  NullLiteral  value:null
+6='===> Expression 'null=null' - AST end
+6=(===> Expression 'null=123' - AST start
+6=%Assign  value:null=123  #children:2
+6=  NullLiteral  value:null
+6=  IntLiteral  value:123
+6=&===> Expression 'null=123' - AST end
+6=1===> Expression '(true && false)++' - AST start
+6=!OpInc  value:(true and false)++
+6=.  OpAnd  value:(true and false)  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=/===> Expression '(true && false)++' - AST end
+6=2===> Expression '--(false AND true)' - AST start
+6=!OpDec  value:(false and true)--
+6=.  OpAnd  value:(false and true)  #children:2
+6=!    BooleanLiteral  value:false
+6=     BooleanLiteral  value:true
+6=0===> Expression '--(false AND true)' - AST end
+6=?===> Expression '(true && false)=(false && true)' - AST start
+6=>Assign  value:(true and false)=(false and true)  #children:2
+6=.  OpAnd  value:(true and false)  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=.  OpAnd  value:(false and true)  #children:2
+6=!    BooleanLiteral  value:false
+6=     BooleanLiteral  value:true
+6=====> Expression '(true && false)=(false && true)' - AST end
+6='===> Expression '(3/4)++' - AST start
+6=OpInc  value:(3 / 4)++
+6=(  OpDivide  value:(3 / 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3/4)++' - AST end
+6='===> Expression '--(2/5)' - AST start
+6=OpDec  value:(2 / 5)--
+6=(  OpDivide  value:(2 / 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2/5)' - AST end
+6=+===> Expression '(1/2)=(3/4)' - AST start
+6=,Assign  value:(1 / 2)=(3 / 4)  #children:2
+6=(  OpDivide  value:(1 / 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=(  OpDivide  value:(3 / 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1/2)=(3/4)' - AST end
+6=(===> Expression '(3==4)++' - AST start
+6=OpInc  value:(3 == 4)++
+6=%  OpEQ  value:(3 == 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=&===> Expression '(3==4)++' - AST end
+6=(===> Expression '--(2==5)' - AST start
+6=OpDec  value:(2 == 5)--
+6=%  OpEQ  value:(2 == 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=&===> Expression '--(2==5)' - AST end
+6=-===> Expression '(1==2)=(3==4)' - AST start
+6=.Assign  value:(1 == 2)=(3 == 4)  #children:2
+6=%  OpEQ  value:(1 == 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=%  OpEQ  value:(3 == 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=+===> Expression '(1==2)=(3==4)' - AST end
+6=(===> Expression '(3>=4)++' - AST start
+6=OpInc  value:(3 >= 4)++
+6=%  OpGE  value:(3 >= 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=&===> Expression '(3>=4)++' - AST end
+6=(===> Expression '--(2>=5)' - AST start
+6=OpDec  value:(2 >= 5)--
+6=%  OpGE  value:(2 >= 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=&===> Expression '--(2>=5)' - AST end
+6=-===> Expression '(1>=2)=(3>=4)' - AST start
+6=.Assign  value:(1 >= 2)=(3 >= 4)  #children:2
+6=%  OpGE  value:(1 >= 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=%  OpGE  value:(3 >= 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=+===> Expression '(1>=2)=(3>=4)' - AST end
+6='===> Expression '(3>4)++' - AST start
+6=OpInc  value:(3 > 4)++
+6=$  OpGT  value:(3 > 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3>4)++' - AST end
+6='===> Expression '--(2>5)' - AST start
+6=OpDec  value:(2 > 5)--
+6=$  OpGT  value:(2 > 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2>5)' - AST end
+6=+===> Expression '(1>2)=(3>4)' - AST start
+6=,Assign  value:(1 > 2)=(3 > 4)  #children:2
+6=$  OpGT  value:(1 > 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=$  OpGT  value:(3 > 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1>2)=(3>4)' - AST end
+6=(===> Expression '(3<=4)++' - AST start
+6=OpInc  value:(3 <= 4)++
+6=%  OpLE  value:(3 <= 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=&===> Expression '(3<=4)++' - AST end
+6=(===> Expression '--(2<=5)' - AST start
+6=OpDec  value:(2 <= 5)--
+6=%  OpLE  value:(2 <= 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=&===> Expression '--(2<=5)' - AST end
+6=-===> Expression '(1<=2)=(3<=4)' - AST start
+6=.Assign  value:(1 <= 2)=(3 <= 4)  #children:2
+6=%  OpLE  value:(1 <= 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=%  OpLE  value:(3 <= 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=+===> Expression '(1<=2)=(3<=4)' - AST end
+6='===> Expression '(3<4)++' - AST start
+6=OpInc  value:(3 < 4)++
+6=$  OpLT  value:(3 < 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3<4)++' - AST end
+6='===> Expression '--(2<5)' - AST start
+6=OpDec  value:(2 < 5)--
+6=$  OpLT  value:(2 < 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2<5)' - AST end
+6=+===> Expression '(1<2)=(3<4)' - AST start
+6=,Assign  value:(1 < 2)=(3 < 4)  #children:2
+6=$  OpLT  value:(1 < 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=$  OpLT  value:(3 < 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1<2)=(3<4)' - AST end
+6='===> Expression '(3-4)++' - AST start
+6=OpInc  value:(3 - 4)++
+6='  OpMinus  value:(3 - 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3-4)++' - AST end
+6='===> Expression '--(2-5)' - AST start
+6=OpDec  value:(2 - 5)--
+6='  OpMinus  value:(2 - 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2-5)' - AST end
+6=+===> Expression '(1-2)=(3-4)' - AST start
+6=,Assign  value:(1 - 2)=(3 - 4)  #children:2
+6='  OpMinus  value:(1 - 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6='  OpMinus  value:(3 - 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1-2)=(3-4)' - AST end
+6='===> Expression '(3%4)++' - AST start
+6=OpInc  value:(3 % 4)++
+6=)  OpModulus  value:(3 % 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3%4)++' - AST end
+6='===> Expression '--(2%5)' - AST start
+6=OpDec  value:(2 % 5)--
+6=)  OpModulus  value:(2 % 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2%5)' - AST end
+6=+===> Expression '(1%2)=(3%4)' - AST start
+6=,Assign  value:(1 % 2)=(3 % 4)  #children:2
+6=)  OpModulus  value:(1 % 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=)  OpModulus  value:(3 % 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1%2)=(3%4)' - AST end
+6='===> Expression '(3*4)++' - AST start
+6=OpInc  value:(3 * 4)++
+6=*  OpMultiply  value:(3 * 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3*4)++' - AST end
+6='===> Expression '--(2*5)' - AST start
+6=OpDec  value:(2 * 5)--
+6=*  OpMultiply  value:(2 * 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2*5)' - AST end
+6=+===> Expression '(1*2)=(3*4)' - AST start
+6=,Assign  value:(1 * 2)=(3 * 4)  #children:2
+6=*  OpMultiply  value:(1 * 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=*  OpMultiply  value:(3 * 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1*2)=(3*4)' - AST end
+6=(===> Expression '(3!=4)++' - AST start
+6=OpInc  value:(3 != 4)++
+6=%  OpNE  value:(3 != 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=&===> Expression '(3!=4)++' - AST end
+6=(===> Expression '--(2!=5)' - AST start
+6=OpDec  value:(2 != 5)--
+6=%  OpNE  value:(2 != 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=&===> Expression '--(2!=5)' - AST end
+6=-===> Expression '(1!=2)=(3!=4)' - AST start
+6=.Assign  value:(1 != 2)=(3 != 4)  #children:2
+6=%  OpNE  value:(1 != 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=%  OpNE  value:(3 != 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=+===> Expression '(1!=2)=(3!=4)' - AST end
+6=1===> Expression '(true || false)++' - AST start
+6= OpInc  value:(true or false)++
+6=,  OpOr  value:(true or false)  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=/===> Expression '(true || false)++' - AST end
+6=1===> Expression '--(false OR true)' - AST start
+6= OpDec  value:(false or true)--
+6=,  OpOr  value:(false or true)  #children:2
+6=!    BooleanLiteral  value:false
+6=     BooleanLiteral  value:true
+6=/===> Expression '--(false OR true)' - AST end
+6=?===> Expression '(true || false)=(false OR true)' - AST start
+6=<Assign  value:(true or false)=(false or true)  #children:2
+6=,  OpOr  value:(true or false)  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=,  OpOr  value:(false or true)  #children:2
+6=!    BooleanLiteral  value:false
+6=     BooleanLiteral  value:true
+6=====> Expression '(true || false)=(false OR true)' - AST end
+6='===> Expression '(3+4)++' - AST start
+6=OpInc  value:(3 + 4)++
+6=&  OpPlus  value:(3 + 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=%===> Expression '(3+4)++' - AST end
+6='===> Expression '--(2+5)' - AST start
+6=OpDec  value:(2 + 5)--
+6=&  OpPlus  value:(2 + 5)  #children:2
+6=    IntLiteral  value:2
+6=    IntLiteral  value:5
+6=%===> Expression '--(2+5)' - AST end
+6=+===> Expression '(1+2)=(3+4)' - AST start
+6=,Assign  value:(1 + 2)=(3 + 4)  #children:2
+6=&  OpPlus  value:(1 + 2)  #children:2
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=&  OpPlus  value:(3 + 4)  #children:2
+6=    IntLiteral  value:3
+6=    IntLiteral  value:4
+6=)===> Expression '(1+2)=(3+4)' - AST end
+6=&===> Expression '1.0d++' - AST start
+6=OpInc  value:1.0++
+6=  RealLiteral  value:1.0
+6=$===> Expression '1.0d++' - AST end
+6=&===> Expression '--2.0d' - AST start
+6=OpDec  value:2.0--
+6=  RealLiteral  value:2.0
+6=$===> Expression '--2.0d' - AST end
+6=-===> Expression '(1.0d)=(3.0d)' - AST start
+6=$Assign  value:1.0=3.0  #children:2
+6=  RealLiteral  value:1.0
+6=  RealLiteral  value:3.0
+6=+===> Expression '(1.0d)=(3.0d)' - AST end
+6=&===> Expression '1.0f++' - AST start
+6=OpInc  value:1.0++
+6=  FloatLiteral  value:1.0
+6=$===> Expression '1.0f++' - AST end
+6=&===> Expression '--2.0f' - AST start
+6=OpDec  value:2.0--
+6=  FloatLiteral  value:2.0
+6=$===> Expression '--2.0f' - AST end
+6=-===> Expression '(1.0f)=(3.0f)' - AST start
+6=$Assign  value:1.0=3.0  #children:2
+6=  FloatLiteral  value:1.0
+6=  FloatLiteral  value:3.0
+6=+===> Expression '(1.0f)=(3.0f)' - AST end
+6='===> Expression ''abc'++' - AST start
+6=OpInc  value:'abc'++
+6=  StringLiteral  value:'abc'
+6=%===> Expression ''abc'++' - AST end
+6='===> Expression '--'def'' - AST start
+6=OpDec  value:'def'--
+6=  StringLiteral  value:'def'
+6=%===> Expression '--'def'' - AST end
+6=+===> Expression ''abc'='def'' - AST start
+6=(Assign  value:'abc'='def'  #children:2
+6=  StringLiteral  value:'abc'
+6=  StringLiteral  value:'def'
+6=)===> Expression ''abc'='def'' - AST end
+6=3===> Expression '(true?true:false)++' - AST start
+6=$OpInc  value:true ? true : false++
+6=3  Ternary  value:true ? true : false  #children:3
+6=     BooleanLiteral  value:true
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=1===> Expression '(true?true:false)++' - AST end
+6=3===> Expression '--(true?true:false)' - AST start
+6=$OpDec  value:true ? true : false--
+6=3  Ternary  value:true ? true : false  #children:3
+6=     BooleanLiteral  value:true
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=1===> Expression '--(true?true:false)' - AST end
+6=C===> Expression '(true?true:false)=(true?true:false)' - AST start
+6=DAssign  value:true ? true : false=true ? true : false  #children:2
+6=3  Ternary  value:true ? true : false  #children:3
+6=     BooleanLiteral  value:true
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=3  Ternary  value:true ? true : false  #children:3
+6=     BooleanLiteral  value:true
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=A===> Expression '(true?true:false)=(true?true:false)' - AST end
+6=+===> Expression 'T(String)++' - AST start
+6=OpInc  value:T(String)++
+6="  TypeReference  value:T(String)
+6='    QualifiedIdentifier  value:String
+6=       Identifier  value:String
+6=)===> Expression 'T(String)++' - AST end
+6=,===> Expression '--T(Integer)' - AST start
+6=OpDec  value:T(Integer)--
+6=#  TypeReference  value:T(Integer)
+6=(    QualifiedIdentifier  value:Integer
+6=!      Identifier  value:Integer
+6=*===> Expression '--T(Integer)' - AST end
+6=4===> Expression 'T(String)=T(Integer)' - AST start
+6=1Assign  value:T(String)=T(Integer)  #children:2
+6="  TypeReference  value:T(String)
+6='    QualifiedIdentifier  value:String
+6=       Identifier  value:String
+6=#  TypeReference  value:T(Integer)
+6=(    QualifiedIdentifier  value:Integer
+6=!      Identifier  value:Integer
+6=2===> Expression 'T(String)=T(Integer)' - AST end
+6=3===> Expression '(3 between {1,5})++' - AST start
+6="OpInc  value:(3 between {1,5})++
+6=9  OperatorBetween  value:(3 between {1,5})  #children:2
+6=    IntLiteral  value:3
+6=*    InlineList  value:{1,5}  #children:2
+6=      IntLiteral  value:1
+6=      IntLiteral  value:5
+6=1===> Expression '(3 between {1,5})++' - AST end
+6=3===> Expression '--(3 between {1,5})' - AST start
+6="OpDec  value:(3 between {1,5})--
+6=9  OperatorBetween  value:(3 between {1,5})  #children:2
+6=    IntLiteral  value:3
+6=*    InlineList  value:{1,5}  #children:2
+6=      IntLiteral  value:1
+6=      IntLiteral  value:5
+6=1===> Expression '--(3 between {1,5})' - AST end
+6=C===> Expression '(3 between {1,5})=(3 between {1,5})' - AST start
+6=@Assign  value:(3 between {1,5})=(3 between {1,5})  #children:2
+6=9  OperatorBetween  value:(3 between {1,5})  #children:2
+6=    IntLiteral  value:3
+6=*    InlineList  value:{1,5}  #children:2
+6=      IntLiteral  value:1
+6=      IntLiteral  value:5
+6=9  OperatorBetween  value:(3 between {1,5})  #children:2
+6=    IntLiteral  value:3
+6=*    InlineList  value:{1,5}  #children:2
+6=      IntLiteral  value:1
+6=      IntLiteral  value:5
+6=A===> Expression '(3 between {1,5})=(3 between {1,5})' - AST end
+6=====> Expression '(type instanceof T(String))++' - AST start
+6=,OpInc  value:(type instanceof T(String))++
+6=F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+6=*    PropertyOrFieldReference  value:type
+6=$    TypeReference  value:T(String)
+6=)      QualifiedIdentifier  value:String
+6="        Identifier  value:String
+6=;===> Expression '(type instanceof T(String))++' - AST end
+6=====> Expression '--(type instanceof T(String))' - AST start
+6=,OpDec  value:(type instanceof T(String))--
+6=F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+6=*    PropertyOrFieldReference  value:type
+6=$    TypeReference  value:T(String)
+6=)      QualifiedIdentifier  value:String
+6="        Identifier  value:String
+6=;===> Expression '--(type instanceof T(String))' - AST end
+6=W===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST start
+6=TAssign  value:(type instanceof T(String))=(type instanceof T(String))  #children:2
+6=F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+6=*    PropertyOrFieldReference  value:type
+6=$    TypeReference  value:T(String)
+6=)      QualifiedIdentifier  value:String
+6="        Identifier  value:String
+6=F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+6=*    PropertyOrFieldReference  value:type
+6=$    TypeReference  value:T(String)
+6=)      QualifiedIdentifier  value:String
+6="        Identifier  value:String
+6=U===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST end
+6=/===> Expression '(true?:false)++' - AST start
+6=OpInc  value:true ?: false++
+6=+  Elvis  value:true ?: false  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=-===> Expression '(true?:false)++' - AST end
+6=/===> Expression '--(true?:false)' - AST start
+6=OpDec  value:true ?: false--
+6=+  Elvis  value:true ?: false  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=-===> Expression '--(true?:false)' - AST end
+6=;===> Expression '(true?:false)=(true?:false)' - AST start
+6=8Assign  value:true ?: false=true ?: false  #children:2
+6=+  Elvis  value:true ?: false  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=+  Elvis  value:true ?: false  #children:2
+6=     BooleanLiteral  value:true
+6=!    BooleanLiteral  value:false
+6=9===> Expression '(true?:false)=(true?:false)' - AST end
+6=)===> Expression '(iii++)++' - AST start
+6=OpInc  value:iii++++
+6=  OpInc  value:iii++
+6=)    PropertyOrFieldReference  value:iii
+6='===> Expression '(iii++)++' - AST end
+6=)===> Expression '--(++iii)' - AST start
+6=OpDec  value:iii++--
+6=  OpInc  value:iii++
+6=)    PropertyOrFieldReference  value:iii
+6='===> Expression '--(++iii)' - AST end
+6=/===> Expression '(iii++)=(++iii)' - AST start
+6=(Assign  value:iii++=iii++  #children:2
+6=  OpInc  value:iii++
+6=)    PropertyOrFieldReference  value:iii
+6=  OpInc  value:iii++
+6=)    PropertyOrFieldReference  value:iii
+6=-===> Expression '(iii++)=(++iii)' - AST end
+6=)===> Expression '(iii--)++' - AST start
+6=OpInc  value:iii--++
+6=  OpDec  value:iii--
+6=)    PropertyOrFieldReference  value:iii
+6='===> Expression '(iii--)++' - AST end
+6=)===> Expression '--(--iii)' - AST start
+6=OpDec  value:iii----
+6=  OpDec  value:iii--
+6=)    PropertyOrFieldReference  value:iii
+6='===> Expression '--(--iii)' - AST end
+6=/===> Expression '(iii--)=(--iii)' - AST start
+6=(Assign  value:iii--=iii--  #children:2
+6=  OpDec  value:iii--
+6=)    PropertyOrFieldReference  value:iii
+6=  OpDec  value:iii--
+6=)    PropertyOrFieldReference  value:iii
+6=-===> Expression '(iii--)=(--iii)' - AST end
+6=)===> Expression '(!true)++' - AST start
+6=OpInc  value:!true++
+6=  OperatorNot  value:!true
+6=     BooleanLiteral  value:true
+6='===> Expression '(!true)++' - AST end
+6=*===> Expression '--(!false)' - AST start
+6=OpDec  value:!false--
+6=  OperatorNot  value:!false
+6=!    BooleanLiteral  value:false
+6=(===> Expression '--(!false)' - AST end
+6=0===> Expression '(!true)=(!false)' - AST start
+6=)Assign  value:!true=!false  #children:2
+6=  OperatorNot  value:!true
+6=     BooleanLiteral  value:true
+6=  OperatorNot  value:!false
+6=!    BooleanLiteral  value:false
+6=.===> Expression '(!true)=(!false)' - AST end
+6=)===> Expression '(iii^2)++' - AST start
+6=OpInc  value:(iii ^ 2)++
+6=/  OperatorPower  value:(iii ^ 2)  #children:2
+6=)    PropertyOrFieldReference  value:iii
+6=    IntLiteral  value:2
+6='===> Expression '(iii^2)++' - AST end
+6=)===> Expression '--(iii^2)' - AST start
+6=OpDec  value:(iii ^ 2)--
+6=/  OperatorPower  value:(iii ^ 2)  #children:2
+6=)    PropertyOrFieldReference  value:iii
+6=    IntLiteral  value:2
+6='===> Expression '--(iii^2)' - AST end
+6=/===> Expression '(iii^2)=(iii^3)' - AST start
+6=0Assign  value:(iii ^ 2)=(iii ^ 3)  #children:2
+6=/  OperatorPower  value:(iii ^ 2)  #children:2
+6=)    PropertyOrFieldReference  value:iii
+6=    IntLiteral  value:2
+6=/  OperatorPower  value:(iii ^ 3)  #children:2
+6=)    PropertyOrFieldReference  value:iii
+6=    IntLiteral  value:3
+6=-===> Expression '(iii^2)=(iii^3)' - AST end
+6=5===> Expression '(new String('abc'))++' - AST start
+6="OpInc  value:new String('abc')++
+6=>  ConstructorReference  value:new String('abc')  #children:2
+6='    QualifiedIdentifier  value:String
+6=       Identifier  value:String
+6=     StringLiteral  value:'abc'
+6=3===> Expression '(new String('abc'))++' - AST end
+6=5===> Expression '--(new String('abc'))' - AST start
+6="OpDec  value:new String('abc')--
+6=>  ConstructorReference  value:new String('abc')  #children:2
+6='    QualifiedIdentifier  value:String
+6=       Identifier  value:String
+6=     StringLiteral  value:'abc'
+6=3===> Expression '--(new String('abc'))' - AST end
+6=G===> Expression '(new String('abc'))=(new String('abc'))' - AST start
+6=@Assign  value:new String('abc')=new String('abc')  #children:2
+6=>  ConstructorReference  value:new String('abc')  #children:2
+6='    QualifiedIdentifier  value:String
+6=       Identifier  value:String
+6=     StringLiteral  value:'abc'
+6=>  ConstructorReference  value:new String('abc')  #children:2
+6='    QualifiedIdentifier  value:String
+6=       Identifier  value:String
+6=     StringLiteral  value:'abc'
+6=E===> Expression '(new String('abc'))=(new String('abc'))' - AST end
+6=%===> Expression 'm()++' - AST start
+6=OpInc  value:m()++
+6=  MethodReference  value:m()
+6=#===> Expression 'm()++' - AST end
+6=%===> Expression '--m()' - AST start
+6=OpDec  value:m()--
+6=  MethodReference  value:m()
+6=#===> Expression '--m()' - AST end
+6='===> Expression 'm()=m()' - AST start
+6=$Assign  value:m()=m()  #children:2
+6=  MethodReference  value:m()
+6=  MethodReference  value:m()
+6=%===> Expression 'm()=m()' - AST end
+6=8===> Expression '('abc' matches '^a..')++' - AST start
+6='OpInc  value:('abc' matches '^a..')++
+6=>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+6=     StringLiteral  value:'abc'
+6=!    StringLiteral  value:'^a..'
+6=6===> Expression '('abc' matches '^a..')++' - AST end
+6=8===> Expression '--('abc' matches '^a..')' - AST start
+6='OpDec  value:('abc' matches '^a..')--
+6=>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+6=     StringLiteral  value:'abc'
+6=!    StringLiteral  value:'^a..'
+6=6===> Expression '--('abc' matches '^a..')' - AST end
+6=M===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST start
+6=JAssign  value:('abc' matches '^a..')=('abc' matches '^a..')  #children:2
+6=>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+6=     StringLiteral  value:'abc'
+6=!    StringLiteral  value:'^a..'
+6=>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+6=     StringLiteral  value:'abc'
+6=!    StringLiteral  value:'^a..'
+6=K===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST end
+6=====> Expression '({1,2,3}.?[#isEven(#this)])++' - AST start
+6=*OpInc  value:{1,2,3}.?[#isEven(#this)]++
+6=D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:?[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '({1,2,3}.?[#isEven(#this)])++' - AST end
+6=====> Expression '--({1,2,3}.?[#isEven(#this)])' - AST start
+6=*OpDec  value:{1,2,3}.?[#isEven(#this)]--
+6=D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:?[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '--({1,2,3}.?[#isEven(#this)])' - AST end
+6=W===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST start
+6=PAssign  value:{1,2,3}.?[#isEven(#this)]={1,2,3}.?[#isEven(#this)]  #children:2
+6=D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:?[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:?[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=U===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST end
+6=====> Expression '({1,2,3}.^[#isEven(#this)])++' - AST start
+6=*OpInc  value:{1,2,3}.^[#isEven(#this)]++
+6=D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:^[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '({1,2,3}.^[#isEven(#this)])++' - AST end
+6=====> Expression '--({1,2,3}.^[#isEven(#this)])' - AST start
+6=*OpDec  value:{1,2,3}.^[#isEven(#this)]--
+6=D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:^[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '--({1,2,3}.^[#isEven(#this)])' - AST end
+6=W===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST start
+6=PAssign  value:{1,2,3}.^[#isEven(#this)]={1,2,3}.^[#isEven(#this)]  #children:2
+6=D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:^[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:^[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=U===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST end
+6=====> Expression '({1,2,3}.$[#isEven(#this)])++' - AST start
+6=*OpInc  value:{1,2,3}.$[#isEven(#this)]++
+6=D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:$[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '({1,2,3}.$[#isEven(#this)])++' - AST end
+6=====> Expression '--({1,2,3}.$[#isEven(#this)])' - AST start
+6=*OpDec  value:{1,2,3}.$[#isEven(#this)]--
+6=D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:$[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '--({1,2,3}.$[#isEven(#this)])' - AST end
+6=W===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST start
+6=PAssign  value:{1,2,3}.$[#isEven(#this)]={1,2,3}.$[#isEven(#this)]  #children:2
+6=D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:$[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=(    Selection  value:$[#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=U===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST end
+6=,===> Expression '#isEven(3)++' - AST start
+6=OpInc  value:#isEven(3)++
+6='  FunctionReference  value:#isEven(3)
+6=    IntLiteral  value:3
+6=*===> Expression '#isEven(3)++' - AST end
+6=,===> Expression '--#isEven(4)' - AST start
+6=OpDec  value:#isEven(4)--
+6='  FunctionReference  value:#isEven(4)
+6=    IntLiteral  value:4
+6=*===> Expression '--#isEven(4)' - AST end
+6=5===> Expression '#isEven(3)=#isEven(5)' - AST start
+6=2Assign  value:#isEven(3)=#isEven(5)  #children:2
+6='  FunctionReference  value:#isEven(3)
+6=    IntLiteral  value:3
+6='  FunctionReference  value:#isEven(5)
+6=    IntLiteral  value:5
+6=3===> Expression '#isEven(3)=#isEven(5)' - AST end
+6=)===> Expression '#wibble++' - AST start
+6=OpInc  value:#wibble++
+6=$  VariableReference  value:#wibble
+6='===> Expression '#wibble++' - AST end
+6=)===> Expression '--#wibble' - AST start
+6=OpDec  value:#wibble--
+6=$  VariableReference  value:#wibble
+6='===> Expression '--#wibble' - AST end
+6=====> Expression '({1,2,3}.![#isEven(#this)])++' - AST start
+6=*OpInc  value:{1,2,3}.![#isEven(#this)]++
+6=D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=)    Projection  value:![#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '({1,2,3}.![#isEven(#this)])++' - AST end
+6=====> Expression '--({1,2,3}.![#isEven(#this)])' - AST start
+6=*OpDec  value:{1,2,3}.![#isEven(#this)]--
+6=D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=)    Projection  value:![#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=;===> Expression '--({1,2,3}.![#isEven(#this)])' - AST end
+6=W===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST start
+6=PAssign  value:{1,2,3}.![#isEven(#this)]={1,2,3}.![#isEven(#this)]  #children:2
+6=D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=)    Projection  value:![#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+6=,    InlineList  value:{1,2,3}  #children:3
+6=      IntLiteral  value:1
+6=      IntLiteral  value:2
+6=      IntLiteral  value:3
+6=)    Projection  value:![#isEven(#this)]
+6=/      FunctionReference  value:#isEven(#this)
+6=(        VariableReference  value:#this
+6=U===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST end
+6=+===> Expression '({1,2,3})++' - AST start
+6=OpInc  value:{1,2,3}++
+6=*  InlineList  value:{1,2,3}  #children:3
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=    IntLiteral  value:3
+6=)===> Expression '({1,2,3})++' - AST end
+6=+===> Expression '--({1,2,3})' - AST start
+6=OpDec  value:{1,2,3}--
+6=*  InlineList  value:{1,2,3}  #children:3
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=    IntLiteral  value:3
+6=)===> Expression '--({1,2,3})' - AST end
+6=3===> Expression '({1,2,3})=({1,2,3})' - AST start
+6=,Assign  value:{1,2,3}={1,2,3}  #children:2
+6=*  InlineList  value:{1,2,3}  #children:3
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=    IntLiteral  value:3
+6=*  InlineList  value:{1,2,3}  #children:3
+6=    IntLiteral  value:1
+6=    IntLiteral  value:2
+6=    IntLiteral  value:3
+6=1===> Expression '({1,2,3})=({1,2,3})' - AST end
+6=7===> Expression '({'a':1,'b':2,'c':3})++' - AST start
+6=$OpInc  value:{'a':1,'b':2,'c':3}++
+6=5  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+6=    StringLiteral  value:'a'
+6=    IntLiteral  value:1
+6=    StringLiteral  value:'b'
+6=    IntLiteral  value:2
+6=    StringLiteral  value:'c'
+6=    IntLiteral  value:3
+6=5===> Expression '({'a':1,'b':2,'c':3})++' - AST end
+6=7===> Expression '--({'a':1,'b':2,'c':3})' - AST start
+6=$OpDec  value:{'a':1,'b':2,'c':3}--
+6=5  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+6=    StringLiteral  value:'a'
+6=    IntLiteral  value:1
+6=    StringLiteral  value:'b'
+6=    IntLiteral  value:2
+6=    StringLiteral  value:'c'
+6=    IntLiteral  value:3
+6=5===> Expression '--({'a':1,'b':2,'c':3})' - AST end
+6=K===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST start
+6=DAssign  value:{'a':1,'b':2,'c':3}={'a':1,'b':2,'c':3}  #children:2
+6=5  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+6=    StringLiteral  value:'a'
+6=    IntLiteral  value:1
+6=    StringLiteral  value:'b'
+6=    IntLiteral  value:2
+6=    StringLiteral  value:'c'
+6=    IntLiteral  value:3
+6=5  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+6=    StringLiteral  value:'a'
+6=    IntLiteral  value:1
+6=    StringLiteral  value:'b'
+6=    IntLiteral  value:2
+6=    StringLiteral  value:'c'
+6=    IntLiteral  value:3
+6=I===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST end
+6=&===> Expression '@foo++' - AST start
+6=OpInc  value:@foo++
+6=  BeanReference  value:@foo
+6=$===> Expression '@foo++' - AST end
+6=&===> Expression '--@foo' - AST start
+6=OpDec  value:@foo--
+6=  BeanReference  value:@foo
+6=$===> Expression '--@foo' - AST end
+6=)===> Expression '@foo=@bar' - AST start
+6=&Assign  value:@foo=@bar  #children:2
+6=  BeanReference  value:@foo
+6=  BeanReference  value:@bar
+6='===> Expression '@foo=@bar' - AST end
+ 6_ˆorg.springframework.expression.spel.SpelEvaluationException: EL1053E: Unable to grow collection: unable to determine list element type
+ 6_|	at org.springframework.expression.spel.ast.Indexer$CollectionIndexingValueRef.growCollectionIfNecessary(Indexer.java:714)
+ 6_k	at org.springframework.expression.spel.ast.Indexer$CollectionIndexingValueRef.getValue(Indexer.java:670)
+ 6_m	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:90)
+ 6_Z	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109)
+ 6_c	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:272)
+ 6_x	at org.springframework.expression.spel.EvaluationTests.testCreateListsOnAttemptToIndexNull01(EvaluationTests.java:73)
+ 6_A	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ 6_S	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ 6_[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ 6_6	at java.lang.reflect.Method.invoke(Method.java:498)
+ 6_Z	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+ 6_Y	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+ 6_X	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+ 6_W	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+ 6_C	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+ 6_W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+ 6_W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+ 6_A	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+ 6_E	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+ 6_G	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+ 6_E	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+ 6_F	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+ 6_?	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+ 6_v	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+ 6_p	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+ 6_{	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+ 6_u	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+ 6_A	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ 6_S	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ 6_[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ 6_6	at java.lang.reflect.Method.invoke(Method.java:498)
+ 6_Z	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+ 6_Z	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ 6_j	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+ 6_y	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+ 6_<	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+ 6_c	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108)
+ 6_A	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ 6_S	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ 6_[	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ 6_6	at java.lang.reflect.Method.invoke(Method.java:498)
+ 6_Z	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+ 6_Z	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ 6_’	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+ 6_’	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+ 6_Y	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+ 6_l	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+ 6_[	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+ 6_U	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ 6_U	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ 6_k	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+ 6_+	at java.lang.Thread.run(Thread.java:748)

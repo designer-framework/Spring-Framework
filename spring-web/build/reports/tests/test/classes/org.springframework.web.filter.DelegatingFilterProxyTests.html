@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.filter.DelegatingFilterProxyTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.filter.DelegatingFilterProxyTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.filter.html">org.springframework.web.filter</a> &gt; DelegatingFilterProxyTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.038s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDelegatingFilterProxy</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyAndCustomContextAttribute</td>
+<td>0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyInjectedPreferred</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyNotInjectedWacServletAttrPreferred</td>
+<td>0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyNotInjectedWithRootPreferred</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithFilterDelegateInstance</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithFilterName</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithFrameworkServletContext</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithLazyContextStartup</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithTargetBeanName</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithTargetBeanNameAndNoApplicationContext</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithTargetBeanNameAndNotYetRefreshedApplicationContext</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithTargetFilterLifecycle</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:56:37.592 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@3d78601d: defining beans []; root of factory hierarchy
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@610495f8]
+09:56:37.593 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@40873139]
+09:56:37.596 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@37e322f9: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3cfde650]
+09:56:37.596 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@12a7efdc]
+09:56:37.598 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@78d3b1ff: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6bbc469]
+09:56:37.598 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@334b7161]
+09:56:37.598 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.599 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.599 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.599 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.599 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.599 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.599 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.622 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.622 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@709a5352: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.622 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@28a0cdcd]
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@58ee8ee8]
+09:56:37.623 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.623 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.623 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.623 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.623 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.624 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@796571b4: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7bb04826]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@63575e42]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.624 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@4eb8d215: defining beans []; root of factory hierarchy
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6e4cbf76]
+09:56:37.624 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@34a116f1]
+09:56:37.625 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@91043a4: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3e8662d5]
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@821e60d]
+09:56:37.625 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.625 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.625 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.625 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@6639e047: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6cb23478]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@53e429c9]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.626 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.626 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@34a881b5: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3b1ca03c]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7727c0e5]
+09:56:37.626 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter 'targetFilter'
+09:56:37.626 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter 'targetFilter' configured successfully
+09:56:37.626 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@6d4991cd: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7a631f64]
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6f10dc0f]
+09:56:37.627 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.627 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.628 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.628 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@2b11e51e: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@20f20aa1]
+09:56:37.628 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5983a151]
+09:56:37.629 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.629 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.629 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@6edfb491: defining beans []; root of factory hierarchy
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1a85b758]
+09:56:37.629 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@13a14fb4]
+09:56:37.630 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ef8e1d9: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@30359c4c]
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@78e7f245]
+09:56:37.630 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Initializing filter ''
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.630 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.631 [Test worker] DEBUG org.springframework.web.filter.DelegatingFilterProxy - Filter '' configured successfully
+09:56:37.631 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:37 CST 2021]; root of context hierarchy
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@d45f55b: defining beans [targetFilter]; root of factory hierarchy
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@56bc72ed]
+09:56:37.631 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@36814ff9]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 9:56:43</p>
+</div>
+</div>
+</body>
+</html>

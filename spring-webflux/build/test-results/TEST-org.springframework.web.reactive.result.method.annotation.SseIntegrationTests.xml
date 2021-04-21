@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" tests="20" skipped="7" failures="0" errors="0" timestamp="2021-04-16T02:00:50" hostname="DESKTOP-3R4DVF7" time="9.68">
+  <properties/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2ffe100e]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.418"/>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2ffe100e]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.398"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2ffe100e]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.38"/>
+  <testcase name="serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2ffe100e]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsEventWithoutAcceptHeader[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2ffe100e]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.382"/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2815839a]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.177">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2815839a]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.369"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2815839a]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.378"/>
+  <testcase name="serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2815839a]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsEventWithoutAcceptHeader[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2815839a]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.624"/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ff4da7f]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.81">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ff4da7f]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="1.266"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ff4da7f]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="1.219"/>
+  <testcase name="serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ff4da7f]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsEventWithoutAcceptHeader[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ff4da7f]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="1.288"/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@608aad3]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.606">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@608aad3]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.464"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@608aad3]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.417"/>
+  <testcase name="serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@608aad3]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="sseAsEventWithoutAcceptHeader[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@608aad3]]" classname="org.springframework.web.reactive.result.method.annotation.SseIntegrationTests" time="0.483"/>
+  <system-out><![CDATA[10:00:50.201 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@131951c3: startup date [Fri Apr 16 10:00:50 CST 2021]; root of context hierarchy
+10:00:50.205 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:50.221 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:50.221 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:50.221 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:50.221 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:50.272 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@131951c3: startup date [Fri Apr 16 10:00:50 CST 2021]; root of context hierarchy
+10:00:50.350 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:50.350 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@60c2b438{/,null,AVAILABLE}
+10:00:50.350 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:50.350 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:50.354 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@445e32dd{HTTP/1.1,[http/1.1]}{0.0.0.0:54225}
+10:00:50.354 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @243557ms
+10:00:50.354 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54225(0 millis).
+10:00:50.612 [parallel-5] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:50.613 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:50.613 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@60c2b438{/,null,UNAVAILABLE}
+10:00:50.616 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@445e32dd{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:50.616 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:50.618 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6e13b1ca: startup date [Fri Apr 16 10:00:50 CST 2021]; root of context hierarchy
+10:00:50.620 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:50.622 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:50.622 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:50.622 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:50.622 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:50.679 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6e13b1ca: startup date [Fri Apr 16 10:00:50 CST 2021]; root of context hierarchy
+10:00:50.751 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:50.751 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@312f0413{/,null,AVAILABLE}
+10:00:50.751 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:50.751 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:50.755 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@68fa84c8{HTTP/1.1,[http/1.1]}{0.0.0.0:54239}
+10:00:50.755 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @243958ms
+10:00:50.755 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54239(0 millis).
+10:00:51.011 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:51.011 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@312f0413{/,null,UNAVAILABLE}
+10:00:51.014 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@68fa84c8{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:51.014 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:51.016 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6da792d4: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.017 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:51.019 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:51.019 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:51.019 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:51.019 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:51.068 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6da792d4: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.135 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:51.135 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1c109589{/,null,AVAILABLE}
+10:00:51.135 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:51.135 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:51.138 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7c0eb31d{HTTP/1.1,[http/1.1]}{0.0.0.0:54253}
+10:00:51.138 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @244341ms
+10:00:51.138 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54253(0 millis).
+10:00:51.391 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:51.391 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1c109589{/,null,UNAVAILABLE}
+10:00:51.394 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7c0eb31d{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:51.395 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:51.396 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e10d0: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.398 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:51.399 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:51.399 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:51.399 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:51.399 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:51.448 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@e10d0: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.515 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:00:51.515 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@40a94f41{/,null,AVAILABLE}
+10:00:51.515 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:00:51.515 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:00:51.519 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@31014c2d{HTTP/1.1,[http/1.1]}{0.0.0.0:54267}
+10:00:51.519 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @244722ms
+10:00:51.519 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54267(0 millis).
+10:00:51.772 [parallel-8] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:51.773 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:00:51.773 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@40a94f41{/,null,UNAVAILABLE}
+10:00:51.776 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@31014c2d{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:00:51.776 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:00:51.778 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bc991ef: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.779 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:51.781 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:51.781 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:51.781 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:51.781 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:51.831 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3bc991ef: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.899 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:51.899 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54281(0 millis).
+10:00:51.950 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:51.950 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:51.954 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@721611a8: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:51.956 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:51.957 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:51.957 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:51.957 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:51.957 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:52.005 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@721611a8: startup date [Fri Apr 16 10:00:51 CST 2021]; root of context hierarchy
+10:00:52.070 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:52.071 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54282(0 millis).
+10:00:52.323 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:52.323 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:52.325 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8a0489: startup date [Fri Apr 16 10:00:52 CST 2021]; root of context hierarchy
+10:00:52.327 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:52.328 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:52.328 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:52.328 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:52.328 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:52.378 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6b8a0489: startup date [Fri Apr 16 10:00:52 CST 2021]; root of context hierarchy
+10:00:52.444 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:52.445 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54284(0 millis).
+10:00:52.523 [reactor-http-nio-1] ERROR org.springframework.web.server.adapter.HttpWebHandlerAdapter - Unhandled failure: 你的主机中的软件中止了一个已建立的连接。, response already set (status=null)
+10:00:52.523 [reactor-http-nio-1] WARN  org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with error: 你的主机中的软件中止了一个已建立的连接。
+10:00:52.699 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:52.699 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:52.708 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@22ae858e: startup date [Fri Apr 16 10:00:52 CST 2021]; root of context hierarchy
+10:00:52.713 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:52.717 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:52.717 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:52.717 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:52.717 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:52.853 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@22ae858e: startup date [Fri Apr 16 10:00:52 CST 2021]; root of context hierarchy
+10:00:52.898 [reactor-http-nio-7] ERROR org.springframework.web.server.adapter.HttpWebHandlerAdapter - Unhandled failure: 你的主机中的软件中止了一个已建立的连接。, response already set (status=null)
+10:00:52.898 [reactor-http-nio-7] WARN  org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with error: 你的主机中的软件中止了一个已建立的连接。
+10:00:52.995 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:00:52.996 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54286(0 millis).
+10:00:53.324 [reactor-http-nio-1] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:00:53.325 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:00:53.325 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:00:53.327 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@51b9b86a: startup date [Fri Apr 16 10:00:53 CST 2021]; root of context hierarchy
+10:00:53.329 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:53.331 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:53.331 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:53.331 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:53.331 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:53.391 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@51b9b86a: startup date [Fri Apr 16 10:00:53 CST 2021]; root of context hierarchy
+10:00:53.468 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:53.483 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54288(0 millis).
+10:00:53.537 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:54.135 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:54.137 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@345e9e73: startup date [Fri Apr 16 10:00:54 CST 2021]; root of context hierarchy
+10:00:54.138 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:54.290 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:54.290 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:54.290 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:54.290 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:54.450 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@345e9e73: startup date [Fri Apr 16 10:00:54 CST 2021]; root of context hierarchy
+10:00:54.596 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:54.606 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54296(0 millis).
+10:00:54.868 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:55.069 [http-nio-auto-120-exec-2] ERROR org.springframework.web.server.adapter.HttpWebHandlerAdapter - Unhandled failure: 你的主机中的软件中止了一个已建立的连接。, response already set (status=null)
+10:00:55.069 [http-nio-auto-120-exec-2] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: 你的主机中的软件中止了一个已建立的连接。
+10:00:55.069 [http-nio-auto-120-exec-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Dispatching into container to raise error
+10:00:55.069 [http-nio-auto-120-exec-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Error notification from Servlet container
+10:00:55.401 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:55.402 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f5b42d4: startup date [Fri Apr 16 10:00:55 CST 2021]; root of context hierarchy
+10:00:55.404 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:55.551 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:55.551 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:55.551 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:55.551 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:55.697 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@5f5b42d4: startup date [Fri Apr 16 10:00:55 CST 2021]; root of context hierarchy
+10:00:55.828 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:55.837 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54306(0 millis).
+10:00:56.090 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:56.289 [http-nio-auto-121-exec-2] ERROR org.springframework.web.server.adapter.HttpWebHandlerAdapter - Unhandled failure: 你的主机中的软件中止了一个已建立的连接。, response already set (status=null)
+10:00:56.289 [http-nio-auto-121-exec-2] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: 你的主机中的软件中止了一个已建立的连接。
+10:00:56.289 [http-nio-auto-121-exec-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Dispatching into container to raise error
+10:00:56.289 [http-nio-auto-121-exec-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Error notification from Servlet container
+10:00:56.620 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:56.622 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bd5800e: startup date [Fri Apr 16 10:00:56 CST 2021]; root of context hierarchy
+10:00:56.624 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:56.777 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:56.777 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:56.777 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:56.777 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:56.934 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3bd5800e: startup date [Fri Apr 16 10:00:56 CST 2021]; root of context hierarchy
+10:00:57.069 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:00:57.079 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54315(0 millis).
+10:00:57.334 [parallel-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:00:57.335 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:00:57.908 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:00:57.909 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a692390: startup date [Fri Apr 16 10:00:57 CST 2021]; root of context hierarchy
+10:00:57.911 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:58.110 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:58.110 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:58.110 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:58.110 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:58.266 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4a692390: startup date [Fri Apr 16 10:00:57 CST 2021]; root of context hierarchy
+10:00:58.397 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:58.404 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54350(0 millis).
+10:00:58.512 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:58.514 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:00:58.517 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58f04eab: startup date [Fri Apr 16 10:00:58 CST 2021]; root of context hierarchy
+10:00:58.519 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:58.521 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:58.521 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:58.521 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:58.521 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:58.591 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@58f04eab: startup date [Fri Apr 16 10:00:58 CST 2021]; root of context hierarchy
+10:00:58.694 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:58.708 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54378(0 millis).
+10:00:58.977 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:58.979 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:00:58.980 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@74b8d869: startup date [Fri Apr 16 10:00:58 CST 2021]; root of context hierarchy
+10:00:58.982 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:58.984 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:58.984 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:58.984 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:58.984 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:59.039 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@74b8d869: startup date [Fri Apr 16 10:00:58 CST 2021]; root of context hierarchy
+10:00:59.121 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:59.129 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54406(0 millis).
+10:00:59.394 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:59.396 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:00:59.398 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@50028087: startup date [Fri Apr 16 10:00:59 CST 2021]; root of context hierarchy
+10:00:59.400 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:00:59.401 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/string],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.string()
+10:00:59.402 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/event],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person>> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.sse()
+10:00:59.402 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/person],methods=[GET]}" onto reactor.core.publisher.Flux<org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$Person> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.person()
+10:00:59.402 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/sse/infinite],methods=[GET]}" onto reactor.core.publisher.Flux<java.lang.String> org.springframework.web.reactive.result.method.annotation.SseIntegrationTests$SseController.infinite()
+10:00:59.462 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@50028087: startup date [Fri Apr 16 10:00:59 CST 2021]; root of context hierarchy
+10:00:59.579 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:00:59.589 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54434(0 millis).
+10:00:59.877 [XNIO-121 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:00:59.877 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:00:59.879 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 10:00:53 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-119"]
+四月 16, 2021 10:00:53 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:53 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:53 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:53 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-119-54288"]
+四月 16, 2021 10:00:53 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-119-54288"]
+四月 16, 2021 10:00:54 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:54 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-119-54288"]
+四月 16, 2021 10:00:54 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-119-54288"]
+四月 16, 2021 10:00:54 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-120"]
+四月 16, 2021 10:00:54 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:54 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:54 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:54 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-120-54296"]
+四月 16, 2021 10:00:54 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-120-54296"]
+四月 16, 2021 10:00:55 上午 org.apache.catalina.connector.CoyoteAdapter asyncDispatch
+严重: Exception while processing an asynchronous request
+java.lang.IllegalStateException: Calling [asyncError()] is not valid for a request with Async state [MUST_DISPATCH]
+	at org.apache.coyote.AsyncStateMachine.asyncError(AsyncStateMachine.java:439)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:517)
+	at org.apache.coyote.Request.action(Request.java:431)
+	at org.apache.catalina.core.AsyncContextImpl.setErrorState(AsyncContextImpl.java:401)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:239)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:246)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 16, 2021 10:00:55 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:55 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-120-54296"]
+四月 16, 2021 10:00:55 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-120-54296"]
+四月 16, 2021 10:00:55 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-121"]
+四月 16, 2021 10:00:55 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:55 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:55 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-121-54306"]
+四月 16, 2021 10:00:56 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-121-54306"]
+四月 16, 2021 10:00:56 上午 org.apache.catalina.connector.CoyoteAdapter asyncDispatch
+严重: Exception while processing an asynchronous request
+java.lang.IllegalStateException: Calling [asyncError()] is not valid for a request with Async state [MUST_DISPATCH]
+	at org.apache.coyote.AsyncStateMachine.asyncError(AsyncStateMachine.java:439)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:517)
+	at org.apache.coyote.Request.action(Request.java:431)
+	at org.apache.catalina.core.AsyncContextImpl.setErrorState(AsyncContextImpl.java:401)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:239)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:246)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 16, 2021 10:00:56 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:56 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-121-54306"]
+四月 16, 2021 10:00:56 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-121-54306"]
+四月 16, 2021 10:00:57 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-122"]
+四月 16, 2021 10:00:57 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:00:57 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:00:57 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:00:57 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-122-54315"]
+四月 16, 2021 10:00:57 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-122-54315"]
+四月 16, 2021 10:00:57 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:00:57 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-122-54315"]
+四月 16, 2021 10:00:57 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-122-54315"]
+]]></system-err>
+</testsuite>

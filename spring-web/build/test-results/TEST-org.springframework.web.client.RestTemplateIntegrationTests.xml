@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateIntegrationTests" tests="92" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:56:35" hostname="DESKTOP-3R4DVF7" time="0.967">
+  <properties/>
+  <testcase name="serverPort[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="jsonPostForObjectWithJacksonView[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="exchangeGet[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="multipart[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="getNoContentTypeHeader[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="postWithoutBody[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.04"/>
+  <testcase name="getNotModified[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="serverError[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="jsonPostForObject[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="postForLocationEntity[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="postForObject[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="postForLocation[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="uri[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="form[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.007"/>
+  <testcase name="getEntity[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="getNoResponse[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="patchForObject[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase name="getString[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="optionsForAllow[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="exchangePost[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="getNoContent[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="notFound[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList[0]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="serverPort[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="jsonPostForObjectWithJacksonView[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="exchangeGet[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="multipart[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="getNoContentTypeHeader[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="postWithoutBody[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="getNotModified[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="serverError[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="jsonPostForObject[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="postForLocationEntity[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="postForObject[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="postForLocation[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="uri[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="form[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="getEntity[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="getNoResponse[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="patchForObject[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="getString[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="optionsForAllow[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="exchangePost[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="getNoContent[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="notFound[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList[1]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="serverPort[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="jsonPostForObjectWithJacksonView[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="exchangeGet[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="multipart[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="getNoContentTypeHeader[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="postWithoutBody[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="getNotModified[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="serverError[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="jsonPostForObject[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="postForLocationEntity[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="postForObject[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="postForLocation[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="uri[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="form[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="getEntity[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="getNoResponse[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="patchForObject[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="getString[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="optionsForAllow[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="exchangePost[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="getNoContent[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="notFound[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList[2]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="serverPort[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="jsonPostForObjectWithJacksonView[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="exchangeGet[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.007"/>
+  <testcase name="multipart[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.016"/>
+  <testcase name="getNoContentTypeHeader[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="postWithoutBody[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="getNotModified[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="serverError[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="jsonPostForObject[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="postForLocationEntity[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="postForObject[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="postForLocation[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="uri[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="form[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="getEntity[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="getNoResponse[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="patchForObject[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="getString[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="optionsForAllow[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="exchangePost[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <testcase name="getNoContent[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="notFound[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList[3]" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.009"/>
+  <system-out><![CDATA[09:56:35.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63702/get"
+09:56:35.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63702/get" resulted in 200 (OK)
+09:56:35.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@116bf2bd]
+09:56:35.529 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63704/jsonpost"
+09:56:35.529 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.534 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@48baa081] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@3c6d7876]
+09:56:35.536 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63704/jsonpost" resulted in 201 (OK)
+09:56:35.536 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@3fc52382]
+09:56:35.546 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63706/get"
+09:56:35.546 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.548 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63706/get" resulted in 200 (OK)
+09:56:35.548 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@2546f5e0]
+09:56:35.556 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63708/multipart"
+09:56:35.556 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@d0a00e4]
+09:56:35.559 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63708/multipart" resulted in 200 (OK)
+09:56:35.567 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63710/get/nocontenttype"
+09:56:35.567 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.569 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63710/get/nocontenttype" resulted in 200 (OK)
+09:56:35.569 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [[B] as "application/octet-stream" using [org.springframework.http.converter.ByteArrayHttpMessageConverter@48c4d9b1]
+09:56:35.608 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63712/jsonpost"
+09:56:35.608 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.610 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63712/jsonpost" resulted in 201 (OK)
+09:56:35.618 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63714/status/notmodified"
+09:56:35.619 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.620 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63714/status/notmodified" resulted in 304 (Redirection)
+09:56:35.621 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63714/status/notmodified"
+09:56:35.621 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.622 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63714/status/notmodified" resulted in 304 (Redirection)
+09:56:35.632 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63716/status/server"
+09:56:35.634 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63716/status/server" resulted in 500 (Server Error); invoking error handler
+09:56:35.642 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63718/jsonpost"
+09:56:35.643 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.643 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@1d09ac45] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@445827c1]
+09:56:35.645 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63718/jsonpost" resulted in 201 (OK)
+09:56:35.645 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@28a77960]
+09:56:35.654 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63720/post"
+09:56:35.654 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@461f363]
+09:56:35.658 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63720/post" resulted in 201 (OK)
+09:56:35.665 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63722/post"
+09:56:35.665 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.665 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@48ed5b0a]
+09:56:35.668 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63722/post" resulted in 201 (OK)
+09:56:35.668 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@48ed5b0a]
+09:56:35.675 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63724/post"
+09:56:35.675 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@6f46ed50]
+09:56:35.677 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63724/post" resulted in 201 (OK)
+09:56:35.683 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63726/uri/Z%C3%BCrich"
+09:56:35.683 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.685 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63726/uri/Z%C3%BCrich" resulted in 200 (OK)
+09:56:35.685 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@6fbb4f57]
+09:56:35.685 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63726/uri/query=foo@bar"
+09:56:35.685 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.686 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63726/uri/query=foo@bar" resulted in 200 (OK)
+09:56:35.686 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@6fbb4f57]
+09:56:35.686 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63726/uri/query=T%C5%8Dky%C5%8D"
+09:56:35.686 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.687 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63726/uri/query=T%C5%8Dky%C5%8D" resulted in 200 (OK)
+09:56:35.687 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@6fbb4f57]
+09:56:35.693 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63728/form"
+09:56:35.693 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@744b19ed]
+09:56:35.695 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63728/form" resulted in 200 (OK)
+09:56:35.702 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63730/get"
+09:56:35.702 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.703 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63730/get" resulted in 200 (OK)
+09:56:35.704 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@3d90f174]
+09:56:35.710 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63732/get/nothing"
+09:56:35.710 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.712 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63732/get/nothing" resulted in 200 (OK)
+09:56:35.725 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63735/get"
+09:56:35.725 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.727 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63735/get" resulted in 200 (OK)
+09:56:35.727 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@48efac55]
+09:56:35.733 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created OPTIONS request for "http://localhost:63737/get"
+09:56:35.734 [Test worker] DEBUG org.springframework.web.client.RestTemplate - OPTIONS request for "http://localhost:63737/get" resulted in 200 (OK)
+09:56:35.741 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63739/post"
+09:56:35.741 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:35.742 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@5a11096]
+09:56:35.744 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63739/post" resulted in 201 (OK)
+09:56:35.751 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63741/status/nocontent"
+09:56:35.751 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.752 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63741/status/nocontent" resulted in 204 (OK)
+09:56:35.753 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63741/status/nocontent"
+09:56:35.753 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.754 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63741/status/nocontent" resulted in 204 (OK)
+09:56:35.760 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63743/status/notfound"
+09:56:35.762 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63743/status/notfound" resulted in 404 (Client Error); invoking error handler
+09:56:35.771 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63745/jsonpost"
+09:56:35.771 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.772 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@44fd02bb, org.springframework.web.client.RestTemplateIntegrationTests$Bar@3fd3f65d]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@594973f6]
+09:56:35.774 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63745/jsonpost" resulted in 201 (OK)
+09:56:35.774 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@4a8d1b10]
+09:56:35.781 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63747/get"
+09:56:35.781 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.783 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63747/get" resulted in 200 (OK)
+09:56:35.783 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@a49fd82]
+09:56:35.790 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63749/jsonpost"
+09:56:35.790 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.791 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@664f2921] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5741db3a]
+09:56:35.793 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63749/jsonpost" resulted in 201 (OK)
+09:56:35.793 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@5f5230fe]
+09:56:35.800 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63751/get"
+09:56:35.800 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.802 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63751/get" resulted in 200 (OK)
+09:56:35.803 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@677f9dda]
+09:56:35.809 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63753/multipart"
+09:56:35.809 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@7c503d01]
+09:56:35.813 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63753/multipart" resulted in 200 (OK)
+09:56:35.819 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63755/get/nocontenttype"
+09:56:35.819 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.821 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63755/get/nocontenttype" resulted in 200 (OK)
+09:56:35.821 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [[B] as "application/octet-stream" using [org.springframework.http.converter.ByteArrayHttpMessageConverter@4f57700a]
+09:56:35.827 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63757/jsonpost"
+09:56:35.827 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.829 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63757/jsonpost" resulted in 201 (OK)
+09:56:35.835 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63759/status/notmodified"
+09:56:35.835 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.837 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63759/status/notmodified" resulted in 304 (Redirection)
+09:56:35.837 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63759/status/notmodified"
+09:56:35.837 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.838 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63759/status/notmodified" resulted in 304 (Redirection)
+09:56:35.845 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63761/status/server"
+09:56:35.847 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63761/status/server" resulted in 500 (Server Error); invoking error handler
+09:56:35.853 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63763/jsonpost"
+09:56:35.853 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.853 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@7929b9b2] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@69486c57]
+09:56:35.855 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63763/jsonpost" resulted in 201 (OK)
+09:56:35.855 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@210e2dc8]
+09:56:35.862 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63765/post"
+09:56:35.862 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@3629f141]
+09:56:35.865 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63765/post" resulted in 201 (OK)
+09:56:35.871 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63767/post"
+09:56:35.871 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.871 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@6c13259e]
+09:56:35.874 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63767/post" resulted in 201 (OK)
+09:56:35.874 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@6c13259e]
+09:56:35.881 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63769/post"
+09:56:35.881 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@315d8fa9]
+09:56:35.884 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63769/post" resulted in 201 (OK)
+09:56:35.890 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63771/uri/Z%C3%BCrich"
+09:56:35.890 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.892 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63771/uri/Z%C3%BCrich" resulted in 200 (OK)
+09:56:35.892 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@3582b66c]
+09:56:35.892 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63771/uri/query=foo@bar"
+09:56:35.892 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.894 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63771/uri/query=foo@bar" resulted in 200 (OK)
+09:56:35.894 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@3582b66c]
+09:56:35.894 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63771/uri/query=T%C5%8Dky%C5%8D"
+09:56:35.894 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.895 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63771/uri/query=T%C5%8Dky%C5%8D" resulted in 200 (OK)
+09:56:35.895 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@3582b66c]
+09:56:35.901 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63773/form"
+09:56:35.901 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@158021d4]
+09:56:35.903 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63773/form" resulted in 200 (OK)
+09:56:35.909 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63775/get"
+09:56:35.909 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.912 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63775/get" resulted in 200 (OK)
+09:56:35.912 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@364a2b7d]
+09:56:35.918 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63777/get/nothing"
+09:56:35.918 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.921 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63777/get/nothing" resulted in 200 (OK)
+09:56:35.929 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PATCH request for "http://localhost:63779/patch"
+09:56:35.929 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.929 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@54bce32e]
+09:56:35.932 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PATCH request for "http://localhost:63779/patch" resulted in 201 (OK)
+09:56:35.932 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@54bce32e]
+09:56:35.939 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63781/get"
+09:56:35.939 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.941 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63781/get" resulted in 200 (OK)
+09:56:35.941 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@534b0cf]
+09:56:35.947 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created OPTIONS request for "http://localhost:63783/get"
+09:56:35.949 [Test worker] DEBUG org.springframework.web.client.RestTemplate - OPTIONS request for "http://localhost:63783/get" resulted in 200 (OK)
+09:56:35.956 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63785/post"
+09:56:35.956 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:35.956 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@1e67b6da]
+09:56:35.959 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63785/post" resulted in 201 (OK)
+09:56:35.966 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63787/status/nocontent"
+09:56:35.966 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.968 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63787/status/nocontent" resulted in 204 (OK)
+09:56:35.969 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63787/status/nocontent"
+09:56:35.969 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.970 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63787/status/nocontent" resulted in 204 (OK)
+09:56:35.978 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63789/status/notfound"
+09:56:35.980 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63789/status/notfound" resulted in 404 (Client Error); invoking error handler
+09:56:35.986 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63791/jsonpost"
+09:56:35.986 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:35.986 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@1f00990a, org.springframework.web.client.RestTemplateIntegrationTests$Bar@648ba12f]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@1482d742]
+09:56:35.989 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63791/jsonpost" resulted in 201 (OK)
+09:56:35.989 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@1a5d9f49]
+09:56:35.998 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63793/get"
+09:56:35.998 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.003 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63793/get" resulted in 200 (OK)
+09:56:36.003 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@2961028e]
+09:56:36.010 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63795/jsonpost"
+09:56:36.010 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.011 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@30ce8146] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@25ca11ea]
+09:56:36.016 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63795/jsonpost" resulted in 201 (OK)
+09:56:36.016 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@17724754]
+09:56:36.024 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63797/get"
+09:56:36.024 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.028 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63797/get" resulted in 200 (OK)
+09:56:36.029 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@4542717c]
+09:56:36.036 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63799/multipart"
+09:56:36.036 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@7e79cc7b]
+09:56:36.042 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63799/multipart" resulted in 200 (OK)
+09:56:36.050 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63801/get/nocontenttype"
+09:56:36.050 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.054 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63801/get/nocontenttype" resulted in 200 (OK)
+09:56:36.054 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [[B] as "application/octet-stream" using [org.springframework.http.converter.ByteArrayHttpMessageConverter@17bf25b1]
+09:56:36.063 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63803/jsonpost"
+09:56:36.063 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.069 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63803/jsonpost" resulted in 201 (OK)
+09:56:36.076 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63805/status/notmodified"
+09:56:36.077 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.080 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63805/status/notmodified" resulted in 304 (Redirection)
+09:56:36.080 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63805/status/notmodified"
+09:56:36.080 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.083 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63805/status/notmodified" resulted in 304 (Redirection)
+09:56:36.090 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63808/status/server"
+09:56:36.093 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63808/status/server" resulted in 500 (Server Error); invoking error handler
+09:56:36.099 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63810/jsonpost"
+09:56:36.099 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.099 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@61adad37] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7adfab9a]
+09:56:36.103 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63810/jsonpost" resulted in 201 (OK)
+09:56:36.103 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@1cb26047]
+09:56:36.109 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63813/post"
+09:56:36.109 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@74e4e7b4]
+09:56:36.114 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63813/post" resulted in 201 (OK)
+09:56:36.121 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63815/post"
+09:56:36.121 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.121 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@4a7345d2]
+09:56:36.125 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63815/post" resulted in 201 (OK)
+09:56:36.126 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@4a7345d2]
+09:56:36.132 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63817/post"
+09:56:36.132 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@99ebb10]
+09:56:36.137 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63817/post" resulted in 201 (OK)
+09:56:36.143 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63819/uri/Z%C3%BCrich"
+09:56:36.143 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.146 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63819/uri/Z%C3%BCrich" resulted in 200 (OK)
+09:56:36.146 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@13de1d0a]
+09:56:36.147 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63819/uri/query=foo@bar"
+09:56:36.147 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.150 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63819/uri/query=foo@bar" resulted in 200 (OK)
+09:56:36.150 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@13de1d0a]
+09:56:36.150 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63819/uri/query=T%C5%8Dky%C5%8D"
+09:56:36.150 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.153 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63819/uri/query=T%C5%8Dky%C5%8D" resulted in 200 (OK)
+09:56:36.154 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@13de1d0a]
+09:56:36.159 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63823/form"
+09:56:36.159 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@55cb8b88]
+09:56:36.163 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63823/form" resulted in 200 (OK)
+09:56:36.169 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63825/get"
+09:56:36.169 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.172 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63825/get" resulted in 200 (OK)
+09:56:36.172 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@3e2a9065]
+09:56:36.178 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63827/get/nothing"
+09:56:36.178 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.181 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63827/get/nothing" resulted in 200 (OK)
+09:56:36.187 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PATCH request for "http://localhost:63829/patch"
+09:56:36.187 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.187 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@7cca74a3]
+09:56:36.196 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PATCH request for "http://localhost:63829/patch" resulted in 201 (OK)
+09:56:36.196 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7cca74a3]
+09:56:36.202 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63831/get"
+09:56:36.202 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.206 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63831/get" resulted in 200 (OK)
+09:56:36.206 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@1529b24e]
+09:56:36.212 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created OPTIONS request for "http://localhost:63833/get"
+09:56:36.215 [Test worker] DEBUG org.springframework.web.client.RestTemplate - OPTIONS request for "http://localhost:63833/get" resulted in 200 (OK)
+09:56:36.221 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63835/post"
+09:56:36.221 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:36.221 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@16c69fd1]
+09:56:36.226 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63835/post" resulted in 201 (OK)
+09:56:36.232 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63837/status/nocontent"
+09:56:36.232 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.235 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63837/status/nocontent" resulted in 204 (OK)
+09:56:36.236 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63837/status/nocontent"
+09:56:36.236 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.238 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63837/status/nocontent" resulted in 204 (OK)
+09:56:36.244 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63840/status/notfound"
+09:56:36.247 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63840/status/notfound" resulted in 404 (Client Error); invoking error handler
+09:56:36.253 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63842/jsonpost"
+09:56:36.253 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.253 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@7532247c, org.springframework.web.client.RestTemplateIntegrationTests$Bar@6f370ab9]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@724a0244]
+09:56:36.257 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63842/jsonpost" resulted in 201 (OK)
+09:56:36.257 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@6b13851]
+09:56:36.263 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63844/get"
+09:56:36.263 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.265 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63844/get" resulted in 200 (OK)
+09:56:36.265 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@39d9a089]
+09:56:36.271 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63846/jsonpost"
+09:56:36.271 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.272 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.http.converter.json.MappingJacksonValue@6b1da16f] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5eef1e8b]
+09:56:36.275 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63846/jsonpost" resulted in 201 (OK)
+09:56:36.275 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@7d25c2c8]
+09:56:36.281 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63848/get"
+09:56:36.282 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.283 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63848/get" resulted in 200 (OK)
+09:56:36.283 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@3b6d3883]
+09:56:36.296 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63850/multipart"
+09:56:36.296 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@71f52860]
+09:56:36.299 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63850/multipart" resulted in 200 (OK)
+09:56:36.305 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63852/get/nocontenttype"
+09:56:36.305 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.307 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63852/get/nocontenttype" resulted in 200 (OK)
+09:56:36.307 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [[B] as "application/octet-stream" using [org.springframework.http.converter.ByteArrayHttpMessageConverter@3b40dce1]
+09:56:36.315 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63854/jsonpost"
+09:56:36.315 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.317 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63854/jsonpost" resulted in 201 (OK)
+09:56:36.324 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63856/status/notmodified"
+09:56:36.324 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.326 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63856/status/notmodified" resulted in 304 (Redirection)
+09:56:36.327 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63856/status/notmodified"
+09:56:36.327 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.328 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63856/status/notmodified" resulted in 304 (Redirection)
+09:56:36.334 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63858/status/server"
+09:56:36.336 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63858/status/server" resulted in 500 (Server Error); invoking error handler
+09:56:36.343 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63860/jsonpost"
+09:56:36.343 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.343 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [org.springframework.web.client.RestTemplateIntegrationTests$MySampleBean@36fd0aa8] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5add8478]
+09:56:36.345 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63860/jsonpost" resulted in 201 (OK)
+09:56:36.345 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@2f1a0902]
+09:56:36.352 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63862/post"
+09:56:36.352 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@401cf566]
+09:56:36.355 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63862/post" resulted in 201 (OK)
+09:56:36.362 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63864/post"
+09:56:36.362 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.362 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@4ceb1963]
+09:56:36.365 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63864/post" resulted in 201 (OK)
+09:56:36.365 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@4ceb1963]
+09:56:36.372 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63866/post"
+09:56:36.372 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@5e98d1b1]
+09:56:36.375 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63866/post" resulted in 201 (OK)
+09:56:36.382 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63868/uri/Z%C3%BCrich"
+09:56:36.382 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.383 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63868/uri/Z%C3%BCrich" resulted in 200 (OK)
+09:56:36.384 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@3d43f22e]
+09:56:36.385 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63868/uri/query=foo@bar"
+09:56:36.385 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.386 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63868/uri/query=foo@bar" resulted in 200 (OK)
+09:56:36.386 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@3d43f22e]
+09:56:36.386 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63868/uri/query=T%C5%8Dky%C5%8D"
+09:56:36.386 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.387 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63868/uri/query=T%C5%8Dky%C5%8D" resulted in 200 (OK)
+09:56:36.387 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@3d43f22e]
+09:56:36.393 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63870/form"
+09:56:36.393 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@682b4d51]
+09:56:36.395 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63870/form" resulted in 200 (OK)
+09:56:36.402 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63872/get"
+09:56:36.402 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.404 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63872/get" resulted in 200 (OK)
+09:56:36.404 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@68e0d133]
+09:56:36.411 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63874/get/nothing"
+09:56:36.411 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.413 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63874/get/nothing" resulted in 200 (OK)
+09:56:36.420 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PATCH request for "http://localhost:63876/patch"
+09:56:36.420 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.420 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] using [org.springframework.http.converter.StringHttpMessageConverter@afe6b66]
+09:56:36.423 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PATCH request for "http://localhost:63876/patch" resulted in 201 (OK)
+09:56:36.423 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@afe6b66]
+09:56:36.430 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63878/get"
+09:56:36.430 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.431 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63878/get" resulted in 200 (OK)
+09:56:36.431 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@1d9bde7b]
+09:56:36.438 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created OPTIONS request for "http://localhost:63880/get"
+09:56:36.440 [Test worker] DEBUG org.springframework.web.client.RestTemplate - OPTIONS request for "http://localhost:63880/get" resulted in 200 (OK)
+09:56:36.447 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63882/post"
+09:56:36.447 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:36.447 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Héllo Wörld] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@73e8d3c0]
+09:56:36.450 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63882/post" resulted in 201 (OK)
+09:56:36.456 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63884/status/nocontent"
+09:56:36.456 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.458 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63884/status/nocontent" resulted in 204 (OK)
+09:56:36.459 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63884/status/nocontent"
+09:56:36.459 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.460 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63884/status/nocontent" resulted in 204 (OK)
+09:56:36.466 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:63886/status/notfound"
+09:56:36.467 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:63886/status/notfound" resulted in 404 (Client Error); invoking error handler
+09:56:36.477 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:63888/jsonpost"
+09:56:36.477 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:36.477 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [[org.springframework.web.client.RestTemplateIntegrationTests$Foo@130bb595, org.springframework.web.client.RestTemplateIntegrationTests$Bar@382c8cca]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@26b4a80e]
+09:56:36.479 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:63888/jsonpost" resulted in 201 (OK)
+09:56:36.479 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=utf-8" using [org.springframework.http.converter.StringHttpMessageConverter@45144c0]
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63702] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63702] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63702] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63704] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63704] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63704] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63706] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63706] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63706] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63708] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63708] received request: POST /multipart HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63708] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63710] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63710] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63710] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63712] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63712] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63712] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63714] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63714] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63714] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63714] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63716] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63716] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63716] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63718] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63718] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63718] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63720] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63720] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63720] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63722] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63722] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63722] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63724] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63724] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63724] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63726] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63726] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63726] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63726] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63726] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63728] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63728] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63728] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63730] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63730] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63730] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63732] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63732] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63732] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63734] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63734] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63735] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63735] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63735] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63737] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63737] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63737] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63739] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63739] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63739] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63741] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63741] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63741] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63741] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63743] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63743] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63743] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63745] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63745] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63745] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63747] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63747] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63747] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63749] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63749] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63749] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63751] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63751] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63751] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63753] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63753] received request: POST /multipart HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63753] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63755] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63755] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63755] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63757] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63757] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63757] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63759] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63759] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63759] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63759] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63761] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63761] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63761] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63763] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63763] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63763] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63765] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63765] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63765] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63767] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63767] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63767] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63769] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63769] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63769] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63771] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63771] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63771] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63771] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63771] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63773] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63773] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63773] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63775] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63775] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63775] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63777] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63777] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63777] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63779] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63779] received request: PATCH /patch HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63779] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63781] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63781] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63781] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63783] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63783] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63783] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63785] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63785] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63785] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63787] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63787] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63787] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63787] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63789] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63789] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63789] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63791] starting to accept connections
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63791] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63791] done accepting connections: socket closed
+四月 16, 2021 9:56:35 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63793] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63793] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63793] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63795] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63795] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63795] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63797] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63797] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63797] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63799] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63799] received request: POST /multipart HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63799] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63801] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63801] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63801] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63803] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63803] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63803] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63805] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63805] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63805] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63805] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63808] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63808] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63808] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63810] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63810] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63810] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63813] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63813] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63813] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63815] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63815] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63815] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63817] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63817] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63817] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63819] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63819] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63819] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63819] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63819] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63823] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63823] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63823] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63825] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63825] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63825] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63827] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63827] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63827] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63829] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63829] received request: PATCH /patch HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63829] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63831] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63831] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63831] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63833] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63833] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63833] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63835] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63835] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63835] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63837] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63837] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63837] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63837] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63840] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63840] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63840] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63842] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63842] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63842] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63844] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63844] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63844] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63846] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63846] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63846] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63848] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63848] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63848] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63850] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63850] received request: POST /multipart HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63850] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63852] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63852] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63852] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63854] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63854] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63854] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63856] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63856] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63856] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63856] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63858] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63858] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63858] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63860] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63860] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63860] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63862] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63862] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63862] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63864] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63864] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63864] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63866] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63866] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63866] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63868] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63868] received request: GET /uri/Z%C3%BCrich HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63868] received request: GET /uri/query=foo@bar HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63868] received request: GET /uri/query=T%C5%8Dky%C5%8D HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63868] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63870] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63870] received request: POST /form HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63870] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63872] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63872] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63872] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63874] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63874] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63874] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63876] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63876] received request: PATCH /patch HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63876] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63878] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63878] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63878] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63880] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63880] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63880] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63882] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63882] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63882] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63884] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63884] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63884] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63884] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63886] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63886] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63886] done accepting connections: socket closed
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[63888] starting to accept connections
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[63888] received request: POST /jsonpost HTTP/1.1 and responded: HTTP/1.1 201 OK
+四月 16, 2021 9:56:36 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[63888] done accepting connections: socket closed
+]]></system-err>
+</testsuite>

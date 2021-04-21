@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:25" hostname="DESKTOP-3R4DVF7" time="0.058">
+  <properties/>
+  <testcase name="detectScriptTemplateConfigWithEngineName" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.005"/>
+  <testcase name="nonInvocableScriptEngineWithRenderFunction" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.011"/>
+  <testcase name="engineAndEngineNameBothDefined" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.012"/>
+  <testcase name="nonSharedEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.025"/>
+  <testcase name="missingTemplate" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.004"/>
+  <testcase name="missingScriptTemplateConfig" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="engineSetterAndNonSharedEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="customEngineAndRenderFunction" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.001"/>
+  <testcase name="nonInvocableScriptEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="detectScriptTemplateConfigWithEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <system-out><![CDATA[10:01:25.539 [Test worker] INFO  org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@481402af: startup date [Fri Apr 16 10:01:25 CST 2021]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:58:22" hostname="DESKTOP-3R4DVF7" time="15.315">
+  <properties/>
+  <testcase name="actualRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.209"/>
+  <testcase name="actualRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.187"/>
+  <testcase name="preFlightRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.184"/>
+  <testcase name="preFlightRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.182"/>
+  <testcase name="actualRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.18"/>
+  <testcase name="preFlightRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.19"/>
+  <testcase name="preFlightRequestWithCorsRestricted[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.177"/>
+  <testcase name="actualRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.179"/>
+  <testcase name="preFlightRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2109c0f0]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.18"/>
+  <testcase name="actualRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.175"/>
+  <testcase name="actualRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.172"/>
+  <testcase name="preFlightRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.171"/>
+  <testcase name="preFlightRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.172"/>
+  <testcase name="actualRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.182"/>
+  <testcase name="preFlightRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.172"/>
+  <testcase name="preFlightRequestWithCorsRestricted[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.175"/>
+  <testcase name="actualRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.171"/>
+  <testcase name="preFlightRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@633a6986]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.172"/>
+  <testcase name="actualRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.724"/>
+  <testcase name="actualRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.029"/>
+  <testcase name="preFlightRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.036"/>
+  <testcase name="preFlightRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.082"/>
+  <testcase name="actualRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.028"/>
+  <testcase name="preFlightRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.031"/>
+  <testcase name="preFlightRequestWithCorsRestricted[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.041"/>
+  <testcase name="actualRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.022"/>
+  <testcase name="preFlightRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@5ddac20e]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="1.031"/>
+  <testcase name="actualRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.484"/>
+  <testcase name="actualRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.181"/>
+  <testcase name="preFlightRequestWithCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.178"/>
+  <testcase name="preFlightRequestWithCorsRejected[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.182"/>
+  <testcase name="actualRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.178"/>
+  <testcase name="preFlightRequestWithAmbiguousMapping[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.182"/>
+  <testcase name="preFlightRequestWithCorsRestricted[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.177"/>
+  <testcase name="actualRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.181"/>
+  <testcase name="preFlightRequestWithoutCorsEnabled[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@41eae265]]" classname="org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests" time="0.177"/>
+  <system-out><![CDATA[09:58:22.160 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7026db92: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.189 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:22.208 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:22.208 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:22.208 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:22.208 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:22.208 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:22.257 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@7026db92: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.325 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:22.325 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@536c6860{/,null,AVAILABLE}
+09:58:22.325 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:22.325 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:22.329 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@36e89d41{HTTP/1.1,[http/1.1]}{0.0.0.0:50005}
+09:58:22.329 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @95532ms
+09:58:22.329 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50005(0 millis).
+09:58:22.332 [qtp621847509-1750] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:22.332 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:22.332 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@536c6860{/,null,UNAVAILABLE}
+09:58:22.335 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@36e89d41{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:22.336 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:22.402 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@63c65528: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.421 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:22.423 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:22.423 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:22.423 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:22.423 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:22.423 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:22.476 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@63c65528: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.541 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:22.541 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29581154{/,null,AVAILABLE}
+09:58:22.541 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:22.541 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:22.545 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7e2442a6{HTTP/1.1,[http/1.1]}{0.0.0.0:50019}
+09:58:22.545 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @95749ms
+09:58:22.545 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50019(0 millis).
+09:58:22.547 [qtp1251164302-1760] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:22.550 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:22.550 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29581154{/,null,UNAVAILABLE}
+09:58:22.553 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7e2442a6{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:22.554 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:22.620 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2f11c7f: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.639 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:22.641 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:22.641 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:22.641 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:22.641 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:22.641 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:22.689 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@2f11c7f: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.757 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:22.757 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@8c55ade{/,null,AVAILABLE}
+09:58:22.757 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:22.757 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:22.761 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@40bf466e{HTTP/1.1,[http/1.1]}{0.0.0.0:50033}
+09:58:22.761 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @95964ms
+09:58:22.761 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50033(0 millis).
+09:58:22.763 [qtp151488799-1770] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:22.767 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:22.768 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@8c55ade{/,null,UNAVAILABLE}
+09:58:22.771 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@40bf466e{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:22.771 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:22.839 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@66e6b4f: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.857 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:22.858 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:22.858 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:22.858 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:22.858 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:22.858 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:22.907 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@66e6b4f: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.974 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:22.974 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@d52a8c1{/,null,AVAILABLE}
+09:58:22.974 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:22.974 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:22.978 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@34e91040{HTTP/1.1,[http/1.1]}{0.0.0.0:50047}
+09:58:22.978 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @96181ms
+09:58:22.978 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50047(0 millis).
+09:58:22.980 [qtp1558696822-1780] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:22.980 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:22.980 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@d52a8c1{/,null,UNAVAILABLE}
+09:58:22.983 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@34e91040{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:22.984 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:23.049 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d7e302e: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.068 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:23.069 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:23.069 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:23.070 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:23.070 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:23.070 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:23.119 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@1d7e302e: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.187 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:23.187 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@611b51d1{/,null,AVAILABLE}
+09:58:23.188 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:23.188 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:23.191 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5100223d{HTTP/1.1,[http/1.1]}{0.0.0.0:50061}
+09:58:23.191 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @96394ms
+09:58:23.191 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50061(0 millis).
+09:58:23.194 [qtp1726856772-1790] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:23.194 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:23.194 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@611b51d1{/,null,UNAVAILABLE}
+09:58:23.197 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5100223d{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:23.197 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:23.263 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c21854c: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.290 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:23.292 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:23.292 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:23.292 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:23.292 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:23.292 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:23.342 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@c21854c: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.409 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:23.409 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@33086a3b{/,null,AVAILABLE}
+09:58:23.409 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:23.409 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:23.413 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@75b8a86c{HTTP/1.1,[http/1.1]}{0.0.0.0:50075}
+09:58:23.413 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @96617ms
+09:58:23.413 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50075(0 millis).
+09:58:23.415 [qtp1782676632-1800] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:23.416 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:23.416 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@33086a3b{/,null,UNAVAILABLE}
+09:58:23.419 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@75b8a86c{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:23.419 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:23.485 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@47d0c9c4: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.503 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:23.505 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:23.505 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:23.505 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:23.505 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:23.505 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:23.552 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@47d0c9c4: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.617 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:23.617 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29da6175{/,null,AVAILABLE}
+09:58:23.617 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:23.617 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:23.621 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5621ac4c{HTTP/1.1,[http/1.1]}{0.0.0.0:50089}
+09:58:23.621 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @96825ms
+09:58:23.621 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50089(0 millis).
+09:58:23.623 [qtp1733194590-1810] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:23.623 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:23.624 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29da6175{/,null,UNAVAILABLE}
+09:58:23.626 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5621ac4c{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:23.627 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:23.692 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5fc2ed3e: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.711 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:23.713 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:23.713 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:23.713 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:23.713 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:23.713 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:23.762 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@5fc2ed3e: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.828 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:23.828 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@76d14c9{/,null,AVAILABLE}
+09:58:23.828 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:23.828 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:23.832 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@72b4d945{HTTP/1.1,[http/1.1]}{0.0.0.0:50103}
+09:58:23.832 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @97035ms
+09:58:23.832 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50103(0 millis).
+09:58:23.835 [qtp303167493-1820] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:23.835 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:23.835 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@76d14c9{/,null,UNAVAILABLE}
+09:58:23.838 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@72b4d945{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:23.838 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:23.906 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4fcfb98e: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:23.924 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:23.926 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:23.926 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:23.926 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:23.926 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:23.926 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:23.974 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4fcfb98e: startup date [Fri Apr 16 09:58:23 CST 2021]; root of context hierarchy
+09:58:24.039 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:58:24.040 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6b490f55{/,null,AVAILABLE}
+09:58:24.040 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:58:24.040 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:58:24.043 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@26f5946e{HTTP/1.1,[http/1.1]}{0.0.0.0:50117}
+09:58:24.043 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @97247ms
+09:58:24.043 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 50117(0 millis).
+09:58:24.045 [qtp670299771-1830] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:24.046 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:58:24.046 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6b490f55{/,null,UNAVAILABLE}
+09:58:24.049 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@26f5946e{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:58:24.049 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:58:24.116 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@516c8803: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.135 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:24.136 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:24.136 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:24.136 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:24.136 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:24.136 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:24.185 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@516c8803: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.254 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:24.254 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50131(0 millis).
+09:58:24.257 [reactor-http-nio-2] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:24.257 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:24.257 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:24.322 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@23571887: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.341 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:24.343 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:24.343 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:24.343 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:24.343 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:24.343 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:24.391 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@23571887: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.457 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:24.458 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50133(0 millis).
+09:58:24.459 [reactor-http-nio-4] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:24.460 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:24.460 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:24.525 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21e404db: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.544 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:24.546 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:24.546 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:24.546 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:24.546 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:24.546 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:24.593 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@21e404db: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.660 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:24.661 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50135(0 millis).
+09:58:24.663 [reactor-http-nio-6] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:24.663 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:24.663 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:24.730 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d6a167b: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.749 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:24.751 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:24.751 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:24.751 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:24.751 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:24.751 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:24.799 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d6a167b: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.866 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:24.866 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50137(0 millis).
+09:58:24.868 [reactor-http-nio-8] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:24.868 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:24.868 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:24.936 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@654d8a67: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:24.956 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:24.958 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:24.958 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:24.958 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:24.958 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:24.958 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:25.008 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@654d8a67: startup date [Fri Apr 16 09:58:24 CST 2021]; root of context hierarchy
+09:58:25.080 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:25.080 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50139(0 millis).
+09:58:25.082 [reactor-http-nio-10] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:25.082 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:25.082 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:25.147 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d70e824: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.166 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:25.168 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:25.168 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:25.168 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:25.168 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:25.168 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:25.216 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3d70e824: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.283 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:25.283 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50141(0 millis).
+09:58:25.285 [reactor-http-nio-12] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:25.285 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:25.285 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:25.352 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7f109430: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.372 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:25.374 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:25.374 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:25.374 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:25.374 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:25.374 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:25.423 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@7f109430: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.489 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:25.490 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50143(0 millis).
+09:58:25.492 [reactor-http-nio-2] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:25.492 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:25.492 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:25.559 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@44d6adcb: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.578 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:25.579 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:25.579 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:25.579 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:25.579 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:25.579 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:25.628 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@44d6adcb: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.693 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:25.693 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50145(0 millis).
+09:58:25.695 [reactor-http-nio-4] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:25.696 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:25.696 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:25.762 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@470bde6e: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.781 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:25.783 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:25.783 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:25.783 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:25.783 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:25.783 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:25.831 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@470bde6e: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.896 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:58:25.897 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 50147(0 millis).
+09:58:25.898 [reactor-http-nio-6] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:58:25.899 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:58:25.899 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:58:25.966 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3761f85e: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:25.985 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:25.987 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:25.987 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:25.987 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:25.987 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:25.987 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:26.036 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3761f85e: startup date [Fri Apr 16 09:58:25 CST 2021]; root of context hierarchy
+09:58:26.104 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:26.116 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50149(0 millis).
+09:58:26.119 [http-nio-auto-40-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:26.119 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:26.654 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:26.723 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@240745dd: startup date [Fri Apr 16 09:58:26 CST 2021]; root of context hierarchy
+09:58:26.742 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:26.888 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:26.888 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:26.888 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:26.888 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:26.888 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:27.035 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@240745dd: startup date [Fri Apr 16 09:58:26 CST 2021]; root of context hierarchy
+09:58:27.165 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:27.176 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50158(0 millis).
+09:58:27.179 [http-nio-auto-41-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:27.180 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:27.717 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:27.783 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@219d466: startup date [Fri Apr 16 09:58:27 CST 2021]; root of context hierarchy
+09:58:27.802 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:27.947 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:27.947 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:27.947 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:27.947 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:27.947 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:28.095 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@219d466: startup date [Fri Apr 16 09:58:27 CST 2021]; root of context hierarchy
+09:58:28.228 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:28.240 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50167(0 millis).
+09:58:28.243 [http-nio-auto-42-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:28.244 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:28.786 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:28.865 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c7c3cee: startup date [Fri Apr 16 09:58:28 CST 2021]; root of context hierarchy
+09:58:28.885 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:29.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:29.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:29.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:29.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:29.037 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:29.193 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@2c7c3cee: startup date [Fri Apr 16 09:58:28 CST 2021]; root of context hierarchy
+09:58:29.343 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:29.355 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50176(0 millis).
+09:58:29.357 [http-nio-auto-43-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:29.357 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:29.910 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:29.976 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6709eaab: startup date [Fri Apr 16 09:58:29 CST 2021]; root of context hierarchy
+09:58:29.996 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:30.145 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:30.145 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:30.145 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:30.145 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:30.145 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:30.295 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6709eaab: startup date [Fri Apr 16 09:58:29 CST 2021]; root of context hierarchy
+09:58:30.426 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:30.437 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50186(0 millis).
+09:58:30.439 [http-nio-auto-44-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:30.440 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:30.970 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:31.037 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@34dda9aa: startup date [Fri Apr 16 09:58:31 CST 2021]; root of context hierarchy
+09:58:31.056 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:31.209 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:31.209 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:31.209 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:31.209 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:31.209 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:31.359 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@34dda9aa: startup date [Fri Apr 16 09:58:31 CST 2021]; root of context hierarchy
+09:58:31.488 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:31.499 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50195(0 millis).
+09:58:31.501 [http-nio-auto-45-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:31.502 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:32.033 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:32.102 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@44b0586d: startup date [Fri Apr 16 09:58:32 CST 2021]; root of context hierarchy
+09:58:32.122 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:32.271 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:32.271 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:32.271 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:32.271 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:32.271 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:32.422 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@44b0586d: startup date [Fri Apr 16 09:58:32 CST 2021]; root of context hierarchy
+09:58:32.554 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:32.564 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50205(0 millis).
+09:58:32.567 [http-nio-auto-46-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:32.567 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:33.106 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:33.178 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2bea5eba: startup date [Fri Apr 16 09:58:33 CST 2021]; root of context hierarchy
+09:58:33.196 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:33.337 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:33.337 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:33.337 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:33.337 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:33.337 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:33.486 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@2bea5eba: startup date [Fri Apr 16 09:58:33 CST 2021]; root of context hierarchy
+09:58:33.617 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:33.627 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50214(0 millis).
+09:58:33.631 [http-nio-auto-47-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:33.631 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:34.166 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:34.238 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@20a51481: startup date [Fri Apr 16 09:58:34 CST 2021]; root of context hierarchy
+09:58:34.257 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:34.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:34.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:34.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:34.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:34.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:34.549 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@20a51481: startup date [Fri Apr 16 09:58:34 CST 2021]; root of context hierarchy
+09:58:34.680 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:58:34.691 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 50223(0 millis).
+09:58:34.693 [http-nio-auto-48-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:58:34.694 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:58:35.234 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:58:35.300 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5d749b1a: startup date [Fri Apr 16 09:58:35 CST 2021]; root of context hierarchy
+09:58:35.318 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:35.460 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:35.460 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:35.460 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:35.460 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:35.460 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:35.606 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@5d749b1a: startup date [Fri Apr 16 09:58:35 CST 2021]; root of context hierarchy
+09:58:35.737 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:35.746 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50258(0 millis).
+09:58:35.748 [XNIO-39 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:35.748 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:35.750 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:35.817 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@277a067b: startup date [Fri Apr 16 09:58:35 CST 2021]; root of context hierarchy
+09:58:35.836 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:35.838 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:35.838 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:35.838 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:35.838 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:35.838 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:35.887 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@277a067b: startup date [Fri Apr 16 09:58:35 CST 2021]; root of context hierarchy
+09:58:35.953 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:35.959 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50286(0 millis).
+09:58:35.961 [XNIO-40 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:35.961 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:35.963 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:36.030 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@55bfd64c: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.048 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:36.050 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:36.050 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:36.050 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:36.050 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:36.050 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:36.098 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@55bfd64c: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.163 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:36.170 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50314(0 millis).
+09:58:36.172 [XNIO-41 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:36.173 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:36.174 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:36.240 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c34252b: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.259 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:36.260 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:36.260 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:36.260 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:36.260 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:36.260 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:36.308 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c34252b: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.376 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:36.383 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50342(0 millis).
+09:58:36.385 [XNIO-42 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:36.386 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:36.388 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:36.453 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4415562e: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.472 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:36.474 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:36.474 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:36.474 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:36.474 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:36.474 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:36.521 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4415562e: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.587 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:36.594 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50370(0 millis).
+09:58:36.597 [XNIO-43 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:36.597 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:36.599 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:36.666 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6bf93ac3: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.684 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:36.686 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:36.686 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:36.686 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:36.686 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:36.686 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:36.733 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6bf93ac3: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.798 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:36.808 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50398(0 millis).
+09:58:36.810 [XNIO-44 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:36.810 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:36.813 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:36.878 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@311cd0f2: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:36.896 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:36.898 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:36.898 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:36.898 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:36.898 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:36.898 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:36.945 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@311cd0f2: startup date [Fri Apr 16 09:58:36 CST 2021]; root of context hierarchy
+09:58:37.010 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:37.017 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50426(0 millis).
+09:58:37.019 [XNIO-45 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:37.019 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:37.021 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:37.087 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7ea58435: startup date [Fri Apr 16 09:58:37 CST 2021]; root of context hierarchy
+09:58:37.106 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:37.108 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:37.108 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:37.108 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:37.108 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:37.108 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:37.156 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@7ea58435: startup date [Fri Apr 16 09:58:37 CST 2021]; root of context hierarchy
+09:58:37.221 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:37.229 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50454(0 millis).
+09:58:37.232 [XNIO-46 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:37.232 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:37.234 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:58:37.300 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f5e7940: startup date [Fri Apr 16 09:58:37 CST 2021]; root of context hierarchy
+09:58:37.318 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:37.319 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors-restricted],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.corsRestricted()
+09:58:37.319 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/plain]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous1()
+09:58:37.319 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/cors],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.cors()
+09:58:37.320 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/ambiguous],methods=[GET],produces=[text/html]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.ambiguous2()
+09:58:37.320 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String org.springframework.web.reactive.result.method.annotation.GlobalCorsConfigIntegrationTests$TestController.welcome()
+09:58:37.367 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4f5e7940: startup date [Fri Apr 16 09:58:37 CST 2021]; root of context hierarchy
+09:58:37.432 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:58:37.439 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 50482(0 millis).
+09:58:37.441 [XNIO-47 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:58:37.441 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:58:37.442 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 9:58:26 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-40"]
+四月 16, 2021 9:58:26 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:26 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:26 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:26 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-40-50149"]
+四月 16, 2021 9:58:26 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-40-50149"]
+四月 16, 2021 9:58:26 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:26 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-40-50149"]
+四月 16, 2021 9:58:26 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-40-50149"]
+四月 16, 2021 9:58:27 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-41"]
+四月 16, 2021 9:58:27 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:27 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:27 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:27 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-41-50158"]
+四月 16, 2021 9:58:27 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-41-50158"]
+四月 16, 2021 9:58:27 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:27 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-41-50158"]
+四月 16, 2021 9:58:27 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-41-50158"]
+四月 16, 2021 9:58:28 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-42"]
+四月 16, 2021 9:58:28 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:28 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:28 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:28 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-42-50167"]
+四月 16, 2021 9:58:28 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-42-50167"]
+四月 16, 2021 9:58:28 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:28 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-42-50167"]
+四月 16, 2021 9:58:28 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-42-50167"]
+四月 16, 2021 9:58:29 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-43"]
+四月 16, 2021 9:58:29 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:29 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:29 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:29 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-43-50176"]
+四月 16, 2021 9:58:29 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-43-50176"]
+四月 16, 2021 9:58:29 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:29 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-43-50176"]
+四月 16, 2021 9:58:29 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-43-50176"]
+四月 16, 2021 9:58:30 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-44"]
+四月 16, 2021 9:58:30 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:30 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:30 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-44-50186"]
+四月 16, 2021 9:58:30 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-44-50186"]
+四月 16, 2021 9:58:30 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:30 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-44-50186"]
+四月 16, 2021 9:58:30 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-44-50186"]
+四月 16, 2021 9:58:31 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-45"]
+四月 16, 2021 9:58:31 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:31 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:31 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:31 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-45-50195"]
+四月 16, 2021 9:58:31 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-45-50195"]
+四月 16, 2021 9:58:32 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:32 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-45-50195"]
+四月 16, 2021 9:58:32 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-45-50195"]
+四月 16, 2021 9:58:32 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-46"]
+四月 16, 2021 9:58:32 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:32 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:32 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:32 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-46-50205"]
+四月 16, 2021 9:58:32 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-46-50205"]
+四月 16, 2021 9:58:33 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:33 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-46-50205"]
+四月 16, 2021 9:58:33 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-46-50205"]
+四月 16, 2021 9:58:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-47"]
+四月 16, 2021 9:58:33 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:33 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:33 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:33 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-47-50214"]
+四月 16, 2021 9:58:33 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-47-50214"]
+四月 16, 2021 9:58:34 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:34 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-47-50214"]
+四月 16, 2021 9:58:34 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-47-50214"]
+四月 16, 2021 9:58:34 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-48"]
+四月 16, 2021 9:58:34 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:58:34 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:58:34 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:58:34 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-48-50223"]
+四月 16, 2021 9:58:34 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-48-50223"]
+四月 16, 2021 9:58:35 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:58:35 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-48-50223"]
+四月 16, 2021 9:58:35 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-48-50223"]
+]]></system-err>
+</testsuite>

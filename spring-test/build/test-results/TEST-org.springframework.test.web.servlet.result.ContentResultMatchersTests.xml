@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.result.ContentResultMatchersTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:33" hostname="DESKTOP-3R4DVF7" time="0.002">
+  <properties/>
+  <testcase name="stringNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
+  <testcase name="jsonLenientNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="typeNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="string" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="encodingNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="bytes" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="bytesNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="stringMatcherNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
+  <testcase name="stringMatcher" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="jsonStrictMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="jsonStrictNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="typeMatches" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="encoding" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="jsonLenientMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

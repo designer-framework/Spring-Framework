@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" tests="13" skipped="12" failures="0" errors="0" timestamp="2021-04-16T01:54:49" hostname="DESKTOP-3R4DVF7" time="0.037">
+  <properties/>
+  <testcase name="disabledIfWithStringTrueWithSurroundingWhitespace" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithPropertyPlaceholderForNonexistentPropertyWithDefaultValue" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelBooleanTrueBean" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelBoolean" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelBooleanWithSurroundingWhitespace" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelStringTrueBean" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithPropertyPlaceholderWithSurroundingWhitespace" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelOsCheckInCustomComposedAnnotation" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.001"/>
+  <testcase name="disabledIfWithStringTrueIgnoreCase" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithStringTrue" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelArithmeticComparison" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithPropertyPlaceholder" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="disabledIfWithSpelStringConcatenation" classname="org.springframework.test.context.junit.jupiter.DisabledIfTestCase$DisabledIfOnMethodTestCase" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

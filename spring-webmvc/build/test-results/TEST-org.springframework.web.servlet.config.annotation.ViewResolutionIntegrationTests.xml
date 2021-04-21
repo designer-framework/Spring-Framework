@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:52" hostname="DESKTOP-3R4DVF7" time="6.56">
+  <properties/>
+  <testcase name="existingViewResolver" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="2.936"/>
+  <testcase name="freemarkerInvalidConfig" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="0.186"/>
+  <testcase name="freemarker" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="0.2"/>
+  <testcase name="tiles" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="0.455"/>
+  <testcase name="groovyMarkup" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="2.349"/>
+  <testcase name="tilesInvalidConfig" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="0.249"/>
+  <testcase name="groovyMarkupInvalidConfig" classname="org.springframework.web.servlet.config.annotation.ViewResolutionIntegrationTests" time="0.184"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

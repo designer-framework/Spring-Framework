@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:34" hostname="DESKTOP-3R4DVF7" time="0.017">
+  <properties/>
+  <testcase name="favorPath" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.014"/>
+  <testcase name="favorPathWithIgnoreUnknownPathExtensionTurnedOff" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="defaultSettings" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="setDefaultContentTypes" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="setDefaultContentType" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="explicitStrategies" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="ignoreAcceptHeader" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="favorParameter" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="favorParameterWithUnknownMediaType" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="setDefaultContentTypeWithStrategy" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <system-out><![CDATA[09:56:34.460 [Test worker] DEBUG org.springframework.web.accept.FixedContentNegotiationStrategy - Requested media types: [application/json, */*]
+09:56:34.460 [Test worker] DEBUG org.springframework.web.accept.FixedContentNegotiationStrategy - Requested media types: [application/json, */*]
+09:56:34.460 [Test worker] DEBUG org.springframework.web.accept.FixedContentNegotiationStrategy - Requested media types: [application/json]
+09:56:34.460 [Test worker] DEBUG org.springframework.web.accept.FixedContentNegotiationStrategy - Requested media types: [application/json]
+09:56:34.461 [Test worker] DEBUG org.springframework.web.accept.FixedContentNegotiationStrategy - Requested media types: [application/json]
+09:56:34.461 [Test worker] DEBUG org.springframework.web.accept.FixedContentNegotiationStrategy - Requested media types: [application/json]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

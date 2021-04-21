@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.TxNamespaceHandlerEventTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:00" hostname="DESKTOP-3R4DVF7" time="0.018">
+  <properties/>
+  <testcase name="componentEventReceived" classname="org.springframework.transaction.TxNamespaceHandlerEventTests" time="0.018"/>
+  <system-out><![CDATA[09:56:00.781 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签advice使用解析器: org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+09:56:00.781 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签annotation-driven使用解析器: org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+09:56:00.781 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签jta-transaction-manager使用解析器: org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

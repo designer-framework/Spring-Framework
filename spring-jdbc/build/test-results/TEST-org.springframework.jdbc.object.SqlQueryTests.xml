@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.object.SqlQueryTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:56" hostname="DESKTOP-3R4DVF7" time="0.02">
+  <properties/>
+  <testcase name="testNamedParameterUsingInvalidQuestionMarkPlaceHolders" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.002"/>
+  <testcase name="testNamedParameterCustomerQueryWithNamedDeclarations" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.002"/>
+  <testcase name="testFancyCustomerQuery" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testUpdateCustomers" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.002"/>
+  <testcase name="testFindCustomerMixed" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testQueryWithMissingMapParams" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testStringQueryWithResults" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testNamedParameterCustomerQueryWithUnnamedDeclarations" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.0"/>
+  <testcase name="testStringQueryWithoutResults" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testQueryWithoutEnoughParams" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.0"/>
+  <testcase name="testNamedParameterInListQuery" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testFindTooManyCustomers" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testNamedParameterQueryReusingParameter" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testFindCustomerIntInt" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testQueryWithoutParams" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testFindCustomerString" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testUnnamedParameterDeclarationWithNamedParameterQuery" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testListCustomersIntInt" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <testcase name="testListCustomersString" classname="org.springframework.jdbc.object.SqlQueryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

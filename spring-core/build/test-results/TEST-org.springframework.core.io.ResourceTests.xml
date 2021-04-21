@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.ResourceTests" tests="20" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:52:32" hostname="DESKTOP-3R4DVF7" time="0.011">
+  <properties/>
+  <testcase name="testFileSystemResourceWithRelativePath" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testInputStreamResource" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testByteArrayResource" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testInputStreamResourceWithDescription" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testReadableChannelNotFoundOnFileSystemResource" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testReadableChannelNotFoundOnClassPathResource" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testFileSystemResource" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testUrlResourceWithRelativePath" classname="org.springframework.core.io.ResourceTests" time="0.002"/>
+  <testcase name="testByteArrayResourceWithDescription" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testClassPathResource" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testUrlResource" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testClassPathResourceWithClass" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testInputStreamNotFoundOnFileSystemResource" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testInputStreamNotFoundOnClassPathResource" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testClassPathResourceWithClassLoader" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <testcase name="testClassPathResourceWithRelativePath" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testContentLength" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testNonFileResourceExists" classname="org.springframework.core.io.ResourceTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testReadableChannel" classname="org.springframework.core.io.ResourceTests" time="0.0"/>
+  <testcase name="testAbstractResourceExceptions" classname="org.springframework.core.io.ResourceTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

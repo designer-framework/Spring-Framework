@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:34" hostname="DESKTOP-3R4DVF7" time="0.061">
+  <properties/>
+  <testcase name="partsBinding" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.043"/>
+  <testcase name="partListBinding" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.012"/>
+  <system-out><![CDATA[09:56:34.631 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:62440/parts"
+09:56:34.631 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{firstPart=[class path resource [org/springframework/http/converter/logo.jpg]], secondPart=[secondValue]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@1a404ee]
+09:56:34.670 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:62440/parts" resulted in 200 (OK)
+09:56:34.678 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "http://localhost:62440/partlist"
+09:56:34.678 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [{partList=[first value, second value, class path resource [org/springframework/http/converter/logo.jpg]]}] using [org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter@30098f63]
+09:56:34.688 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "http://localhost:62440/partlist" resulted in 200 (OK)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

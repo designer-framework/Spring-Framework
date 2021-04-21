@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.event.AnnotationDrivenEventListenerTests" tests="31" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:48:24" hostname="DESKTOP-3R4DVF7" time="1.194">
+  <properties/>
+  <testcase name="simpleEventXmlConfig" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.035"/>
+  <testcase name="eventListenerWorksWithSimpleInterfaceProxy" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.038"/>
+  <testcase name="asyncProcessingAppliedWithInterfaceProxy" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.029"/>
+  <testcase name="listenerWithNonMatchingPayload" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.005"/>
+  <testcase name="simpleEventJavaConfig" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.005"/>
+  <testcase name="contextEventsAreReceived" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.011"/>
+  <testcase name="simpleReply" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.012"/>
+  <testcase name="arrayReply" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.005"/>
+  <testcase name="methodSignatureNoEvent" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.01"/>
+  <testcase name="asyncProcessingApplied" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.033"/>
+  <testcase name="conditionMatch" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.025"/>
+  <testcase name="orderedListeners" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.017"/>
+  <testcase name="listenerWithGenericApplicationEvent" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.009"/>
+  <testcase name="collectionReplyNullValue" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.004"/>
+  <testcase name="conditionDoesNotMatch" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.007"/>
+  <testcase name="asyncProcessingAppliedWithScopedProxy" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.015"/>
+  <testcase name="privateMethodOnCglibProxyFails" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.017"/>
+  <testcase name="eventListenerWorksWithCglibProxy" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.015"/>
+  <testcase name="conditionMatchWithProxy" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.805"/>
+  <testcase name="listenersReceiveEarlyEvents" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="eventListenerWorksWithCustomScope" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.015"/>
+  <testcase name="collectionReply" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.003"/>
+  <testcase name="eventListenerWorksWithAnnotatedInterfaceProxy" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.011"/>
+  <testcase name="metaAnnotationIsDiscovered" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.009"/>
+  <testcase name="exceptionNotPropagatedWithAsync" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.024"/>
+  <testcase name="listenerWithResolvableTypeEvent" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.009"/>
+  <testcase name="replyWithPayload" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.006"/>
+  <testcase name="nullReplyIgnored" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.005"/>
+  <testcase name="listenerWithResolvableTypeEventWrongGeneric" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.005"/>
+  <testcase name="exceptionPropagated" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.004"/>
+  <testcase name="listenerWithSimplePayload" classname="org.springframework.context.event.AnnotationDrivenEventListenerTests" time="0.003"/>
+  <system-out><![CDATA[09:48:24.290 [Test worker] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Failed to process @EventListener annotation on bean with name 'annotationDrivenEventListenerTests.InvalidMethodSignatureEventListener'; nested exception is java.lang.IllegalStateException: Maximum one parameter is allowed for event listener method: public void org.springframework.context.event.AnnotationDrivenEventListenerTests$InvalidMethodSignatureEventListener.cannotBeCalled(java.lang.String,java.lang.Integer)
+09:48:24.420 [Test worker] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Failed to process @EventListener annotation on bean with name 'annotationDrivenEventListenerTests.CglibProxyWithPrivateMethod'; nested exception is java.lang.IllegalStateException: Need to invoke method 'handleIt' found on proxy for target class 'CglibProxyWithPrivateMethod' but cannot be delegated to target bean. Switch its visibility to package or protected.
+09:48:25.303 [SimpleAsyncTaskExecutor-1] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected error occurred invoking async method: public void org.springframework.context.event.AnnotationDrivenEventListenerTests$ExceptionEventListener.handleAsync(org.springframework.context.event.test.AnotherTestEvent)
+java.lang.IllegalStateException: Test exception
+	at org.springframework.context.event.AnnotationDrivenEventListenerTests$ExceptionEventListener.handleAsync(AnnotationDrivenEventListenerTests.java:735) ~[test/:?]
+	at org.springframework.context.event.AnnotationDrivenEventListenerTests$ExceptionEventListener$$FastClassBySpringCGLIB$$356572e3.invoke(<generated>) ~[test/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:747) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_271]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

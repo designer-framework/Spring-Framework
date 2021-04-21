@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:14" hostname="DESKTOP-3R4DVF7" time="0.004">
+  <properties/>
+  <testcase name="statusCodeAndReason" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.001"/>
+  <testcase name="statusCodeAndReasonMessage" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.0"/>
+  <testcase name="responseStatusExceptionWithReason" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.0"/>
+  <testcase name="responseStatusException" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.001"/>
+  <testcase name="statusCode" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.0"/>
+  <testcase name="statusCodeFromComposedResponseStatus" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.001"/>
+  <testcase name="nestedException" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.001"/>
+  <testcase name="notAnnotated" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.0"/>
+  <system-out><![CDATA[10:02:14.849 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonException
+10:02:14.849 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonMessageException
+10:02:14.850 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.server.ResponseStatusException: Response status 400 with reason "The reason"
+10:02:14.850 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.server.ResponseStatusException: Response status 400
+10:02:14.850 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeException
+10:02:14.852 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeFromComposedResponseStatusException
+10:02:14.852 [Test worker] WARN  org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'org.springframework.tests.sample.beans.ITestBean'; nested exception is org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonMessageException
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

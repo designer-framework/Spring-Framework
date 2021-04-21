@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.WebClientIntegrationTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:21" hostname="DESKTOP-3R4DVF7" time="1.801">
+  <properties/>
+  <testcase name="shouldApplyErrorHandlingFilter" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.097"/>
+  <testcase name="shouldReceiveJsonAsResponseEntityList" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.058"/>
+  <testcase name="shouldReceiveResponseHeaders" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.054"/>
+  <testcase name="shouldReceivePlainText" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.06"/>
+  <testcase name="shouldReceive404Response" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.058"/>
+  <testcase name="shouldReceiveJsonAsResponseEntityString" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.055"/>
+  <testcase name="shouldReceiveJsonAsTypeReferenceString" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.059"/>
+  <testcase name="shouldReceiveNotFoundEntity" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.057"/>
+  <testcase name="shouldReceiveJsonAsFluxPojo" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.077"/>
+  <testcase name="shouldSendPojoAsJson" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.155"/>
+  <testcase name="shouldApplyExchangeFilter" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.07"/>
+  <testcase name="shouldReceiveEmptyResponse" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.058"/>
+  <testcase name="shouldFailWithRelativeUrls" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.101"/>
+  <testcase name="shouldReceiveJsonAsPojo" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.054"/>
+  <testcase name="shouldGetErrorSignalOn404" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.064"/>
+  <testcase name="shouldReceiveJsonAsFluxString" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.118"/>
+  <testcase name="shouldSendCookies" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.135"/>
+  <testcase name="shouldReceiveJsonAsString" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.089"/>
+  <testcase name="shouldApplyCustomStatusHandler" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.06"/>
+  <testcase name="shouldGetErrorSignalOnEmptyErrorResponse" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.052"/>
+  <testcase name="shouldApplyCustomStatusHandlerParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.057"/>
+  <testcase name="shouldGetInternalServerErrorSignal" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.054"/>
+  <testcase name="shouldSendLargeTextFile" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.156"/>
+  <system-out><![CDATA[	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302) [netty-codec-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+09:57:22.838 [reactor-http-nio-8] ERROR reactor.core.publisher.Operators - Operator called default onErrorDropped
+java.lang.IllegalStateException: Only one connection receive subscriber allowed.
+	at reactor.ipc.netty.channel.FluxReceive.startReceiver(FluxReceive.java:279) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.FluxReceive.subscribe(FluxReceive.java:126) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.ipc.netty.ByteBufFlux.subscribe(ByteBufFlux.java:282) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.core.publisher.FluxPeek.subscribe(FluxPeek.java:83) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume.subscribe(FluxOnErrorResume.java:47) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreElements.subscribe(MonoIgnoreElements.java:37) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3088) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3088) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:97) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:185) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:251) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.onError(Operators.java:1126) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreInner.onError(MonoIgnoreThen.java:234) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:100) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators.error(Operators.java:178) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3088) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:97) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onError(MonoIgnoreElements.java:75) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:100) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators.error(Operators.java:178) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxError.subscribe(FluxError.java:45) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:6877) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:97) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:120) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onError(FluxMap.java:120) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators.error(Operators.java:178) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:157) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:86) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators.error(Operators.java:177) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.ipc.netty.channel.FluxReceive.startReceiver(FluxReceive.java:279) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.FluxReceive.subscribe(FluxReceive.java:126) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.ipc.netty.ByteBufFlux.subscribe(ByteBufFlux.java:282) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.core.publisher.FluxPeek.subscribe(FluxPeek.java:83) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxOnErrorResume.subscribe(FluxOnErrorResume.java:47) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreElements.subscribe(MonoIgnoreElements.java:37) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3088) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:92) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1083) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:144) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:104) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1083) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:122) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onComplete(Operators.java:1318) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:245) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130) [reactor-core-3.1.16.RELEASE.jar:3.1.16.RELEASE]
+	at reactor.ipc.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:380) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:204) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:345) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:338) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.ChannelOperations.onHandlerTerminate(ChannelOperations.java:407) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:636) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:138) [reactor-netty-0.7.15.RELEASE.jar:0.7.15.RELEASE]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-codec-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:328) [netty-codec-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302) [netty-codec-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:697) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64440] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64442] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64442] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64442] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64442] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64445] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64445] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64445] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64447] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64447] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64447] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64449] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64449] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64449] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64451] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64451] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64451] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64453] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64453] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64453] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64455] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64455] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64455] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64457] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64457] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64457] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64459] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64459] received request: GET /pojos HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64459] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64461] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64461] received request: POST /pojo/capitalize HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64461] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64463] starting to accept connections
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64463] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64463] done accepting connections: socket closed
+四月 16, 2021 9:57:21 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64465] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64465] received request: GET /noContent HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64465] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64467] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64467] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64468] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64468] received request: GET /pojo HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64468] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64470] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64470] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64470] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64472] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64472] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64472] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64474] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64474] received request: GET /test HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64474] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64476] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64476] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64476] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64478] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64478] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64478] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64480] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64480] received request: GET /greeting HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64480] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64482] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64482] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64482] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64484] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64484] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64484] done accepting connections: socket closed
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[64486] starting to accept connections
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[64486] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:57:22 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[64486] done accepting connections: socket closed
+]]></system-err>
+</testsuite>

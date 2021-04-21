@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:54" hostname="DESKTOP-3R4DVF7" time="0.19">
+  <properties/>
+  <testcase name="resolveExceptionGlobalHandlerOrdered" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.06"/>
+  <testcase name="initBinderAdvice" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.025"/>
+  <testcase name="modelAttributeAdvice" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.02"/>
+  <testcase name="resolveExceptionGlobalHandler" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.025"/>
+  <testcase name="resolveExceptionWithAssertionError" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.02"/>
+  <testcase name="resolveExceptionWithAssertionErrorAsRootCause" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.019"/>
+  <testcase name="resolveExceptionWithHandlerMethodArg" classname="org.springframework.web.reactive.result.method.annotation.ControllerAdviceTests" time="0.019"/>
+  <system-out><![CDATA[09:57:54.354 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@9612698: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.358 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.401 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@9612698: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.404 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+09:57:54.413 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@61814a45: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.414 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.431 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@61814a45: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.431 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.431 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.431 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+09:57:54.438 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6991dd76: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.439 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.456 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6991dd76: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.456 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.456 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.456 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+09:57:54.458 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@571d127b: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.459 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.481 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@571d127b: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.481 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.481 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.482 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+09:57:54.484 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3daed18d: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.485 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.502 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3daed18d: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.502 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.502 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.502 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+09:57:54.505 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c2be430: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.506 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.521 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@6c2be430: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.522 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.522 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.522 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+09:57:54.524 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@16e307a4: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.525 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.541 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@16e307a4: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.541 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ModelAttribute methods in testExceptionResolver
+09:57:54.541 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in testExceptionResolver
+09:57:54.541 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Detected @ExceptionHandler methods in anotherTestExceptionResolver
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

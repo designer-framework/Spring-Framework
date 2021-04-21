@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:58:22" hostname="DESKTOP-3R4DVF7" time="0.079">
+  <properties/>
+  <testcase name="resolveSystemProperty" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.074"/>
+  <testcase name="doesNotSupport" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.003"/>
+  <system-out><![CDATA[09:58:22.015 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@743f0c5c: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.015 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:22.089 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6701eca7: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.089 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:58:22.092 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@19370ac1: startup date [Fri Apr 16 09:58:22 CST 2021]; root of context hierarchy
+09:58:22.092 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

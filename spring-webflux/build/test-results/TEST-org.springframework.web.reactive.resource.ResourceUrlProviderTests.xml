@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.resource.ResourceUrlProviderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:52" hostname="DESKTOP-3R4DVF7" time="0.094">
+  <properties/>
+  <testcase name="getStaticResourceUrl" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="getStaticResourceUrlRequestWithQueryOrHash" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.001"/>
+  <testcase name="getFingerprintedResourceUrl" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.002"/>
+  <testcase name="bestPatternMatch" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.003"/>
+  <testcase name="initializeOnce" classname="org.springframework.web.reactive.resource.ResourceUrlProviderTests" time="0.087"/>
+  <system-out><![CDATA[09:57:52.473 [Test worker] INFO  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:57:52 CST 2021]; root of context hierarchy
+09:57:52.495 [Test worker] INFO  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Registering annotated classes: [class org.springframework.web.reactive.resource.ResourceUrlProviderTests$HandlerMappingConfiguration]
+09:57:52.515 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:52.534 [Test worker] INFO  org.springframework.web.reactive.handler.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

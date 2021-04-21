@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:51" hostname="DESKTOP-3R4DVF7" time="0.025">
+  <properties/>
+  <testcase name="hasValueWhereTheUnderlyingBeanPropertyIsNotReadable" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.007"/>
+  <testcase name="hasValueWhereTheUnderlyingBeanHasNoSuchProperty" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.017"/>
+  <testcase name="getValueWhereTheUnderlyingBeanHasNoSuchProperty" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.0"/>
+  <testcase name="getValueWhereTheUnderlyingBeanPropertyIsNotReadable" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.0"/>
+  <testcase name="successfulPropertyAccessWithOverriddenSqlType" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.0"/>
+  <testcase name="withNullBeanPassedToCtor" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.001"/>
+  <testcase name="successfulPropertyAccess" classname="org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSourceTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

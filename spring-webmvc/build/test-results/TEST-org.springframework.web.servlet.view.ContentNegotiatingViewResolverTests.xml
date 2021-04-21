@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:35" hostname="DESKTOP-3R4DVF7" time="0.016">
+  <properties/>
+  <testcase name="resolveViewNameWithRequestParameter" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.009"/>
+  <testcase name="resolveViewNameRedirectView" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.001"/>
+  <testcase name="resolveViewNameAcceptHeaderWithSuffix" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameAcceptHeaderDefaultView" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.001"/>
+  <testcase name="resolveViewNoMatch" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameAcceptHeader" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewContentTypeNull" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameWithInvalidAcceptHeader" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNoMatchUseUnacceptableStatus" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameWithAcceptHeader" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameFilenameDefaultView" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.001"/>
+  <testcase name="resolveViewNameWithPathExtension" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="nestedViewResolverIsNotSpringBean" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameFilename" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.001"/>
+  <testcase name="getMediaTypeAcceptHeaderWithProduces" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <testcase name="resolveViewNameAcceptHeaderSortByQuality" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.001"/>
+  <testcase name="resolveViewNameWithDefaultContentType" classname="org.springframework.web.servlet.view.ContentNegotiatingViewResolverTests" time="0.0"/>
+  <system-out><![CDATA[10:02:35.698 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.707 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.708 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.708 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.708 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.709 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.709 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.710 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.710 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.710 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.711 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.711 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.712 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.712 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.713 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.713 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+10:02:35.714 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

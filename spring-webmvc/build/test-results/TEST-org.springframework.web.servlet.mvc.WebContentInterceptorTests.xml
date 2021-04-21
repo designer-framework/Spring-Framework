@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.WebContentInterceptorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:32" hostname="DESKTOP-3R4DVF7" time="0.007">
+  <properties/>
+  <testcase name="preventCacheConfiguration" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="cachingConfigAndPragmaHeader" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <testcase name="emptyCacheConfiguration" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.002"/>
+  <testcase name="mappedCacheConfigurationOverridesGlobal" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="http10CachingConfigAndSpecificMapping" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.001"/>
+  <testcase name="http10CachingConfigAndPragmaHeader" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <testcase name="throwsExceptionWithNullPathMatcher" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <testcase name="cacheResourcesConfiguration" classname="org.springframework.web.servlet.mvc.WebContentInterceptorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

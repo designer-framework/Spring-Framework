@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.core.GenericMessagingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:13" hostname="DESKTOP-3R4DVF7" time="1.594">
+  <properties/>
+  <testcase name="sendAndReceiveVariableTimeoutCustomHeaders" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.579"/>
+  <testcase name="sendAndReceive" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.005"/>
+  <testcase name="sendAndReceiveVariableTimeout" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.504"/>
+  <testcase name="sendWithTimeout" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.002"/>
+  <testcase name="convertAndSendWithSimpMessageHeaders" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendWithTimeoutMutable" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceiveTimeout" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.502"/>
+  <system-out><![CDATA[09:53:13.782 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=6e7ec5ba-6375-2b93-2e02-65a368093a51, timestamp=1618537993770}]
+09:53:14.312 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=01a21761-813b-5973-3bee-0c31bde571e0, timestamp=1618537994312}]
+09:53:14.821 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=4a94188d-6ccd-a7bc-8496-b1c3201b0a09, timestamp=1618537994821}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

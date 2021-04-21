@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.simple.SimpleJdbcInsertTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:51" hostname="DESKTOP-3R4DVF7" time="0.009">
+  <properties/>
+  <testcase name="testNoSuchTable" classname="org.springframework.jdbc.core.simple.SimpleJdbcInsertTests" time="0.009"/>
+  <system-out><![CDATA[09:52:51.783 [Test worker] WARN  org.springframework.jdbc.core.metadata.TableMetaDataProvider - Unable to locate table meta-data for 'x': column names must be provided
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

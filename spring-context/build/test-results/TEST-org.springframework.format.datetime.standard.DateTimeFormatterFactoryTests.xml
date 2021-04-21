@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:33" hostname="DESKTOP-3R4DVF7" time="0.015">
+  <properties/>
+  <testcase name="createDateTimeFormatterInOrderOfPropertyPriority" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.006"/>
+  <testcase name="createDateTimeFormatterWithPattern" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
+  <testcase name="createDateTimeFormatter" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
+  <testcase name="createDateTimeFormatterWithNullFallback" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
+  <testcase name="createDateTimeFormatterWithFallback" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
+  <testcase name="createDateTimeFormatterWithTimeZone" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:24" hostname="DESKTOP-3R4DVF7" time="0.533">
+  <properties/>
+  <testcase name="renderTemplateWithUrl" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.492"/>
+  <testcase name="renderTemplate" classname="org.springframework.web.reactive.result.view.script.NashornScriptTemplateTests" time="0.041"/>
+  <system-out><![CDATA[10:01:24.953 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d3a165d: startup date [Fri Apr 16 10:01:24 CST 2021]; root of context hierarchy
+10:01:24.955 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:25.444 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@268cc28e: startup date [Fri Apr 16 10:01:25 CST 2021]; root of context hierarchy
+10:01:25.446 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

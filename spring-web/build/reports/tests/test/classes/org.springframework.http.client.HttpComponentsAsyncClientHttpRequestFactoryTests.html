@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.http.client.html">org.springframework.http.client</a> &gt; HttpComponentsAsyncClientHttpRequestFactoryTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.256s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">cancel</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">customHttpAsyncClientUsesItsDefault</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">defaultSettingsOfHttpAsyncClientLostOnExecutorCustomization</td>
+<td>0.094s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">echo</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">headersAfterExecute</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpMethods</td>
+<td>0.069s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipleWrites</td>
+<td>0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">status</td>
+<td>0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">statusCallback</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61314] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61314] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61367] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61367] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61420] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: GET /methods/get HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: HEAD /methods/head HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: POST /methods/post HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: PUT /methods/put HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: OPTIONS /methods/options HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: DELETE /methods/delete HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61420] received request: PATCH /methods/patch HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61420] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61448] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61448] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61475] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61475] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61475] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61503] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61503] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61503] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61531] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61531] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61531] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61559] starting to accept connections
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61559] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61559] done accepting connections: socket closed
+四月 16, 2021 9:56:04 上午 okhttp3.mockwebserver.MockWebServer$2 execute
+信息: MockWebServer[61587] starting to accept connections
+四月 16, 2021 9:56:05 上午 okhttp3.mockwebserver.MockWebServer$3 processOneRequest
+信息: MockWebServer[61587] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+四月 16, 2021 9:56:05 上午 okhttp3.mockwebserver.MockWebServer$2 acceptConnections
+信息: MockWebServer[61587] done accepting connections: socket closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 9:56:43</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.servlet.mvc.method.annotation.html">org.springframework.web.servlet.mvc.method.annotation</a> &gt; ResponseEntityExceptionHandlerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">20</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.226s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">asyncRequestTimeoutException</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">bindException</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controllerAdvice</td>
+<td>0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controllerAdviceWithNestedException</td>
+<td>0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controllerAdviceWithNestedExceptionWithinDispatcherServlet</td>
+<td>0.084s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controllerAdviceWithinDispatcherServlet</td>
+<td>0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">conversionNotSupported</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleHttpMediaTypeNotSupported</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpMediaTypeNotAcceptable</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpMessageNotReadable</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpMessageNotWritable</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">httpRequestMethodNotSupported</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">methodArgumentNotValid</td>
+<td>0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">missingPathVariable</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">missingServletRequestParameter</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">missingServletRequestPart</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">noHandlerFoundException</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">servletRequestBindingException</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">supportsAllDefaultHandlerExceptionResolverExceptionTypes</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">typeMismatch</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotWritableException: 
+10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No handler found for GET /resource
+10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /resource
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 0 errors
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'partName' is not present
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotReadableException: message
+10:02:23.414 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.Object' to required type 'java.lang.Object'
+10:02:23.414 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'
+10:02:23.415 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'param' for method parameter of type String
+10:02:23.415 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.ServletRequestBindingException: message
+10:02:23.556 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: 
+10:02:23.580 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: Mock for MethodArgumentNotValidException, hashCode: 2071888577
+10:02:23.580 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+10:02:23.581 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingServletRequestParameterException: Required type parameter 'param' is not present
+10:02:23.581 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json' not supported
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 10:02:57</p>
+</div>
+</div>
+</body>
+</html>

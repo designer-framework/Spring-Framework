@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.MvcNamespaceTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:04" hostname="DESKTOP-3R4DVF7" time="5.335">
+  <properties/>
+  <testcase name="testDefaultConfig" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.715"/>
+  <testcase name="testCorsMinimal" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.346"/>
+  <testcase name="testCustomConversionService" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.404"/>
+  <testcase name="testViewControllers" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.384"/>
+  <testcase name="testResources" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.385"/>
+  <testcase name="testCors" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.318"/>
+  <testcase name="testResourcesWithResolversTransformersCustom" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.038"/>
+  <testcase name="testResourcesWithResolversTransformers" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.028"/>
+  <testcase name="testResourcesWithOptionalAttributes" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.019"/>
+  <testcase name="testDefaultServletHandlerWithOptionalAttributes" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.02"/>
+  <testcase name="testInterceptors" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.454"/>
+  <testcase name="testViewResolution" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.071"/>
+  <testcase name="testViewResolutionWithOrderSet" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.016"/>
+  <testcase name="testViewResolutionWithContentNegotiation" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.043"/>
+  <testcase name="testDefaultServletHandler" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.015"/>
+  <testcase name="testPathMatchingHandlerMappings" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.37"/>
+  <testcase name="testViewControllersDefaultConfig" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.016"/>
+  <testcase name="testCustomValidator" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.378"/>
+  <testcase name="testViewControllersOnWebSphere" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.41"/>
+  <testcase name="testContentNegotiationManager" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.283"/>
+  <testcase name="testBeanDecoration" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.312"/>
+  <testcase name="testAsyncSupportOptions" classname="org.springframework.web.servlet.config.MvcNamespaceTests" time="0.307"/>
+  <system-out><![CDATA[10:02:08.820 [Test worker] WARN  org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Did not find any ViewResolvers to delegate to; please configure them using the 'viewResolvers' property on the ContentNegotiatingViewResolver
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

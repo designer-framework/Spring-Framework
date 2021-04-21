@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.FlushingIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:00" hostname="DESKTOP-3R4DVF7" time="16.884">
+  <properties/>
+  <testcase name="writeAndAutoFlushBeforeComplete[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@18b66a02]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="3.559"/>
+  <testcase name="writeAndFlushWith[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@18b66a02]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.203"/>
+  <testcase name="writeAndAutoFlushOnComplete[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@18b66a02]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="1.349"/>
+  <testcase name="writeAndAutoFlushBeforeComplete[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f2fc101]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.188"/>
+  <testcase name="writeAndFlushWith[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f2fc101]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.167"/>
+  <testcase name="writeAndAutoFlushOnComplete[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f2fc101]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.862"/>
+  <testcase name="writeAndAutoFlushBeforeComplete[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@6462549c]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="3.817"/>
+  <testcase name="writeAndFlushWith[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@6462549c]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="2.757"/>
+  <testcase name="writeAndAutoFlushOnComplete[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@6462549c]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="1.649"/>
+  <testcase name="writeAndAutoFlushBeforeComplete[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@308c6552]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.434"/>
+  <testcase name="writeAndFlushWith[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@308c6552]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="0.17"/>
+  <testcase name="writeAndAutoFlushOnComplete[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@308c6552]]" classname="org.springframework.web.reactive.FlushingIntegrationTests" time="1.729"/>
+  <system-out><![CDATA[09:57:00.149 [Test worker] INFO  org.eclipse.jetty.util.log - Logging initialized @13349ms to org.eclipse.jetty.util.log.Slf4jLog
+09:57:00.282 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:00.386 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3a523c43{/,null,AVAILABLE}
+09:57:00.457 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:00.466 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:00.523 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@edc489d{HTTP/1.1,[http/1.1]}{0.0.0.0:64179}
+09:57:00.523 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @13727ms
+09:57:00.523 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 64179(0 millis).
+09:57:03.607 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:03.614 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3a523c43{/,null,UNAVAILABLE}
+09:57:03.622 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@edc489d{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:03.629 [qtp965862540-49] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:57:03.629 [qtp965862540-49] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Dispatching into container to raise error
+09:57:03.651 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:03.654 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:03.654 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4115ddf4{/,null,AVAILABLE}
+09:57:03.654 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:03.655 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:03.661 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@2dd46a8a{HTTP/1.1,[http/1.1]}{0.0.0.0:64218}
+09:57:03.661 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @16864ms
+09:57:03.661 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 64218(0 millis).
+09:57:03.852 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:03.853 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4115ddf4{/,null,UNAVAILABLE}
+09:57:03.856 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@2dd46a8a{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:03.857 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:03.857 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:03.857 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@52ddf940{/,null,AVAILABLE}
+09:57:03.858 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:03.858 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:03.864 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3ae10d94{HTTP/1.1,[http/1.1]}{0.0.0.0:64233}
+09:57:03.864 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @17067ms
+09:57:03.864 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 64233(0 millis).
+09:57:05.173 [qtp160858586-70] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:05.200 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:05.201 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@52ddf940{/,null,UNAVAILABLE}
+09:57:05.205 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3ae10d94{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:05.206 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:05.239 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:05.264 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 64248(0 millis).
+09:57:05.389 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:05.394 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:05.396 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:05.397 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 64250(0 millis).
+09:57:05.561 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:05.561 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:05.561 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:05.563 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 64252(0 millis).
+09:57:06.175 [reactor-http-nio-6] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:06.422 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:06.423 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:06.608 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:07.395 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 64254(0 millis).
+09:57:07.637 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:10.240 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:10.241 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:10.256 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 64264(0 millis).
+09:57:10.412 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:12.985 [http-nio-auto-2-exec-2] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: Async operation timeout.
+09:57:12.986 [http-nio-auto-2-exec-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Dispatching into container to raise error
+09:57:12.993 [http-nio-auto-2-exec-2] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Timeout notification from Servlet container
+09:57:12.998 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:12.998 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:13.012 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 64275(0 millis).
+09:57:13.097 [http-nio-auto-3-exec-7] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:14.112 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:14.646 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:14.662 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:14.707 [Test worker] INFO  org.xnio - XNIO version 3.3.8.Final
+09:57:14.756 [Test worker] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+09:57:14.892 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 64312(0 millis).
+09:57:15.061 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:15.080 [XNIO-1 I/O-6] WARN  org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with error: 你的主机中的软件中止了一个已建立的连接。
+09:57:15.080 [XNIO-1 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Closing connection
+09:57:15.081 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:15.081 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:15.092 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 64340(0 millis).
+09:57:15.247 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:15.251 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:15.251 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:15.263 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 64368(0 millis).
+09:57:16.446 [XNIO-3 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:16.975 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:16.980 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 9:57:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-1"]
+四月 16, 2021 9:57:06 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:06 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:06 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:07 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-1-64254"]
+四月 16, 2021 9:57:07 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-1-64254"]
+四月 16, 2021 9:57:08 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:10 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-1-64254"]
+四月 16, 2021 9:57:10 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-1-64254"]
+四月 16, 2021 9:57:10 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-2"]
+四月 16, 2021 9:57:10 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:10 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:10 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:10 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-2-64264"]
+四月 16, 2021 9:57:10 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-2-64264"]
+四月 16, 2021 9:57:10 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:12 上午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+警告: The web application [ROOT] appears to have started a thread named [parallel-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+四月 16, 2021 9:57:12 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-2-64264"]
+四月 16, 2021 9:57:12 上午 org.apache.catalina.core.ApplicationContext log
+严重: Error during mapping
+java.lang.NullPointerException
+	at org.apache.catalina.mapper.Mapper.internalMapWrapper(Mapper.java:866)
+	at org.apache.catalina.mapper.Mapper.map(Mapper.java:722)
+	at org.apache.catalina.core.ApplicationContext.getRequestDispatcher(ApplicationContext.java:473)
+	at org.apache.catalina.core.ApplicationContextFacade.getRequestDispatcher(ApplicationContextFacade.java:223)
+	at org.apache.catalina.core.AsyncContextImpl.dispatch(AsyncContextImpl.java:196)
+	at org.apache.catalina.core.AsyncContextImpl.dispatch(AsyncContextImpl.java:175)
+	at org.apache.catalina.core.AsyncContextImpl.dispatch(AsyncContextImpl.java:169)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultSubscriber.lambda$onError$0(ServletHttpHandlerAdapter.java:302)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.runIfAsyncNotComplete(ServletHttpHandlerAdapter.java:230)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.access$100(ServletHttpHandlerAdapter.java:58)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultSubscriber.onError(ServletHttpHandlerAdapter.java:298)
+	at reactor.core.publisher.StrictSubscriber.onError(StrictSubscriber.java:106)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:207)
+	at org.springframework.http.server.reactive.ChannelSendOperator$WriteCompletionBarrier.onError(ChannelSendOperator.java:373)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onError(MonoIgnoreElements.java:75)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onError(Operators.java:1323)
+	at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:87)
+	at org.springframework.http.server.reactive.WriteResultPublisher$State.publishError(WriteResultPublisher.java:240)
+	at org.springframework.http.server.reactive.WriteResultPublisher.publishError(WriteResultPublisher.java:79)
+	at org.springframework.http.server.reactive.AbstractListenerWriteFlushProcessor$State.onError(AbstractListenerWriteFlushProcessor.java:321)
+	at org.springframework.http.server.reactive.AbstractListenerWriteFlushProcessor.onError(AbstractListenerWriteFlushProcessor.java:78)
+	at org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener.handleError(ServletServerHttpResponse.java:205)
+	at org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener.onTimeout(ServletServerHttpResponse.java:193)
+	at org.apache.catalina.core.AsyncListenerWrapper.fireOnTimeout(AsyncListenerWrapper.java:44)
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:133)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:153)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:246)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 16, 2021 9:57:12 上午 org.apache.catalina.core.AsyncContextImpl timeout
+警告: onTimeout() call failed for listener of type [org.apache.catalina.core.AsyncListenerWrapper]
+java.lang.UnsupportedOperationException: The dispatcher returned from the ServletContext does not support asynchronous dispatching
+	at org.apache.catalina.core.AsyncContextImpl.dispatch(AsyncContextImpl.java:198)
+	at org.apache.catalina.core.AsyncContextImpl.dispatch(AsyncContextImpl.java:175)
+	at org.apache.catalina.core.AsyncContextImpl.dispatch(AsyncContextImpl.java:169)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultSubscriber.lambda$onError$0(ServletHttpHandlerAdapter.java:302)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.runIfAsyncNotComplete(ServletHttpHandlerAdapter.java:230)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.access$100(ServletHttpHandlerAdapter.java:58)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultSubscriber.onError(ServletHttpHandlerAdapter.java:298)
+	at reactor.core.publisher.StrictSubscriber.onError(StrictSubscriber.java:106)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:207)
+	at org.springframework.http.server.reactive.ChannelSendOperator$WriteCompletionBarrier.onError(ChannelSendOperator.java:373)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onError(MonoIgnoreElements.java:75)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onError(Operators.java:1323)
+	at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:87)
+	at org.springframework.http.server.reactive.WriteResultPublisher$State.publishError(WriteResultPublisher.java:240)
+	at org.springframework.http.server.reactive.WriteResultPublisher.publishError(WriteResultPublisher.java:79)
+	at org.springframework.http.server.reactive.AbstractListenerWriteFlushProcessor$State.onError(AbstractListenerWriteFlushProcessor.java:321)
+	at org.springframework.http.server.reactive.AbstractListenerWriteFlushProcessor.onError(AbstractListenerWriteFlushProcessor.java:78)
+	at org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener.handleError(ServletServerHttpResponse.java:205)
+	at org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener.onTimeout(ServletServerHttpResponse.java:193)
+	at org.apache.catalina.core.AsyncListenerWrapper.fireOnTimeout(AsyncListenerWrapper.java:44)
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:133)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:153)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:246)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 16, 2021 9:57:12 上午 org.apache.catalina.core.AsyncContextImpl timeout
+警告: onTimeout() call failed for listener of type [org.apache.catalina.core.AsyncListenerWrapper]
+java.lang.NullPointerException
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultAsyncListener.onTimeout(ServletHttpHandlerAdapter.java:251)
+	at org.apache.catalina.core.AsyncListenerWrapper.fireOnTimeout(AsyncListenerWrapper.java:44)
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:133)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:153)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:246)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 16, 2021 9:57:12 上午 org.apache.catalina.connector.CoyoteAdapter asyncDispatch
+严重: Exception while processing an asynchronous request
+java.lang.NullPointerException
+	at org.apache.catalina.core.AsyncContextImpl.timeout(AsyncContextImpl.java:140)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:153)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:246)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:810)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+四月 16, 2021 9:57:12 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-2-64264"]
+四月 16, 2021 9:57:12 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-3"]
+四月 16, 2021 9:57:13 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:13 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:13 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:13 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-3-64275"]
+四月 16, 2021 9:57:14 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-3-64275"]
+四月 16, 2021 9:57:14 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:14 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-3-64275"]
+四月 16, 2021 9:57:14 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-3-64275"]
+]]></system-err>
+</testsuite>

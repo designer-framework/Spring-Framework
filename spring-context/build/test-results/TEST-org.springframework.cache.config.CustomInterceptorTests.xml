@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.config.CustomInterceptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:06" hostname="DESKTOP-3R4DVF7" time="0.058">
+  <properties/>
+  <testcase name="customInterceptorAppliesWithCheckedException" classname="org.springframework.cache.config.CustomInterceptorTests" time="0.03"/>
+  <testcase name="customInterceptorAppliesWithRuntimeException" classname="org.springframework.cache.config.CustomInterceptorTests" time="0.014"/>
+  <testcase name="onlyOneInterceptorIsAvailable" classname="org.springframework.cache.config.CustomInterceptorTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

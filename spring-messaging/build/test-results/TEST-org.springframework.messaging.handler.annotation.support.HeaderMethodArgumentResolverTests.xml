@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:15" hostname="DESKTOP-3R4DVF7" time="0.301">
+  <properties/>
+  <testcase name="resolveOptionalHeaderWithValue" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.226"/>
+  <testcase name="resolveNameFromSystemProperty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.055"/>
+  <testcase name="resolveArgumentNativeHeaderAmbiguity" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgumentNativeHeader" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveDefaultValueSystemProperty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveOptionalHeaderAsEmpty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgumentDefaultValue" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveArgumentNotFound" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.009"/>
+  <testcase name="resolveArgument" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="supportsParameter" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <system-out><![CDATA[09:53:15.317 [Test worker] WARN  org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolver - Message headers contain two values for the same header 'param1', one in the top level header map and a second in the nested map with native headers. Using the value from top level map. Use 'nativeHeader.myHeader' to resolve to the value from the nested native header map.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.html">org.springframework.web.reactive.result.method</a> &gt; RequestMappingInfoHandlerMappingTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">18</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.034s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getHandlerBestMatch</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerDirectMatch</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerEmptyPathMatch</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerGlobMatch</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerHttpOptions</td>
+<td>0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerMediaTypeNotSupported</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerProducibleMediaTypesAttribute</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerRequestMethodMatchFalsePositive</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerRequestMethodNotAllowed</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerTestInvalidContentType</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerTestMediaTypeNotAcceptable</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getHandlerTestRequestParamMismatch</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMatchBestMatchingPatternAttribute</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMatchBestMatchingPatternAttributeNoPatternsDefined</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMatchMatrixVariables</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMatchMatrixVariablesDecoding</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMatchUriTemplateVariables</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleMatchUriTemplateVariablesDecode</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:00:59.933 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.934 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.936 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.938 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.939 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.941 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.943 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.944 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.945 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.947 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.949 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.950 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.951 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.952 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.953 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.953 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.953 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.953 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.954 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.955 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.955 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.955 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.957 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.958 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.959 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.960 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.960 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.961 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.962 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.962 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.962 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.962 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.962 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.963 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.963 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.963 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.963 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.963 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.963 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.964 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/users],methods=[PUT]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$UserController.saveUser()
+10:00:59.964 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/users],methods=[GET],produces=[application/json]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$UserController.getUser()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.965 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.empty()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/person/{id}],methods=[PUT],consumes=[application/xml]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.consumes(java.lang.String)
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/persons],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.produces()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[foo=bar]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.foo()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/ba*],methods=[GET || HEAD]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.bar()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/params],params=[bar=baz]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.param2()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.xmlContent()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/foo],methods=[GET],params=[p]}&quot; onto public void org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooParam()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/content],produces=[!application/xml]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.nonXmlContent()
+10:00:59.966 [Test worker] INFO  org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestRequestMappingInfoHandlerMapping - Mapped &quot;{[/something],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpHeaders org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMappingTests$TestController.fooOptions()
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 10:01:41</p>
+</div>
+</div>
+</body>
+</html>

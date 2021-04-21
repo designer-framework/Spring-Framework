@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.support.StandardServletEnvironmentTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:37" hostname="DESKTOP-3R4DVF7" time="0.005">
+  <properties/>
+  <testcase name="propertySourceOrder" classname="org.springframework.web.context.support.StandardServletEnvironmentTests" time="0.005"/>
+  <system-out><![CDATA[09:56:37.465 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:37.465 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:37.467 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:37.467 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:37.467 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:37.467 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.FormHttpMessageConverterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:18" hostname="DESKTOP-3R4DVF7" time="0.188">
+  <properties/>
+  <testcase name="writeForm" classname="org.springframework.http.converter.FormHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readForm" classname="org.springframework.http.converter.FormHttpMessageConverterTests" time="0.001"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.FormHttpMessageConverterTests" time="0.0"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.FormHttpMessageConverterTests" time="0.0"/>
+  <testcase name="writeMultipartOrder" classname="org.springframework.http.converter.FormHttpMessageConverterTests" time="0.109"/>
+  <testcase name="writeMultipart" classname="org.springframework.http.converter.FormHttpMessageConverterTests" time="0.054"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

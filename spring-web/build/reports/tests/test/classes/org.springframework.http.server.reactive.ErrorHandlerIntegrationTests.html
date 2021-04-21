@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.http.server.reactive.ErrorHandlerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.http.server.reactive.ErrorHandlerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.http.server.reactive.html">org.springframework.http.server.reactive</a> &gt; ErrorHandlerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">2</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.822s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4bcbee1e]]</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7a996fb9]]</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7854c669]]</td>
+<td>0.571s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3141a441]]</td>
+<td>0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4bcbee1e]]</td>
+<td>0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">handlingError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7a996fb9]]</td>
+<td>-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7854c669]]</td>
+<td>0.559s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3141a441]]</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4bcbee1e]]</td>
+<td>0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7a996fb9]]</td>
+<td>-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7854c669]]</td>
+<td>0.554s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3141a441]]</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:56:24.803 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62004/handling-error&quot;
+09:56:24.804 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.807 [qtp593324538-540] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:24.807 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62004/handling-error&quot; resulted in 500 (Server Error)
+09:56:24.827 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62018/response-body-error&quot;
+09:56:24.827 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.830 [qtp1422714181-550] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:24.831 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62018/response-body-error&quot; resulted in 500 (Server Error)
+09:56:24.849 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62033//&quot;
+09:56:24.849 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.851 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62033//&quot; resulted in 200 (OK)
+09:56:24.868 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62049//&quot;
+09:56:24.869 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.871 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62049//&quot; resulted in 200 (OK)
+09:56:24.891 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62051/handling-error&quot;
+09:56:24.891 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.893 [http-nio-auto-3-exec-1] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:24.893 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62051/handling-error&quot; resulted in 500 (null)
+09:56:25.449 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62060/response-body-error&quot;
+09:56:25.450 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:25.452 [http-nio-auto-4-exec-1] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:25.453 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62060/response-body-error&quot; resulted in 500 (null)
+09:56:26.001 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62069//&quot;
+09:56:26.001 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.004 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62069//&quot; resulted in 200 (null)
+09:56:26.569 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62104/handling-error&quot;
+09:56:26.569 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.570 [XNIO-3 I/O-6] WARN  org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with error: null
+09:56:26.571 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62104/handling-error&quot; resulted in 500 (Internal Server Error)
+09:56:26.589 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62132/response-body-error&quot;
+09:56:26.589 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.591 [XNIO-4 I/O-6] WARN  org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with error: null
+09:56:26.591 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62132/response-body-error&quot; resulted in 500 (Internal Server Error)
+09:56:26.609 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for &quot;http://localhost:62160//&quot;
+09:56:26.609 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.611 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for &quot;http://localhost:62160//&quot; resulted in 200 (OK)
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>四月 16, 2021 9:56:24 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-3&quot;]
+四月 16, 2021 9:56:24 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:24 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:24 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:24 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-3-62051&quot;]
+四月 16, 2021 9:56:24 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-3-62051&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-3-62051&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-3-62051&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-4&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-4-62060&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-4-62060&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-4-62060&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-4-62060&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-5&quot;]
+四月 16, 2021 9:56:25 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-5-62069&quot;]
+四月 16, 2021 9:56:26 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-5-62069&quot;]
+四月 16, 2021 9:56:26 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:26 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-5-62069&quot;]
+四月 16, 2021 9:56:26 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-5-62069&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 9:56:43</p>
+</div>
+</div>
+</body>
+</html>

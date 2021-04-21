@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" tests="50" skipped="2" failures="0" errors="0" timestamp="2021-04-16T01:52:51" hostname="DESKTOP-3R4DVF7" time="0.056">
+  <properties/>
+  <testcase name="testTransactionRollbackOnly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testParticipatingTransactionWithIncompatibleReadOnly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testParticipatingTransactionWithIncompatibleIsolationLevel" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testPropagationSupportsAndRequiresNewWithEarlyAccess" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithPropagationSupports" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionRollbackWithAutoCommitTrueAndLazyConnectionAndCreateStatement" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.011"/>
+  <testcase name="testExistingTransactionWithManualSavepoint" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.004"/>
+  <testcase name="testTransactionWithExceptionOnRollback" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testPropagationRequiresNewWithExistingTransaction" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithShortTimeout" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testExistingTransactionWithPropagationNestedAndRequiredRollback" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testTransactionCommitWithAutoCommitTrue" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithPropagationNestedAndRollback" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testParticipatingTransactionWithTransactionStartedFromSynch" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testExistingTransactionWithPropagationNestedAndRequiredRollbackOnly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testTransactionAwareDataSourceProxyWithSuspensionAndReobtaining" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testTransactionWithPropagationNever" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testTransactionCommitWithAutoCommitFalseAndLazyConnectionAndStatementCreated" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testPropagationNeverWithExistingTransaction" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionAwareDataSourceProxy" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithAutoCommitTrueAndLazyConnectionAndStatementCreated" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithAutoCommitFalse" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testExistingTransactionWithManualSavepointAndRollback" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionRollbackWithAutoCommitFalseAndLazyConnection" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testTransactionWithIsolationAndReadOnly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionAwareDataSourceProxyWithSuspension" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testParticipatingTransactionWithDifferentConnectionObtainedFromSynch" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithExceptionOnCommit" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithPropagationNested" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testTransactionWithEnforceReadOnly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionRollbackWithAutoCommitFalse" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testParticipatingTransactionWithRollbackOnlyAndFailEarly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testExistingTransactionWithPropagationNestedAndRollback" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithLongTimeout" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTransactionCommitWithAutoCommitTrueAndLazyConnection" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testPropagationRequiresNewWithExistingTransactionAndUnrelatedFailingDataSource" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.002"/>
+  <testcase name="testPropagationSupportsAndRequiresNew" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testPropagationRequiresNewWithExistingTransactionAndUnrelatedDataSource" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithExceptionOnCommitAndRollbackOnCommitFailure" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testParticipatingTransactionWithRollbackOnly" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testTransactionRollbackWithAutoCommitFalseAndLazyConnectionAndCreateStatement" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testParticipatingTransactionWithRollbackOnlyAndInnerSynch" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testPropagationNotSupportedWithExistingTransaction" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testExistingTransactionWithPropagationNested" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionRollbackWithAutoCommitTrueAndLazyConnection" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithAutoCommitFalseAndLazyConnection" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testExistingTransactionWithPropagationNestedTwice" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testTransactionWithPropagationNotSupported" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionWithExceptionOnBegin" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.0"/>
+  <testcase name="testTransactionRollbackWithAutoCommitTrue" classname="org.springframework.jdbc.datasource.DataSourceTransactionManagerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.ExtractingResponseErrorHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:35" hostname="DESKTOP-3R4DVF7" time="0.007">
+  <properties/>
+  <testcase name="handleNoMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.0"/>
+  <testcase name="hasError" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.001"/>
+  <testcase name="handleErrorSeriesMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.004"/>
+  <testcase name="hasErrorOverride" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.0"/>
+  <testcase name="handleNoMatchOverride" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.0"/>
+  <testcase name="handleErrorStatusMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.002"/>
+  <system-out><![CDATA[09:56:35.463 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading [class org.springframework.web.client.ExtractingResponseErrorHandlerTests$MyRestClientException] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@21a99f0b]
+09:56:35.465 [Test worker] DEBUG org.springframework.web.client.HttpMessageConverterExtractor - Reading [class org.springframework.web.client.ExtractingResponseErrorHandlerTests$MyRestClientException] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@5b112b23]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

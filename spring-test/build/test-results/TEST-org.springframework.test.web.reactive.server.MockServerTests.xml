@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.MockServerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:22" hostname="DESKTOP-3R4DVF7" time="0.131">
+  <properties/>
+  <testcase name="exchangeResultHasCookieHeaders" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.041"/>
+  <testcase name="mutateDoesNotCreateNewSession" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.049"/>
+  <testcase name="mutateDoesCopy" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.041"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

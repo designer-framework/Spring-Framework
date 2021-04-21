@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:54" hostname="DESKTOP-3R4DVF7" time="0.003">
+  <properties/>
+  <testcase name="handleSubscribeNoUser" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.002"/>
+  <testcase name="handleMessageWithNoUser" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleMessageEncodedUserName" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleMessageForDestinationWithDotSeparator" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleMessageToOtherUser" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.001"/>
+  <testcase name="handleUnsubscribe" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleMessage" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleSubscribe" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleSubscribeForDestinationWithoutLeadingSlash" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="handleSubscribeOneUserMultipleSessions" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <testcase name="ignoreMessage" classname="org.springframework.messaging.simp.user.DefaultUserDestinationResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:15" hostname="DESKTOP-3R4DVF7" time="0.205">
+  <properties/>
+  <testcase name="singleSubscriberWithStrings" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.023"/>
+  <testcase name="canWrite" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.0"/>
+  <testcase name="customContentDisposition" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.135"/>
+  <testcase name="writeMultipart" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.034"/>
+  <testcase name="singleSubscriberWithResource" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

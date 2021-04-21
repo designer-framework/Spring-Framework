@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.feed.RssChannelHttpMessageConverterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:17" hostname="DESKTOP-3R4DVF7" time="0.032">
+  <properties/>
+  <testcase name="writeOtherCharset" classname="org.springframework.http.converter.feed.RssChannelHttpMessageConverterTests" time="0.012"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.feed.RssChannelHttpMessageConverterTests" time="0.0"/>
+  <testcase name="read" classname="org.springframework.http.converter.feed.RssChannelHttpMessageConverterTests" time="0.003"/>
+  <testcase name="write" classname="org.springframework.http.converter.feed.RssChannelHttpMessageConverterTests" time="0.016"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.feed.RssChannelHttpMessageConverterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

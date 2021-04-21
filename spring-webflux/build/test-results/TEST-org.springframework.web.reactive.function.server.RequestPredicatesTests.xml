@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.RequestPredicatesTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:46" hostname="DESKTOP-3R4DVF7" time="0.01">
+  <properties/>
+  <testcase name="accept" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.002"/>
+  <testcase name="method" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.0"/>
+  <testcase name="pathPredicates" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.001"/>
+  <testcase name="contentType" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.001"/>
+  <testcase name="queryParam" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.001"/>
+  <testcase name="all" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.0"/>
+  <testcase name="path" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.0"/>
+  <testcase name="pathEncoded" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.0"/>
+  <testcase name="headers" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.001"/>
+  <testcase name="methods" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.0"/>
+  <testcase name="pathExtension" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

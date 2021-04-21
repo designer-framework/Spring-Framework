@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:13" hostname="DESKTOP-3R4DVF7" time="0.043">
+  <properties/>
+  <testcase name="getMatchableWhereHandlerMappingDoesNotImplementMatchableInterface" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.002"/>
+  <testcase name="getCorsConfigurationPreFlight" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.031"/>
+  <testcase name="detectHandlerMappings" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.001"/>
+  <testcase name="getMatchable" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.0"/>
+  <testcase name="detectHandlerMappingsOrdered" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.001"/>
+  <testcase name="getCorsConfigurationActual" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.007"/>
+  <testcase name="defaultHandlerMappings" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.001"/>
+  <system-out><![CDATA[10:02:14.032 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+10:02:14.032 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+10:02:14.032 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+10:02:14.033 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+10:02:14.033 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+10:02:14.033 [Test worker] WARN  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:08" hostname="DESKTOP-3R4DVF7" time="0.097">
+  <properties/>
+  <testcase name="toTextMessageWithAnotherJsonViewClass" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.001"/>
+  <testcase name="toBytesMessage" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.002"/>
+  <testcase name="fromTextMessageWithUnknownProperty" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.056"/>
+  <testcase name="fromTextMessageAsMap" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.024"/>
+  <testcase name="toTextMessageWithReturnTypeAndNoJsonView" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.001"/>
+  <testcase name="toTextMessageWithObject" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.0"/>
+  <testcase name="toTextMessageWithMap" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.01"/>
+  <testcase name="fromBytesMessage" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.001"/>
+  <testcase name="fromTextMessageAsObject" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.001"/>
+  <testcase name="toTextMessageWithJsonViewClass" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.0"/>
+  <testcase name="toTextMessageWithReturnType" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.0"/>
+  <testcase name="toTextMessageWithNullReturnType" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.0"/>
+  <testcase name="toTextMessageWithReturnTypeAndMultipleJsonViews" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.0"/>
+  <testcase name="fromTextMessage" classname="org.springframework.jms.support.converter.MappingJackson2MessageConverterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

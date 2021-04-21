@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.multipart.commons.CommonsMultipartResolverTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.multipart.commons.CommonsMultipartResolverTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.multipart.commons.html">org.springframework.web.multipart.commons</a> &gt; CommonsMultipartResolverTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.052s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">withApplicationContext</td>
+<td>0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withApplicationContextAndLazyResolution</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withServletContextAndFilter</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">withServletContextAndFilterWithCustomBeanName</td>
+<td>0.023s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:56:38.648 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:38 CST 2021]; root of context hierarchy
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:38.648 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@7aabdc32: defining beans []; root of factory hierarchy
+09:56:38.649 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:38.649 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2ebe7f76]
+09:56:38.649 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6b5b1aa8]
+09:56:38.652 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Initializing filter 'filter'
+09:56:38.652 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:38.652 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:38.652 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:38.652 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:38.652 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:38.652 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:38.663 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Filter 'filter' configured successfully
+09:56:38.663 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Using MultipartResolver 'myMultipartResolver' for MultipartFilter
+09:56:38.665 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Resolving multipart request [] with MultipartFilter
+09:56:38.667 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.667 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.667 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 5 bytes with original filename [field2.txt], stored in memory
+09:56:38.667 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 5 bytes with original filename [field2x.txt], stored in memory
+09:56:38.669 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2] with original filename [field2.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2x] with original filename [field2x.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Using MultipartResolver 'myMultipartResolver' for MultipartFilter
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$3 - Resolving multipart request [] with MultipartFilter
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 5 bytes with original filename [field2.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 5 bytes with original filename [field2x.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2] with original filename [field2.txt], stored in memory
+09:56:38.670 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2x] with original filename [field2x.txt], stored in memory
+09:56:38.670 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:38 CST 2021]; root of context hierarchy
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@56808f67: defining beans []; root of factory hierarchy
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4e41331f]
+09:56:38.670 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7f175f0]
+09:56:38.671 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.671 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.671 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 5 bytes with original filename [field2.txt], stored in memory
+09:56:38.671 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 5 bytes with original filename [field2x.txt], stored in memory
+09:56:38.672 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+09:56:38.672 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+09:56:38.673 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Multipart file 'field1' with original filename [field1.txt], stored in memory: transferred to [C:\transfer1]
+09:56:38.673 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Multipart file 'field2' with original filename [field2.txt], stored in memory: transferred to [C:\transfer2]
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2] with original filename [field2.txt], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2x] with original filename [field2x.txt], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 0 bytes with original filename [], stored in memory
+09:56:38.685 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 0 bytes with original filename [], stored in memory
+09:56:38.686 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+09:56:38.686 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+09:56:38.687 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.687 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.687 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 0 bytes with original filename [], stored in memory
+09:56:38.687 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 0 bytes with original filename [], stored in memory
+09:56:38.687 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+09:56:38.688 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+09:56:38.689 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Apr 16 09:56:38 CST 2021]; root of context hierarchy
+09:56:38.689 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:38 CST 2021]; root of context hierarchy
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@41eaf4af: defining beans [filterMultipartResolver]; root of factory hierarchy
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@73b250a4]
+09:56:38.689 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@656b8df1]
+09:56:38.690 [Test worker] DEBUG org.springframework.web.multipart.support.MultipartFilter - Initializing filter 'filter'
+09:56:38.690 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:38.690 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:38.690 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:38.690 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:38.690 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:38.690 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:38.690 [Test worker] DEBUG org.springframework.web.multipart.support.MultipartFilter - Filter 'filter' configured successfully
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.support.MultipartFilter - Using MultipartResolver 'filterMultipartResolver' for MultipartFilter
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.support.MultipartFilter - Resolving multipart request [] with MultipartFilter
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 5 bytes with original filename [field2.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 5 bytes with original filename [field2x.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2] with original filename [field2.txt], stored in memory
+09:56:38.691 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2x] with original filename [field2x.txt], stored in memory
+09:56:38.692 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Fri Apr 16 09:56:38 CST 2021]; root of context hierarchy
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'jndiProperties' with lowest search precedence
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, JndiPropertySource {name='jndiProperties'}, PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Replacing PropertySource 'servletContextInitParams' with 'servletContextInitParams'
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@46461a85: defining beans []; root of factory hierarchy
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Using MessageSource [org.springframework.context.support.StaticMessageSource: {}]
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1e2d508f]
+09:56:38.692 [Test worker] DEBUG org.springframework.web.context.support.StaticWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@64fb2d60]
+09:56:38.692 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.692 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 5 bytes with original filename [field1.txt], stored in memory
+09:56:38.692 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 5 bytes with original filename [field2.txt], stored in memory
+09:56:38.693 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 5 bytes with original filename [field2x.txt], stored in memory
+09:56:38.694 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+09:56:38.694 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Multipart file 'field1' with original filename [field1.txt], stored in memory: transferred to [C:\transfer1]
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartFile - Multipart file 'field2' with original filename [field2.txt], stored in memory: transferred to [C:\transfer2]
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field1] with original filename [field1.txt], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2] with original filename [field2.txt], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up multipart file [field2x] with original filename [field2x.txt], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 0 bytes with original filename [], stored in memory
+09:56:38.695 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 0 bytes with original filename [], stored in memory
+09:56:38.696 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+09:56:38.696 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+09:56:38.696 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.696 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field1] of size 0 bytes with original filename [], stored in memory
+09:56:38.696 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2] of size 0 bytes with original filename [], stored in memory
+09:56:38.696 [Test worker] DEBUG org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Found multipart file [field2x] of size 0 bytes with original filename [], stored in memory
+09:56:38.697 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+09:56:38.698 [Test worker] WARN  org.springframework.web.multipart.commons.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+09:56:38.698 [Test worker] INFO  org.springframework.web.context.support.StaticWebApplicationContext - Closing Root WebApplicationContext: startup date [Fri Apr 16 09:56:38 CST 2021]; root of context hierarchy
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 9:56:43</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:18" hostname="DESKTOP-3R4DVF7" time="0.039">
+  <properties/>
+  <testcase name="basicAuthenticationInvalidCharacters" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.003"/>
+  <testcase name="basicAuthenticationUsernamePassword" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.031"/>
+  <testcase name="statusHandlerNoMatch" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.002"/>
+  <testcase name="andThen" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.0"/>
+  <testcase name="basicAuthenticationAttributes" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.001"/>
+  <testcase name="apply" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.001"/>
+  <testcase name="basicAuthenticationAbsentAttributes" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.0"/>
+  <testcase name="statusHandlerMatch" classname="org.springframework.web.reactive.function.client.ExchangeFilterFunctionsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

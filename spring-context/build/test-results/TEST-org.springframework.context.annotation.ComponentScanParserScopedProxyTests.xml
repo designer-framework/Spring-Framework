@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:17" hostname="DESKTOP-3R4DVF7" time="0.1">
+  <properties/>
+  <testcase name="testDefaultScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.019"/>
+  <testcase name="testTargetClassScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.03"/>
+  <testcase name="testInterfacesScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.021"/>
+  <testcase name="testNoScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.02"/>
+  <testcase name="testInvalidConfigScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

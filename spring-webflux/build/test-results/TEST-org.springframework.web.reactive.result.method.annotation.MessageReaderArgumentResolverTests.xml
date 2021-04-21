@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:58:59" hostname="DESKTOP-3R4DVF7" time="0.193">
+  <properties/>
+  <testcase name="futureTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.005"/>
+  <testcase name="observableTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.023"/>
+  <testcase name="emptyBody" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.002"/>
+  <testcase name="testBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.0"/>
+  <testcase name="fluxTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.002"/>
+  <testcase name="flowableTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.005"/>
+  <testcase name="singleTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.0"/>
+  <testcase name="monoTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="rxJava2MaybeTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="rxJava2SingleTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="monoList" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.002"/>
+  <testcase name="missingContentType" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="map" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="list" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.002"/>
+  <testcase name="array" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.004"/>
+  <testcase name="parameterizedMethodArgument" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="validateFluxTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.007"/>
+  <testcase name="validateMonoTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.001"/>
+  <testcase name="rxJava2ObservableTestBean" classname="org.springframework.web.reactive.result.method.annotation.MessageReaderArgumentResolverTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:03" hostname="DESKTOP-3R4DVF7" time="0.014">
+  <properties/>
+  <testcase name="checkResourceExists" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.006"/>
+  <testcase name="render" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.007"/>
+  <testcase name="noFreeMarkerConfig" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.001"/>
+  <testcase name="noTemplateName" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.0"/>
+  <system-out><![CDATA[10:01:03.652 [Test worker] INFO  org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@2477b88: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.652 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.support.GenericApplicationContext@2477b88: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:01:03.652 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:01:03.658 [Test worker] INFO  org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@d3ed761: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.659 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.support.GenericApplicationContext@d3ed761: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:01:03.659 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:01:03.666 [Test worker] INFO  org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@2d093d6: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.666 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.support.GenericApplicationContext@2d093d6: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:01:03.666 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:01:03.667 [Test worker] INFO  org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@2ed6a7ac: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.667 [Test worker] INFO  org.springframework.ui.freemarker.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.context.support.GenericApplicationContext@2ed6a7ac: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy] and template loader path [classpath*:org/springframework/web/reactive/view/freemarker/]
+10:01:03.667 [Test worker] INFO  org.springframework.web.reactive.result.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

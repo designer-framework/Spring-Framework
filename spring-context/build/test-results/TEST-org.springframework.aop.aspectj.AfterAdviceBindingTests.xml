@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.AfterAdviceBindingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:47:51" hostname="DESKTOP-3R4DVF7" time="2.28">
+  <properties/>
+  <testcase name="testNeedsJoinPoint" classname="org.springframework.aop.aspectj.AfterAdviceBindingTests" time="2.098"/>
+  <testcase name="testOneObjectArgBindingTarget" classname="org.springframework.aop.aspectj.AfterAdviceBindingTests" time="0.044"/>
+  <testcase name="testOneIntAndOneObjectArgs" classname="org.springframework.aop.aspectj.AfterAdviceBindingTests" time="0.041"/>
+  <testcase name="testNeedsJoinPointStaticPart" classname="org.springframework.aop.aspectj.AfterAdviceBindingTests" time="0.034"/>
+  <testcase name="testOneIntArg" classname="org.springframework.aop.aspectj.AfterAdviceBindingTests" time="0.031"/>
+  <testcase name="testOneObjectArgBindingProxyWithThis" classname="org.springframework.aop.aspectj.AfterAdviceBindingTests" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

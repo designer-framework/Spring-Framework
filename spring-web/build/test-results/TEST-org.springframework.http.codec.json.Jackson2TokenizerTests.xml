@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2TokenizerTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:15" hostname="DESKTOP-3R4DVF7" time="0.086">
+  <properties/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.002"/>
+  <testcase name="tokenizeArrayElements[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.041"/>
+  <testcase name="doNotTokenizeArrayElements[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.004"/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.0"/>
+  <testcase name="tokenizeArrayElements[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.004"/>
+  <testcase name="doNotTokenizeArrayElements[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.002"/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.0"/>
+  <testcase name="tokenizeArrayElements[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.004"/>
+  <testcase name="doNotTokenizeArrayElements[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.002"/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
+  <testcase name="tokenizeArrayElements[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.005"/>
+  <testcase name="doNotTokenizeArrayElements[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
+  <testcase name="tokenizeArrayElements[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.005"/>
+  <testcase name="doNotTokenizeArrayElements[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <testcase name="jsonEOFExceptionIsWrappedAsDecodingError[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.001"/>
+  <testcase name="tokenizeArrayElements[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.003"/>
+  <testcase name="doNotTokenizeArrayElements[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2TokenizerTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

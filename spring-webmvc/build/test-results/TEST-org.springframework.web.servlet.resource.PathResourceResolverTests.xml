@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.resource.PathResourceResolverTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:32" hostname="DESKTOP-3R4DVF7" time="0.008">
+  <properties/>
+  <testcase name="checkFileLocation" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.0"/>
+  <testcase name="checkResourceWithAllowedLocations" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.001"/>
+  <testcase name="resolveFromClasspathRoot" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.0"/>
+  <testcase name="checkServletContextResource" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.0"/>
+  <testcase name="resolveFromClasspath" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.001"/>
+  <testcase name="relativePathEncodedForUrlResource" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.001"/>
+  <testcase name="resolvePathRootResource" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.0"/>
+  <testcase name="checkRelativeLocation" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.001"/>
+  <testcase name="checkResource" classname="org.springframework.web.servlet.resource.PathResourceResolverTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

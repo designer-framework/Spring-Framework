@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.config.AnnotationDrivenTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:59" hostname="DESKTOP-3R4DVF7" time="0.348">
+  <properties/>
+  <testcase name="withProxyTargetClass" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.138"/>
+  <testcase name="serializableWithoutPreviousUsage" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.051"/>
+  <testcase name="withConfigurationClass" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.065"/>
+  <testcase name="serializableWithPreviousUsage" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.042"/>
+  <testcase name="withAnnotatedTransactionManagers" classname="org.springframework.transaction.config.AnnotationDrivenTests" time="0.051"/>
+  <system-out><![CDATA[09:55:59.390 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签advice使用解析器: org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+09:55:59.390 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签annotation-driven使用解析器: org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+09:55:59.390 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签jta-transaction-manager使用解析器: org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+09:55:59.526 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签advice使用解析器: org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+09:55:59.526 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签annotation-driven使用解析器: org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+09:55:59.526 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签jta-transaction-manager使用解析器: org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+09:55:59.607 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签advice使用解析器: org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+09:55:59.607 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签annotation-driven使用解析器: org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+09:55:59.607 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签jta-transaction-manager使用解析器: org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+09:55:59.654 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签advice使用解析器: org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+09:55:59.654 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签annotation-driven使用解析器: org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+09:55:59.654 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签jta-transaction-manager使用解析器: org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+09:55:59.703 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签advice使用解析器: org.springframework.transaction.config.TxAdviceBeanDefinitionParser
+09:55:59.703 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签annotation-driven使用解析器: org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser
+09:55:59.703 [Test worker] INFO  org.springframework.transaction.config.TxNamespaceHandler - 标签jta-transaction-manager使用解析器: org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

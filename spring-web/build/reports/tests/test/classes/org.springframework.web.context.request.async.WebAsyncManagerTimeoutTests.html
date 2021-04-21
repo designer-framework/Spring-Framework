@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.context.request.async.WebAsyncManagerTimeoutTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.context.request.async.html">org.springframework.web.context.request.async</a> &gt; WebAsyncManagerTimeoutTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.011s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">startCallableProcessingAfterTimeoutException</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startCallableProcessingTimeoutAndCheckThreadInterrupted</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startCallableProcessingTimeoutAndComplete</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startCallableProcessingTimeoutAndResumeThroughCallback</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startCallableProcessingTimeoutAndResumeThroughInterceptor</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startDeferredResultProcessingAfterTimeoutException</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startDeferredResultProcessingTimeoutAndComplete</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startDeferredResultProcessingTimeoutAndResumeThroughCallback</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startDeferredResultProcessingTimeoutAndResumeThroughInterceptor</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">startDeferredResultProcessingTimeoutAndResumeWithDefaultResult</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [22] - dispatching request to resume processing
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.676 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.677 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [java.lang.Exception] - dispatching request to resume processing
+09:56:36.677 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [23] - dispatching request to resume processing
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.678 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [7] - dispatching request to resume processing
+09:56:36.679 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.679 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.679 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [org.springframework.web.context.request.async.AsyncRequestTimeoutException] - dispatching request to resume processing
+09:56:36.680 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.680 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [java.lang.Exception] - dispatching request to resume processing
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [23] - dispatching request to resume processing
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.681 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [org.springframework.web.context.request.async.AsyncRequestTimeoutException] - dispatching request to resume processing
+09:56:36.686 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.686 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Processing timeout
+09:56:36.686 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [org.springframework.web.context.request.async.AsyncRequestTimeoutException] - dispatching request to resume processing
+09:56:36.687 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent handling starting for GET [/test]
+09:56:36.687 [Test worker] DEBUG org.springframework.web.context.request.async.WebAsyncManager - Concurrent result value [23] - dispatching request to resume processing
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 9:56:43</p>
+</div>
+</div>
+</body>
+</html>

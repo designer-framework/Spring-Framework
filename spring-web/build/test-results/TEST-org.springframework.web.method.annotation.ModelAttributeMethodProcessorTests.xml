@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:37" hostname="DESKTOP-3R4DVF7" time="0.458">
+  <properties/>
+  <testcase name="resolveArgumentFromModel" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.455"/>
+  <testcase name="handleNotAnnotatedReturnValue" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="supportedParameters" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.001"/>
+  <testcase name="supportedReturnTypes" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="resolveArgumentBindException" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.001"/>
+  <testcase name="bindExceptionRequired" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="supportedReturnTypesInDefaultResolutionMode" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="resolveArgumentBindingDisabledPreviously" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="resolveArgumentOrdering" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="handleAnnotatedReturnValue" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.001"/>
+  <testcase name="supportedParametersInDefaultResolutionMode" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="resolveArgumentValidation" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="resolveArgumentViaDefaultConstructor" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <testcase name="resolveArgumentBindingDisabled" classname="org.springframework.web.method.annotation.ModelAttributeMethodProcessorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

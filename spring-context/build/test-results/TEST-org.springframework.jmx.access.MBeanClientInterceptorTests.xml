@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.access.MBeanClientInterceptorTests" tests="12" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:48:34" hostname="DESKTOP-3R4DVF7" time="0.061">
+  <properties/>
+  <testcase name="testSetReadOnlyAttribute" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.044"/>
+  <testcase name="testInvokeUnexposedMethodWithException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testSetAttributeValue" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.007"/>
+  <testcase name="testTestLazyConnectionToRemote" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testDifferentProxiesSameClass" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.0"/>
+  <testcase name="testSetAttributeValueWithIOException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testGetAttributeValue" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testInvokeNoArgs" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testProxyClassIsDifferent" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.0"/>
+  <testcase name="testInvokeArgs" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testSetAttributeValueWithCheckedException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testSetAttributeValueWithRuntimeException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

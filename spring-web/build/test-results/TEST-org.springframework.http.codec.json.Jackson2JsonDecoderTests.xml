@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2JsonDecoderTests" tests="90" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:13" hostname="DESKTOP-3R4DVF7" time="1.734">
+  <properties/>
+  <testcase name="decodeToList[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="1.609"/>
+  <testcase name="decodeEmptyBodyToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodePojo[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="invalidData[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.01"/>
+  <testcase name="decodableMimeTypesIsImmutable[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeStreamToFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodeArrayToFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="noDefaultConstructor[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.004"/>
+  <testcase name="decodeEmptyArrayToFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="customDeserializer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.013"/>
+  <testcase name="decodePojoWithError[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecodeWithProvidedMimeType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.003"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodeToList[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyBodyToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodePojo[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="invalidData[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodableMimeTypesIsImmutable[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodeStreamToFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeArrayToFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="noDefaultConstructor[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyArrayToFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="customDeserializer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojoWithError[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecodeWithProvidedMimeType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeToList[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.006"/>
+  <testcase name="decodeEmptyBodyToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodePojo[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="invalidData[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodableMimeTypesIsImmutable[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodeStreamToFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodeArrayToFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="noDefaultConstructor[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyArrayToFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="customDeserializer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojoWithError[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecodeWithProvidedMimeType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeToList[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.005"/>
+  <testcase name="decodeEmptyBodyToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojo[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="invalidData[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodableMimeTypesIsImmutable[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeStreamToFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeArrayToFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="noDefaultConstructor[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodeEmptyArrayToFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="customDeserializer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojoWithError[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecodeWithProvidedMimeType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeToList[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyBodyToMono[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodePojo[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="invalidData[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodableMimeTypesIsImmutable[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodeStreamToFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeArrayToFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="noDefaultConstructor[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyArrayToFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="customDeserializer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojoWithError[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecodeWithProvidedMimeType[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodeToList[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyBodyToMono[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojo[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="invalidData[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodableMimeTypesIsImmutable[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodeStreamToFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeArrayToFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="noDefaultConstructor[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyArrayToFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="customDeserializer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="decodePojoWithError[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="canDecodeWithProvidedMimeType[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="fieldLevelJsonView[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

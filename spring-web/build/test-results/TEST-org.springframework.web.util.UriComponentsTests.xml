@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.util.UriComponentsTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:42" hostname="DESKTOP-3R4DVF7" time="0.005">
+  <properties/>
+  <testcase name="expand" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="invalidCharacters" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="expandEncoded" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="expandWithRegexVar" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="copyToUriComponentsBuilder" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="toUriEncoded" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="encodeAndExpandPartially" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="port" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="invalidEncodedSequence" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
+  <testcase name="encodeAndExpand" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="normalize" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="uirTemplateExpandWithMismatchedCurlyBraces" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="toUriNotEncoded" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="serializable" classname="org.springframework.web.util.UriComponentsTests" time="0.003"/>
+  <testcase name="toUriAlreadyEncoded" classname="org.springframework.web.util.UriComponentsTests" time="0.001"/>
+  <testcase name="encodeAndExpandWithDollarSign" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="equalsHierarchicalUriComponents" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="expandAndEncode" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="equalsOpaqueUriComponents" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <testcase name="toUriWithIpv6HostAlreadyEncoded" classname="org.springframework.web.util.UriComponentsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

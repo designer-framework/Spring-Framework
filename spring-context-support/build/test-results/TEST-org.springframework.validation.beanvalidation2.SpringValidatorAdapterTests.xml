@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:27" hostname="DESKTOP-3R4DVF7" time="0.305">
+  <properties/>
+  <testcase name="testMapValueConstraint" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.052"/>
+  <testcase name="testListElementConstraint" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.019"/>
+  <testcase name="testNoStringArgumentValue" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.023"/>
+  <testcase name="testWithList" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.048"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithUnresolvedLogicalFieldName" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.003"/>
+  <testcase name="testMapEntryConstraint" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.007"/>
+  <testcase name="testWithSet" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.022"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithAlwaysUseMessageFormat" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.002"/>
+  <testcase name="testUnwrap" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.001"/>
+  <testcase name="testApplyMessageSourceResolvableToStringArgumentValueWithResolvedLogicalFieldName" classname="org.springframework.validation.beanvalidation2.SpringValidatorAdapterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

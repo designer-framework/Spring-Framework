@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.StreamUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:33" hostname="DESKTOP-3R4DVF7" time="0.177">
+  <properties/>
+  <testcase name="nonClosingOutputStream" classname="org.springframework.util.StreamUtilsTests" time="0.015"/>
+  <testcase name="copyStream" classname="org.springframework.util.StreamUtilsTests" time="0.021"/>
+  <testcase name="copyString" classname="org.springframework.util.StreamUtilsTests" time="0.103"/>
+  <testcase name="copyToString" classname="org.springframework.util.StreamUtilsTests" time="0.018"/>
+  <testcase name="copyBytes" classname="org.springframework.util.StreamUtilsTests" time="0.002"/>
+  <testcase name="copyRange" classname="org.springframework.util.StreamUtilsTests" time="0.001"/>
+  <testcase name="nonClosingInputStream" classname="org.springframework.util.StreamUtilsTests" time="0.014"/>
+  <testcase name="copyToByteArray" classname="org.springframework.util.StreamUtilsTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

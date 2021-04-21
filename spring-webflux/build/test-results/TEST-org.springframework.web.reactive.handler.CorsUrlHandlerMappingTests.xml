@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:51" hostname="DESKTOP-3R4DVF7" time="0.003">
+  <properties/>
+  <testcase name="preFlightWithCorsAwareHandler" classname="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" time="0.002"/>
+  <testcase name="preflightRequestWithoutCorsConfigurationProvider" classname="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" time="0.0"/>
+  <testcase name="actualRequestWithoutCorsConfigurationProvider" classname="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" time="0.0"/>
+  <testcase name="actualRequestWithCorsAwareHandler" classname="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" time="0.0"/>
+  <testcase name="actualRequestWithGlobalCorsConfig" classname="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" time="0.001"/>
+  <testcase name="preFlightRequestWithGlobalCorsConfig" classname="org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests" time="0.0"/>
+  <system-out><![CDATA[09:57:51.985 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:51.985 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/cors.html] onto handler of type [class org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$CorsAwareHandler]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/cors.html] onto handler of type [class org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$CorsAwareHandler]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/cors.html] onto handler of type [class org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$CorsAwareHandler]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/cors.html] onto handler of type [class org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$CorsAwareHandler]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:51.987 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/cors.html] onto handler of type [class org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$CorsAwareHandler]
+09:57:51.988 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/welcome.html] onto handler of type [class java.lang.Object]
+09:57:51.988 [Test worker] INFO  org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$1 - Mapped URL path [/cors.html] onto handler of type [class org.springframework.web.reactive.handler.CorsUrlHandlerMappingTests$CorsAwareHandler]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

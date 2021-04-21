@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.sockjs.client.XhrTransportTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:03:31" hostname="DESKTOP-3R4DVF7" time="0.009">
+  <properties/>
+  <testcase name="infoResponse" classname="org.springframework.web.socket.sockjs.client.XhrTransportTests" time="0.003"/>
+  <testcase name="sendMessageError" classname="org.springframework.web.socket.sockjs.client.XhrTransportTests" time="0.001"/>
+  <testcase name="sendMessage" classname="org.springframework.web.socket.sockjs.client.XhrTransportTests" time="0.0"/>
+  <testcase name="connect" classname="org.springframework.web.socket.sockjs.client.XhrTransportTests" time="0.005"/>
+  <testcase name="infoResponseError" classname="org.springframework.web.socket.sockjs.client.XhrTransportTests" time="0.0"/>
+  <system-out><![CDATA[10:03:31.624 [Test worker] ERROR org.springframework.web.socket.sockjs.client.XhrTransportTests$TestXhrTransport - XHR send request (url=https://example.com) failed: <400 Bad Request,{}>
+10:03:31.629 [Test worker] ERROR org.springframework.web.socket.sockjs.client.XhrTransportTests$TestXhrTransport - SockJS Info request (url=https://example.com/info) failed: <400 Bad Request,body,{}>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

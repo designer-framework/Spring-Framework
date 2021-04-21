@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:15" hostname="DESKTOP-3R4DVF7" time="0.122">
+  <properties/>
+  <testcase name="sendToUserDefaultDestinationSingleSession" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.052"/>
+  <testcase name="jsonView" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="sendToClassDefaultNoAnnotation" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.007"/>
+  <testcase name="sendToClassDefaultEmptyAnnotation" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToWithDestinationPlaceholders" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToUserWithUserNameProvider" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="sendToClassDefaultOverride" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.0"/>
+  <testcase name="sendToUserDefaultDestination" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.0"/>
+  <testcase name="sendToDefaultDestination" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToDefaultDestinationWhenUsingDotPathSeparator" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.0"/>
+  <testcase name="sendTo" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToUserClassDefaultOverride" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
+  <testcase name="sendToUserWithSendToDefaultOverride" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.002"/>
+  <testcase name="sendToUserDefaultDestinationWhenUsingDotPathSeparator" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToUserClassDefaultEmptyAnnotation" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.0"/>
+  <testcase name="sendToUser" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToUserSingleSession" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToNoAnnotations" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.0"/>
+  <testcase name="testHeadersToSend" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.04"/>
+  <testcase name="sendToUserWithSendToOverride" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToUserClassDefaultNoAnnotation" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="sendToUserSessionWithoutUserName" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="supportsReturnType" classname="org.springframework.messaging.simp.annotation.support.SendToMethodReturnValueHandlerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

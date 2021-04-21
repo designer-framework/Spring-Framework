@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:36" hostname="DESKTOP-3R4DVF7" time="0.043">
+  <properties/>
+  <testcase name="ioExceptionWithEmptyQueryString" classname="org.springframework.web.client.RestTemplateTests" time="0.014"/>
+  <testcase name="delete" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="uriTemplateWithTrailingSlash" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="postForLocationEntityContentType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForEntityNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="errorHandling" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="ioException" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="getUnsupportedMediaType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="headForHeaders" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="patchForObjectNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="varArgsNullTemplateVariable" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForEntity" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForObjectWithCustomUriTemplateHandler" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="mapTemplateVariables" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="requestAvoidsDuplicateAcceptHeaderValues" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="varArgsTemplateVariables" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="putNull" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="postForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="postForLocation" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="put" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForLocationNoLocation" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForEntity" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="mapNullTemplateVariable" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="patchForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="requestInterceptorCanAddExistingHeaderValueWithoutBody" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="requestInterceptorCanAddExistingHeaderValueWithBody" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForLocationEntityCustomHeader" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="optionsForAllow" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForObjectNull" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="postForLocationNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="exchange" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="exchangeParameterizedType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <system-out><![CDATA[09:56:36.499 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/resource?"
+09:56:36.499 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [foo/bar]
+09:56:36.500 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created DELETE request for "https://example.com"
+09:56:36.500 [Test worker] DEBUG org.springframework.web.client.RestTemplate - DELETE request for "https://example.com" resulted in 200 (OK)
+09:56:36.502 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/spring/"
+09:56:36.502 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/spring/" resulted in 200 (OK)
+09:56:36.503 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.503 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1403492277]
+09:56:36.503 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.504 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.504 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.504 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.505 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com"
+09:56:36.505 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com" resulted in 500 (Internal Server Error); invoking error handler
+09:56:36.506 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/resource?access_token=123"
+09:56:36.506 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [foo/bar]
+09:56:36.507 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/resource"
+09:56:36.508 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [foo/bar]
+09:56:36.508 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/resource" resulted in 200 (OK)
+09:56:36.508 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created HEAD request for "https://example.com"
+09:56:36.509 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HEAD request for "https://example.com" resulted in 200 (OK)
+09:56:36.509 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PATCH request for "https://example.com"
+09:56:36.509 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.510 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PATCH request for "https://example.com" resulted in 200 (OK)
+09:56:36.510 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/-foo"
+09:56:36.510 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/-foo" resulted in 200 (OK)
+09:56:36.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 1490636031]
+09:56:36.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.511 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1490636031]
+09:56:36.512 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/hotels/1/pic/pics%2Flogo.png/size/150x150"
+09:56:36.512 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to []
+09:56:36.512 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/hotels/1/pic/pics%2Flogo.png/size/150x150" resulted in 200 (OK)
+09:56:36.513 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/hotels/42/bookings/42"
+09:56:36.513 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/hotels/42/bookings/42" resulted in 200 (OK)
+09:56:36.513 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/"
+09:56:36.513 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.514 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/" resulted in 200 (OK)
+09:56:36.514 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 490152945]
+09:56:36.515 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/hotels/42/bookings/21"
+09:56:36.515 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/hotels/42/bookings/21" resulted in 200 (OK)
+09:56:36.515 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PUT request for "https://example.com"
+09:56:36.515 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PUT request for "https://example.com" resulted in 200 (OK)
+09:56:36.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 1132859601]
+09:56:36.516 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.517 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1132859601]
+09:56:36.517 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.517 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 1737137147]
+09:56:36.517 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.518 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PUT request for "https://example.com"
+09:56:36.518 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 545594678]
+09:56:36.518 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PUT request for "https://example.com" resulted in 200 (OK)
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 564907761]
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com"
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com" resulted in 200 (OK)
+09:56:36.519 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1389904525]
+09:56:36.520 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com/-foo"
+09:56:36.520 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com/-foo" resulted in 200 (OK)
+09:56:36.520 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created PATCH request for "https://example.com"
+09:56:36.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 1639861870]
+09:56:36.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - PATCH request for "https://example.com" resulted in 200 (OK)
+09:56:36.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1639861870]
+09:56:36.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.521 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to []
+09:56:36.522 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.522 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "https://example.com"
+09:56:36.522 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.522 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "https://example.com" resulted in 200 (OK)
+09:56:36.523 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 385422414]
+09:56:36.523 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.523 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to []
+09:56:36.523 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 368772002]
+09:56:36.523 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.524 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.524 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 679659100]
+09:56:36.524 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.524 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created OPTIONS request for "https://example.com"
+09:56:36.524 [Test worker] DEBUG org.springframework.web.client.RestTemplate - OPTIONS request for "https://example.com" resulted in 200 (OK)
+09:56:36.525 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.525 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.525 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.525 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.526 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.526 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.526 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.526 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for HttpMessageConverter, hashCode: 1980234854]
+09:56:36.526 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.527 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "text/plain" using [Mock for HttpMessageConverter, hashCode: 1980234854]
+09:56:36.527 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://example.com"
+09:56:36.527 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain]
+09:56:36.527 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Writing [Hello World] using [Mock for GenericHttpMessageConverter, hashCode: 1602881232]
+09:56:36.527 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://example.com" resulted in 200 (OK)
+09:56:36.527 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading [java.util.List<java.lang.Integer>] as "text/plain" using [Mock for GenericHttpMessageConverter, hashCode: 1602881232]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

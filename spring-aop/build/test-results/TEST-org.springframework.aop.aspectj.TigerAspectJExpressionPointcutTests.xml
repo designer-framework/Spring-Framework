@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:45:24" hostname="DESKTOP-3R4DVF7" time="0.045">
+  <properties/>
+  <testcase name="testAnnotationOnCglibProxyMethod" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.008"/>
+  <testcase name="testAnnotationOnDynamicProxyMethod" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.002"/>
+  <testcase name="testAnnotationOnMethodWithWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.004"/>
+  <testcase name="testMatchVarargs" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.002"/>
+  <testcase name="testMatchAnnotationOnClassWithAtWithin" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.005"/>
+  <testcase name="testMatchAnnotationOnClassWithoutBinding" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.004"/>
+  <testcase name="testAnnotationOnMethodArgumentsWithWildcards" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.003"/>
+  <testcase name="testAnnotationOnMethodArgumentsWithFQN" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.004"/>
+  <testcase name="testMatchGenericArgument" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.001"/>
+  <testcase name="testMatchAnnotationOnClassWithExactPackageWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.003"/>
+  <testcase name="testAnnotationOnMethodWithFQN" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.001"/>
+  <testcase name="testMatchAnnotationOnClassWithSubpackageWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" tests="48" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:16" hostname="DESKTOP-3R4DVF7" time="0.48">
+  <properties/>
+  <testcase name="decodeSingleXmlTypeElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.388"/>
+  <testcase name="splitOneBranches[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleXmlTypeElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.004"/>
+  <testcase name="splitMultipleBranches[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleXmlRootElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.009"/>
+  <testcase name="decodeMultipleXmlRootElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="decodeSingleXmlTypeElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="splitOneBranches[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleXmlTypeElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="splitMultipleBranches[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleXmlRootElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeMultipleXmlRootElement[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeSingleXmlTypeElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="splitOneBranches[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleXmlTypeElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="splitMultipleBranches[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleXmlRootElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeMultipleXmlRootElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeSingleXmlTypeElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.007"/>
+  <testcase name="splitOneBranches[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleXmlTypeElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="splitMultipleBranches[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleXmlRootElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeMultipleXmlRootElement[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.004"/>
+  <testcase name="decodeSingleXmlTypeElement[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="splitOneBranches[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleXmlTypeElement[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="splitMultipleBranches[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleXmlRootElement[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeMultipleXmlRootElement[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="decodeSingleXmlTypeElement[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="splitOneBranches[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleXmlTypeElement[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="toExpectedQName[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.0"/>
+  <testcase name="splitMultipleBranches[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleXmlRootElement[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.002"/>
+  <testcase name="decodeMultipleXmlRootElement[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.Jaxb2XmlDecoderTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

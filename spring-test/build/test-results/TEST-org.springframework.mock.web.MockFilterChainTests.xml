@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.mock.web.MockFilterChainTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:54:35" hostname="DESKTOP-3R4DVF7" time="1.413">
+  <properties/>
+  <testcase name="doFilterNullResponse" classname="org.springframework.mock.web.MockFilterChainTests" time="0.055"/>
+  <testcase name="constructorNullServlet" classname="org.springframework.mock.web.MockFilterChainTests" time="0.002"/>
+  <testcase name="constructorNullFilter" classname="org.springframework.mock.web.MockFilterChainTests" time="1.243"/>
+  <testcase name="doFilterNullRequest" classname="org.springframework.mock.web.MockFilterChainTests" time="0.0"/>
+  <testcase name="doFilterWithServlet" classname="org.springframework.mock.web.MockFilterChainTests" time="0.103"/>
+  <testcase name="doFilterEmptyChain" classname="org.springframework.mock.web.MockFilterChainTests" time="0.009"/>
+  <testcase name="doFilterWithServletAndFilters" classname="org.springframework.mock.web.MockFilterChainTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

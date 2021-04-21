@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:26" hostname="DESKTOP-3R4DVF7" time="0.057">
+  <properties/>
+  <testcase name="notModifiedEtag" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.005"/>
+  <testcase name="create" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.0"/>
+  <testcase name="modelAttributes" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="render" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.027"/>
+  <testcase name="modelAttribute" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="modelAttributesConventions" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.0"/>
+  <testcase name="notModifiedLastModified" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="defaultContentType" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.02"/>
+  <testcase name="headers" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="cookies" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="modelAttributeConventions" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

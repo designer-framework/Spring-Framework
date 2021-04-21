@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.config.DelegatingWebFluxConfigurationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:50" hostname="DESKTOP-3R4DVF7" time="4.632">
+  <properties/>
+  <testcase name="requestMappingHandlerAdapter" classname="org.springframework.web.reactive.config.DelegatingWebFluxConfigurationTests" time="4.491"/>
+  <testcase name="responseBodyResultHandler" classname="org.springframework.web.reactive.config.DelegatingWebFluxConfigurationTests" time="0.06"/>
+  <testcase name="viewResolutionResultHandler" classname="org.springframework.web.reactive.config.DelegatingWebFluxConfigurationTests" time="0.009"/>
+  <testcase name="requestMappingHandlerMapping" classname="org.springframework.web.reactive.config.DelegatingWebFluxConfigurationTests" time="0.049"/>
+  <testcase name="resourceHandlerMapping" classname="org.springframework.web.reactive.config.DelegatingWebFluxConfigurationTests" time="0.023"/>
+  <system-out><![CDATA[09:56:53.854 [Test worker] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

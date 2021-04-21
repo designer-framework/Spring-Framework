@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.buffer.DataBufferUtilsTests" tests="138" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:31" hostname="DESKTOP-3R4DVF7" time="0.573">
+  <properties/>
+  <testcase name="readAndWriteByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.008"/>
+  <testcase name="readResource[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.391"/>
+  <testcase name="readAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.043"/>
+  <testcase name="SPR16070[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.009"/>
+  <testcase name="writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readResourcePosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="writeWritableByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="join[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeOutputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="joinErrors[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="releaseConsumer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCountExact[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannelPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAndWriteByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readResource[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="SPR16070[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readResourcePosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="writeWritableByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="join[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeOutputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="joinErrors[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="releaseConsumer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="takeUntilByteCountExact[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannelPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readResource[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="SPR16070[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readResourcePosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="writeWritableByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="join[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeOutputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="joinErrors[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="releaseConsumer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="takeUntilByteCountExact[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannelPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAndWriteByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="readResource[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="SPR16070[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readResourcePosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="writeWritableByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="join[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeOutputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="joinErrors[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="releaseConsumer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCountExact[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannelPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAndWriteByteChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readResource[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeWritableByteChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeAsynchronousFileChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="SPR16070[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeAsynchronousFileChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readInputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readResourcePosition[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="writeWritableByteChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="join[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readByteChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeOutputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="joinErrors[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="releaseConsumer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeWritableByteChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCountExact[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannelPosition[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="takeUntilByteCount[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAndWriteByteChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readResource[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeWritableByteChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="SPR16070[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeAsynchronousFileChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readInputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readResourcePosition[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readAndWriteAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="writeWritableByteChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="join[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readByteChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeOutputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="joinErrors[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="releaseConsumer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="writeWritableByteChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="takeUntilByteCountExact[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readAsynchronousFileChannelPosition[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="writeAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="takeUntilByteCount[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

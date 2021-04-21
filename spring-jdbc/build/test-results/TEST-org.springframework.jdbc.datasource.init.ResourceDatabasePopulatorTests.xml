@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:56" hostname="DESKTOP-3R4DVF7" time="0.001">
+  <properties/>
+  <testcase name="addScriptsWithNullResourceArray" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="constructWithNullResourceArray" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="setScriptsWithNullResourceArray" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="constructWithMultipleResourcesAndThenAddScript" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="constructWithNullResource" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="setScriptsAndThenAddScript" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="setScriptsWithNullResource" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="constructWithResource" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="constructWithMultipleResources" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <testcase name="addScriptsWithNullResource" classname="org.springframework.jdbc.datasource.init.ResourceDatabasePopulatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

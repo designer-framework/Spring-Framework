@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:20" hostname="DESKTOP-3R4DVF7" time="0.001">
+  <properties/>
+  <testcase name="zeroExpectedRequests" classname="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" time="0.0"/>
+  <testcase name="repeatedRequestsTooFew" classname="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" time="0.0"/>
+  <testcase name="repeatedRequestsTooMany" classname="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" time="0.0"/>
+  <testcase name="multipleRequests" classname="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" time="0.0"/>
+  <testcase name="repeatedRequests" classname="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" time="0.0"/>
+  <testcase name="unexpectedRequest" classname="org.springframework.test.web.client.UnorderedRequestExpectationManagerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

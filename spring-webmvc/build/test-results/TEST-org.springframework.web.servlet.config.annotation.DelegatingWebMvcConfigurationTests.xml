@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:50" hostname="DESKTOP-3R4DVF7" time="1.968">
+  <properties/>
+  <testcase name="requestMappingHandlerAdapter" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="1.652"/>
+  <testcase name="configureExceptionResolvers" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.003"/>
+  <testcase name="configurePathMatch" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.116"/>
+  <testcase name="getCustomMessageCodesResolver" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.026"/>
+  <testcase name="getCustomValidator" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.001"/>
+  <testcase name="configureMessageConverters" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.059"/>
+  <testcase name="handlerExceptionResolver" classname="org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfigurationTests" time="0.111"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

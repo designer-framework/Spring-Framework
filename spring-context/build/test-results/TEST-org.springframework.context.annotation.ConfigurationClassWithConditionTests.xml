@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ConfigurationClassWithConditionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:20" hostname="DESKTOP-3R4DVF7" time="0.126">
+  <properties/>
+  <testcase name="conditionalOnBeanMatch" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.028"/>
+  <testcase name="conditionalOnMissingBeanNoMatch" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.012"/>
+  <testcase name="noConditionOnOverriddenMethodHonored" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.013"/>
+  <testcase name="metaConditionalWithAsm" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.014"/>
+  <testcase name="conditionOnOverriddenMethodHonored" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.004"/>
+  <testcase name="conditionalOnBeanNoMatch" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.002"/>
+  <testcase name="nonConfigurationClassWithAsm" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.007"/>
+  <testcase name="nonConfigurationClass" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.002"/>
+  <testcase name="methodConditional" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.011"/>
+  <testcase name="conditionalOnMissingBeanMatch" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.003"/>
+  <testcase name="methodConditionalWithAsm" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.006"/>
+  <testcase name="metaConditional" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.003"/>
+  <testcase name="importsNotCreated" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.004"/>
+  <testcase name="configWithAlternativeBeans" classname="org.springframework.context.annotation.ConfigurationClassWithConditionTests" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

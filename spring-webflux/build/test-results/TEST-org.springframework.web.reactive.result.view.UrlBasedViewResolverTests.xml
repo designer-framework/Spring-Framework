@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:25" hostname="DESKTOP-3R4DVF7" time="0.004">
+  <properties/>
+  <testcase name="viewNames" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.003"/>
+  <testcase name="redirectView" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.001"/>
+  <testcase name="customizedRedirectView" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.0"/>
+  <system-out><![CDATA[10:01:25.545 [Test worker] INFO  org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@a9b1d05: startup date [Fri Apr 16 10:01:25 CST 2021]; root of context hierarchy
+10:01:25.548 [Test worker] INFO  org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@19c74020: startup date [Fri Apr 16 10:01:25 CST 2021]; root of context hierarchy
+10:01:25.549 [Test worker] INFO  org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@4e27cd22: startup date [Fri Apr 16 10:01:25 CST 2021]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

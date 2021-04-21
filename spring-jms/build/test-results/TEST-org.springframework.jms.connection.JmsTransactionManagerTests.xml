@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.connection.JmsTransactionManagerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:07" hostname="DESKTOP-3R4DVF7" time="0.117">
+  <properties/>
+  <testcase name="testTransactionSuspension" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.059"/>
+  <testcase name="testTransactionCommit" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.001"/>
+  <testcase name="testSuspendedTransaction" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.003"/>
+  <testcase name="testParticipatingTransactionWithCommit" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.002"/>
+  <testcase name="testTransactionRollback" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.001"/>
+  <testcase name="testParticipatingTransactionWithRollbackOnly" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithMessageProducer" classname="org.springframework.jms.connection.JmsTransactionManagerTests" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

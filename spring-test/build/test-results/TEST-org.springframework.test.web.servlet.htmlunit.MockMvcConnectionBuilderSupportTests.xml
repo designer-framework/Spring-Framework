@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:31" hostname="DESKTOP-3R4DVF7" time="0.021">
+  <properties/>
+  <testcase name="mockMvcExampleDotCom" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.004"/>
+  <testcase name="constructorMockMvcNull" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.0"/>
+  <testcase name="mockMvcAlwaysUseMockMvc" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.001"/>
+  <testcase name="constructorContextNull" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.001"/>
+  <testcase name="context" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.001"/>
+  <testcase name="mockMvc" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.003"/>
+  <testcase name="defaultContextPathEmpty" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.007"/>
+  <testcase name="defaultContextPathCustom" classname="org.springframework.test.web.servlet.htmlunit.MockMvcConnectionBuilderSupportTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

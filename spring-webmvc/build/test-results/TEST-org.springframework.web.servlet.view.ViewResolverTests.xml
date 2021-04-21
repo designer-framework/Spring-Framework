@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.ViewResolverTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:56" hostname="DESKTOP-3R4DVF7" time="0.034">
+  <properties/>
+  <testcase name="testInternalResourceViewResolverWithoutPrefixes" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testUrlBasedViewResolverWithoutPrefixes" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testBeanNameViewResolver" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.006"/>
+  <testcase name="testInternalResourceViewResolverWithSpecificContextBeans" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.004"/>
+  <testcase name="testInternalResourceViewResolverWithContextBeans" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.002"/>
+  <testcase name="testInternalResourceViewResolverWithJstlAndContextParam" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.003"/>
+  <testcase name="testXmlViewResolver" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.014"/>
+  <testcase name="testXmlViewResolverWithoutCache" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.002"/>
+  <testcase name="testCacheRemoval" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testXmlViewResolverDefaultLocation" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.002"/>
+  <testcase name="testCacheUnresolved" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testInternalResourceViewResolverWithAttributes" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testInternalResourceViewResolverWithJstl" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testUrlBasedViewResolverWithPrefixes" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <testcase name="testInternalResourceViewResolverWithPrefixes" classname="org.springframework.web.servlet.view.ViewResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.tags.ParamTagTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:35" hostname="DESKTOP-3R4DVF7" time="0.028">
+  <properties/>
+  <testcase name="paramWithNameAndValue" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.005"/>
+  <testcase name="paramWithNoParent" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.004"/>
+  <testcase name="paramWithValueThenReleaseThenBodyValue" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.008"/>
+  <testcase name="paramWithImplicitNullValue" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.004"/>
+  <testcase name="paramWithBodyValue" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.004"/>
+  <testcase name="paramWithExplicitNullValue" classname="org.springframework.web.servlet.tags.ParamTagTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

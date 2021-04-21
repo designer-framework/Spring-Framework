@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.annotation.AsyncExecutionTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:36" hostname="DESKTOP-3R4DVF7" time="3.152">
+  <properties/>
+  <testcase name="asyncClass" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.027"/>
+  <testcase name="asyncMethods" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.014"/>
+  <testcase name="asyncMethodsInInterface" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.024"/>
+  <testcase name="asyncClassWithInterface" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.012"/>
+  <testcase name="asyncPrototypeClassListener" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="1.006"/>
+  <testcase name="dynamicAsyncMethodsInInterfaceWithPostProcessor" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.005"/>
+  <testcase name="asyncMethodsInInterfaceWithPostProcessor" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.001"/>
+  <testcase name="asyncClassWithInterfaceAndPostProcessor" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.001"/>
+  <testcase name="dynamicAsyncInterfaceWithPostProcessor" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.005"/>
+  <testcase name="asyncInterfaceWithPostProcessor" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.002"/>
+  <testcase name="dynamicAsyncInterface" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.004"/>
+  <testcase name="asyncClassListener" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="1.0"/>
+  <testcase name="asyncClassWithPostProcessor" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.001"/>
+  <testcase name="asyncMethodsWithQualifier" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.015"/>
+  <testcase name="asyncMethodsWithQualifierThroughInterface" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.012"/>
+  <testcase name="asyncMethodListener" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="1.005"/>
+  <testcase name="asyncMethodsThroughInterface" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.007"/>
+  <testcase name="asyncInterface" classname="org.springframework.scheduling.annotation.AsyncExecutionTests" time="0.009"/>
+  <system-out><![CDATA[09:48:38.262 [e0-1] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected error occurred invoking async method: public void org.springframework.scheduling.annotation.AsyncExecutionTests$AsyncMethodWithQualifierBean.doNothing(int)
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:41) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:52) ~[junit-4.12.jar:4.12]
+	at org.springframework.scheduling.annotation.AsyncExecutionTests$AsyncMethodWithQualifierBean.doNothing(AsyncExecutionTests.java:485) ~[test/:?]
+	at org.springframework.scheduling.annotation.AsyncExecutionTests$AsyncMethodWithQualifierBean$$FastClassBySpringCGLIB$$85bd9822.invoke(<generated>) ~[test/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:747) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+09:48:38.273 [e0-1] ERROR org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler - Unexpected error occurred invoking async method: public void org.springframework.scheduling.annotation.AsyncExecutionTests$AsyncMethodWithQualifierBean.doNothing(int)
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:41) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:52) ~[junit-4.12.jar:4.12]
+	at org.springframework.scheduling.annotation.AsyncExecutionTests$AsyncMethodWithQualifierBean.doNothing(AsyncExecutionTests.java:485) ~[test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.0.21.BUILD-SNAPSHOT.jar:5.0.21.BUILD-SNAPSHOT]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

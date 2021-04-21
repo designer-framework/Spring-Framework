@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapterTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:59" hostname="DESKTOP-3R4DVF7" time="2.367">
+  <properties/>
+  <testcase name="onClose" classname="org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapterTests" time="2.345"/>
+  <testcase name="onError" classname="org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapterTests" time="0.0"/>
+  <testcase name="onOpen" classname="org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapterTests" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider org.jetbrains.kotlin.script.jsr223.KotlinJsr223JvmLocalScriptEngineFactory not found
+]]></system-err>
+</testsuite>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:00:59" hostname="DESKTOP-3R4DVF7" time="3.671">
+  <properties/>
+  <testcase name="testHandlerNotFound[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@7b4d2bfd]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.12"/>
+  <testcase name="testRequestToFooHandler[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@7b4d2bfd]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.071"/>
+  <testcase name="testRequestToHeaderSettingHandler[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@7b4d2bfd]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.065"/>
+  <testcase name="testRequestToBarHandler[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@7b4d2bfd]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.064"/>
+  <testcase name="testHandlerNotFound[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2f3612c9]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.05"/>
+  <testcase name="testRequestToFooHandler[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2f3612c9]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.048"/>
+  <testcase name="testRequestToHeaderSettingHandler[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2f3612c9]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.047"/>
+  <testcase name="testRequestToBarHandler[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2f3612c9]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.042"/>
+  <testcase name="testHandlerNotFound[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@36033735]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.622"/>
+  <testcase name="testRequestToFooHandler[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@36033735]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.719"/>
+  <testcase name="testRequestToHeaderSettingHandler[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@36033735]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.754"/>
+  <testcase name="testRequestToBarHandler[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@36033735]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.743"/>
+  <testcase name="testHandlerNotFound[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@31f96d4f]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.177"/>
+  <testcase name="testRequestToFooHandler[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@31f96d4f]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.05"/>
+  <testcase name="testRequestToHeaderSettingHandler[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@31f96d4f]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.045"/>
+  <testcase name="testRequestToBarHandler[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@31f96d4f]]" classname="org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests" time="0.052"/>
+  <system-out><![CDATA[10:00:59.971 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7ff8e03: startup date [Fri Apr 16 10:00:59 CST 2021]; root of context hierarchy
+10:00:59.976 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.019 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.019 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.019 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.020 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:01:00.021 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@28d0cb9b{/,null,AVAILABLE}
+10:01:00.021 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:01:00.021 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:01:00.027 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@24040b25{HTTP/1.1,[http/1.1]}{0.0.0.0:54436}
+10:01:00.027 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @253231ms
+10:01:00.027 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54436(0 millis).
+10:01:00.082 [qtp206849511-5153] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:00.084 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:01:00.084 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@28d0cb9b{/,null,UNAVAILABLE}
+10:01:00.088 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@24040b25{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:01:00.089 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:01:00.091 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24957644: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.092 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.093 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.093 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.093 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.094 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:01:00.095 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1f27a371{/,null,AVAILABLE}
+10:01:00.095 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:01:00.095 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:01:00.099 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@71690d94{HTTP/1.1,[http/1.1]}{0.0.0.0:54450}
+10:01:00.099 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @253302ms
+10:01:00.099 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54450(0 millis).
+10:01:00.156 [qtp87980047-5172] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:00.156 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:01:00.156 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1f27a371{/,null,UNAVAILABLE}
+10:01:00.159 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@71690d94{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:01:00.160 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:01:00.162 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4da160fa: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.163 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.164 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.164 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.164 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.165 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:01:00.166 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@53f0de79{/,null,AVAILABLE}
+10:01:00.166 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:01:00.166 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:01:00.170 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@35cc11d8{HTTP/1.1,[http/1.1]}{0.0.0.0:54464}
+10:01:00.170 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @253373ms
+10:01:00.170 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54464(0 millis).
+10:01:00.222 [qtp1254416121-5182] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:00.222 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:01:00.222 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@53f0de79{/,null,UNAVAILABLE}
+10:01:00.225 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@35cc11d8{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:01:00.225 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:01:00.228 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@623ec8e0: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.229 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.229 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.229 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.229 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.230 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+10:01:00.230 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4b76946a{/,null,AVAILABLE}
+10:01:00.230 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+10:01:00.230 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+10:01:00.234 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@eb5b66{HTTP/1.1,[http/1.1]}{0.0.0.0:54478}
+10:01:00.235 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @253438ms
+10:01:00.235 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 54478(0 millis).
+10:01:00.286 [qtp1655552883-5192] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:00.286 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+10:01:00.286 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4b76946a{/,null,UNAVAILABLE}
+10:01:00.290 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@eb5b66{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+10:01:00.290 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+10:01:00.292 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b00a30c: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.293 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.294 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.294 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.294 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.295 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:01:00.295 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54492(0 millis).
+10:01:00.338 [reactor-http-nio-3] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:01:00.339 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:01:00.339 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:01:00.341 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5c76bba9: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.342 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.343 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.343 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.343 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.344 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:01:00.345 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54494(0 millis).
+10:01:00.387 [reactor-http-nio-5] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:01:00.387 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:01:00.387 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:01:00.389 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4fe4443: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.390 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.391 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.391 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.391 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.393 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:01:00.393 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54496(0 millis).
+10:01:00.434 [reactor-http-nio-7] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:01:00.434 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:01:00.434 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:01:00.436 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@697b853d: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.437 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.437 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.437 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.437 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.438 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+10:01:00.438 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 54498(0 millis).
+10:01:00.477 [reactor-http-nio-9] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+10:01:00.477 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+10:01:00.477 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+10:01:00.479 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5114e913: startup date [Fri Apr 16 10:01:00 CST 2021]; root of context hierarchy
+10:01:00.479 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:00.480 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:00.480 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:00.480 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:00.481 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:01:00.493 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54500(0 millis).
+10:01:00.534 [http-nio-auto-123-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:00.534 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:01:01.099 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:01:01.100 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@52b3da68: startup date [Fri Apr 16 10:01:01 CST 2021]; root of context hierarchy
+10:01:01.101 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:01.220 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:01.220 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:01.220 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:01.231 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:01:01.242 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54509(0 millis).
+10:01:01.282 [http-nio-auto-124-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:01.282 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:01:01.818 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:01:01.820 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70a06e80: startup date [Fri Apr 16 10:01:01 CST 2021]; root of context hierarchy
+10:01:01.820 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:01.942 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:01.942 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:01.942 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:01.954 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:01:01.965 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54518(0 millis).
+10:01:01.999 [http-nio-auto-125-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:01.999 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:01:02.573 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:01:02.574 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12f4535d: startup date [Fri Apr 16 10:01:02 CST 2021]; root of context hierarchy
+10:01:02.575 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:02.696 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:02.696 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:02.696 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:02.707 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+10:01:02.718 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 54527(0 millis).
+10:01:02.752 [http-nio-auto-126-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+10:01:02.752 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+10:01:03.315 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+10:01:03.317 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7c94d95e: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.317 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:03.431 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:03.431 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:03.431 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:03.442 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:01:03.450 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54562(0 millis).
+10:01:03.491 [XNIO-122 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:01:03.492 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:01:03.493 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:01:03.495 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57ba6325: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.496 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:03.497 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:03.497 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:03.497 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:03.498 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:01:03.506 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54590(0 millis).
+10:01:03.541 [XNIO-123 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:01:03.541 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:01:03.543 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:01:03.544 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@41b4611b: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.545 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:03.546 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:03.546 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:03.546 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:03.546 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:01:03.553 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54618(0 millis).
+10:01:03.586 [XNIO-124 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:01:03.587 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:01:03.588 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+10:01:03.590 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1e137d4e: startup date [Fri Apr 16 10:01:03 CST 2021]; root of context hierarchy
+10:01:03.591 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:01:03.592 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/foo] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1267/1901865506]
+10:01:03.592 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/bar] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1268/1692016369]
+10:01:03.592 [Test worker] INFO  org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1 - Mapped URL path [/header] onto handler of type [class org.springframework.web.reactive.result.SimpleUrlHandlerMappingIntegrationTests$WebConfig$1$$Lambda$1269/578147769]
+10:01:03.593 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+10:01:03.601 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 54646(0 millis).
+10:01:03.639 [XNIO-125 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+10:01:03.639 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+10:01:03.641 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 10:01:00 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-123"]
+四月 16, 2021 10:01:00 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:01:00 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:01:00 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:01:00 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-123-54500"]
+四月 16, 2021 10:01:00 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-123-54500"]
+四月 16, 2021 10:01:01 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-123-54500"]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-123-54500"]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-124"]
+四月 16, 2021 10:01:01 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:01:01 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:01:01 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-124-54509"]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-124-54509"]
+四月 16, 2021 10:01:01 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-124-54509"]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-124-54509"]
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-125"]
+四月 16, 2021 10:01:01 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:01:01 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:01:01 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:01:01 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-125-54518"]
+四月 16, 2021 10:01:02 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-125-54518"]
+四月 16, 2021 10:01:02 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:01:02 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-125-54518"]
+四月 16, 2021 10:01:02 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-125-54518"]
+四月 16, 2021 10:01:02 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-126"]
+四月 16, 2021 10:01:02 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:01:02 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:01:02 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:01:02 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-126-54527"]
+四月 16, 2021 10:01:02 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-126-54527"]
+四月 16, 2021 10:01:03 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:01:03 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-126-54527"]
+四月 16, 2021 10:01:03 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-126-54527"]
+]]></system-err>
+</testsuite>

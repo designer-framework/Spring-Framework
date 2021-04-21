@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.SimpleJmsHeaderMapperTests" tests="41" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:08" hostname="DESKTOP-3R4DVF7" time="0.026">
+  <properties/>
+  <testcase name="userDefinedPropertyWithUnsupportedType" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsTimestampMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedReplyToPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsTypeMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedTimestampPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedCorrelationIdPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="userDefinedPropertyMappedFromHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="userDefinedPropertyMappedFromHeaderWithCustomPrefix" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToWriteDisallowedReplyToPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="jmsTypeMappedFromHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedMessageIdPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedDeliveryModePropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="userDefinedPropertyMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsTypeIgnoredIfIncorrectType" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="JmsReplyToIgnoredIfIncorrectType" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsExpirationMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdNumberConvertsToString" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsReadOnlyPropertiesNotMapped" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToReadDisallowedUserPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.006"/>
+  <testcase name="jmsPriorityMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdIgnoredIfIncorrectType" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsReplyToMappedFromHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedExpirationPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="destinationMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="propertyMappingExceptionIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.005"/>
+  <testcase name="attemptToWriteDisallowedCorrelationIdStringPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="contentTypePropertyMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsMessageIdMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToWriteDisallowedCorrelationIdNumberPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="contentTypePropertyMappedFromHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="illegalArgumentExceptionIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.006"/>
+  <testcase name="attemptToReadDisallowedTypePropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsCorrelationIdMappedFromHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedRedeliveredPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="attemptToWriteDisallowedTypePropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedDestinationPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsDeliveryModeMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.001"/>
+  <testcase name="userDefinedPropertyMappedToHeaderWithCustomPrefix" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="jmsReplyToMappedToHeader" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <testcase name="attemptToReadDisallowedPriorityPropertyIsNotFatal" classname="org.springframework.jms.support.SimpleJmsHeaderMapperTests" time="0.0"/>
+  <system-out><![CDATA[09:53:08.784 [Test worker] WARN  org.springframework.jms.support.SimpleJmsHeaderMapper - Skipping header 'jms_type'expected type [class java.lang.String], but got [class java.lang.Integer]
+09:53:08.784 [Test worker] WARN  org.springframework.jms.support.SimpleJmsHeaderMapper - Skipping header 'jms_replyTo'expected type [interface javax.jms.Destination], but got [class java.lang.String]
+09:53:08.786 [Test worker] WARN  org.springframework.jms.support.SimpleJmsHeaderMapper - Error occurred while mapping JMS property 'fail' to Message header
+javax.jms.JMSException: illegal property
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests$14.getObjectProperty(SimpleJmsHeaderMapperTests.java:306) ~[test/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapper.toHeaders(SimpleJmsHeaderMapper.java:215) [main/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests.assertAttemptReadDisallowedPropertyIsNotFatal(SimpleJmsHeaderMapperTests.java:553) [test/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests.attemptToReadDisallowedUserPropertyIsNotFatal(SimpleJmsHeaderMapperTests.java:314) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+09:53:08.793 [Test worker] WARN  org.springframework.jms.support.SimpleJmsHeaderMapper - Failed to map message header 'bad' to JMS property
+javax.jms.JMSException: illegal property
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests$17.setObjectProperty(SimpleJmsHeaderMapperTests.java:425) ~[test/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapper.fromHeaders(SimpleJmsHeaderMapper.java:103) [main/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests.propertyMappingExceptionIsNotFatal(SimpleJmsHeaderMapperTests.java:430) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+09:53:08.799 [Test worker] WARN  org.springframework.jms.support.SimpleJmsHeaderMapper - Failed to map message header 'bad' to JMS property
+java.lang.IllegalArgumentException: illegal property
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests$18.setObjectProperty(SimpleJmsHeaderMapperTests.java:450) ~[test/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapper.fromHeaders(SimpleJmsHeaderMapper.java:103) [main/:?]
+	at org.springframework.jms.support.SimpleJmsHeaderMapperTests.illegalArgumentExceptionIsNotFatal(SimpleJmsHeaderMapperTests.java:455) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.4.1.jar:4.4.1]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.4.1.jar:4.4.1]
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.4.1.jar:4.4.1]
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:108) [gradle-testing-base-4.4.1.jar:4.4.1]
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.4.1.jar:4.4.1]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.4.1.jar:4.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.4.1.jar:4.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.4.1.jar:4.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

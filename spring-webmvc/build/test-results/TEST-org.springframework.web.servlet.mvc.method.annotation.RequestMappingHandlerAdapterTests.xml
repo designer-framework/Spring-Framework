@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:19" hostname="DESKTOP-3R4DVF7" time="0.379">
+  <properties/>
+  <testcase name="setReturnValueHandlers" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.03"/>
+  <testcase name="cacheControlWithSessionAttributes" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.029"/>
+  <testcase name="setInitBinderArgumentResolvers" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.026"/>
+  <testcase name="setArgumentResolvers" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.025"/>
+  <testcase name="setCustomReturnValueHandlers" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.025"/>
+  <testcase name="responseBodyAdvice" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.049"/>
+  <testcase name="modelAttributePackageNameAdvice" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.027"/>
+  <testcase name="modelAttributeAdvice" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.026"/>
+  <testcase name="setCustomArgumentResolvers" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.026"/>
+  <testcase name="modelAttributeAdviceInParentContext" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.026"/>
+  <testcase name="setAlwaysUseRedirectAttributes" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.026"/>
+  <testcase name="cacheControlWithoutSessionAttributes" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.026"/>
+  <testcase name="jsonpResponseBodyAdvice" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterTests" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

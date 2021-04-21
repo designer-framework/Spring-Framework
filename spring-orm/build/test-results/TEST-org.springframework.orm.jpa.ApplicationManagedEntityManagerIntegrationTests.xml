@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:57" hostname="DESKTOP-3R4DVF7" time="4.494">
+  <properties/>
+  <testcase name="testEntityManagerProxyAcceptsProgrammaticTxJoining" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="3.814"/>
+  <testcase name="testStateClean" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.076"/>
+  <testcase name="testCommitOccurs" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.046"/>
+  <testcase name="testEntityManagerProxyIsProxy" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.521"/>
+  <testcase name="testCannotFlushWithoutGettingTransaction" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.025"/>
+  <testcase name="testRollbackOccurs" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.002"/>
+  <testcase name="testReuseInNewTransaction" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.007"/>
+  <testcase name="testInstantiateAndSave" classname="org.springframework.orm.jpa.ApplicationManagedEntityManagerIntegrationTests" time="0.002"/>
+  <system-out><![CDATA[[EL Info]: 2021-04-16 09:54:00.87--ServerSession(173685182)--EclipseLink, version: Eclipse Persistence Services - 2.7.3.v20180807-4be1041
+[EL Warning]: metadata: 2021-04-16 09:54:01.299--ServerSession(173685182)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2021-04-16 09:54:01.341--ServerSession(173685182)--/file:/D:/TeamWork/spring-resources/spring-framework/Spring-Framework/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2021-04-16 09:54:01.384--ServerSession(173685182)--Connection(228409841)--CREATE TABLE PERSON (ID INTEGER NOT NULL, FIRST_NAME VARCHAR(255), LAST_NAME VARCHAR(255), DRIVERS_LICENSE_ID INTEGER, PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-04-16 09:54:01.385--ServerSession(173685182)--Connection(1434569074)--CREATE TABLE DRIVERS_LICENSE (ID INTEGER NOT NULL, SERIAL_NUMBER VARCHAR(255), PRIMARY KEY (ID))
+[EL Fine]: sql: 2021-04-16 09:54:01.386--ServerSession(173685182)--Connection(1641448563)--ALTER TABLE PERSON ADD CONSTRAINT FK_PERSON_DRIVERS_LICENSE_ID FOREIGN KEY (DRIVERS_LICENSE_ID) REFERENCES DRIVERS_LICENSE (ID)
+[EL Fine]: sql: 2021-04-16 09:54:01.387--ServerSession(173685182)--Connection(1526537753)--CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT NUMERIC(38), PRIMARY KEY (SEQ_NAME))
+[EL Fine]: sql: 2021-04-16 09:54:01.388--ServerSession(173685182)--Connection(1237786372)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2021-04-16 09:54:01.39--ServerSession(173685182)--Connection(2067190117)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
+[EL Fine]: sql: 2021-04-16 09:54:01.693--ClientSession(1912905618)--Connection(981766434)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2021-04-16 09:54:01.697--ClientSession(1912905618)--Connection(981766434)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2021-04-16 09:54:01.71--ClientSession(1912905618)--Connection(1027652092)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [1, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:01.72--ClientSession(1912905618)--Connection(1027652092)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:01.731--ServerSession(173685182)--Connection(403274669)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.254--ServerSession(173685182)--Connection(968750013)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2021-04-16 09:54:02.278--ClientSession(324846034)--Connection(719647676)--DELETE FROM PERSON
+[EL Fine]: sql: 2021-04-16 09:54:02.281--ClientSession(1002396770)--Connection(870276836)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [3, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.281--ClientSession(1002396770)--Connection(870276836)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.282--ServerSession(173685182)--Connection(1044311406)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.283--ClientSession(781607840)--Connection(28272632)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [4, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.284--ClientSession(781607840)--Connection(28272632)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.285--ClientSession(2053041113)--Connection(2040308042)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [5, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.285--ClientSession(2053041113)--Connection(2040308042)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.286--ServerSession(173685182)--Connection(30207138)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.286--ClientSession(2053041113)--Connection(665988193)--DELETE FROM PERSON
+[EL Fine]: sql: 2021-04-16 09:54:02.289--ClientSession(2053041113)--Connection(665988193)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2021-04-16 09:54:02.291--ClientSession(243815802)--Connection(791824457)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+	bind => [6, Tony, Blair, null]
+[EL Fine]: sql: 2021-04-16 09:54:02.291--ClientSession(243815802)--Connection(791824457)--SELECT COUNT(0) FROM person
+[EL Info]: connection: 2021-04-16 09:54:02.292--ServerSession(173685182)--/file:/D:/TeamWork/spring-resources/spring-framework/Spring-Framework/spring-orm/build/classes/java/test/_Person logout successful
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.CglibProxyTests" tests="71" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:47:58" hostname="DESKTOP-3R4DVF7" time="0.818">
+  <properties/>
+  <testcase name="testProxyAProxyWithAdditionalInterface" classname="org.springframework.aop.framework.CglibProxyTests" time="0.024"/>
+  <testcase name="testWithDependencyChecking" classname="org.springframework.aop.framework.CglibProxyTests" time="0.026"/>
+  <testcase name="testProtectedMethodInvocation" classname="org.springframework.aop.framework.CglibProxyTests" time="0.003"/>
+  <testcase name="testProxyCanBeClassNotInterface" classname="org.springframework.aop.framework.CglibProxyTests" time="0.017"/>
+  <testcase name="testPackageMethodInvocation" classname="org.springframework.aop.framework.CglibProxyTests" time="0.004"/>
+  <testcase name="testWithNoArgConstructor" classname="org.springframework.aop.framework.CglibProxyTests" time="0.004"/>
+  <testcase name="testPackageMethodInvocationWithDifferentClassLoader" classname="org.springframework.aop.framework.CglibProxyTests" time="0.003"/>
+  <testcase name="testVarargsWithEnumArray" classname="org.springframework.aop.framework.CglibProxyTests" time="0.01"/>
+  <testcase name="testUnadvisedProxyCreationWithCallDuringConstructor" classname="org.springframework.aop.framework.CglibProxyTests" time="0.004"/>
+  <testcase name="testMethodInvocationDuringConstructor" classname="org.springframework.aop.framework.CglibProxyTests" time="0.005"/>
+  <testcase name="testMultipleProxiesForIntroductionAdvisor" classname="org.springframework.aop.framework.CglibProxyTests" time="0.015"/>
+  <testcase name="testNullConfig" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testProxyAProxy" classname="org.springframework.aop.framework.CglibProxyTests" time="0.024"/>
+  <testcase name="testAddAdviceAtRuntime" classname="org.springframework.aop.framework.CglibProxyTests" time="0.001"/>
+  <testcase name="testProxyTargetClassInCaseOfNoInterfaces" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testNoTarget" classname="org.springframework.aop.framework.CglibProxyTests" time="0.001"/>
+  <testcase name="testMultipleProxies" classname="org.springframework.aop.framework.CglibProxyTests" time="0.022"/>
+  <testcase name="testProxyProtectedMethod" classname="org.springframework.aop.framework.CglibProxyTests" time="0.004"/>
+  <testcase name="testExceptionHandling" classname="org.springframework.aop.framework.CglibProxyTests" time="0.062"/>
+  <testcase name="testNoContext" classname="org.springframework.aop.framework.CglibProxyTests" time="0.014"/>
+  <testcase name="testDynamicMethodPointcutThatAppliesStaticallyOnlyToSetters" classname="org.springframework.aop.framework.CglibProxyTests" time="0.019"/>
+  <testcase name="testCanChangeArgumentsIndependentlyOnClonedInvocation" classname="org.springframework.aop.framework.CglibProxyTests" time="0.017"/>
+  <testcase name="testCannotAddInterceptorWhenFrozen" classname="org.springframework.aop.framework.CglibProxyTests" time="0.015"/>
+  <testcase name="testReentrance" classname="org.springframework.aop.framework.CglibProxyTests" time="0.001"/>
+  <testcase name="testTargetCanGetInvocationEvenIfNoAdviceChain" classname="org.springframework.aop.framework.CglibProxyTests" time="0.006"/>
+  <testcase name="testMultiAdvice" classname="org.springframework.aop.framework.CglibProxyTests" time="0.02"/>
+  <testcase name="testIntroductionThrowsUncheckedException" classname="org.springframework.aop.framework.CglibProxyTests" time="0.011"/>
+  <testcase name="testTargetCanGetProxy" classname="org.springframework.aop.framework.CglibProxyTests" time="0.007"/>
+  <testcase name="testReplaceArgument" classname="org.springframework.aop.framework.CglibProxyTests" time="0.002"/>
+  <testcase name="testUndeclaredCheckedException" classname="org.springframework.aop.framework.CglibProxyTests" time="0.013"/>
+  <testcase name="testValuesStick" classname="org.springframework.aop.framework.CglibProxyTests" time="0.001"/>
+  <testcase name="testAdviceSupportListeners" classname="org.springframework.aop.framework.CglibProxyTests" time="0.021"/>
+  <testcase name="testSerializableTargetAndAdvice" classname="org.springframework.aop.framework.CglibProxyTests" time="0.034"/>
+  <testcase name="testDeclaredException" classname="org.springframework.aop.framework.CglibProxyTests" time="0.016"/>
+  <testcase name="testBeforeAdviceThrowsException" classname="org.springframework.aop.framework.CglibProxyTests" time="0.017"/>
+  <testcase name="testAdviceImplementsIntroductionInfo" classname="org.springframework.aop.framework.CglibProxyTests" time="0.019"/>
+  <testcase name="testProxyConfigString" classname="org.springframework.aop.framework.CglibProxyTests" time="0.011"/>
+  <testcase name="testUseAsHashKey" classname="org.springframework.aop.framework.CglibProxyTests" time="0.014"/>
+  <testcase name="testOverloadedMethodsWithDifferentAdvice" classname="org.springframework.aop.framework.CglibProxyTests" time="0.008"/>
+  <testcase name="testCanCastProxyToProxyConfig" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testThrowsAdvisorIsInvoked" classname="org.springframework.aop.framework.CglibProxyTests" time="0.009"/>
+  <testcase name="testManyProxies" classname="org.springframework.aop.framework.CglibProxyTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testAfterReturningAdvisorIsNotInvokedOnException" classname="org.springframework.aop.framework.CglibProxyTests" time="0.015"/>
+  <testcase name="testCanPreventCastToAdvisedUsingOpaque" classname="org.springframework.aop.framework.CglibProxyTests" time="0.015"/>
+  <testcase name="testUserAttributes" classname="org.springframework.aop.framework.CglibProxyTests" time="0.016"/>
+  <testcase name="testSerializationAdviceNotSerializable" classname="org.springframework.aop.framework.CglibProxyTests" time="0.011"/>
+  <testcase name="testTargetReturnsThis" classname="org.springframework.aop.framework.CglibProxyTests" time="0.021"/>
+  <testcase name="testDynamicMethodPointcutThatAlwaysAppliesStatically" classname="org.springframework.aop.framework.CglibProxyTests" time="0.016"/>
+  <testcase name="testOneAdvisedObjectCallsAnother" classname="org.springframework.aop.framework.CglibProxyTests" time="0.017"/>
+  <testcase name="testCloneInvocationToProceedThreeTimes" classname="org.springframework.aop.framework.CglibProxyTests" time="0.019"/>
+  <testcase name="testSerializationAdviceAndTargetNotSerializable" classname="org.springframework.aop.framework.CglibProxyTests" time="0.011"/>
+  <testcase name="testContext" classname="org.springframework.aop.framework.CglibProxyTests" time="0.009"/>
+  <testcase name="testStaticMethodPointcut" classname="org.springframework.aop.framework.CglibProxyTests" time="0.016"/>
+  <testcase name="testBeforeAdvisorIsInvoked" classname="org.springframework.aop.framework.CglibProxyTests" time="0.014"/>
+  <testcase name="testNoInterceptorsAndNoTarget" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testMixinWithIntroductionInfo" classname="org.springframework.aop.framework.CglibProxyTests" time="0.021"/>
+  <testcase name="testCannotAddIntroductionAdviceToIntroduceClass" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testRejectsBogusDynamicIntroductionAdviceWithNoAdapter" classname="org.springframework.aop.framework.CglibProxyTests" time="0.002"/>
+  <testcase name="testAddThrowsAdviceWithoutAdvisor" classname="org.springframework.aop.framework.CglibProxyTests" time="0.008"/>
+  <testcase name="testExistingProxyChangesTarget" classname="org.springframework.aop.framework.CglibProxyTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.springframework.aop.framework.CglibProxyTests" time="0.007"/>
+  <testcase name="testCannotAddIntroductionAdviceWithUnimplementedInterface" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testCannotRemoveAdvisorWhenFrozen" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testProxyIsBoundBeforeTargetSourceInvoked" classname="org.springframework.aop.framework.CglibProxyTests" time="0.016"/>
+  <testcase name="testUndeclaredUnheckedException" classname="org.springframework.aop.framework.CglibProxyTests" time="0.011"/>
+  <testcase name="testAfterReturningAdvisorIsInvoked" classname="org.springframework.aop.framework.CglibProxyTests" time="0.015"/>
+  <testcase name="testTargetCanGetInvocation" classname="org.springframework.aop.framework.CglibProxyTests" time="0.023"/>
+  <testcase name="testCannotAddDynamicIntroductionAdviceExceptInIntroductionAdvice" classname="org.springframework.aop.framework.CglibProxyTests" time="0.0"/>
+  <testcase name="testTargetCantGetProxyByDefault" classname="org.springframework.aop.framework.CglibProxyTests" time="0.006"/>
+  <testcase name="testMixinWithIntroductionAdvisor" classname="org.springframework.aop.framework.CglibProxyTests" time="0.016"/>
+  <testcase name="testCannotAddAdvisorWhenFrozenUsingCast" classname="org.springframework.aop.framework.CglibProxyTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

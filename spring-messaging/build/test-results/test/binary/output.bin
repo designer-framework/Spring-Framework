@@ -1,0 +1,531 @@
+IHΩ09:53:13.782 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=6e7ec5ba-6375-2b93-2e02-65a368093a51, timestamp=1618537993770}]
+IKΩ09:53:14.312 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=01a21761-813b-5973-3bee-0c31bde571e0, timestamp=1618537994312}]
+IOΩ09:53:14.821 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=4a94188d-6ccd-a7bc-8496-b1c3201b0a09, timestamp=1618537994821}]
+Üàä09:53:15.317 [Test worker] WARN  org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolver - Message headers contain two values for the same header 'param1', one in the top level header map and a second in the nested map with native headers. Using the value from top level map. Use 'nativeHeader.myHeader' to resolve to the value from the nested native header map.
+ï£Î09:53:15.773 [Test worker] ERROR org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry - No sessionId in  GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpDestination=/foo}]
+ï£Í09:53:15.774 [Test worker] ERROR org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry - No subscriptionId in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSessionId=sess01, simpDestination=/foo}]
+ï£Ï09:53:15.774 [Test worker] ERROR org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry - No destination in GenericMessage [payload=, headers={simpMessageType=SUBSCRIBE, simpSubscriptionId=subs01, simpSessionId=sess01}]
+§£Å09:53:19.835 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+§£ß09:53:20.064 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:1) is starting
+§£†09:53:20.076 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:63982
+§£á09:53:20.076 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:63982 Started
+§££09:53:20.081 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:1) started
+§£ë09:53:20.081 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+§£¨09:53:20.894 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:1) is shutting down
+§£Ú09:53:21.289 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+§£zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+§£RCaused by: java.net.ConnectException: Connection refused: no further information
+§£M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+§£[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+§£é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+§£|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+§£9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+§£Ú09:53:21.431 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+§£zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+§£RCaused by: java.net.ConnectException: Connection refused: no further information
+§£M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+§£[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+§£é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+§£|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+§£9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+§£Ú09:53:21.552 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+§£zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+§£RCaused by: java.net.ConnectException: Connection refused: no further information
+§£M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+§£[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+§£é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+§£è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+§£|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+§£9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+§£á09:53:22.364 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:63982 Stopped
+§£∞09:53:22.381 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:1) uptime 2.558 seconds
+§£ß09:53:22.381 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:1) is shutdown
+¶•Å09:53:22.387 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶•ß09:53:22.387 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:2) is starting
+¶•†09:53:22.387 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:63645
+¶•á09:53:22.387 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:63645 Started
+¶•£09:53:22.388 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:2) started
+¶•ë09:53:22.388 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶•¨09:53:22.415 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:2) is shutting down
+¶•á09:53:24.407 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:63645 Stopped
+¶•∞09:53:24.408 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:2) uptime 2.021 seconds
+¶•ß09:53:24.408 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:2) is shutdown
+¶•Ú09:53:24.861 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶•zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶•RCaused by: java.net.ConnectException: Connection refused: no further information
+¶•M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶•[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶•é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶•|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶•9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶•Ú09:53:26.409 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶•zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶•RCaused by: java.net.ConnectException: Connection refused: no further information
+¶•M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶•[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶•é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶•|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶•9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶•Ú09:53:26.543 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶•zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶•RCaused by: java.net.ConnectException: Connection refused: no further information
+¶•M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶•[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶•é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶•è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶•|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶•9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶ßÅ09:53:26.720 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶ßß09:53:26.720 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:3) is starting
+¶ß†09:53:26.720 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:64303
+¶ßá09:53:26.720 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:64303 Started
+¶ß£09:53:26.721 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:3) started
+¶ßë09:53:26.721 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶ßÚ09:53:28.327 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶ßzio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶ßRCaused by: java.net.ConnectException: Connection refused: no further information
+¶ßM	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶ß[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶ßé	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßõ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßÇ	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßå	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßÉ	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßr	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßè	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶ß|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶ß9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶ßÚ09:53:28.440 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶ßzio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶ßRCaused by: java.net.ConnectException: Connection refused: no further information
+¶ßM	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶ß[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶ßé	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßõ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßÇ	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßå	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßÉ	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßr	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßè	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶ß|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶ß9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶ßÚ09:53:28.560 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶ßzio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶ßRCaused by: java.net.ConnectException: Connection refused: no further information
+¶ßM	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶ß[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶ßé	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßõ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßÇ	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßå	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßÉ	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßr	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶ßè	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶ß|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶ß9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶ß¨09:53:29.075 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:3) is shutting down
+¶ßá09:53:30.748 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:64303 Stopped
+¶ß∞09:53:30.748 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:3) uptime 4.028 seconds
+¶ßß09:53:30.748 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:3) is shutdown
+¶®Å09:53:30.749 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶®ß09:53:30.749 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:4) is starting
+¶®†09:53:30.749 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:65129
+¶®á09:53:30.750 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:65129 Started
+¶®£09:53:30.750 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:4) started
+¶®ë09:53:30.750 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶®¨09:53:30.768 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:4) is shutting down
+¶®Ú09:53:31.867 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶®zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶®RCaused by: java.net.ConnectException: Connection refused: no further information
+¶®M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶®[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶®é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶®|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶®9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶®á09:53:32.767 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:65129 Stopped
+¶®∞09:53:32.768 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:4) uptime 2.018 seconds
+¶®ß09:53:32.768 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:4) is shutdown
+¶®Ú09:53:33.419 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶®zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶®RCaused by: java.net.ConnectException: Connection refused: no further information
+¶®M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶®[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶®é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶®|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶®9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶®Ú09:53:33.549 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶®zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶®RCaused by: java.net.ConnectException: Connection refused: no further information
+¶®M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶®[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶®é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶®è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶®|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶®9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Å09:53:35.081 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶©ß09:53:35.082 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:5) is starting
+¶©†09:53:35.083 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:61675
+¶©á09:53:35.083 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:61675 Started
+¶©£09:53:35.085 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:5) started
+¶©ë09:53:35.085 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶©¨09:53:35.121 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:5) is shutting down
+¶©Û09:53:35.333 [tcp-client-loop-nio-11] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Û09:53:35.447 [tcp-client-loop-nio-11] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Û09:53:35.567 [tcp-client-loop-nio-11] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©á09:53:37.118 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:61675 Stopped
+¶©∞09:53:37.118 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:5) uptime 2.037 seconds
+¶©ß09:53:37.119 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:5) is shutdown
+¶©Å09:53:37.119 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶©ß09:53:37.119 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:6) is starting
+¶©†09:53:37.119 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:61675
+¶©á09:53:37.119 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:61675 Started
+¶©£09:53:37.120 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:6) started
+¶©ë09:53:37.120 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶©Ú09:53:38.874 [tcp-client-loop-nio-1] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Ú09:53:40.427 [tcp-client-loop-nio-1] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Ú09:53:40.555 [tcp-client-loop-nio-1] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©”09:53:42.120 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: executor not accepting a task
+¶©@java.lang.IllegalStateException: executor not accepting a task
+¶©Ü	at io.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:196) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©q	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:50) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©{	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:184) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©{	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:170) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ñ	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:500) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©á	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:474) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©Ñ	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:413) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©~	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©Ä	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©~	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:98) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©á	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:982) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©ä	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:505) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©ã	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:416) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ü	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:475) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©ç	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©ï	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Ú09:53:42.343 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Ú09:53:42.454 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©Ú09:53:42.589 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©¨09:53:44.328 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:6) is shutting down
+¶©Ú09:53:45.879 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶©zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶©RCaused by: java.net.ConnectException: Connection refused: no further information
+¶©M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶©[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶©é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶©è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶©9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶©á09:53:46.096 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:61675 Stopped
+¶©∞09:53:46.096 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:6) uptime 8.977 seconds
+¶©ß09:53:46.096 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:6) is shutdown
+¶™Å09:53:46.097 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶™ß09:53:46.097 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:7) is starting
+¶™†09:53:46.097 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:65146
+¶™á09:53:46.098 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:65146 Started
+¶™£09:53:46.098 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:7) started
+¶™ë09:53:46.098 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶™¨09:53:46.128 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:7) is shutting down
+¶™Ú09:53:47.433 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶™zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶™RCaused by: java.net.ConnectException: Connection refused: no further information
+¶™M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶™[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶™é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶™Ú09:53:47.563 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶™zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶™RCaused by: java.net.ConnectException: Connection refused: no further information
+¶™M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶™[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶™é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶™á09:53:48.127 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:65146 Stopped
+¶™∞09:53:48.128 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:7) uptime 2.031 seconds
+¶™ß09:53:48.128 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:7) is shutdown
+¶™Ú09:53:49.353 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶™zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶™RCaused by: java.net.ConnectException: Connection refused: no further information
+¶™M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶™[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶™é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶™Ú09:53:49.462 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶™zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶™RCaused by: java.net.ConnectException: Connection refused: no further information
+¶™M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶™[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶™é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶™Ú09:53:49.598 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶™zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶™RCaused by: java.net.ConnectException: Connection refused: no further information
+¶™M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶™[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶™é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶™è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶™9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶´Å09:53:50.440 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+¶´ß09:53:50.440 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:8) is starting
+¶´†09:53:50.440 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://activate.navicat.com:63727
+¶´á09:53:50.440 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:63727 Started
+¶´£09:53:50.441 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:8) started
+¶´ë09:53:50.441 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+¶´¨09:53:52.777 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:8) is shutting down
+¶´Ú09:53:52.886 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶´zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶´RCaused by: java.net.ConnectException: Connection refused: no further information
+¶´M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶´[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶´é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶´|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶´9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶´Ú09:53:54.438 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+¶´zio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+¶´RCaused by: java.net.ConnectException: Connection refused: no further information
+¶´M	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+¶´[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+¶´é	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´õ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´Ç	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´å	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´É	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´r	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+¶´è	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶´|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+¶´9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+¶´á09:53:54.462 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://activate.navicat.com:63727 Stopped
+¶´∞09:53:54.462 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:8) uptime 4.022 seconds
+¶´ß09:53:54.462 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:DESKTOP-3R4DVF7-60923-1618537999875-0:8) is shutdown
+åéÚ09:53:54.571 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: Connection refused: no further information: /127.0.0.1:61613
+åézio.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:61613
+åéRCaused by: java.net.ConnectException: Connection refused: no further information
+åéM	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_271]
+åé[	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[?:1.8.0_271]
+åéé	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+åéõ	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:336) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+åéÇ	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:685) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+åéå	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:632) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+åéÉ	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:549) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+åér	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:511) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+åéè	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+åé|	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+åé9	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]

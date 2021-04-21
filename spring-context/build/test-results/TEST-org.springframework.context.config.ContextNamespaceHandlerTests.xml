@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.config.ContextNamespaceHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:23" hostname="DESKTOP-3R4DVF7" time="0.146">
+  <properties/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForMultipleLocations" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.023"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyMissing" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.013"/>
+  <testcase name="propertyPlaceholderLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.02"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForOneLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.016"/>
+  <testcase name="propertyPlaceholderIgnored" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.014"/>
+  <testcase name="propertyOverride" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.017"/>
+  <testcase name="propertyPlaceholderEnvironmentProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.013"/>
+  <testcase name="propertyPlaceholderSystemProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.014"/>
+  <testcase name="propertyPlaceholder" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.015"/>
+  <system-out><![CDATA[09:48:23.990 [Test worker] WARN  org.springframework.context.support.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: class path resource [${properties}] cannot be opened because it does not exist
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

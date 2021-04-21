@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.DefaultClientResponseTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:17" hostname="DESKTOP-3R4DVF7" time="0.027">
+  <properties/>
+  <testcase name="toEntityListTypeReference" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.011"/>
+  <testcase name="bodyToFluxTypeReference" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.001"/>
+  <testcase name="header" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.0"/>
+  <testcase name="toMonoVoid" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.009"/>
+  <testcase name="bodyToFlux" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.001"/>
+  <testcase name="bodyToMono" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.0"/>
+  <testcase name="body" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.001"/>
+  <testcase name="statusCode" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.0"/>
+  <testcase name="bodyToMonoTypeReference" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.0"/>
+  <testcase name="toEntityList" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.001"/>
+  <testcase name="cookies" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.0"/>
+  <testcase name="toEntityTypeReference" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.002"/>
+  <testcase name="toMonoVoidNonEmptyBody" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.0"/>
+  <testcase name="toEntity" classname="org.springframework.web.reactive.function.client.DefaultClientResponseTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

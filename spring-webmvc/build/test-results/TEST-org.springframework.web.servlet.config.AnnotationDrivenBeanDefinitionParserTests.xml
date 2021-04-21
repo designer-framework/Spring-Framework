@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:01" hostname="DESKTOP-3R4DVF7" time="2.665">
+  <properties/>
+  <testcase name="testMessageConvertersWithoutDefaultRegistrations" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.24"/>
+  <testcase name="testMessageCodesResolver" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.356"/>
+  <testcase name="testPathMatchingConfiguration" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.363"/>
+  <testcase name="beanNameUrlHandlerMapping" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.385"/>
+  <testcase name="testMessageConverters" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.396"/>
+  <testcase name="testArgumentResolvers" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.589"/>
+  <testcase name="testReturnValueHandlers" classname="org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParserTests" time="0.336"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

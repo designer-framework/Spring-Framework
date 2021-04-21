@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.DispatcherHandlerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:00" hostname="DESKTOP-3R4DVF7" time="0.032">
+  <properties/>
+  <testcase name="handlerMappingOrder" classname="org.springframework.web.reactive.DispatcherHandlerTests" time="0.032"/>
+  <system-out><![CDATA[09:57:00.042 [Test worker] INFO  org.springframework.context.support.StaticApplicationContext - Refreshing org.springframework.context.support.StaticApplicationContext@58bd13ab: startup date [Fri Apr 16 09:57:00 CST 2021]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

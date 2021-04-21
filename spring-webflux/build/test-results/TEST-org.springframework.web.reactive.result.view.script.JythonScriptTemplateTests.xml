@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.script.JythonScriptTemplateTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:01:05" hostname="DESKTOP-3R4DVF7" time="5.449">
+  <properties/>
+  <testcase name="renderTemplate" classname="org.springframework.web.reactive.result.view.script.JythonScriptTemplateTests" time="5.449"/>
+  <system-out><![CDATA[10:01:05.952 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@702c5627: startup date [Fri Apr 16 10:01:05 CST 2021]; root of context hierarchy
+10:01:05.954 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

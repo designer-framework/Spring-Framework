@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:53:15" hostname="DESKTOP-3R4DVF7" time="3.648">
+  <properties/>
+  <testcase name="clientOutboundChannelUsedByAnnotatedMethod" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.728"/>
+  <testcase name="dotSeparatorWithBrokerDotConvention" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.085"/>
+  <testcase name="brokerChannelCustomized" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.1"/>
+  <testcase name="simpValidatorCustom" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.017"/>
+  <testcase name="userBroadcastsDisabledWithSimpleBroker" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.049"/>
+  <testcase name="clientOutboundChannelCustomized" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.038"/>
+  <testcase name="dotSeparatorWithBrokerSlashConvention" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.07"/>
+  <testcase name="configureMessageConvertersDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="brokerChannelUsedByAnnotatedMethod" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.034"/>
+  <testcase name="clientInboundChannelWithBrokerRelay" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="2.253"/>
+  <testcase name="brokerChannel" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.023"/>
+  <testcase name="simpValidatorDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.002"/>
+  <testcase name="customPathMatcher" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.024"/>
+  <testcase name="clientInboundChannelCustomized" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.019"/>
+  <testcase name="simpValidatorInjected" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.022"/>
+  <testcase name="configureMessageConvertersCustomAndDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="simpValidatorMvc" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="customCacheLimit" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.017"/>
+  <testcase name="brokerChannelWithBrokerRelay" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.041"/>
+  <testcase name="threadPoolSizeDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.036"/>
+  <testcase name="clientInboundChannel" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.018"/>
+  <testcase name="clientOutboundChannelUsedBySimpleBroker" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.017"/>
+  <testcase name="configureMessageConvertersCustom" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customArgumentAndReturnValueTypes" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.016"/>
+  <testcase name="userBroadcasts" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.CharacterEncodingFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:37" hostname="DESKTOP-3R4DVF7" time="0.052">
+  <properties/>
+  <testcase name="encodingIfEmptyAndNotForced" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.008"/>
+  <testcase name="doesNotIfEncodingIsNotEmptyAndNotForced" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.0"/>
+  <testcase name="withBeanInitialization" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.001"/>
+  <testcase name="setForceEncodingOnRequestOnly" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.042"/>
+  <testcase name="forceEncodingAlwaysSetsEncoding" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.001"/>
+  <testcase name="withIncompleteInitialization" classname="org.springframework.web.filter.CharacterEncodingFilterTests" time="0.0"/>
+  <system-out><![CDATA[09:56:37.531 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Initializing filter 'boot'
+09:56:37.532 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Filter 'boot' configured successfully
+09:56:37.533 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Initializing filter 'boot'
+09:56:37.533 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Filter 'boot' configured successfully
+09:56:37.573 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Initializing filter 'boot'
+09:56:37.573 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Filter 'boot' configured successfully
+09:56:37.575 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Initializing filter 'boot'
+09:56:37.575 [Test worker] DEBUG org.springframework.web.filter.CharacterEncodingFilter - Filter 'boot' configured successfully
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

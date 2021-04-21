@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:51" hostname="DESKTOP-3R4DVF7" time="0.015">
+  <properties/>
+  <testcase name="testAddInvoiceProcWithoutMetaDataUsingArrayParams" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.003"/>
+  <testcase name="testAddInvoiceProcWithMetaDataUsingMapParamSource" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.003"/>
+  <testcase name="testAddInvoiceFuncWithoutMetaDataUsingArrayParams" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testAddInvoiceFuncWithMetaDataUsingMapParamSource" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testUnnamedParameterHandling" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.0"/>
+  <testcase name="testAddInvoiceFuncWithoutMetaDataUsingMapParamSource" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testAddInvoiceProcWithoutMetaDataUsingMapParamSource" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testNoSuchStoredProcedure" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testCorrectFunctionStatement" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.0"/>
+  <testcase name="testCorrectFunctionStatementNamed" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testAddInvoiceFuncWithMetaDataUsingArrayParams" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testAddInvoiceProcWithMetaDataUsingArrayParams" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <testcase name="testCorrectProcedureStatementNamed" classname="org.springframework.jdbc.core.simple.SimpleJdbcCallTests" time="0.001"/>
+  <system-out><![CDATA[09:52:51.760 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - MyDB is not one of the databases fully supported for procedure calls -- supported are: [Apache Derby, DB2, MySQL, Microsoft SQL Server, Oracle, PostgreSQL, Sybase]
+09:52:51.760 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - Metadata processing disabled - you must specify all parameters explicitly
+09:52:51.766 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - MyDB is not one of the databases fully supported for function calls -- supported are: [MySQL, Microsoft SQL Server, Oracle, PostgreSQL]
+09:52:51.766 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - Metadata processing disabled - you must specify all parameters explicitly
+09:52:51.768 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - MyDB is not one of the databases fully supported for function calls -- supported are: [MySQL, Microsoft SQL Server, Oracle, PostgreSQL]
+09:52:51.768 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - Metadata processing disabled - you must specify all parameters explicitly
+09:52:51.769 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - MyDB is not one of the databases fully supported for procedure calls -- supported are: [Apache Derby, DB2, MySQL, Microsoft SQL Server, Oracle, PostgreSQL, Sybase]
+09:52:51.769 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - Metadata processing disabled - you must specify all parameters explicitly
+09:52:51.770 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - MyDB is not one of the databases fully supported for procedure calls -- supported are: [Apache Derby, DB2, MySQL, Microsoft SQL Server, Oracle, PostgreSQL, Sybase]
+09:52:51.770 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - Metadata processing disabled - you must specify all parameters explicitly
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

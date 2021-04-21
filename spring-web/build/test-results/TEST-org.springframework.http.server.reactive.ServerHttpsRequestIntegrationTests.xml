@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:28" hostname="DESKTOP-3R4DVF7" time="0.479">
+  <properties/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpsServer@7ce8dcbe]]" classname="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" time="0.479"/>
+  <system-out><![CDATA[09:56:28.973 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created POST request for "https://localhost:62321/foo?param=bar"
+09:56:28.973 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+09:56:29.092 [Test worker] DEBUG org.springframework.web.client.RestTemplate - POST request for "https://localhost:62321/foo?param=bar" resulted in 200 (OK)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

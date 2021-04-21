@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.core.io.buffer.DataBufferUtilsTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.core.io.buffer.DataBufferUtilsTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.core.io.buffer.html">org.springframework.core.io.buffer</a> &gt; DataBufferUtilsTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">138</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.568s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">SPR16070[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SPR16070[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SPR16070[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SPR16070[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SPR16070[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SPR16070[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinErrors[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinErrors[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinErrors[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinErrors[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinErrors[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">joinErrors[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">join[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteByteChannel[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteByteChannel[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAndWriteByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannelPosition[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannelPosition[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannelPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannelPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannelPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannelPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readByteChannel[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readByteChannel[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readInputStream[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readInputStream[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readInputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readInputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readInputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readInputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResourcePosition[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResourcePosition[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResourcePosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResourcePosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResourcePosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResourcePosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResource[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResource[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResource[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResource[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResource[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">readResource[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">releaseConsumer[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">releaseConsumer[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">releaseConsumer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">releaseConsumer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">releaseConsumer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">releaseConsumer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCountShouldSkipAll[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCountShouldSkipAll[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCount[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCount[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCountExact[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCountExact[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCountExact[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCountExact[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCountExact[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCountExact[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCount[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCount[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.043s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannel[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeAsynchronousFileChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeOutputStream[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeOutputStream[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeOutputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeOutputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeOutputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeOutputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInFlux[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInWrite[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannelErrorInWrite[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.391s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannel[DefaultDataBufferFactory (preferDirect=false)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannel[DefaultDataBufferFactory (preferDirect=true)]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writeWritableByteChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 9:52:42</p>
+</div>
+</div>
+</body>
+</html>

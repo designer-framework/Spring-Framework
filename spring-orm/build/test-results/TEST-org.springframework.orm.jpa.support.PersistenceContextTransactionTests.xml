@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:54:08" hostname="DESKTOP-3R4DVF7" time="0.011">
+  <properties/>
+  <testcase name="testTransactionCommitWithExtendedEntityManagerAndPropagationSupports" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.002"/>
+  <testcase name="testTransactionCommitWithSharedEntityManagerAndPropagationSupports" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.0"/>
+  <testcase name="testTransactionCommitWithExtendedEntityManagerUnsynchronized" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithSharedEntityManagerUnsynchronized" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithExtendedEntityManagerUnsynchronizedJoined" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithSharedEntityManagerUnsynchronizedAndPropagationSupports" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithSharedEntityManager" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithExtendedEntityManager" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithSharedEntityManagerUnsynchronizedJoined" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.0"/>
+  <testcase name="testTransactionCommitWithExtendedEntityManagerUnsynchronizedAndPropagationSupports" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <testcase name="testTransactionCommitWithExtendedEntityManagerUnsynchronizedJoinedAndPropagationSupports" classname="org.springframework.orm.jpa.support.PersistenceContextTransactionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

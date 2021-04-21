@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:03:17" hostname="DESKTOP-3R4DVF7" time="11.119">
+  <properties/>
+  <testcase name="sendMessageToBrokerAndReceiveReplyViaTopic[server [org.springframework.web.socket.JettyWebSocketTestServer@323280fd], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@300d7f14]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.468"/>
+  <testcase name="webSocketScope[server [org.springframework.web.socket.JettyWebSocketTestServer@323280fd], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@300d7f14]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.333"/>
+  <testcase name="sendMessageToControllerAndReceiveReplyViaTopic[server [org.springframework.web.socket.JettyWebSocketTestServer@323280fd], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@300d7f14]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.432"/>
+  <testcase name="sendSubscribeToControllerAndReceiveReply[server [org.springframework.web.socket.JettyWebSocketTestServer@323280fd], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@300d7f14]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.257"/>
+  <testcase name="sendMessageToController[server [org.springframework.web.socket.JettyWebSocketTestServer@323280fd], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@300d7f14]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.264"/>
+  <testcase name="handleExceptionAndSendToUser[server [org.springframework.web.socket.JettyWebSocketTestServer@323280fd], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@300d7f14]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.288"/>
+  <testcase name="sendMessageToBrokerAndReceiveReplyViaTopic[server [org.springframework.web.socket.TomcatWebSocketTestServer@4040b2d6], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@71f99f1b]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.725"/>
+  <testcase name="webSocketScope[server [org.springframework.web.socket.TomcatWebSocketTestServer@4040b2d6], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@71f99f1b]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="1.355"/>
+  <testcase name="sendMessageToControllerAndReceiveReplyViaTopic[server [org.springframework.web.socket.TomcatWebSocketTestServer@4040b2d6], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@71f99f1b]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="1.351"/>
+  <testcase name="sendSubscribeToControllerAndReceiveReply[server [org.springframework.web.socket.TomcatWebSocketTestServer@4040b2d6], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@71f99f1b]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="1.335"/>
+  <testcase name="sendMessageToController[server [org.springframework.web.socket.TomcatWebSocketTestServer@4040b2d6], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@71f99f1b]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="1.297"/>
+  <testcase name="handleExceptionAndSendToUser[server [org.springframework.web.socket.TomcatWebSocketTestServer@4040b2d6], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@71f99f1b]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="1.482"/>
+  <testcase name="sendMessageToBrokerAndReceiveReplyViaTopic[server [org.springframework.web.socket.UndertowTestServer@57eaccb1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@cc4ec87]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.977"/>
+  <testcase name="webSocketScope[server [org.springframework.web.socket.UndertowTestServer@57eaccb1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@cc4ec87]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.13"/>
+  <testcase name="sendMessageToControllerAndReceiveReplyViaTopic[server [org.springframework.web.socket.UndertowTestServer@57eaccb1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@cc4ec87]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.116"/>
+  <testcase name="sendSubscribeToControllerAndReceiveReply[server [org.springframework.web.socket.UndertowTestServer@57eaccb1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@cc4ec87]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.098"/>
+  <testcase name="sendMessageToController[server [org.springframework.web.socket.UndertowTestServer@57eaccb1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@cc4ec87]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.106"/>
+  <testcase name="handleExceptionAndSendToUser[server [org.springframework.web.socket.UndertowTestServer@57eaccb1], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@cc4ec87]]" classname="org.springframework.web.socket.messaging.StompWebSocketIntegrationTests" time="0.103"/>
+  <system-out><![CDATA[10:03:19.347 [tcp-client-loop-nio-3] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: relayhost
+java.net.UnknownHostException: relayhost
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_271]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_271]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:146) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:43) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:63) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:55) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:57) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:32) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:108) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:204) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:50) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:184) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:170) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:500) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:474) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:413) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:98) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:982) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:505) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:416) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:475) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+10:03:20.657 [tcp-client-loop-nio-5] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: relayhost
+java.net.UnknownHostException: relayhost
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_271]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:146) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:43) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:63) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:55) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:57) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:32) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:108) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:204) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:50) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:184) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:170) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:500) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:474) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:413) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:98) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:982) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:505) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:416) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:475) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+10:03:24.352 [tcp-client-loop-nio-7] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: relayhost
+java.net.UnknownHostException: relayhost
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_271]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:146) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:43) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:63) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:55) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:57) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:32) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:108) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:204) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:50) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:184) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:170) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:500) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:474) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:413) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:98) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:982) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:505) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:416) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:475) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+10:03:25.661 [tcp-client-loop-nio-9] WARN  org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandler - TCP connection failure in session _system_: Failed to connect: relayhost
+java.net.UnknownHostException: relayhost
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_271]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_271]
+	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:146) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.SocketUtils$8.run(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at io.netty.util.internal.SocketUtils.addressByName(SocketUtils.java:143) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.DefaultNameResolver.doResolve(DefaultNameResolver.java:43) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:63) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.SimpleNameResolver.resolve(SimpleNameResolver.java:55) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:57) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.InetSocketAddressResolver.doResolve(InetSocketAddressResolver.java:32) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.resolver.AbstractAddressResolver.resolve(AbstractAddressResolver.java:108) ~[netty-resolver-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:204) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap.access$000(Bootstrap.java:50) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:184) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.bootstrap.Bootstrap$1.operationComplete(Bootstrap.java:170) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:500) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:474) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:413) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:538) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:527) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:98) ~[netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetSuccess(AbstractChannel.java:982) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:505) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:416) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:475) ~[netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:416) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:515) [netty-transport-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.39.Final.jar:4.1.39.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+10:03:28.313 [undertow-shutdown-1] ERROR org.xnio.listener - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-1.4.27.Final.jar:1.4.27.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1061) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener$2.run(AbstractFramedChannel.java:1020) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$1.run(AbstractFramedChannel.java:137) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+10:03:28.444 [XNIO-8 I/O-6] ERROR org.xnio.listener - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-1.4.27.Final.jar:1.4.27.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1061) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener$2.run(AbstractFramedChannel.java:1020) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$1.run(AbstractFramedChannel.java:137) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:582) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:466) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+10:03:28.867 [XNIO-16 I/O-6] ERROR org.xnio.listener - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-1.4.27.Final.jar:1.4.27.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1061) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener$2.run(AbstractFramedChannel.java:1020) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$1.run(AbstractFramedChannel.java:137) [undertow-core-1.4.27.Final.jar:1.4.27.Final]
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:582) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:466) [xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 10:03:19 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-3"]
+四月 16, 2021 10:03:19 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:19 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:19 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:19 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-3-56177"]
+四月 16, 2021 10:03:19 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:19 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:19 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-3-56177"]
+四月 16, 2021 10:03:20 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:20 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-3-56177"]
+四月 16, 2021 10:03:20 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-4"]
+四月 16, 2021 10:03:20 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:20 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:20 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:20 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-4-56186"]
+四月 16, 2021 10:03:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:21 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-4-56186"]
+四月 16, 2021 10:03:21 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:21 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-4-56186"]
+四月 16, 2021 10:03:21 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-5"]
+四月 16, 2021 10:03:21 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:21 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:21 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:21 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-5-56195"]
+四月 16, 2021 10:03:22 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:22 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:22 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-5-56195"]
+四月 16, 2021 10:03:23 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:23 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-5-56195"]
+四月 16, 2021 10:03:23 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-6"]
+四月 16, 2021 10:03:23 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:23 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:23 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:23 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-6-56204"]
+四月 16, 2021 10:03:23 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:23 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:23 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-6-56204"]
+四月 16, 2021 10:03:24 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:24 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-6-56204"]
+四月 16, 2021 10:03:24 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-7"]
+四月 16, 2021 10:03:24 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:24 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:24 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:24 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-7-56213"]
+四月 16, 2021 10:03:25 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:25 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:25 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-7-56213"]
+四月 16, 2021 10:03:25 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:25 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-7-56213"]
+四月 16, 2021 10:03:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-8"]
+四月 16, 2021 10:03:25 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:25 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-8-56222"]
+四月 16, 2021 10:03:26 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:26 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:26 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-8-56222"]
+四月 16, 2021 10:03:27 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:27 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-8-56222"]
+]]></system-err>
+</testsuite>

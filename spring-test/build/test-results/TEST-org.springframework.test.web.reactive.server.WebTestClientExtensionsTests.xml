@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:52" hostname="DESKTOP-3R4DVF7" time="0.303">
+  <properties/>
+  <testcase name="ResponseSpec#expectBody with reified type parameters" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.034"/>
+  <testcase name="ResponseSpec#expectBodyList with reified type parameters" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.014"/>
+  <testcase name="KotlinBodySpec#isEqualTo" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.083"/>
+  <testcase name="RequestBodySpec#body with Publisher and reified type parameters" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.008"/>
+  <testcase name="ResponseSpec#returnResult with reified type parameters" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.012"/>
+  <testcase name="KotlinBodySpec#consumeWith" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.075"/>
+  <testcase name="KotlinBodySpec#returnResult" classname="org.springframework.test.web.reactive.server.WebTestClientExtensionsTests" time="0.076"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

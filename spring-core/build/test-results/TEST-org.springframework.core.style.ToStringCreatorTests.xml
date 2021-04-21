@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.style.ToStringCreatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:32" hostname="DESKTOP-3R4DVF7" time="0.006">
+  <properties/>
+  <testcase name="appendList" classname="org.springframework.core.style.ToStringCreatorTests" time="0.005"/>
+  <testcase name="appendClass" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
+  <testcase name="primitiveArrays" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
+  <testcase name="defaultStyleMap" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
+  <testcase name="defaultStyleArray" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
+  <testcase name="appendMethod" classname="org.springframework.core.style.ToStringCreatorTests" time="0.0"/>
+  <testcase name="appendSet" classname="org.springframework.core.style.ToStringCreatorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

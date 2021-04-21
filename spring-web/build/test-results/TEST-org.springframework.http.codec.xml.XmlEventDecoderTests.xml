@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.xml.XmlEventDecoderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:16" hostname="DESKTOP-3R4DVF7" time="0.177">
+  <properties/>
+  <testcase name="toXMLEventsNonAalto[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.155"/>
+  <testcase name="toXMLEventsAalto[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.008"/>
+  <testcase name="toXMLEventsNonAalto[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.0"/>
+  <testcase name="toXMLEventsAalto[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <testcase name="toXMLEventsNonAalto[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.003"/>
+  <testcase name="toXMLEventsAalto[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <testcase name="toXMLEventsNonAalto[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.003"/>
+  <testcase name="toXMLEventsAalto[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <testcase name="toXMLEventsNonAalto[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <testcase name="toXMLEventsAalto[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.0"/>
+  <testcase name="toXMLEventsNonAalto[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <testcase name="toXMLEventsAalto[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

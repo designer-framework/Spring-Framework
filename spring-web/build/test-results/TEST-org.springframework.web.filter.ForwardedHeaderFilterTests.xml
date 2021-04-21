@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.ForwardedHeaderFilterTests" tests="34" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:37" hostname="DESKTOP-3R4DVF7" time="0.011">
+  <properties/>
+  <testcase name="requestUriWithForwardedPrefixTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.005"/>
+  <testcase name="sendRedirectWithRelativePath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="caseInsensitiveForwardedPrefix" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriWithTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="shouldFilter" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="forwardedRequest" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWhenRequestOnlyAndXForwardedThenUsesRelativeRedirects" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="requestUriEqualsContextPath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathPreserveEncoding" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithContextPath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithForwardedPrefix" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="contextPathWithTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithAbsolutePathQueryParamAndFragment" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="shouldNotFilter" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUri" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithLocationSlashSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="forwardedRequestInRemoveOnlyMode" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="sendRedirectWithFileInPathAndRelativeRedirect" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestURLNewStringBuffer" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriWithForwardedPrefix" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithNoXForwardedAndAbsolutePath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithTrailingSlashes" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriPreserveSemicolonContent" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithLocationSlashSlashParentDotDot" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="contextPathEmpty" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithForwardedPrefixTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriRootUrl" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithAbsolutePath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriPreserveEncoding" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithRelativePathIgnoresFile" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithNoXForwardedAndDotDotPath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithLocationHasScheme" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWhenRequestOnlyAndNoXForwardedThenUsesRelativeRedirects" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="sendRedirectWithLocationDotDotPath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

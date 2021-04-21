@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessorTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:56" hostname="DESKTOP-3R4DVF7" time="0.66">
+  <properties/>
+  <testcase name="proxiesCorrectly" classname="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessorTests" time="0.66"/>
+  <system-out><![CDATA[Before additionalMethod
+Before additionalMethod
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

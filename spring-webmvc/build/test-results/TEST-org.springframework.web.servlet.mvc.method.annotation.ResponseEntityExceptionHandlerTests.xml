@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:23" hostname="DESKTOP-3R4DVF7" time="0.228">
+  <properties/>
+  <testcase name="controllerAdviceWithNestedException" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.028"/>
+  <testcase name="httpMessageNotWritable" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="noHandlerFoundException" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="bindException" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.001"/>
+  <testcase name="httpRequestMethodNotSupported" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="missingServletRequestPart" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="httpMessageNotReadable" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="controllerAdvice" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.033"/>
+  <testcase name="conversionNotSupported" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="typeMismatch" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="supportsAllDefaultHandlerExceptionResolverExceptionTypes" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="missingPathVariable" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.001"/>
+  <testcase name="servletRequestBindingException" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="controllerAdviceWithinDispatcherServlet" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.054"/>
+  <testcase name="controllerAdviceWithNestedExceptionWithinDispatcherServlet" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.084"/>
+  <testcase name="httpMediaTypeNotAcceptable" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="methodArgumentNotValid" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.024"/>
+  <testcase name="asyncRequestTimeoutException" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.001"/>
+  <testcase name="missingServletRequestParameter" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <testcase name="handleHttpMediaTypeNotSupported" classname="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandlerTests" time="0.0"/>
+  <system-out><![CDATA[10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotWritableException: 
+10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - No handler found for GET /resource
+10:02:23.380 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /resource
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 0 errors
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.PageNotFound - Request method 'GET' not supported
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'partName' is not present
+10:02:23.381 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotReadableException: message
+10:02:23.414 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.Object' to required type 'java.lang.Object'
+10:02:23.414 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'
+10:02:23.415 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'param' for method parameter of type String
+10:02:23.415 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.ServletRequestBindingException: message
+10:02:23.556 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: 
+10:02:23.580 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: Mock for MethodArgumentNotValidException, hashCode: 2071888577
+10:02:23.580 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+10:02:23.581 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.bind.MissingServletRequestParameterException: Required type parameter 'param' is not present
+10:02:23.581 [Test worker] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json' not supported
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

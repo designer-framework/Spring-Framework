@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" tests="12" skipped="2" failures="0" errors="0" timestamp="2021-04-16T01:56:24" hostname="DESKTOP-3R4DVF7" time="1.824">
+  <properties/>
+  <testcase name="handlingError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4bcbee1e]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.023"/>
+  <testcase name="responseBodyError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4bcbee1e]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.024"/>
+  <testcase name="emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4bcbee1e]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.019"/>
+  <testcase name="handlingError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7a996fb9]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase name="responseBodyError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7a996fb9]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7a996fb9]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.01"/>
+  <testcase name="handlingError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7854c669]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.559"/>
+  <testcase name="responseBodyError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7854c669]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.554"/>
+  <testcase name="emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7854c669]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.571"/>
+  <testcase name="handlingError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3141a441]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.019"/>
+  <testcase name="responseBodyError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3141a441]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.019"/>
+  <testcase name="emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@3141a441]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.018"/>
+  <system-out><![CDATA[09:56:24.803 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62004/handling-error"
+09:56:24.804 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.807 [qtp593324538-540] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:24.807 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62004/handling-error" resulted in 500 (Server Error)
+09:56:24.827 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62018/response-body-error"
+09:56:24.827 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.830 [qtp1422714181-550] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:24.831 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62018/response-body-error" resulted in 500 (Server Error)
+09:56:24.849 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62033//"
+09:56:24.849 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.851 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62033//" resulted in 200 (OK)
+09:56:24.868 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62049//"
+09:56:24.869 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.871 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62049//" resulted in 200 (OK)
+09:56:24.891 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62051/handling-error"
+09:56:24.891 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:24.893 [http-nio-auto-3-exec-1] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:24.893 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62051/handling-error" resulted in 500 (null)
+09:56:25.449 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62060/response-body-error"
+09:56:25.450 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:25.452 [http-nio-auto-4-exec-1] WARN  org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with error: null
+09:56:25.453 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62060/response-body-error" resulted in 500 (null)
+09:56:26.001 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62069//"
+09:56:26.001 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.004 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62069//" resulted in 200 (null)
+09:56:26.569 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62104/handling-error"
+09:56:26.569 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.570 [XNIO-3 I/O-6] WARN  org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with error: null
+09:56:26.571 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62104/handling-error" resulted in 500 (Internal Server Error)
+09:56:26.589 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62132/response-body-error"
+09:56:26.589 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.591 [XNIO-4 I/O-6] WARN  org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with error: null
+09:56:26.591 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62132/response-body-error" resulted in 500 (Internal Server Error)
+09:56:26.609 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:62160//"
+09:56:26.609 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+09:56:26.611 [Test worker] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:62160//" resulted in 200 (OK)
+]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 9:56:24 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-3"]
+四月 16, 2021 9:56:24 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:24 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:24 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:24 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-3-62051"]
+四月 16, 2021 9:56:24 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-3-62051"]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-3-62051"]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-3-62051"]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-4"]
+四月 16, 2021 9:56:25 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-4-62060"]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-4-62060"]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-4-62060"]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-4-62060"]
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-5"]
+四月 16, 2021 9:56:25 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:56:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:56:25 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-5-62069"]
+四月 16, 2021 9:56:26 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-5-62069"]
+四月 16, 2021 9:56:26 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:56:26 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-5-62069"]
+四月 16, 2021 9:56:26 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-5-62069"]
+]]></system-err>
+</testsuite>

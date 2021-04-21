@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.support.GenericApplicationContextTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:48:29" hostname="DESKTOP-3R4DVF7" time="0.006">
+  <properties/>
+  <testcase name="withScopedSupplier" classname="org.springframework.context.support.GenericApplicationContextTests" time="0.005"/>
+  <testcase name="accessAfterClosing" classname="org.springframework.context.support.GenericApplicationContextTests" time="0.0"/>
+  <testcase name="withSingletonSupplier" classname="org.springframework.context.support.GenericApplicationContextTests" time="0.0"/>
+  <testcase name="getBeanForClass" classname="org.springframework.context.support.GenericApplicationContextTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

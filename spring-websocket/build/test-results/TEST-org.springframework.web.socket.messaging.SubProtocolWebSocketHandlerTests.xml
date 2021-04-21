@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:03:28" hostname="DESKTOP-3R4DVF7" time="0.046">
+  <properties/>
+  <testcase name="noSubProtocolOneHandler" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.042"/>
+  <testcase name="subProtocolNoMatch" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="nullSubProtocol" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="noSubProtocolTwoHandlers" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.0"/>
+  <testcase name="subProtocolMatch" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="emptySubProtocol" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.0"/>
+  <testcase name="subProtocolDefaultHandlerOnly" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.0"/>
+  <testcase name="noSubProtocolNoDefaultHandler" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.001"/>
+  <testcase name="checkSession" classname="org.springframework.web.socket.messaging.SubProtocolWebSocketHandlerTests" time="0.0"/>
+  <system-out><![CDATA[10:03:28.915 [Test worker] ERROR org.springframework.web.socket.messaging.SubProtocolWebSocketHandler - No sub-protocols for defaultHandler
+10:03:28.915 [Test worker] ERROR org.springframework.web.socket.messaging.SubProtocolWebSocketHandler - No sub-protocols for defaultHandler
+10:03:28.916 [Test worker] ERROR org.springframework.web.socket.messaging.SubProtocolWebSocketHandler - No sub-protocols for defaultHandler
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

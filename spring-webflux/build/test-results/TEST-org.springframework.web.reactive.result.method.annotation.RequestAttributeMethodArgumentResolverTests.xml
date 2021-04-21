@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:59:06" hostname="DESKTOP-3R4DVF7" time="0.022">
+  <properties/>
+  <testcase name="resolveOptional" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="resolveMonoParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.006"/>
+  <testcase name="resolve" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveNotRequired" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="resolveWithName" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.003"/>
+  <system-out><![CDATA[09:59:06.808 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6dbc8fb1: startup date [Fri Apr 16 09:59:06 CST 2021]; root of context hierarchy
+09:59:06.808 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:59:06.814 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64dd70d7: startup date [Fri Apr 16 09:59:06 CST 2021]; root of context hierarchy
+09:59:06.814 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:59:06.819 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@91afbbc: startup date [Fri Apr 16 09:59:06 CST 2021]; root of context hierarchy
+09:59:06.819 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:59:06.822 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7aa5f479: startup date [Fri Apr 16 09:59:06 CST 2021]; root of context hierarchy
+09:59:06.822 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:59:06.825 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b7e474d: startup date [Fri Apr 16 09:59:06 CST 2021]; root of context hierarchy
+09:59:06.825 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:59:06.828 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67b50ccf: startup date [Fri Apr 16 09:59:06 CST 2021]; root of context hierarchy
+09:59:06.828 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

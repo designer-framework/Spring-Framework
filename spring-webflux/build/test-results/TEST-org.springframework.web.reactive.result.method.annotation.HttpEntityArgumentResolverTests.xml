@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:58:37" hostname="DESKTOP-3R4DVF7" time="0.228">
+  <properties/>
+  <testcase name="supports" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="httpEntityWithMonoBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="httpEntityWithRxJava2SingleBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.082"/>
+  <testcase name="emptyBodyWithRxJava2Maybe" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.016"/>
+  <testcase name="httpEntityWithStringBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithSingle" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.04"/>
+  <testcase name="emptyBodyWithString" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.0"/>
+  <testcase name="emptyBodyWithRxJava2Observable" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.044"/>
+  <testcase name="emptyBodyWithCompletableFuture" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.006"/>
+  <testcase name="emptyBodyWithFlowable" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithRxJava2Single" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithFlux" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.0"/>
+  <testcase name="emptyBodyWithMono" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.0"/>
+  <testcase name="httpEntityWithFluxBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="requestEntity" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.0"/>
+  <testcase name="httpEntityWithRxJava2MaybeBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="doesNotSupport" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.0"/>
+  <testcase name="httpEntityWithSingleBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.004"/>
+  <testcase name="httpEntityWithCompletableFutureBody" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.001"/>
+  <testcase name="emptyBodyWithObservable" classname="org.springframework.web.reactive.result.method.annotation.HttpEntityArgumentResolverTests" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

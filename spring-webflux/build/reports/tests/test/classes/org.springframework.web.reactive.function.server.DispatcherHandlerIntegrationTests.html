@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.function.server.html">org.springframework.web.reactive.function.server</a> &gt; DispatcherHandlerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">7.856s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@13a565f7]]</td>
+<td>0.199s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@5af39586]]</td>
+<td>0.232s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@46f557ea]]</td>
+<td>1.700s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">controller[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@60788e49]]</td>
+<td>0.172s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@13a565f7]]</td>
+<td>1.206s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@5af39586]]</td>
+<td>0.235s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@46f557ea]]</td>
+<td>1.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">flux[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@60788e49]]</td>
+<td>0.728s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@13a565f7]]</td>
+<td>0.239s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@5af39586]]</td>
+<td>0.234s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@46f557ea]]</td>
+<td>1.610s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">mono[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@60788e49]]</td>
+<td>0.198s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:57:26.664 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2d3d4e51: startup date [Fri Apr 16 09:57:26 CST 2021]; root of context hierarchy
+09:57:26.691 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:27.045 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:27.254 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@22f726e2
+09:57:27.254 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@7cb6afdd
+09:57:27.489 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@2d3d4e51: startup date [Fri Apr 16 09:57:26 CST 2021]; root of context hierarchy
+09:57:27.763 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:27.763 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@794eab00{/,null,AVAILABLE}
+09:57:27.763 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:27.764 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:27.771 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@14f0b837{HTTP/1.1,[http/1.1]}{0.0.0.0:64595}
+09:57:27.771 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @40974ms
+09:57:27.771 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 64595(0 millis).
+09:57:27.828 [qtp1843514605-364] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:27.859 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:27.859 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@794eab00{/,null,UNAVAILABLE}
+09:57:27.863 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@14f0b837{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:27.864 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:27.925 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5daf4488: startup date [Fri Apr 16 09:57:27 CST 2021]; root of context hierarchy
+09:57:27.933 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:27.937 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:27.981 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@33694676
+09:57:27.981 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@58a7747b
+09:57:28.035 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@5daf4488: startup date [Fri Apr 16 09:57:27 CST 2021]; root of context hierarchy
+09:57:28.142 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:28.143 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6d53ce43{/,null,AVAILABLE}
+09:57:28.143 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:28.143 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:28.149 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@55bb9312{HTTP/1.1,[http/1.1]}{0.0.0.0:64609}
+09:57:28.149 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @41353ms
+09:57:28.149 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 64609(0 millis).
+09:57:28.153 [qtp53061565-375] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:28.157 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:28.157 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6d53ce43{/,null,UNAVAILABLE}
+09:57:28.160 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@55bb9312{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:28.161 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:28.213 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71db14f9: startup date [Fri Apr 16 09:57:28 CST 2021]; root of context hierarchy
+09:57:28.218 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:28.222 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:28.245 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@7712cd94
+09:57:28.245 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@c34a6a8
+09:57:28.292 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@71db14f9: startup date [Fri Apr 16 09:57:28 CST 2021]; root of context hierarchy
+09:57:28.396 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:28.396 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@67dbb19b{/,null,AVAILABLE}
+09:57:28.396 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:28.396 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:28.401 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@4601a4a1{HTTP/1.1,[http/1.1]}{0.0.0.0:64623}
+09:57:28.401 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @41604ms
+09:57:28.401 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 64623(0 millis).
+09:57:28.406 [qtp301260373-385] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:28.407 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:28.407 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@67dbb19b{/,null,UNAVAILABLE}
+09:57:28.410 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@4601a4a1{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:28.411 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:28.467 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24eed04b: startup date [Fri Apr 16 09:57:28 CST 2021]; root of context hierarchy
+09:57:28.472 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:28.476 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:28.507 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@2241c7c4
+09:57:28.507 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@4744f480
+09:57:28.562 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@24eed04b: startup date [Fri Apr 16 09:57:28 CST 2021]; root of context hierarchy
+09:57:28.694 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:28.695 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 64637(0 millis).
+09:57:28.700 [reactor-http-nio-2] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:28.700 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:28.701 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:28.764 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f93b9e7: startup date [Fri Apr 16 09:57:28 CST 2021]; root of context hierarchy
+09:57:28.768 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:28.772 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:28.805 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@2122d736
+09:57:28.805 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@615cacdb
+09:57:28.870 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3f93b9e7: startup date [Fri Apr 16 09:57:28 CST 2021]; root of context hierarchy
+09:57:28.990 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:28.991 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 64639(0 millis).
+09:57:28.995 [reactor-http-nio-4] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:28.995 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:28.995 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:29.047 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@54eae70: startup date [Fri Apr 16 09:57:29 CST 2021]; root of context hierarchy
+09:57:29.053 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:29.058 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:29.087 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@6ca2bb89
+09:57:29.087 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@27fa45ac
+09:57:29.158 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@54eae70: startup date [Fri Apr 16 09:57:29 CST 2021]; root of context hierarchy
+09:57:29.268 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:29.269 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 64641(0 millis).
+09:57:29.275 [reactor-http-nio-6] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:29.275 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:29.275 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:29.326 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2610f5c4: startup date [Fri Apr 16 09:57:29 CST 2021]; root of context hierarchy
+09:57:29.331 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:29.337 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:29.369 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@21c68488
+09:57:29.369 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@3816b3a1
+09:57:29.432 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@2610f5c4: startup date [Fri Apr 16 09:57:29 CST 2021]; root of context hierarchy
+09:57:29.565 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:29.594 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 64643(0 millis).
+09:57:29.608 [http-nio-auto-6-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:29.610 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:30.425 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:30.486 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@145007e7: startup date [Fri Apr 16 09:57:30 CST 2021]; root of context hierarchy
+09:57:30.493 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:30.722 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:30.806 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@45619f5b
+09:57:30.806 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@d571c0f
+09:57:30.974 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@145007e7: startup date [Fri Apr 16 09:57:30 CST 2021]; root of context hierarchy
+09:57:31.256 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:31.278 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 64652(0 millis).
+09:57:31.284 [http-nio-auto-7-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:31.284 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:32.093 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:32.141 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b3e045c: startup date [Fri Apr 16 09:57:32 CST 2021]; root of context hierarchy
+09:57:32.147 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:32.441 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:32.594 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@4ef862e
+09:57:32.594 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@1ae4a80f
+09:57:32.838 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4b3e045c: startup date [Fri Apr 16 09:57:32 CST 2021]; root of context hierarchy
+09:57:33.109 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:33.154 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 64662(0 millis).
+09:57:33.163 [http-nio-auto-8-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:33.164 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:33.838 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:33.895 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@288963de: startup date [Fri Apr 16 09:57:33 CST 2021]; root of context hierarchy
+09:57:33.899 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:34.190 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:34.288 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@6cc2d386
+09:57:34.288 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@18a7464e
+09:57:34.431 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@288963de: startup date [Fri Apr 16 09:57:33 CST 2021]; root of context hierarchy
+09:57:34.602 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:34.613 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 64698(0 millis).
+09:57:34.617 [XNIO-6 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:34.618 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:34.621 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:34.660 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bad0a8a: startup date [Fri Apr 16 09:57:34 CST 2021]; root of context hierarchy
+09:57:34.663 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:34.666 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:34.687 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@266c675e
+09:57:34.688 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@5243de6b
+09:57:34.737 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3bad0a8a: startup date [Fri Apr 16 09:57:34 CST 2021]; root of context hierarchy
+09:57:34.837 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:34.849 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 64726(0 millis).
+09:57:34.853 [XNIO-7 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:34.853 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:34.856 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:34.905 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c4ad453: startup date [Fri Apr 16 09:57:34 CST 2021]; root of context hierarchy
+09:57:34.910 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:34.913 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/controller]}&quot; onto public reactor.core.publisher.Mono&lt;org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$Person&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$PersonController.controller()
+09:57:34.934 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /mono) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$825/1341483382@22ff7ebe
+09:57:34.934 [Test worker] INFO  org.springframework.web.reactive.function.server.support.RouterFunctionMapping - Mapped (GET &amp;&amp; /flux) -&gt; org.springframework.web.reactive.function.server.DispatcherHandlerIntegrationTests$TestConfiguration$$Lambda$826/2757541@60ebaa9
+09:57:34.981 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@c4ad453: startup date [Fri Apr 16 09:57:34 CST 2021]; root of context hierarchy
+09:57:35.060 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:35.070 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 64754(0 millis).
+09:57:35.073 [XNIO-8 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:35.074 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:35.076 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>四月 16, 2021 9:57:29 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-6&quot;]
+四月 16, 2021 9:57:29 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:29 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:29 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:29 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-6-64643&quot;]
+四月 16, 2021 9:57:29 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-6-64643&quot;]
+四月 16, 2021 9:57:30 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:30 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-6-64643&quot;]
+四月 16, 2021 9:57:30 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-6-64643&quot;]
+四月 16, 2021 9:57:31 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-7&quot;]
+四月 16, 2021 9:57:31 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:31 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:31 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:31 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-7-64652&quot;]
+四月 16, 2021 9:57:31 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-7-64652&quot;]
+四月 16, 2021 9:57:32 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:32 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-7-64652&quot;]
+四月 16, 2021 9:57:32 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-7-64652&quot;]
+四月 16, 2021 9:57:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-8&quot;]
+四月 16, 2021 9:57:33 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:33 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:33 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:33 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-8-64662&quot;]
+四月 16, 2021 9:57:33 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-8-64662&quot;]
+四月 16, 2021 9:57:33 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:33 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-8-64662&quot;]
+四月 16, 2021 9:57:33 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-8-64662&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 10:01:41</p>
+</div>
+</div>
+</body>
+</html>

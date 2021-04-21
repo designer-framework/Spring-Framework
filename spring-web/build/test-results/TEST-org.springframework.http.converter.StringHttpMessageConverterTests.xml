@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.StringHttpMessageConverterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:20" hostname="DESKTOP-3R4DVF7" time="0.006">
+  <properties/>
+  <testcase name="writeUTF8" classname="org.springframework.http.converter.StringHttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeOverrideRequestedContentType" classname="org.springframework.http.converter.StringHttpMessageConverterTests" time="0.002"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.StringHttpMessageConverterTests" time="0.0"/>
+  <testcase name="read" classname="org.springframework.http.converter.StringHttpMessageConverterTests" time="0.0"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.StringHttpMessageConverterTests" time="0.0"/>
+  <testcase name="writeDefaultCharset" classname="org.springframework.http.converter.StringHttpMessageConverterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

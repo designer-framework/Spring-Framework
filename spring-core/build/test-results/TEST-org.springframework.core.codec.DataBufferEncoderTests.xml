@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.codec.DataBufferEncoderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:30" hostname="DESKTOP-3R4DVF7" time="0.015">
+  <properties/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.014"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.DataBufferEncoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

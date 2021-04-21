@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2SmileEncoderTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:15" hostname="DESKTOP-3R4DVF7" time="0.114">
+  <properties/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.029"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.003"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.003"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.023"/>
+  <testcase name="encodeAsStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encodeAsStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canNotEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="encode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.002"/>
+  <testcase name="encodeAsStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.001"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <testcase name="canNotEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.Jackson2SmileEncoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

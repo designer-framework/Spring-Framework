@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:32" hostname="DESKTOP-3R4DVF7" time="0.766">
+  <properties/>
+  <testcase name="contextPathDoesNotStartWithSlash" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" time="0.0"/>
+  <testcase name="forward" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" time="0.378"/>
+  <testcase name="contextPathEmpty" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" time="0.008"/>
+  <testcase name="contextPathEndsWithSlash" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" time="0.0"/>
+  <testcase name="contextPathExplicit" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" time="0.007"/>
+  <testcase name="contextPathNull" classname="org.springframework.test.web.servlet.htmlunit.MockMvcWebConnectionTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

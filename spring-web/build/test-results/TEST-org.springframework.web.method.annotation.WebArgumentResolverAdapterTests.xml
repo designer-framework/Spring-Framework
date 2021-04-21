@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:56:38" hostname="DESKTOP-3R4DVF7" time="0.005">
+  <properties/>
+  <testcase name="resolveArgumentUnresolved" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.003"/>
+  <testcase name="resolveArgumentThrowsException" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.001"/>
+  <testcase name="resolveArgument" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.0"/>
+  <testcase name="supportsParameterUnresolved" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.0"/>
+  <testcase name="supportsParameterWrongType" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.0"/>
+  <testcase name="resolveArgumentWrongType" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.0"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.0"/>
+  <testcase name="supportsParameterThrowsException" classname="org.springframework.web.method.annotation.WebArgumentResolverAdapterTests" time="0.001"/>
+  <system-out><![CDATA[09:56:38.599 [Test worker] DEBUG org.springframework.web.method.annotation.WebArgumentResolverAdapterTests$TestWebArgumentResolverAdapter - Error in checking support for parameter [method 'handle' parameter 0]: null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

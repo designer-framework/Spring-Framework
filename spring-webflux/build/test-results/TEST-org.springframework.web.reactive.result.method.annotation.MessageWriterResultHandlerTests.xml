@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:58:59" hostname="DESKTOP-3R4DVF7" time="0.124">
+  <properties/>
+  <testcase name="useDefaultContentType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.011"/>
+  <testcase name="jacksonTypeWithSubTypeOfListElement" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.005"/>
+  <testcase name="voidReturnType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.019"/>
+  <testcase name="jacksonTypeOfListElement" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.036"/>
+  <testcase name="jacksonTypeWithSubType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.001"/>
+  <testcase name="useDefaultCharset" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.0"/>
+  <testcase name="unsupportedReturnType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.tags.ArgumentTagTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:02:33" hostname="DESKTOP-3R4DVF7" time="0.03">
+  <properties/>
+  <testcase name="argumentWithImplicitNullValue" classname="org.springframework.web.servlet.tags.ArgumentTagTests" time="0.009"/>
+  <testcase name="argumentWithExplicitNullValue" classname="org.springframework.web.servlet.tags.ArgumentTagTests" time="0.004"/>
+  <testcase name="argumentWithStringValue" classname="org.springframework.web.servlet.tags.ArgumentTagTests" time="0.004"/>
+  <testcase name="argumentWithValueThenReleaseThenBodyValue" classname="org.springframework.web.servlet.tags.ArgumentTagTests" time="0.008"/>
+  <testcase name="argumentWithBodyValue" classname="org.springframework.web.servlet.tags.ArgumentTagTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

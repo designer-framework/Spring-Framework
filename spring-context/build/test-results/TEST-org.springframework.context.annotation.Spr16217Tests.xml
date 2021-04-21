@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.Spr16217Tests" tests="3" skipped="1" failures="0" errors="0" timestamp="2021-04-16T01:48:23" hostname="DESKTOP-3R4DVF7" time="0.036">
+  <properties/>
+  <testcase name="baseConfigurationIsIncludedWhenFirstSuperclassReferenceIsSkippedInRegisterBeanPhase" classname="org.springframework.context.annotation.Spr16217Tests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="baseConfigurationIsIncludedWhenFirstSuperclassReferenceIsSkippedInParseConfigurationPhase" classname="org.springframework.context.annotation.Spr16217Tests" time="0.021"/>
+  <testcase name="baseConfigurationIsIncludedOnceWhenBothConfigurationClassesAreActive" classname="org.springframework.context.annotation.Spr16217Tests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

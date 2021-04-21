@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.web.reactive.result.method.annotation.html">org.springframework.web.reactive.result.method.annotation</a> &gt; ControllerInputIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.647s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">handleWithEncodedParam[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@51415278]]</td>
+<td>0.198s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithEncodedParam[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@19f4970f]]</td>
+<td>0.155s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithEncodedParam[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@547f7a2d]]</td>
+<td>0.713s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithEncodedParam[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@98b377]]</td>
+<td>0.494s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithParam[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@51415278]]</td>
+<td>0.171s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithParam[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@19f4970f]]</td>
+<td>0.161s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithParam[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@547f7a2d]]</td>
+<td>1.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleWithParam[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@98b377]]</td>
+<td>0.179s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">matrixVariable[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@51415278]]</td>
+<td>0.184s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">matrixVariable[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@19f4970f]]</td>
+<td>0.157s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">matrixVariable[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@547f7a2d]]</td>
+<td>1.034s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">matrixVariable[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@98b377]]</td>
+<td>0.168s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:57:54.616 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@587ee536: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.619 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.635 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:54.635 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:54.689 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@587ee536: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.758 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:54.758 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@572484a3{/,null,AVAILABLE}
+09:57:54.758 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:54.758 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:54.762 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@56e7a9cc{HTTP/1.1,[http/1.1]}{0.0.0.0:49188}
+09:57:54.762 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @67965ms
+09:57:54.762 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49188(0 millis).
+09:57:54.772 [qtp405174790-1135] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:54.772 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:54.772 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@572484a3{/,null,UNAVAILABLE}
+09:57:54.775 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@56e7a9cc{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:54.776 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:54.845 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4cdc43b7: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.848 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:54.850 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:54.850 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:54.903 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4cdc43b7: startup date [Fri Apr 16 09:57:54 CST 2021]; root of context hierarchy
+09:57:54.981 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:54.981 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3ebc5f47{/,null,AVAILABLE}
+09:57:54.981 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:54.981 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:54.985 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1bb6b3ae{HTTP/1.1,[http/1.1]}{0.0.0.0:49202}
+09:57:54.985 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @68188ms
+09:57:54.985 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49202(0 millis).
+09:57:54.990 [qtp540297921-1145] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:54.990 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:54.990 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3ebc5f47{/,null,UNAVAILABLE}
+09:57:54.994 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1bb6b3ae{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:54.994 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:55.061 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4d5ae7cb: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.063 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:55.066 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:55.066 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:55.116 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d5ae7cb: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.188 [Test worker] WARN  org.eclipse.jetty.server.handler.ContextHandler - Empty contextPath
+09:57:55.189 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@44c208ee{/,null,AVAILABLE}
+09:57:55.189 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Starting JettyHttpServer...
+09:57:55.189 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_271-b09
+09:57:55.192 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@32359156{HTTP/1.1,[http/1.1]}{0.0.0.0:49216}
+09:57:55.192 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @68396ms
+09:57:55.192 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server started on port 49216(0 millis).
+09:57:55.195 [qtp1834489753-1155] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:55.195 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Stopping JettyHttpServer...
+09:57:55.195 [Test worker] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@44c208ee{/,null,UNAVAILABLE}
+09:57:55.198 [Test worker] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@32359156{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+09:57:55.198 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.JettyHttpServer - Server stopped (0 millis).
+09:57:55.263 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@33f27ef3: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.265 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:55.267 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:55.268 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:55.316 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@33f27ef3: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.381 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:55.382 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49230(0 millis).
+09:57:55.384 [reactor-http-nio-8] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:55.384 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:55.384 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:55.449 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@882745f: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.452 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:55.454 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:55.454 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:55.503 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@882745f: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.569 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:55.570 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49232(0 millis).
+09:57:55.573 [reactor-http-nio-10] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:55.573 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:55.573 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:55.638 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@244cca21: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.640 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:55.643 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:55.643 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:55.691 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@244cca21: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.757 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Starting ReactorHttpServer...
+09:57:55.758 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server started on port 49234(0 millis).
+09:57:55.764 [reactor-http-nio-12] DEBUG org.springframework.http.server.reactive.ReactorHttpHandlerAdapter - Handling completed with success
+09:57:55.764 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Stopping ReactorHttpServer...
+09:57:55.765 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.ReactorHttpServer - Server stopped (0 millis).
+09:57:55.830 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1855c8dd: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.833 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:55.837 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:55.837 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:55.889 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@1855c8dd: startup date [Fri Apr 16 09:57:55 CST 2021]; root of context hierarchy
+09:57:55.958 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:55.971 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49236(0 millis).
+09:57:55.978 [http-nio-auto-25-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:55.978 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:56.509 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:56.577 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fabc0ca: startup date [Fri Apr 16 09:57:56 CST 2021]; root of context hierarchy
+09:57:56.579 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:56.744 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:56.744 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:56.894 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@2fabc0ca: startup date [Fri Apr 16 09:57:56 CST 2021]; root of context hierarchy
+09:57:57.027 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:57.039 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49245(0 millis).
+09:57:57.043 [http-nio-auto-26-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:57.043 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:57.578 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:57.651 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4536ba7d: startup date [Fri Apr 16 09:57:57 CST 2021]; root of context hierarchy
+09:57:57.653 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:57.811 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:57.811 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:57.966 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@4536ba7d: startup date [Fri Apr 16 09:57:57 CST 2021]; root of context hierarchy
+09:57:58.096 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Starting TomcatHttpServer...
+09:57:58.108 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server started on port 49254(0 millis).
+09:57:58.111 [http-nio-auto-27-exec-1] DEBUG org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Handling completed with success
+09:57:58.111 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Stopping TomcatHttpServer...
+09:57:58.646 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.TomcatHttpServer - Server stopped (0 millis).
+09:57:58.718 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3128a4d: startup date [Fri Apr 16 09:57:58 CST 2021]; root of context hierarchy
+09:57:58.721 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:58.877 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:58.877 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:59.028 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@3128a4d: startup date [Fri Apr 16 09:57:58 CST 2021]; root of context hierarchy
+09:57:59.159 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:59.167 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49291(0 millis).
+09:57:59.176 [XNIO-24 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:59.176 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:59.178 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:59.244 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7b73bd20: startup date [Fri Apr 16 09:57:59 CST 2021]; root of context hierarchy
+09:57:59.246 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:59.248 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:59.248 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:59.298 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@7b73bd20: startup date [Fri Apr 16 09:57:59 CST 2021]; root of context hierarchy
+09:57:59.365 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:59.374 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49319(0 millis).
+09:57:59.377 [XNIO-25 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:59.377 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:59.379 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+09:57:59.444 [Test worker] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5c8c71d6: startup date [Fri Apr 16 09:57:59 CST 2021]; root of context hierarchy
+09:57:59.447 [Test worker] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:57:59.449 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/param],methods=[GET]}&quot; onto public org.reactivestreams.Publisher&lt;java.lang.String&gt; org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.param(java.lang.String)
+09:57:59.449 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping - Mapped &quot;{[/{one}/{two}/{three}-{four}],methods=[GET]}&quot; onto public java.lang.String org.springframework.web.reactive.result.method.annotation.ControllerInputIntegrationTests$TestRestController.matrixVar(int,int,int)
+09:57:59.498 [Test worker] INFO  org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver - Looking for @ControllerAdvice: org.springframework.context.annotation.AnnotationConfigApplicationContext@5c8c71d6: startup date [Fri Apr 16 09:57:59 CST 2021]; root of context hierarchy
+09:57:59.576 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Starting UndertowHttpServer...
+09:57:59.584 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server started on port 49347(0 millis).
+09:57:59.587 [XNIO-26 I/O-6] DEBUG org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Handling completed with success
+09:57:59.587 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Stopping UndertowHttpServer...
+09:57:59.589 [Test worker] DEBUG org.springframework.http.server.reactive.bootstrap.UndertowHttpServer - Server stopped (0 millis).
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>四月 16, 2021 9:57:55 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-25&quot;]
+四月 16, 2021 9:57:55 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:55 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:55 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:55 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-25-49236&quot;]
+四月 16, 2021 9:57:55 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-25-49236&quot;]
+四月 16, 2021 9:57:56 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:56 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-25-49236&quot;]
+四月 16, 2021 9:57:56 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-25-49236&quot;]
+四月 16, 2021 9:57:57 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-26&quot;]
+四月 16, 2021 9:57:57 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:57 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:57 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:57 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-26-49245&quot;]
+四月 16, 2021 9:57:57 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-26-49245&quot;]
+四月 16, 2021 9:57:57 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:57 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-26-49245&quot;]
+四月 16, 2021 9:57:57 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-26-49245&quot;]
+四月 16, 2021 9:57:58 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler [&quot;http-nio-auto-27&quot;]
+四月 16, 2021 9:57:58 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 9:57:58 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 9:57:58 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 9:57:58 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [&quot;http-nio-auto-27-49254&quot;]
+四月 16, 2021 9:57:58 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler [&quot;http-nio-auto-27-49254&quot;]
+四月 16, 2021 9:57:58 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 9:57:58 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler [&quot;http-nio-auto-27-49254&quot;]
+四月 16, 2021 9:57:58 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler [&quot;http-nio-auto-27-49254&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4.1</a> at 2021-4-16 10:01:41</p>
+</div>
+</div>
+</body>
+</html>

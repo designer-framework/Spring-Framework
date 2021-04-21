@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:57:18" hostname="DESKTOP-3R4DVF7" time="0.055">
+  <properties/>
+  <testcase name="bodyToFluxParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.001"/>
+  <testcase name="bodyExtractor" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="response" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="toEntityListClass" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="bodyToMonoClass" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="statusCode" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="toEntityClass" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.001"/>
+  <testcase name="toEntityListParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="headers" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.006"/>
+  <testcase name="cookies" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.047"/>
+  <testcase name="toEntityParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="bodyToFluxClass" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <testcase name="bodyToMonoParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.support.ClientResponseWrapperTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

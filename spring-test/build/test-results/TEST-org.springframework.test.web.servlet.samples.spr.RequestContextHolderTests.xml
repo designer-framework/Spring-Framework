@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.spr.RequestContextHolderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:55:35" hostname="DESKTOP-3R4DVF7" time="0.034">
+  <properties/>
+  <testcase name="requestScopedController" classname="org.springframework.test.web.servlet.samples.spr.RequestContextHolderTests" time="0.023"/>
+  <testcase name="sessionScopedService" classname="org.springframework.test.web.servlet.samples.spr.RequestContextHolderTests" time="0.001"/>
+  <testcase name="requestScopedService" classname="org.springframework.test.web.servlet.samples.spr.RequestContextHolderTests" time="0.008"/>
+  <testcase name="singletonController" classname="org.springframework.test.web.servlet.samples.spr.RequestContextHolderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

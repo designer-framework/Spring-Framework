@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.WebSocketHandshakeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-16T02:03:32" hostname="DESKTOP-3R4DVF7" time="3.158">
+  <properties/>
+  <testcase name="unsolicitedPongWithEmptyPayload[server [org.springframework.web.socket.JettyWebSocketTestServer@3bf88647], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@1ab21cd0]]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.585"/>
+  <testcase name="subProtocolNegotiation[server [org.springframework.web.socket.JettyWebSocketTestServer@3bf88647], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@1ab21cd0]]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.16"/>
+  <testcase name="unsolicitedPongWithEmptyPayload[server [org.springframework.web.socket.TomcatWebSocketTestServer@793ed8f7], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@57adba48]]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.764"/>
+  <testcase name="subProtocolNegotiation[server [org.springframework.web.socket.TomcatWebSocketTestServer@793ed8f7], client [org.springframework.web.socket.client.standard.StandardWebSocketClient@57adba48]]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="1.127"/>
+  <testcase name="unsolicitedPongWithEmptyPayload[server [org.springframework.web.socket.UndertowTestServer@2818d444], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@22c6090b]]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.455"/>
+  <testcase name="subProtocolNegotiation[server [org.springframework.web.socket.UndertowTestServer@2818d444], client [org.springframework.web.socket.client.jetty.JettyWebSocketClient@22c6090b]]" classname="org.springframework.web.socket.WebSocketHandshakeTests" time="0.065"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[四月 16, 2021 10:03:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-10"]
+四月 16, 2021 10:03:33 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:33 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:33 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:33 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-10-56484"]
+四月 16, 2021 10:03:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:33 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:33 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-10-56484"]
+四月 16, 2021 10:03:34 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:34 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-10-56484"]
+四月 16, 2021 10:03:34 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-11"]
+四月 16, 2021 10:03:34 上午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+四月 16, 2021 10:03:34 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+四月 16, 2021 10:03:34 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.45
+四月 16, 2021 10:03:34 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-11-56493"]
+四月 16, 2021 10:03:34 上午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:34 上午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+四月 16, 2021 10:03:34 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-11-56493"]
+四月 16, 2021 10:03:35 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+四月 16, 2021 10:03:35 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-11-56493"]
+]]></system-err>
+</testsuite>

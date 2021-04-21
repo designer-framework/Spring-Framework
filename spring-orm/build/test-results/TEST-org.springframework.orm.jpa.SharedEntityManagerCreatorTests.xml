@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:54:07" hostname="DESKTOP-3R4DVF7" time="0.069">
+  <properties/>
+  <testcase name="transactionRequiredExceptionOnRemove" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.003"/>
+  <testcase name="transactionRequiredExceptionOnJoinTransaction" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="proxyingWorksIfInfoReturnsNullEntityManagerInterface" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.031"/>
+  <testcase name="transactionRequiredExceptionOnRefresh" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnFlush" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnMerge" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="deferredQueryWithUpdate" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.027"/>
+  <testcase name="deferredQueryWithResultStream" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.007"/>
+  <testcase name="deferredQueryWithResultList" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="deferredQueryWithSingleResult" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnPersist" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

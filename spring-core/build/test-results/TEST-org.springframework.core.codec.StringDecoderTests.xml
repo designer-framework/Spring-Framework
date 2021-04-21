@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.codec.StringDecoderTests" tests="48" skipped="0" failures="0" errors="0" timestamp="2021-04-16T01:52:30" hostname="DESKTOP-3R4DVF7" time="0.027">
+  <properties/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithEmptyFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.007"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeMultibyteCharacter[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLineIncludeDelimiters[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLine[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithEmptyFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="canDecode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeMultibyteCharacter[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeNewLineIncludeDelimiters[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLine[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyFlux[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithEmptyFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeMultibyteCharacter[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeNewLineIncludeDelimiters[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLine[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeToMonoWithEmptyFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="canDecode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeMultibyteCharacter[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeNewLineIncludeDelimiters[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLine[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyFlux[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithEmptyFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyDataBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeMultibyteCharacter[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLineIncludeDelimiters[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLine[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeEmptyFlux[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeToMonoWithEmptyFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyDataBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="canDecode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeMultibyteCharacter[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLineIncludeDelimiters[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
+  <testcase name="decodeNewLine[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <testcase name="decodeEmptyFlux[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
