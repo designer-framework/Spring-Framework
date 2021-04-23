@@ -280,13 +280,18 @@ public class ClassPathBeanDefinitionScanner extends ClassPathScanningCandidateCo
 					postProcessBeanDefinition((AbstractBeanDefinition) candidate, beanName);
 				}
 				if (candidate instanceof AnnotatedBeanDefinition) {
-					//类中特定注解会被解析成=>初始化bean所必须的参数
+					//类中特殊的注解会被解析,并将值设置到BD
 					AnnotationConfigUtils.processCommonDefinitionAnnotations((AnnotatedBeanDefinition) candidate);
 				}
 				if (checkCandidate(beanName, candidate)) {
-					//当前单个bean的定义信息
+					//包装当前bd
 					BeanDefinitionHolder definitionHolder = new BeanDefinitionHolder(candidate, beanName);
-					//bean代理方式
+					//与bean作用域相关的一个方法, 若
+					/**
+					 * {@link  Scope}
+					 * {@link  ScopedProxyMode.TARGET_CLASS}
+					 * 如果该bean的作用域不为 ScopedProxyMode.NO， 会为其生成代理
+					 */
 					definitionHolder =
 							AnnotationConfigUtils.applyScopedProxyMode(scopeMetadata, definitionHolder, this.registry);
 					beanDefinitions.add(definitionHolder);

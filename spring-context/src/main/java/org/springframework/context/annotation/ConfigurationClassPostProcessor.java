@@ -241,6 +241,8 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 			processConfigBeanDefinitions((BeanDefinitionRegistry) beanFactory);
 		}
 
+		//该方法实现了Configuration类的代理增强. 代理过程比较复杂, 涉及到了字节码的操作
+		//其目的是让加了@Configuration注解的类中的@Bean方法被本类调用时每次都返回工厂中的Bean对象, 它并不是简单的本类方法调用
 		enhanceConfigurationClasses(beanFactory);
 		beanFactory.addBeanPostProcessor(new ImportAwareBeanPostProcessor(beanFactory));
 	}

@@ -146,9 +146,9 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 
 		//预处理XML, 默认为空方法, *可以在该方法内自定义标签, 然后将自定义标签转换成内部使用的标签
 		preProcessXml(root);
-		//正式处理XML
+		//正式处理XML,通过xml配置文件中的标签找到不同的解析器,并用解析器解析各式各样的bean
 		parseBeanDefinitions(root, this.delegate);
-		//Bean的后置处理
+		//
 		postProcessXml(root);
 
 		this.delegate = parent;

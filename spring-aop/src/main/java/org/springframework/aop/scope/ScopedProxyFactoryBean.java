@@ -16,8 +16,6 @@
 
 package org.springframework.aop.scope;
 
-import java.lang.reflect.Modifier;
-
 import org.springframework.aop.framework.AopInfrastructureBean;
 import org.springframework.aop.framework.ProxyConfig;
 import org.springframework.aop.framework.ProxyFactory;
@@ -31,6 +29,8 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 import org.springframework.util.ClassUtils;
+
+import java.lang.reflect.Modifier;
 
 /**
  * Convenient proxy factory bean for scoped objects.
@@ -59,6 +59,12 @@ public class ScopedProxyFactoryBean extends ProxyConfig
 	private final SimpleBeanTargetSource scopedTargetSource = new SimpleBeanTargetSource();
 
 	/** The name of the target bean */
+	/**
+	 * {@link org.springframework.beans.factory.support.AbstractBeanDefinition#getPropertyValues()
+	 * 这个值在初始化bd的时候通过PropertyValues的形式预置了，值为原始beanName}
+	 *
+	 * {@link #setBeanFactory(BeanFactory) 根据生命周期规律, Aware相关接口会被优先调用, 本类该方法就对一些数据进行了初始化 }
+	 */
 	@Nullable
 	private String targetBeanName;
 
@@ -97,6 +103,7 @@ public class ScopedProxyFactoryBean extends ProxyConfig
 		pf.setTargetSource(this.scopedTargetSource);
 
 		Assert.notNull(this.targetBeanName, "Property 'targetBeanName' is required");
+		//原始bean的Class
 		Class<?> beanType = beanFactory.getType(this.targetBeanName);
 		if (beanType == null) {
 			throw new IllegalStateException("Cannot create scoped proxy for bean '" + this.targetBeanName +
@@ -107,7 +114,12 @@ public class ScopedProxyFactoryBean extends ProxyConfig
 		}
 
 		// Add an introduction that implements only the methods on ScopedObject.
+		/**
+		 * @see DefaultScopedObject#getTargetObject() 调用该方法会从工厂中取出原始bean。 也是实现每次调用都生成新bean的关键
+		 */
+		//抽取了所有接口,及方法
 		ScopedObject scopedObject = new DefaultScopedObject(cbf, this.scopedTargetSource.getTargetBeanName());
+
 		pf.addAdvice(new DelegatingIntroductionInterceptor(scopedObject));
 
 		// Add the AopInfrastructureBean marker to indicate that the scoped proxy

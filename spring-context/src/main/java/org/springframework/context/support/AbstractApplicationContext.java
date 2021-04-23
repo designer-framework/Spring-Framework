@@ -485,6 +485,11 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 		return this.applicationListeners;
 	}
 
+	/**
+	 * {@link org.springframework.context.annotation.ClassPathBeanDefinitionScanner#doScan(String...) 该方法涉及到作用域的元数据解析}
+	 * @throws BeansException
+	 * @throws IllegalStateException
+	 */
 	@Override
 	public void refresh() throws BeansException, IllegalStateException {
 		synchronized (this.startupShutdownMonitor) {
@@ -493,8 +498,6 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			prepareRefresh();
 
 			// Tell the subclass to refresh the internal bean factory.
-			//搜集所有BD,不做其它复杂操作. 如: 包含@Component注解及衍生注解
-			//BeanDefinitionRegistryPostProcessor可实现对自定义BD的解析,以及bean的注入。
 			/**
 			 * {@link org.springframework.context.annotation.ConfigurationClassPostProcessor#postProcessBeanDefinitionRegistry(BeanDefinitionRegistry)}
 			 * BeanDefinitionRegistryPostProcessor接口可以实现自定义bean的注入工作
@@ -627,7 +630,12 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * @see #getBeanFactory()
 	 */
 	protected ConfigurableListableBeanFactory obtainFreshBeanFactory() {
-		//搜集所有被标记为bean的对象,并把他们转换成BD然后保存到容器中
+		/**
+		 * 	1. 搜集所有被标记为bean的对象,并把他们转换成BD然后保存到容器中 {@link AbstractApplicationContext#refresh() }
+		 * 	2. 在传统的SpringMVC中: 搜集所有BD,不做其它复杂操作. 如: 包含@Component注解及衍生注解
+		 *  BeanDefinitionRegistryPostProcessor可实现对自定义BD的解析,以及bean的注入。
+		 * 	{@link GenericApplicationContext#refresh()}
+		 */
 		refreshBeanFactory();
 		//默认情况是DefaultListableBeanFactory
 		ConfigurableListableBeanFactory beanFactory = getBeanFactory();
