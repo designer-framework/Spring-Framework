@@ -12,7 +12,8 @@ log/
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
+build
 *.war
 *.nar
 *.ear
