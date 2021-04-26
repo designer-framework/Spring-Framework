@@ -16,10 +16,10 @@
 
 package org.springframework.beans.factory.config;
 
-import java.lang.reflect.Constructor;
-
 import org.springframework.beans.BeansException;
 import org.springframework.lang.Nullable;
+
+import java.lang.reflect.Constructor;
 
 /**
  * Extension of the {@link InstantiationAwareBeanPostProcessor} interface,
@@ -86,6 +86,7 @@ public interface SmartInstantiationAwareBeanPostProcessor extends InstantiationA
 	 * @return the object to expose as bean reference
 	 * (typically with the passed-in bean instance as default)
 	 * @throws org.springframework.beans.BeansException in case of errors
+	 *
 	 */
 	default Object getEarlyBeanReference(Object bean, String beanName) throws BeansException {
 		return bean;

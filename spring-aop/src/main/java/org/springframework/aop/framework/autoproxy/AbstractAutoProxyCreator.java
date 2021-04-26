@@ -228,6 +228,13 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 		return null;
 	}
 
+	/**
+	 * 生命周期接口
+	 * @param bean the raw bean instance
+	 * @param beanName the name of the bean
+	 * @return
+	 * @throws BeansException
+	 */
 	@Override
 	public Object getEarlyBeanReference(Object bean, String beanName) throws BeansException {
 		Object cacheKey = getCacheKey(bean.getClass(), beanName);
@@ -236,6 +243,9 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 	}
 
 	/**
+	 * 注意: 如果是对 @Aspectj 注解的支持, 需要看子类实现
+	 * @see org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator
+	 *
 	 * 所有bean初始化都会走该方法
 	 * @param beanClass the class of the bean to be instantiated
 	 * @param beanName the name of the bean
@@ -250,8 +260,12 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 			if (this.advisedBeans.containsKey(cacheKey)) {
 				return null;
 			}
-			//如果实现了与切面相关的接口, 会被添加到Map中.
-			// shouldSkip 方法被子类重写, 同时该方法对一些类属性进行了初始化
+			/**
+			 * {@link this#isInfrastructureClass(Class) 该方法判断是否需要增强}
+			 * {@link this#shouldSkip(Class, String)} 该方法采集Advisor相关的bean}
+			 *	如果实现了与切面相关的接口, 会被添加到Map中, shouldSkip方法被子类重写, 该方法将相关的
+			 *
+			 */
 			if (isInfrastructureClass(beanClass) || shouldSkip(beanClass, beanName)) {
 				this.advisedBeans.put(cacheKey, Boolean.FALSE);
 				return null;
@@ -302,6 +316,7 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 		if (bean != null) {
 			Object cacheKey = getCacheKey(bean.getClass(), beanName);
 			if (this.earlyProxyReferences.remove(cacheKey) != bean) {
+				//比较关键的一个方法
 				return wrapIfNecessary(bean, beanName, cacheKey);
 			}
 		}
@@ -350,15 +365,22 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 		}
 
 		// Create proxy if we have advice.
+		/**
+		 * {@link this#postProcessBeforeInitialization(Object, String)}
+		 * 用前期收集到的所有Advisor包装成的判断类对即将加载到容器中的bean进行判断,
+		 * 如果当前bean被一个或多个Advisor命中成功,则返回Advisor集合
+		 */
 		Object[] specificInterceptors = getAdvicesAndAdvisorsForBean(bean.getClass(), beanName, null);
+		//需要代理增强
 		if (specificInterceptors != DO_NOT_PROXY) {
 			this.advisedBeans.put(cacheKey, Boolean.TRUE);
+			//生成代理bean的具体实现
 			Object proxy = createProxy(
 					bean.getClass(), beanName, specificInterceptors, new SingletonTargetSource(bean));
 			this.proxyTypes.put(cacheKey, proxy.getClass());
 			return proxy;
 		}
-
+		//不需要代理增强
 		this.advisedBeans.put(cacheKey, Boolean.FALSE);
 		return bean;
 	}
@@ -414,6 +436,7 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 		// We can't create fancy target sources for directly registered singletons.
 		if (this.customTargetSourceCreators != null &&
 				this.beanFactory != null && this.beanFactory.containsBean(beanName)) {
+			//可以通过给该字段设置值, 来对bean进行特殊处理[比如让其返回一个全新的bean]
 			for (TargetSourceCreator tsc : this.customTargetSourceCreators) {
 				TargetSource ts = tsc.getTargetSource(beanClass, beanName);
 				if (ts != null) {
@@ -450,8 +473,10 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 		}
 
 		ProxyFactory proxyFactory = new ProxyFactory();
+		//拷贝了本类的一些默认属性
 		proxyFactory.copyFrom(this);
 
+		//默认全局使用CGLIB代理, 如果用户指定使用JDK代理, 但类没有实现任何接口它会采用CGLIB代理,而非用户指定的JDK代理
 		if (!proxyFactory.isProxyTargetClass()) {
 			if (shouldProxyTargetClass(beanClass, beanName)) {
 				proxyFactory.setProxyTargetClass(true);
@@ -461,6 +486,10 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 			}
 		}
 
+		/**
+		 * {@link this#interceptorNames} 全局通用Advisor, 所有bean都会被它代理
+		 *	将 interceptorNames 从 bean 工厂中找到, 然后将入参中的 specificInterceptors 进行合并
+		 */
 		Advisor[] advisors = buildAdvisors(beanName, specificInterceptors);
 		proxyFactory.addAdvisors(advisors);
 		proxyFactory.setTargetSource(targetSource);
@@ -512,6 +541,7 @@ public abstract class AbstractAutoProxyCreator extends ProxyProcessorSupport
 	 */
 	protected Advisor[] buildAdvisors(@Nullable String beanName, @Nullable Object[] specificInterceptors) {
 		// Handle prototypes correctly...
+		//通过beanName查找 Advisor 或 MethodInterceptor
 		Advisor[] commonInterceptors = resolveInterceptorNames();
 
 		List<Object> allInterceptors = new ArrayList<>();

@@ -80,6 +80,7 @@ public class BeanFactoryAspectJAdvisorsBuilder {
 	 * @see #isEligibleBean
 	 */
 	public List<Advisor> buildAspectJAdvisors() {
+		//初次进入该方法, aspectNames是null
 		List<String> aspectNames = this.aspectBeanNames;
 
 		if (aspectNames == null) {
@@ -92,6 +93,7 @@ public class BeanFactoryAspectJAdvisorsBuilder {
 					String[] beanNames = BeanFactoryUtils.beanNamesForTypeIncludingAncestors(
 							this.beanFactory, Object.class, true, false);
 					for (String beanName : beanNames) {
+						//判断bean是否在被排除代理的范围内, 返回true则不会进入代码块
 						if (!isEligibleBean(beanName)) {
 							continue;
 						}
@@ -106,16 +108,17 @@ public class BeanFactoryAspectJAdvisorsBuilder {
 							aspectNames.add(beanName);
 							//将Class封装,并在构造器中做了数据初始化工作, 方便获取与切面相关的一些属性,，字段等
 							AspectMetadata amd = new AspectMetadata(beanType, beanName);
-							//@Aspect注解如果
+							//@Aspect注解value值为空字符串则会进入代码块
 							if (amd.getAjType().getPerClause().getKind() == PerClauseKind.SINGLETON) {
 								//更深度的封装, 包括bean工厂也被封装
 								MetadataAwareAspectInstanceFactory factory =
 										new BeanFactoryAspectInstanceFactory(this.beanFactory, beanName);
 								/**
 								 * 将带@PointCut注解的方法包装成
-								 * {@link InstantiationModelAwarePointcutAdvisorImpl 包含所有切点相关的信息}
+								 * {@link InstantiationModelAwarePointcutAdvisorImpl 包含所有切点及方法相关的信息}
 								 */
 								List<Advisor> classAdvisors = this.advisorFactory.getAdvisors(factory);
+								//单例多例特殊处理
 								if (this.beanFactory.isSingleton(beanName)) {
 									this.advisorsCache.put(beanName, classAdvisors);
 								}
@@ -124,6 +127,7 @@ public class BeanFactoryAspectJAdvisorsBuilder {
 								}
 								advisors.addAll(classAdvisors);
 							}
+							//使用较少
 							else {
 								// Per target or per this.
 								if (this.beanFactory.isSingleton(beanName)) {

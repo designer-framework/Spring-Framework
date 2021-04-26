@@ -16,12 +16,8 @@
 
 package org.springframework.aop.framework.autoproxy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
 import org.springframework.aop.Advisor;
 import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.beans.factory.BeanCurrentlyInCreationException;
@@ -29,6 +25,9 @@ import org.springframework.beans.factory.BeanFactoryUtils;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Helper for retrieving standard Spring Advisors from a BeanFactory,
@@ -57,12 +56,17 @@ public class BeanFactoryAdvisorRetrievalHelper {
 		this.beanFactory = beanFactory;
 	}
 
-
 	/**
-	 * Find all eligible Advisor beans in the current bean factory,
-	 * ignoring FactoryBeans and excluding beans that are currently in creation.
-	 * @return the list of {@link org.springframework.aop.Advisor} beans
-	 * @see #isEligibleBean
+	 *
+	 * 从bean工厂筛选所有实现了 {@link Advisor} 接口的bean
+	 * 因为是首次初始化, 所以会对他们进行创建,装配。
+	 * 恰好bean代理增强类本身就实现了生命周期类
+	 * 	{@link org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor}
+	 * 所以在初始化bean的时候会调用 {@link AbstractAutoProxyCreator} 的一些bean生命周期相关的方法来对bean进行代理丶增强
+	 *
+	 * 	ignoring FactoryBeans and excluding beans that are currently in creation.
+	 * 	@return the list of {@link org.springframework.aop.Advisor} beans
+	 * 	@see #isEligibleBean
 	 */
 	public List<Advisor> findAdvisorBeans() {
 		// Determine list of advisor bean names, if not cached already.

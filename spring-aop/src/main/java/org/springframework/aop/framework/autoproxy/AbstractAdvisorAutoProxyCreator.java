@@ -73,7 +73,7 @@ public abstract class AbstractAdvisorAutoProxyCreator extends AbstractAutoProxyC
 	@Nullable
 	protected Object[] getAdvicesAndAdvisorsForBean(
 			Class<?> beanClass, String beanName, @Nullable TargetSource targetSource) {
-
+		//将所有适用于beanClass的Advisor取出
 		List<Advisor> advisors = findEligibleAdvisors(beanClass, beanName);
 		if (advisors.isEmpty()) {
 			return DO_NOT_PROXY;
@@ -93,18 +93,21 @@ public abstract class AbstractAdvisorAutoProxyCreator extends AbstractAutoProxyC
 	 */
 	protected List<Advisor> findEligibleAdvisors(Class<?> beanClass, String beanName) {
 		List<Advisor> candidateAdvisors = findCandidateAdvisors();
+		//将适用于beanClass的Advisor取出
 		List<Advisor> eligibleAdvisors = findAdvisorsThatCanApply(candidateAdvisors, beanClass, beanName);
+		//拓展Advisor. 比较重要的一个方法
 		extendAdvisors(eligibleAdvisors);
+		//排序
 		if (!eligibleAdvisors.isEmpty()) {
 			eligibleAdvisors = sortAdvisors(eligibleAdvisors);
 		}
 		return eligibleAdvisors;
 	}
 
+
 	/**
-	 * {@link #initBeanFactory(ConfigurableListableBeanFactory)  该方法被子类重写,并初始化了一些属性}
-	 * Find all candidate Advisors to use in auto-proxying.
-	 * @return the List of candidate Advisors
+	 * @see BeanFactoryAdvisorRetrievalHelper#findAdvisorBeans()
+	 * @return
 	 */
 	protected List<Advisor> findCandidateAdvisors() {
 		Assert.state(this.advisorRetrievalHelper != null, "No BeanFactoryAdvisorRetrievalHelper available");
@@ -166,6 +169,11 @@ public abstract class AbstractAdvisorAutoProxyCreator extends AbstractAutoProxyC
 	 * applying to a given bean
 	 */
 	protected void extendAdvisors(List<Advisor> candidateAdvisors) {
+		/**
+		 * @see org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator#extendAdvisors(List)
+		 * 新增一个Advisor, 并放在集合中的第一个位置, 主要实现: 将 MethodInvocation 保存至线程变量。
+		 * @see org.springframework.aop.interceptor.ExposeInvocationInterceptor#ADVISOR
+		 */
 	}
 
 	/**
