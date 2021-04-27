@@ -71,7 +71,13 @@ public class AutoProxyRegistrar implements ImportBeanDefinitionRegistrar {
 				//默认使用JDK动态代理
 				if (mode == AdviceMode.PROXY) {
 					/**
-					 * {@link org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator 该类被放到bd容器中}
+					 *
+					 * {@link AopConfigUtils#APC_PRIORITY_LIST  }
+					 * 因为 InfrastructureAdvisorAutoProxyCreator 的权重是最低的,
+					 * {@link org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator}
+					 * 所以最终不出意外会被以下类替代
+					 * {@link org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator}
+					 *
 					 */
 					AopConfigUtils.registerAutoProxyCreatorIfNecessary(registry);
 					//如果注解中的proxyTargetClass值为true,则会将全局的代理将使用CGLIB

@@ -275,6 +275,10 @@ public abstract class AopUtils {
 		if (advisor instanceof IntroductionAdvisor) {
 			return ((IntroductionAdvisor) advisor).getClassFilter().matches(targetClass);
 		}
+		/**
+		 * 事务与PointcutAdvisor接口相关
+		 * @see org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration#transactionAdvisor()
+		 */
 		else if (advisor instanceof PointcutAdvisor) {
 			PointcutAdvisor pca = (PointcutAdvisor) advisor;
 			return canApply(pca.getPointcut(), targetClass, hasIntroductions);
@@ -299,6 +303,12 @@ public abstract class AopUtils {
 		if (candidateAdvisors.isEmpty()) {
 			return candidateAdvisors;
 		}
+
+		/**
+		 * 如果Advice是以下类型,  会进行特殊判断处理
+		 * @see org.springframework.aop.PointcutAdvisor
+		 * @see org.springframework.aop.IntroductionAdvisor
+		 */
 		List<Advisor> eligibleAdvisors = new ArrayList<>();
 		for (Advisor candidate : candidateAdvisors) {
 			if (candidate instanceof IntroductionAdvisor && canApply(candidate, clazz)) {
